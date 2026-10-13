@@ -31,9 +31,6 @@ concurrency:
 
 jobs:
   publish:
-    # Until a verified source URL exists, scheduled runs should not repeatedly
-    # publish an empty dashboard. Push and manual dispatch still work.
-    if: github.event_name != 'schedule' || vars.ODDS_FEED_URL != ''
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -52,8 +49,9 @@ jobs:
           ODDS_API_CREDIT_LIMIT: ${{ github.event_name == 'push' && '10' || inputs.credit_limit }}
           ODDS_API_INCLUDE_PROPS: ${{ github.event_name == 'push' && 'false' || inputs.include_player_props }}
         run: python3 scripts/the_odds_api.py
+      - name: Collect free NFL research
+        run: python3 scripts/free_sources.py
       - name: Build verified public feed
-        if: vars.ODDS_FEED_URL != '' || (github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[one-time-bovada-test-20261013]'))
         env:
           ODDS_FEED_FILE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[one-time-bovada-test-20261013]'))) && 'data/the_odds_api_feed.json' || '' }}
           ODDS_FEED_URL: ${{ vars.ODDS_FEED_URL }}
@@ -70,17 +68,16 @@ jobs:
           MODEL_FEED_URL: ${{ vars.MODEL_FEED_URL }}
           MODEL_FEED_TOKEN: ${{ secrets.MODEL_FEED_TOKEN }}
         run: python3 scripts/pipeline.py
-      - name: Preserve the latest observed market state
-        if: vars.ODDS_FEED_URL != '' || (github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[one-time-bovada-test-20261013]'))
+      - name: Preserve public snapshot and free source checks
         run: |
-          if [ -f data/state.json ]; then
-            git config user.name 'fourth-down-bot'
-            git config user.email 'fourth-down-bot@users.noreply.github.com'
-            git add data/state.json data/dashboard.json
-            if ! git diff --cached --quiet; then
-              git commit -m 'Update observed Bovada market state [skip ci]'
-              git push
-            fi
+          git config user.name 'fourth-down-bot'
+          git config user.email 'fourth-down-bot@users.noreply.github.com'
+          git add data/dashboard.json data/free
+          if [ -f data/state.json ]; then git add data/state.json; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh NFL public research [skip ci]'
+            git pull --rebase origin main
+            git push
           fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
