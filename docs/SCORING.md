@@ -159,12 +159,11 @@ interval. Optional fitted projections use a 3-point allowance by default.
 Unvalidated standalone results retain raw_value_score but cap bet_score at 5.
 Passing `validated=True` is an operator assertion, not automatic validation.
 Never let an agent promote its own output to validated based on a high score.
-The deployed pipeline continues to require an externally audited model feed,
-at least 100 calibration observations, positive central/conservative EV,
-fresh odds, no blockers, and grade >=7. Its grade now uses conservative EV.
-Optional `line` and `odds` fields bind estimates to a particular quote; mismatched
-values are rejected. Conservative probabilities must preserve push mass and
-must not be more optimistic than central probabilities.
+The deployed pipeline takes probabilities from the built-in market model
+(docs/MARKET_MODEL.md). A pick requires the market type to pass the walk-forward
+backtest gate, fresh odds, positive central/conservative EV, and grade >=7.
+The grade uses conservative EV. Validation is decided by the backtest, never
+by an agent's own assertion.
 
 ## Optional points/probability model
 

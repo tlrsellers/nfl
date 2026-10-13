@@ -57,6 +57,15 @@ jobs:
         run: python3 scripts/the_odds_api.py
       - name: Collect free NFL research
         run: python3 scripts/free_sources.py
+      - name: Update team-game history and refit market model
+        # A data hiccup here must not block publishing; the pipeline falls
+        # back to the last committed model files.
+        continue-on-error: true
+        # Free nflverse data only. Re-runs the walk-forward backtest, so the
+        # pick gate always reflects the parameters in data/model/config.json.
+        run: |
+          python3 scripts/history_data.py current
+          python3 scripts/market_model.py all
       - name: Build verified public feed
         env:
           ODDS_FEED_FILE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[one-time-bovada-test-20261013]'))) && 'data/the_odds_api_feed.json' || '' }}
@@ -71,8 +80,6 @@ jobs:
           TRAVEL_FEED_URL: ${{ vars.TRAVEL_FEED_URL }}
           STATS_FEED_URL: ${{ vars.STATS_FEED_URL }}
           HISTORICAL_FEED_URL: ${{ vars.HISTORICAL_FEED_URL }}
-          MODEL_FEED_URL: ${{ vars.MODEL_FEED_URL }}
-          MODEL_FEED_TOKEN: ${{ secrets.MODEL_FEED_TOKEN }}
         run: python3 scripts/pipeline.py
       - name: Freeze paper forecasts and evaluate settled predictions
         run: python3 scripts/paper_tracking.py
@@ -80,7 +87,7 @@ jobs:
         run: |
           git config user.name 'fourth-down-bot'
           git config user.email 'fourth-down-bot@users.noreply.github.com'
-          git add data/dashboard.json data/free
+          git add data/dashboard.json data/free data/model
           if [ -d data/paper ]; then git add data/paper; fi
           if [ -f data/state.json ]; then git add data/state.json; fi
           if ! git diff --cached --quiet; then

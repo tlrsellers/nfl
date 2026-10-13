@@ -32,21 +32,32 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(len(markets), 2)
         self.assertEqual({m["id"]: m["status"] for m in markets}, {"old": "stale", "m1": "live"})
 
-    def test_picks_require_model_and_conservative_value(self):
+    def test_picks_require_gate_freshness_and_conservative_value(self):
         markets = pipeline.normalize_markets({"markets": [self.market]}, {"g1"}, self.now)
-        self.assertEqual(pipeline.make_picks(None, markets, self.now), [])
-        model = {"validated": True, "model_version": "audit-1", "estimates": [{
-            "market_id": "m1", "model_version": "audit-1", "samples": 120,
-            "p_win": .59, "p_loss": .41, "p_push": 0,
-            "conservative_p_win": .57, "conservative_p_loss": .43,
-            "rationale": "Verified example", "blockers": []
-        }]}
-        picks = pipeline.make_picks(model, markets, self.now)
+        self.assertEqual(pipeline.make_picks(None, markets, self.now), ([], []))
+        strong = {"market": "spread", "p_win": .60, "p_push": 0, "p_loss": .40, "break_even": .5238}
+        strong.update(pipeline.market_eval_for_test(strong, -110))
+        est = {"model_version": "t", "enabled": {"spread": True}, "markets": {"m1": strong}}
+        picks, leans = pipeline.make_picks(est, markets, self.now, {"min_value_score": 7})
         self.assertEqual(len(picks), 1)
         self.assertLessEqual(picks[0]["suggested_stake"], 25)
-        model["estimates"][0]["conservative_p_win"] = .52
-        model["estimates"][0]["conservative_p_loss"] = .48
-        self.assertEqual(pipeline.make_picks(model, markets, self.now), [])
+        # Gate off: same numbers become a lean with no stake.
+        est["enabled"]["spread"] = False
+        picks, leans = pipeline.make_picks(est, markets, self.now, {"min_value_score": 7})
+        self.assertEqual(picks, [])
+        self.assertEqual(leans[0]["suggested_stake"], 0.0)
+        self.assertIn("backtest gate", leans[0]["blockers"][0])
+        # Stale quote blocks a pick even when the gate is on.
+        est["enabled"]["spread"] = True
+        stale = [dict(markets[0], status="stale")]
+        picks, leans = pipeline.make_picks(est, stale, self.now, {"min_value_score": 7})
+        self.assertEqual(picks, [])
+        # Thin edge fails the conservative check.
+        thin = {"market": "spread", "p_win": .53, "p_push": 0, "p_loss": .47, "break_even": .5238}
+        thin.update(pipeline.market_eval_for_test(thin, -110))
+        est["markets"]["m1"] = thin
+        picks, _ = pipeline.make_picks(est, markets, self.now, {"min_value_score": 7})
+        self.assertEqual(picks, [])
 
     def test_only_five_historical_meetings(self):
         games = pipeline.normalize_games({"games": [self.game]})
