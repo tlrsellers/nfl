@@ -8,6 +8,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import re
 import sys
 import urllib.error
 import urllib.parse
@@ -111,6 +112,17 @@ class Client:
                 self.spent += int(actual) if actual is not None else planned_cost
                 self.remaining = int(remaining) if remaining is not None else self.remaining
                 return json.loads(body)
+        except urllib.error.HTTPError as exc:
+            # An HTTPError contains the request URL, including the private key.
+            # Report only its status and a constrained provider error code.
+            endpoint = "events" if path == "/events/" else "featured odds" if path == "/odds/" else "event markets" if path.endswith("/markets") else "event odds"
+            try:
+                payload = json.loads(exc.read(2048))
+                raw_code = payload.get("error_code", "") if isinstance(payload, dict) else ""
+                code = raw_code if isinstance(raw_code, str) and re.fullmatch(r"[A-Z0-9_]{1,80}", raw_code) else ""
+            except (OSError, ValueError):
+                code = ""
+            raise FeedError(f"Provider {endpoint} HTTP {exc.code}" + (f" ({code})" if code else "")) from None
         except (urllib.error.URLError, ValueError, json.JSONDecodeError) as exc:
             # Never print an HTTP error object: its URL can contain the API key.
             raise FeedError(f"Provider request failed ({type(exc).__name__})") from None
