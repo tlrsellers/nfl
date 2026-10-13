@@ -15,6 +15,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+if __package__:
+    from .nfl_scoring import bet_value_score, dashboard_team_scores
+else:
+    from nfl_scoring import bet_value_score, dashboard_team_scores
+
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "dashboard.json"
 STATE = ROOT / "data" / "state.json"
@@ -101,8 +106,7 @@ def expected_value(p_win: float, p_loss: float, odds: int) -> float:
 
 
 def value_rating(ev: float) -> int:
-    boundaries = [-.10, -.05, -.02, 0, .02, .04, .06, .09, .12]
-    return min(10, 1 + sum(ev > edge for edge in boundaries))
+    return bet_value_score(ev)
 
 
 def normalize_games(feed: dict[str, Any] | None) -> list[dict[str, Any]]:
@@ -232,11 +236,17 @@ def make_picks(model: dict[str, Any] | None, markets: list[dict[str, Any]], now:
             c_w, c_l = float(estimate["conservative_p_win"]), float(estimate["conservative_p_loss"])
         except (KeyError, TypeError, ValueError):
             continue
-        if not all(0 <= p <= 1 for p in (p_w, p_l, p_push, c_w, c_l)) or abs(p_w+p_l+p_push-1)>1e-5 or c_w+c_l>1.00001:
+        if not all(0 <= p <= 1 for p in (p_w, p_l, p_push, c_w, c_l)) or abs(p_w+p_l+p_push-1)>1e-5 or abs(c_w+c_l+p_push-1)>1e-5:
+            continue
+        if c_w > p_w or c_l < p_l:
+            continue
+        if "line" in estimate and estimate["line"] != market["line"]:
+            continue
+        if "odds" in estimate and estimate["odds"] != market["odds"]:
             continue
         ev = expected_value(p_w, p_l, market["odds"])
         conservative = expected_value(c_w, c_l, market["odds"])
-        grade = value_rating(ev)
+        grade = value_rating(conservative)
         if ev <= 0 or conservative <= 0 or grade < 7:
             continue
         stake = {7: 6.25, 8: 12.50, 9: 18.75, 10: 25.0}[grade]
@@ -319,6 +329,16 @@ def build() -> dict[str, Any]:
     markets = normalize_markets(odds, {g["id"] for g in games}, now)
     feeds["score_history"], _ = get_json("score_history")
     attach_research(games, feeds)
+    try:
+        scoring = dashboard_team_scores(feeds["stats"], games, now)
+    except (ValueError, TypeError, KeyError, AttributeError) as exc:
+        scoring = {"teams": {}, "games": {}, "status": "error",
+                   "detail": f"Scoring input rejected: {exc}"}
+    for g in games:
+        if g["id"] in scoring["games"]:
+            g["scoring"] = scoring["games"][g["id"]]
+    sources["Scoring engine"] = {"status": scoring["status"],
+                                 "checked_at": now_iso(), "detail": scoring["detail"]}
     picks = make_picks(feeds["model"], markets, now)
     # An unapproved AI workflow is never silently invoked by this job.
     ai_status = "Disabled pending cost approval"
@@ -338,6 +358,7 @@ def build() -> dict[str, Any]:
               "coverage": {"games": len(games), "markets": len(markets),
                            "analyzed": sum(1 for g in games if g.get("confidence"))},
               "games": games, "markets": markets, "picks": picks,
+              "team_ratings": scoring["teams"], "scoring_version": "nfl-scoring-1.0",
               "alerts": alerts[:40], "sources": sources, "ai_status": ai_status,
               "changed_market_count": len([a for a in alerts if str(a.get("id", "")).startswith("line-")])}
     if markets and latest_state:
@@ -357,3 +378,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

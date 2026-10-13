@@ -48,6 +48,18 @@ function renderOverview(data) {
     ${section('Source health', 'Latest successful checks')}<div class="card">${sourceRows(data)}</div>`;
 }
 function renderGames(data) { const games=data.games||[]; if(state.selectedGame) { const game=games.find(g=>g.id===state.selectedGame); if(game) return renderGameDetail(game,data); state.selectedGame=null; } return `${section('Every matchup', 'Current-season evidence + last five meetings')}${games.length ? `<div class="game-list">${games.map(g=>`<div class="game"><div><small>${fmtDate(g.kickoff)} · ${esc(g.status || 'scheduled')}</small><strong>${esc(g.away)} <span class="muted">at</span> ${esc(g.home)}</strong><small>${esc(g.score ? `${g.score.away}–${g.score.home}` : g.summary || 'Analysis pending')}</small></div><div class="hide-narrow"><small>PASS MATCHUP</small><div class="rating">${rating(g.pass)}</div></div><div class="hide-narrow"><small>RUSH MATCHUP</small><div class="rating">${rating(g.rush)}</div></div><button data-game="${esc(g.id)}">Game report →</button></div>`).join('')}</div>` : empty('No verified games yet','The schedule agent has not supplied a current slate.', '▦')}`; }
+function renderTeamScoring(g){
+  const report=g.scoring;
+  if(!report) return `<div class="card">${empty('Team scores pending','Agents need current-season EPA, success rates, explosive-play rates, and special-teams inputs.','◇')}</div>`;
+  const h=report.home,a=report.away;
+  const rows=[['Team strength',h.team_strength,a.team_strength],['Weekly matchup',h.weekly_matchup,a.weekly_matchup],
+    ['Passing offense',h.expected_lineup_units.pass_offense,a.expected_lineup_units.pass_offense],
+    ['Rushing offense',h.expected_lineup_units.rush_offense,a.expected_lineup_units.rush_offense],
+    ['Passing defense',h.expected_lineup_units.pass_defense,a.expected_lineup_units.pass_defense],
+    ['Rushing defense',h.expected_lineup_units.rush_defense,a.expected_lineup_units.rush_defense],
+    ['Special teams',h.expected_lineup_units.special_teams,a.expected_lineup_units.special_teams]];
+  return `<div class="card"><div class="table-wrap"><table><thead><tr><th>Rating</th><th>${esc(h.team)}</th><th>${esc(a.team)}</th></tr></thead><tbody>${rows.map(([label,hv,av])=>`<tr><td>${esc(label)}</td><td>${rating(hv)}</td><td>${rating(av)}</td></tr>`).join('')}</tbody></table></div><p class="mini">5.5 is league average. Home inputs: ${esc(h.status)}; away inputs: ${esc(a.status)}. These performance scores are separate from betting value.</p></div>`;
+}
 function renderGameDetail(g,data){
   const hs=g.head_to_head||[], players=g.players||[];
   const marketCount=(data.markets||[]).filter(m=>m.game_id===g.id).length;
@@ -65,6 +77,8 @@ function renderGameDetail(g,data){
       <div class="detail-row"><span>Kickoff</span><strong>${fmtDate(g.kickoff)}</strong></div>
       <div class="detail-row"><span>Score</span><strong>${g.score?esc(`${g.score.away}–${g.score.home}`):'Pending'}</strong></div>
       <button class="secondary" id="game-markets">Browse markets →</button></div></div>
+    ${section('Team strength and weekly matchup','Current-season 1–10 scores for both teams')}
+    ${renderTeamScoring(g)}
     ${section('Individual matchups','Current-season performance and role')}
     <div class="card">${players.length ? `<div class="table-wrap"><table><thead><tr><th>Player</th><th>Position</th><th>Performance</th><th>Matchup</th><th>Sample</th></tr></thead><tbody>
       ${players.map(p=>`<tr><td class="strong">${esc(p.name)}<br><span class="muted">${esc(p.side)}</span></td><td>${esc(p.position)}</td><td>${rating(p.performance)}</td><td>${rating(p.matchup)}</td><td class="muted">${esc(p.sample)}</td></tr>`).join('')}
@@ -91,3 +105,4 @@ document.addEventListener('input',e=>{if(e.target.id==='market-search'){state.ma
 document.addEventListener('change',async e=>{if(e.target.id==='market-filter'){state.marketCategory=e.target.value;render();}if(e.target.classList.contains('result-select')){const wager=state.wagers.find(w=>w.id===e.target.dataset.wagerId);if(wager){wager.result=e.target.value;saveWagers();}}if(e.target.id==='import-wagers'){const file=e.target.files[0];if(!file)return;try{const parsed=JSON.parse(await file.text());if(parsed.version!==1||!Array.isArray(parsed.wagers)||parsed.wagers.length>10000)throw Error('Unsupported backup format');const wagers=parsed.wagers.map(w=>({id:String(w.id),game:String(w.game||''),selection:String(w.selection||''),category:String(w.category||''),line:String(w.line||''),odds:Number(w.odds),stake:Number(w.stake),placed_at:String(w.placed_at),result:String(w.result||'Pending')}));if(wagers.some(w=>!w.id||!w.selection||!Number.isFinite(w.odds)||!Number.isFinite(w.stake)||w.stake<=0||w.stake>25))throw Error('Invalid wager data');if(confirm(`Replace ${state.wagers.length} local entries with ${wagers.length} imported entries?`)){state.wagers=wagers;saveWagers();render();}}catch(err){alert('Import failed: '+err.message);}}});
 document.addEventListener('submit',e=>{if(e.target.id!=='wager-form')return;e.preventDefault();const f=new FormData(e.target);const stake=Number(f.get('stake')),odds=Number(f.get('odds'));if(!Number.isFinite(stake)||stake<=0||stake>25||!Number.isInteger(odds)||Math.abs(odds)<100){alert('Enter a stake between $0.01 and $25 and valid American odds (at least +100 or -100).');return;}state.wagers.push({id:crypto.randomUUID(),game:String(f.get('game')).trim(),selection:String(f.get('selection')).trim(),category:String(f.get('category')),line:String(f.get('line')).trim(),odds,stake,placed_at:new Date().toISOString(),result:'Pending'});saveWagers();render();});
 fetchData();
+
