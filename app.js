@@ -66,23 +66,39 @@ function renderPaperForecast(g){
   const p=f.projection;
   return `<div class="card"><span class="pill warn">PAPER TRACKING · UNCALIBRATED</span><h3>Projected score</h3><div class="detail-row"><span>${esc(g.home)}</span><strong>${Number(p.projected_home_points).toFixed(1)}</strong></div><div class="detail-row"><span>${esc(g.away)}</span><strong>${Number(p.projected_away_points).toFixed(1)}</strong></div><div class="detail-row"><span>Projected total</span><strong>${Number(p.total).toFixed(1)}</strong></div><div class="detail-row"><span>Model home spread</span><strong>${Number(p.fair_home_spread).toFixed(1)}</strong></div><p class="mini">Research estimate, not a recommended bet. Forecast ${fmtDate(f.forecast_as_of)}. Injury adjustments ${f.injury_adjustments_applied?'included':'not applied'}; verify the expected lineup.</p></div>`;
 }
+function renderMatchupPerspective(g,data,side){
+  const team=g[side], opponent=g[side==='home'?'away':'home'];
+  const report=g.scoring?.[side];
+  const units=data.team_ratings?.[team]?.units||report?.expected_lineup_units||{};
+  const average=entries=>entries.every(([unit])=>Number.isFinite(units[unit]))
+    ? entries.reduce((sum,[unit,weight])=>sum+units[unit]*weight,0)/entries.reduce((sum,[,weight])=>sum+weight,0) : null;
+  // Legacy single-side fields may only be shown for their explicitly named team.
+  const legacy=g.rating_side===team;
+  const matchups=report?.category_matchups||{};
+  const metrics=[['Offense performance',average([['pass_offense',.35],['rush_offense',.15]])??(legacy?g.offense:null)],
+    ['Defense performance',average([['pass_defense',.35],['rush_defense',.10]])??(legacy?g.defense:null)],
+    ['Passing advantage',matchups.pass_offense??(legacy?g.pass:null)],
+    ['Rushing advantage',matchups.rush_offense??(legacy?g.rush:null)],
+    ['Pass defense vs. passing attack',matchups.pass_defense],
+    ['Run defense vs. rushing attack',matchups.rush_defense],
+    ['Offensive line vs. front',legacy?g.line:null],
+    ['Analysis confidence',report?.data_confidence??(legacy?g.confidence:null)]];
+  return `<div class="card"><div class="subhead">MATCHUP REPORT · ${side==='home'?'HOME':'AWAY'}</div>
+    <h3>${esc(team)} perspective</h3><p class="muted">${esc(team)}'s offense against ${esc(opponent)}'s defense, and its defense against ${esc(opponent)}'s offense.</p>
+    ${metrics.map(([name,value])=>`<div class="detail-row"><span>${esc(name)}</span><strong>${rating(value)}</strong></div>`).join('')}
+    <p class="mini">Higher advantage scores favor ${esc(team)}; 5.5 is an even matchup. Performance scores measure current-season quality. Special-teams baseline is provisional; verify injuries and expected lineups.</p></div>`;
+}
 function renderGameDetail(g,data){
   const hs=g.head_to_head||[], players=g.players||[];
   const marketCount=(data.markets||[]).filter(m=>m.game_id===g.id).length;
-  const metrics=[['Offense performance',g.offense],['Defense performance',g.defense],
-    ['Passing advantage',g.pass],['Rushing advantage',g.rush],
-    ['Offensive line vs. front',g.line],['Analysis confidence',g.confidence]];
   return `<div class="actions"><button class="secondary" id="back-games">← All games</button></div>
     ${section(`${g.away} at ${g.home}`,fmtDate(g.kickoff))}
-    <div class="grid detail-grid"><div class="card"><div class="subhead">MATCHUP REPORT</div>
-      <h3>Current-season comparison</h3><p class="muted">${esc(g.summary||'Analysis pending. No performance data has been verified.')}</p>
-      ${metrics.map(([name,value])=>`<div class="detail-row"><span>${esc(name)}</span><strong>${rating(value)}</strong></div>`).join('')}
-      <p class="mini">Advantage ratings shown from ${esc(g.rating_side||'the named side')} perspective. The source must document its sample and method.</p></div>
-      <div class="card"><div class="subhead">MARKET COVERAGE</div><h3>${marketCount} discovered markets</h3>
+    <div class="grid detail-grid">${renderMatchupPerspective(g,data,'away')}${renderMatchupPerspective(g,data,'home')}</div>
+    <div class="card" style="margin-top:15px"><div class="subhead">MARKET COVERAGE</div><h3>${marketCount} discovered markets</h3>
       <p class="muted">Only source-backed full-game lines and player props appear.</p>
       <div class="detail-row"><span>Kickoff</span><strong>${fmtDate(g.kickoff)}</strong></div>
       <div class="detail-row"><span>Score</span><strong>${g.score?esc(`${g.score.away}–${g.score.home}`):'Pending'}</strong></div>
-      <button class="secondary" id="game-markets">Browse markets →</button></div></div>
+      <button class="secondary" id="game-markets">Browse markets →</button></div>
     ${section('Team strength and weekly matchup','Current-season 1–10 scores for both teams')}
     ${renderTeamScoring(g)}
     ${renderPaperForecast(g)}
@@ -112,4 +128,5 @@ document.addEventListener('input',e=>{if(e.target.id==='market-search'){state.ma
 document.addEventListener('change',async e=>{if(e.target.id==='market-filter'){state.marketCategory=e.target.value;render();}if(e.target.classList.contains('result-select')){const wager=state.wagers.find(w=>w.id===e.target.dataset.wagerId);if(wager){wager.result=e.target.value;saveWagers();}}if(e.target.id==='import-wagers'){const file=e.target.files[0];if(!file)return;try{const parsed=JSON.parse(await file.text());if(parsed.version!==1||!Array.isArray(parsed.wagers)||parsed.wagers.length>10000)throw Error('Unsupported backup format');const wagers=parsed.wagers.map(w=>({id:String(w.id),game:String(w.game||''),selection:String(w.selection||''),category:String(w.category||''),line:String(w.line||''),odds:Number(w.odds),stake:Number(w.stake),placed_at:String(w.placed_at),result:String(w.result||'Pending')}));if(wagers.some(w=>!w.id||!w.selection||!Number.isFinite(w.odds)||!Number.isFinite(w.stake)||w.stake<=0||w.stake>25))throw Error('Invalid wager data');if(confirm(`Replace ${state.wagers.length} local entries with ${wagers.length} imported entries?`)){state.wagers=wagers;saveWagers();render();}}catch(err){alert('Import failed: '+err.message);}}});
 document.addEventListener('submit',e=>{if(e.target.id!=='wager-form')return;e.preventDefault();const f=new FormData(e.target);const stake=Number(f.get('stake')),odds=Number(f.get('odds'));if(!Number.isFinite(stake)||stake<=0||stake>25||!Number.isInteger(odds)||Math.abs(odds)<100){alert('Enter a stake between $0.01 and $25 and valid American odds (at least +100 or -100).');return;}state.wagers.push({id:crypto.randomUUID(),game:String(f.get('game')).trim(),selection:String(f.get('selection')).trim(),category:String(f.get('category')),line:String(f.get('line')).trim(),odds,stake,placed_at:new Date().toISOString(),result:'Pending'});saveWagers();render();});
 fetchData();
+
 
