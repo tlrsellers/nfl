@@ -11,7 +11,7 @@ import os
 import sys
 import urllib.error
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -25,7 +25,7 @@ SOURCE_NAMES = {
 }
 AGENT_NAMES = ["Matchup", "Player props", "Verification"]
 FRESHNESS_MINUTES = 12
-SOURCE_MAX_AGE = {"odds": 12, "injuries": 90, "news": 90, "weather": 120,
+SOURCE_MAX_AGE = {"odds": 12, "injuries": 1560, "news": 90, "weather": 120,
                   "travel": 1440, "stats": 2880, "historical": 10080, "model": 90}
 
 
@@ -52,6 +52,10 @@ def get_json(role: str) -> tuple[dict[str, Any] | None, str]:
     """Read a role-specific JSON source; bearer tokens never enter output."""
     prefix = role.upper()
     path = os.getenv(f"{prefix}_FEED_FILE")
+    if not path and role in ("injuries", "news", "weather", "travel", "stats", "score_history", "schedule"):
+        bundled = ROOT / "data" / "free" / f"{role}.json"
+        if bundled.exists():
+            path = str(bundled)
     url = os.getenv(f"{prefix}_FEED_URL")
     try:
         if path:
@@ -152,6 +156,9 @@ def attach_research(games: list[dict[str, Any]], feeds: dict[str, dict[str, Any]
     historical = feeds.get("historical") or {}
     matchups = stats.get("matchups", {}) if isinstance(stats.get("matchups"), dict) else {}
     history = historical.get("games", {}) if isinstance(historical.get("games"), dict) else {}
+    scores = (feeds.get("score_history") or {}).get("games", {})
+    if not isinstance(scores, dict):
+        scores = {}
     for g in games:
         metrics = matchups.get(g["id"], {})
         if isinstance(metrics, dict) and metrics.get("season") == (stats.get("season")):
@@ -172,6 +179,8 @@ def attach_research(games: list[dict[str, Any]], feeds: dict[str, dict[str, Any]
                                  "rationale": str(p.get("rationale", ""))[:300]}
                                 for p in players if isinstance(p, dict) and p.get("name")][:100]
         h = history.get(g["id"], [])
+        if not h:
+            h = scores.get(g["id"], [])
         verified_history = []
         if isinstance(h, list):
             for x in h[:5]:
@@ -180,6 +189,7 @@ def attach_research(games: list[dict[str, Any]], feeds: dict[str, dict[str, Any]
                 lines = x.get("bovada_lines", [])
                 verified_history.append({"date": str(x.get("date", "")), "score": str(x.get("score", "")),
                                          "performance": str(x.get("performance", ""))[:500],
+                                         "source_url": str(x.get("source_url", "")),
                                          "bovada_lines": [{"selection": str(m.get("selection", "")),
                                                            "line": m.get("line"), "odds": m.get("odds"),
                                                            "result": str(m.get("result", "Unavailable")),
@@ -188,7 +198,7 @@ def attach_research(games: list[dict[str, Any]], feeds: dict[str, dict[str, Any]
                                         })
         g["head_to_head"] = verified_history
         evidence = []
-        for role in ("injuries", "news", "weather", "travel"):
+        for role in ("injuries", "news", "weather", "travel", "stats"):
             items = (feeds.get(role) or {}).get("findings", [])
             if not isinstance(items, list):
                 continue
@@ -270,15 +280,26 @@ def build() -> dict[str, Any]:
     sources = {}
     for role, name in SOURCE_NAMES.items():
         feed, detail = get_json(role)
+        if role == "odds" and not feed and OUTPUT.exists():
+            try:
+                old = json.loads(OUTPUT.read_text())
+                old_source = old.get("sources", {}).get("Bovada odds", {})
+                if old.get("games") and isinstance(old.get("markets"), list):
+                    feed = {"checked_at": old_source.get("checked_at"), "games": old["games"],
+                            "markets": [dict(m, period="full_game", available=False)
+                                        for m in old["markets"] if isinstance(m, dict)]}
+                    detail = "Retained previous Bovada snapshot; no new odds fetched"
+            except (OSError, ValueError, TypeError):
+                pass
         feeds[role] = feed
         observed = feed.get("checked_at") if feed else None
         source_status = "ok" if feed else "error" if detail.startswith("Source error") else "unavailable"
         if feed and age_minutes(observed, now) > SOURCE_MAX_AGE[role]:
             source_status = "stale"
             detail = "Source check is overdue"
-        elif role == "odds" and feed and feed.get("coverage_note"):
+        elif feed and feed.get("coverage_note"):
             detail = str(feed["coverage_note"])[:250]
-            if feed.get("player_props_requested") is False:
+            if role == "odds" and feed.get("player_props_requested") is False:
                 detail += "; player props were not requested in this test"
         sources[name] = {"status": source_status,
                          "checked_at": observed if parse_time(observed) else None,
@@ -287,8 +308,16 @@ def build() -> dict[str, Any]:
         sources[name] = {"status": "unavailable", "checked_at": None,
                          "detail": "Requires connected evidence and approved AI budget"}
     odds = feeds["odds"]
-    games = normalize_games(odds)
+    games = [g for g in normalize_games(odds) if parse_time(g["kickoff"]) > now - timedelta(days=2)]
+    schedule, _ = get_json("schedule")
+    for scheduled in normalize_games(schedule):
+        kick = parse_time(scheduled["kickoff"])
+        if not any(g["away"] == scheduled["away"] and g["home"] == scheduled["home"] and
+                   abs((parse_time(g["kickoff"]) - kick).total_seconds()) < 24 * 3600 for g in games):
+            games.append(scheduled)
+    games.sort(key=lambda g: g["kickoff"])
     markets = normalize_markets(odds, {g["id"] for g in games}, now)
+    feeds["score_history"], _ = get_json("score_history")
     attach_research(games, feeds)
     picks = make_picks(feeds["model"], markets, now)
     # An unapproved AI workflow is never silently invoked by this job.
