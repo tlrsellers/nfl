@@ -69,9 +69,9 @@ function renderGameDetail(g,data){
     <div class="card">${players.length ? `<div class="table-wrap"><table><thead><tr><th>Player</th><th>Position</th><th>Performance</th><th>Matchup</th><th>Sample</th></tr></thead><tbody>
       ${players.map(p=>`<tr><td class="strong">${esc(p.name)}<br><span class="muted">${esc(p.side)}</span></td><td>${esc(p.position)}</td><td>${rating(p.performance)}</td><td>${rating(p.matchup)}</td><td class="muted">${esc(p.sample)}</td></tr>`).join('')}
       </tbody></table></div>` : empty('Player ratings pending','Individual assignments and current-season samples need verified data.','◇')}</div>
-    ${section('Last five meetings','Verified historical Bovada lines only')}
+    ${section('Last five meetings','Scores from nflverse; historical lines require verified Bovada records')}
     <div class="card">${hs.length ? hs.slice(0,5).map(h=>`<div class="alert-row"><strong>${esc(h.date)} · ${esc(h.score||'Score unavailable')}</strong>
-      <small>${esc(h.performance||'Performance unavailable')}</small>
+      <small>${esc(h.performance||'Performance unavailable')} ${h.source_url ? link(h.source_url,'Score source') : ''}</small>
       ${h.bovada_lines?.length ? `<div class="table-wrap" style="margin-top:10px"><table><thead><tr><th>Selection</th><th>Line</th><th>Odds</th><th>Result</th><th>Source</th></tr></thead><tbody>
       ${h.bovada_lines.map(m=>`<tr><td>${esc(m.selection)}</td><td>${esc(m.line??'—')}</td><td>${oddsText(m.odds)}</td><td>${esc(m.result)}</td><td>${link(m.source_url,'Verify')}</td></tr>`).join('')}</tbody></table></div>`:'<span class="pill warn">BOVADA LINES UNAVAILABLE</span>'}</div>`).join('') :
       empty('History has not been verified','Only the last five meetings and actual Bovada lines may appear here.','◷')}</div>
