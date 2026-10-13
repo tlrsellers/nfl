@@ -42,7 +42,7 @@ The adapter must distinguish publication time from retrieval time and cite the o
 
 `HISTORICAL` may return a `games` object keyed by upcoming game ID. Each array contains at most the last five meetings, newest first. `bovada_lines` must contain only independently verified historical Bovada records; if absent, the UI shows unavailable.
 
-`MODEL` is an external, calibrated probability feed. The current project does not train such a model and therefore normally emits zero picks. A model feed requires `validated: true`, a `model_version`, and at least 100 time-ordered calibration observations per estimate. An estimate includes `market_id`, `model_version`, `samples`, `p_win`, `p_loss`, `p_push`, `conservative_p_win`, `conservative_p_loss`, `blockers`, and a source-backed `rationale`. The pipeline recomputes EV from these probabilities and Bovada's exact price. It cannot independently prove that a feed's `validated` claim is true; the operator must audit it before enabling this input.
+`MODEL` is no longer an input. Probabilities come from the built-in market model; see [MARKET_MODEL.md](MARKET_MODEL.md).
 
 ## Deterministic scoring module
 

@@ -20,18 +20,20 @@ if __package__:
 else:
     from nfl_scoring import bet_value_score, dashboard_team_scores
 
+DEFAULT_STAKES = {7: 6.25, 8: 12.50, 9: 18.75, 10: 25.0}
+
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "dashboard.json"
 STATE = ROOT / "data" / "state.json"
 SOURCE_NAMES = {
     "odds": "Bovada odds", "injuries": "Injuries", "news": "News",
     "weather": "Weather", "travel": "Travel", "stats": "Statistics",
-    "historical": "Historical Bovada", "model": "Probability & value",
+    "historical": "Historical Bovada",
 }
 AGENT_NAMES = ["Matchup", "Player props", "Verification"]
 FRESHNESS_MINUTES = 12
 SOURCE_MAX_AGE = {"odds": 12, "injuries": 1560, "news": 90, "weather": 120,
-                  "travel": 1440, "stats": 2880, "historical": 10080, "model": 90}
+                  "travel": 1440, "stats": 2880, "historical": 10080}
 
 
 def now_iso() -> str:
@@ -214,53 +216,83 @@ def attach_research(games: list[dict[str, Any]], feeds: dict[str, dict[str, Any]
         g["evidence"] = evidence[:30]
 
 
-def make_picks(model: dict[str, Any] | None, markets: list[dict[str, Any]], now: datetime) -> list[dict[str, Any]]:
-    """Only external, validated probability estimates can become recommendations."""
-    if not model or model.get("validated") is not True or not model.get("model_version"):
-        return []
-    estimates = model.get("estimates", [])
-    if not isinstance(estimates, list):
-        return []
-    by_id = {m["id"]: m for m in markets if m["status"] == "live"}
-    picks = []
-    for estimate in estimates:
-        if not isinstance(estimate, dict):
+def make_picks(estimates: dict[str, Any] | None, markets: list[dict[str, Any]], now: datetime,
+               config: dict[str, Any] | None = None) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """Turn the internal model's market evaluations into picks and leans.
+
+    A pick needs: the market type enabled by the walk-forward backtest gate,
+    a live (fresh) quote, positive central and conservative EV, and a value
+    score at or above config["min_value_score"]. Leans are the best positive-EV
+    model views that fail one of those checks; they are research only and
+    never carry a stake.
+    """
+    config = config or {}
+    if not estimates:
+        return [], []
+    min_score = int(config.get("min_value_score", 7))
+    stakes = {int(k): float(v) for k, v in config.get("stake_tiers", DEFAULT_STAKES).items()}
+    enabled = estimates.get("enabled", {})
+    evals = estimates.get("markets", {})
+    picks, leans = [], []
+    for m in markets:
+        e = evals.get(m["id"])
+        if not e or e["ev"] <= 0:
             continue
-        market = by_id.get(str(estimate.get("market_id")))
-        if not market or estimate.get("model_version") != model["model_version"]:
-            continue
-        if estimate.get("samples", 0) < 100 or estimate.get("blockers"):
-            continue
-        try:
-            p_w, p_l, p_push = (float(estimate[k]) for k in ("p_win", "p_loss", "p_push"))
-            c_w, c_l = float(estimate["conservative_p_win"]), float(estimate["conservative_p_loss"])
-        except (KeyError, TypeError, ValueError):
-            continue
-        if not all(0 <= p <= 1 for p in (p_w, p_l, p_push, c_w, c_l)) or abs(p_w+p_l+p_push-1)>1e-5 or abs(c_w+c_l+p_push-1)>1e-5:
-            continue
-        if c_w > p_w or c_l < p_l:
-            continue
-        if "line" in estimate and estimate["line"] != market["line"]:
-            continue
-        if "odds" in estimate and estimate["odds"] != market["odds"]:
-            continue
-        ev = expected_value(p_w, p_l, market["odds"])
-        conservative = expected_value(c_w, c_l, market["odds"])
-        grade = value_rating(conservative)
-        if ev <= 0 or conservative <= 0 or grade < 7:
-            continue
-        stake = {7: 6.25, 8: 12.50, 9: 18.75, 10: 25.0}[grade]
-        picks.append({"id": market["id"], "game_id": market["game_id"],
-                      "category": market["category"], "selection": market["selection"],
-                      "line": market["line"], "odds": market["odds"],
-                      "observed_at": market["observed_at"], "win_probability": p_w,
-                      "break_even_probability": 1/american_decimal(market["odds"]),
-                      "ev": round(ev, 5), "conservative_ev": round(conservative, 5),
-                      "win_rating": max(1, min(10, int(p_w*10+0.999999))),
-                      "value_rating": grade, "suggested_stake": stake,
-                      "rationale": str(estimate.get("rationale", ""))[:600],
-                      "model_version": model["model_version"], "status": "recommended"})
-    return sorted(picks, key=lambda p: p["conservative_ev"], reverse=True)
+        item = {"id": m["id"], "game_id": m["game_id"], "category": m["category"],
+                "selection": m["selection"], "line": m["line"], "odds": m["odds"],
+                "observed_at": m["observed_at"], "win_probability": e["p_win"],
+                "push_probability": e["p_push"], "break_even_probability": e["break_even"],
+                "ev": e["ev"], "conservative_ev": e["conservative_ev"],
+                "win_rating": max(1, min(10, int(e["p_win"] * 10 + 0.999999))),
+                "value_rating": e["value_score"], "model_version": estimates.get("model_version")}
+        blockers = []
+        if not enabled.get(e["market"]):
+            blockers.append(f"{e['market']} model has not passed the backtest gate")
+        if m["status"] != "live":
+            blockers.append("quote is stale")
+        if e["conservative_ev"] <= 0:
+            blockers.append("not positive under conservative assumptions")
+        if e["value_score"] < min_score:
+            blockers.append(f"value score below {min_score}")
+        if not blockers:
+            picks.append({**item, "status": "recommended",
+                          "suggested_stake": stakes.get(min(10, e["value_score"]), 0.0),
+                          "rationale": f"Model win {e['p_win']:.1%} vs break-even {e['break_even']:.1%}; backtest-validated {e['market']} model."})
+        else:
+            leans.append({**item, "status": "lean", "suggested_stake": 0.0, "blockers": blockers,
+                          "rationale": "Research lean only: " + "; ".join(blockers) + "."})
+    picks.sort(key=lambda p: p["conservative_ev"], reverse=True)
+    leans.sort(key=lambda p: p["ev"], reverse=True)
+    return picks, leans[:15]
+
+
+def market_eval_for_test(p: dict[str, Any], odds: int, uncertainty_pp: float = 2.0) -> dict[str, Any]:
+    """EV fields in the same shape market_model.evaluate_bet produces (used by tests)."""
+    d = american_decimal(odds)
+    hair = min(p["p_win"], uncertainty_pp / 100)
+    cons = (p["p_win"] - hair) * (d - 1) - (p["p_loss"] + hair)
+    return {"ev": p["p_win"] * (d - 1) - p["p_loss"], "conservative_ev": cons, "value_score": bet_value_score(cons)}
+
+
+def model_estimates(games: list[dict[str, Any]], markets: list[dict[str, Any]]) -> tuple[dict[str, Any] | None, dict[str, Any], str]:
+    """Run the internal market model. Returns (estimates, config, detail)."""
+    try:
+        if __package__:
+            from . import market_model
+        else:
+            import market_model
+        cfg = market_model.load_config()
+        est = market_model.live_estimates(games, markets, cfg=cfg)
+        bt = json.loads(market_model.BACKTEST_FILE.read_text()) if market_model.BACKTEST_FILE.exists() else {}
+        est["backtest"] = {k: {kk: v.get(kk) for kk in ("bets", "win_rate", "roi", "roi_lower_bound", "seasons_profitable", "enabled")}
+                           for k, v in bt.get("markets", {}).items()}
+        est["backtest_seasons"] = bt.get("test_seasons", [])
+        on = [k for k, v in est["enabled"].items() if v]
+        detail = (f"Internal model {est['model_version']}: {len(est['games'])} games, {len(est['markets'])} markets scored. "
+                  + (f"Validated markets: {', '.join(on)}." if on else "No market type has passed the backtest gate; showing research leans only."))
+        return est, cfg, detail
+    except Exception as exc:  # the dashboard must still publish without the model
+        return None, {}, f"Model unavailable: {type(exc).__name__}: {exc}"[:250]
 
 
 def compare_market_state(markets: list[dict[str, Any]]) -> tuple[list[dict[str, str]], dict[str, Any]]:
@@ -354,14 +386,24 @@ def build() -> dict[str, Any]:
     if scoring["games"]:
         sources["Matchup"] = {"status": "ok", "checked_at": now_iso(),
                               "detail": "Deterministic team matchup ratings active. Paid AI narrative agents remain disabled."}
-    picks = make_picks(feeds["model"], markets, now)
+    estimates, model_cfg, model_detail = model_estimates(games, markets)
+    if estimates:
+        for g in games:
+            if g["id"] in estimates["games"]:
+                g["model"] = estimates["games"][g["id"]]
+        for m in markets:
+            if m["id"] in estimates["markets"]:
+                m["model"] = estimates["markets"][m["id"]]
+    sources["Probability & value"] = {"status": "ok" if estimates else "error", "checked_at": now_iso(),
+                                      "detail": model_detail}
+    picks, leans = make_picks(estimates, markets, now, model_cfg)
     # An unapproved AI workflow is never silently invoked by this job.
     ai_status = "Disabled pending cost approval"
     if os.getenv("AI_ENABLED", "false").lower() == "true":
         ai_status = "Configuration requested; agent execution not installed"
     mode = "live" if sources["Bovada odds"]["status"] == "ok" and any(m["status"] == "live" for m in markets) else "snapshot" if markets else "unavailable"
     if mode != "live":
-        picks = []
+        picks = []  # leans remain visible as research
     alerts, latest_state = compare_market_state(markets)
     for role in ("injuries", "news", "weather", "travel"):
         items = (feeds[role] or {}).get("alerts", [])
@@ -372,7 +414,8 @@ def build() -> dict[str, Any]:
               "season": str((feeds["stats"] or {}).get("season", now.year)),
               "coverage": {"games": len(games), "markets": len(markets),
                            "analyzed": sum(1 for g in games if g.get("confidence"))},
-              "games": games, "markets": markets, "picks": picks,
+              "games": games, "markets": markets, "picks": picks, "leans": leans,
+              "model": {k: estimates.get(k) for k in ("model_version", "enabled", "backtest", "backtest_seasons")} if estimates else None,
               "team_ratings": scoring["teams"], "scoring_version": "nfl-scoring-1.0",
               "alerts": alerts[:40], "sources": sources, "ai_status": ai_status,
               "changed_market_count": len([a for a in alerts if str(a.get("id", "")).startswith("line-")])}

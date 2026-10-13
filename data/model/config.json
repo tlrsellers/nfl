@@ -1,0 +1,25 @@
+{
+  "_about": "Built-in parameters for the market model. Edit, then the next workflow run (or `python3 scripts/market_model.py all`) re-backtests and refits. A market only produces picks if its walk-forward backtest passes `gate`.",
+  "first_season": 2010,
+  "first_test_season": 2015,
+  "prior_regression": 0.5,
+  "prior_pass_plays": 200,
+  "prior_rush_plays": 120,
+  "ridge_alpha": 50.0,
+  "distribution_bandwidth": 1.0,
+  "min_probability_edge": 0.03,
+  "gate": {
+    "min_bets": 300,
+    "min_roi_lower_bound": 0.0,
+    "z": 1.64,
+    "min_seasons_profitable": 0.5
+  },
+  "min_value_score": 7,
+  "uncertainty_pp": 2.0,
+  "stake_tiers": {
+    "7": 6.25,
+    "8": 12.5,
+    "9": 18.75,
+    "10": 25.0
+  }
+}

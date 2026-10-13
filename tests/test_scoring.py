@@ -144,17 +144,12 @@ class BetScoringTests(unittest.TestCase):
         now = datetime.now(timezone.utc)
         market = {"id": "m1", "game_id": "g1", "status": "live", "category": "Spread",
                   "selection": "Home -3.5", "line": -3.5, "odds": -110, "observed_at": now.isoformat()}
-        estimate = {"market_id": "m1", "model_version": "test", "samples": 120,
-                    "p_win": .65, "p_loss": .35, "p_push": 0,
-                    "conservative_p_win": .55, "conservative_p_loss": .45, "blockers": []}
-        model = {"validated": True, "model_version": "test", "estimates": [estimate]}
-        picks = pipeline.make_picks(model, [market], now)
-        self.assertEqual(picks[0]["value_rating"], 7)
-        estimate["line"] = -4.5
-        self.assertEqual(pipeline.make_picks(model, [market], now), [])
-        estimate.pop("line")
-        estimate["conservative_p_loss"] = .44
-        self.assertEqual(pipeline.make_picks(model, [market], now), [])
+        evaluation = {"market": "spread", "p_win": .60, "p_push": 0, "p_loss": .40, "break_even": .5238}
+        evaluation.update(pipeline.market_eval_for_test(evaluation, -110))
+        estimates = {"model_version": "test", "enabled": {"spread": True}, "markets": {"m1": evaluation}}
+        picks, _ = pipeline.make_picks(estimates, [market], now, {"min_value_score": 7})
+        self.assertEqual(picks[0]["value_rating"], evaluation["value_score"])
+        self.assertGreaterEqual(picks[0]["value_rating"], 7)
 
     @unittest.skipUnless(importlib.util.find_spec("numpy") and importlib.util.find_spec("sklearn"), "Optional training dependencies")
     def test_training_is_forward_only(self):
