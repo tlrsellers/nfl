@@ -1,1386 +1,14 @@
 {
   "schema_version": 1,
   "mode": "snapshot",
-  "generated_at": "2026-10-13T05:12:09Z",
+  "generated_at": "2026-10-13T05:14:23Z",
   "season": "2026",
   "coverage": {
-    "games": 28,
+    "games": 14,
     "markets": 60,
     "analyzed": 0
   },
   "games": [
-    {
-      "id": "nflverse-2026_05_PHI_JAX",
-      "away": "Philadelphia Eagles",
-      "home": "Jacksonville Jaguars",
-      "kickoff": "2026-10-11T13:30:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2024-11-03",
-          "score": "Jacksonville Jaguars 23–Philadelphia Eagles 28",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2022-10-02",
-          "score": "Jacksonville Jaguars 21–Philadelphia Eagles 29",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2018-10-28",
-          "score": "Philadelphia Eagles 24–Jacksonville Jaguars 18",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2014-09-07",
-          "score": "Jacksonville Jaguars 17–Philadelphia Eagles 34",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2010-09-26",
-          "score": "Philadelphia Eagles 28–Jacksonville Jaguars 3",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Eric Murray (DB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Johnny Wilson (WR) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Zach Durfee (DE) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists CJ Williams (WR) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Patrick Mekari (OL) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Ross Matiscik (LS) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Alijah Huzzie (DB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Rest: Philadelphia Eagles 7 days; Jacksonville Jaguars 7 days",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Philadelphia Eagles 5 games, 18.4 points for and 22.4 allowed per game; Jacksonville Jaguars 5 games, 24.6 points for and 14.0 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ]
-    },
-    {
-      "id": "nflverse-2026_05_CHI_GB",
-      "away": "Chicago Bears",
-      "home": "Green Bay Packers",
-      "kickoff": "2026-10-11T17:00:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2026-01-10",
-          "score": "Green Bay Packers 27–Chicago Bears 31",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2025-12-20",
-          "score": "Green Bay Packers 16–Chicago Bears 22",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2025-12-07",
-          "score": "Chicago Bears 21–Green Bay Packers 28",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2025-01-05",
-          "score": "Chicago Bears 24–Green Bay Packers 22",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2024-11-17",
-          "score": "Green Bay Packers 20–Chicago Bears 19",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Jayden Reed (WR) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Chris Brooks (RB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Collin Oliver (DE) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Jordon Riley (DL) as PUP; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Donovan Jennings (OL) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Rest: Chicago Bears 7 days; Green Bay Packers 7 days. Away-city to venue: about 184 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Chicago Bears 5 games, 23.8 points for and 19.2 allowed per game; Green Bay Packers 5 games, 20.8 points for and 22.4 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ]
-    },
-    {
-      "id": "nflverse-2026_05_CIN_MIA",
-      "away": "Cincinnati Bengals",
-      "home": "Miami Dolphins",
-      "kickoff": "2026-10-11T17:00:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2025-12-21",
-          "score": "Cincinnati Bengals 45–Miami Dolphins 21",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2022-09-29",
-          "score": "Miami Dolphins 15–Cincinnati Bengals 27",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2020-12-06",
-          "score": "Cincinnati Bengals 7–Miami Dolphins 19",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2019-12-22",
-          "score": "Cincinnati Bengals 35–Miami Dolphins 38",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2018-10-07",
-          "score": "Miami Dolphins 17–Cincinnati Bengals 27",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Kyle Louis (LB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Landon Robinson (NT) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Ja'Sir Taylor (DB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Jack Endries (TE) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Justin Joly (TE) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Rene Konga (DL) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Rest: Cincinnati Bengals 7 days; Miami Dolphins 7 days. Away-city to venue: about 941 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Cincinnati Bengals 5 games, 25.6 points for and 21.8 allowed per game; Miami Dolphins 5 games, 14.0 points for and 26.4 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ]
-    },
-    {
-      "id": "nflverse-2026_05_LV_NE",
-      "away": "Las Vegas Raiders",
-      "home": "New England Patriots",
-      "kickoff": "2026-10-11T17:00:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2025-09-07",
-          "score": "Las Vegas Raiders 20–New England Patriots 13",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2023-10-15",
-          "score": "New England Patriots 17–Las Vegas Raiders 21",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2022-12-18",
-          "score": "New England Patriots 24–Las Vegas Raiders 30",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2020-09-27",
-          "score": "Las Vegas Raiders 20–New England Patriots 36",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Behren Morton (QB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Dalton Johnson (DB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Patrick Johnson (LB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Trey Zuhn (OT) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Corey Rucker (WR) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Justin Pickett (G) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Bryce Baringer (P) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists TreVeyon Henderson (RB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Mike Onwenu (OL) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Rest: Las Vegas Raiders 7 days; New England Patriots 7 days. Away-city to venue: about 2,365 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Las Vegas Raiders 5 games, 26.4 points for and 25.8 allowed per game; New England Patriots 5 games, 22.0 points for and 18.8 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ]
-    },
-    {
-      "id": "nflverse-2026_05_MIN_NO",
-      "away": "Minnesota Vikings",
-      "home": "New Orleans Saints",
-      "kickoff": "2026-10-11T17:00:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2023-11-12",
-          "score": "New Orleans Saints 19–Minnesota Vikings 27",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2022-10-02",
-          "score": "Minnesota Vikings 28–New Orleans Saints 25",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2020-12-25",
-          "score": "Minnesota Vikings 33–New Orleans Saints 52",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2020-01-05",
-          "score": "Minnesota Vikings 26–New Orleans Saints 20",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2018-10-28",
-          "score": "New Orleans Saints 30–Minnesota Vikings 20",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Nathan Shepherd (DT) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Rejzohn Wright (CB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists T.J. Hockenson (TE) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Zach Wilson (QB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Tyler Batty (DL) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Vernon Broughton (DT) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Charles Demmings (CB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Rest: Minnesota Vikings 7 days; New Orleans Saints 6 days. Away-city to venue: about 1,052 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Minnesota Vikings 5 games, 21.8 points for and 12.8 allowed per game; New Orleans Saints 5 games, 23.6 points for and 30.2 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ]
-    },
-    {
-      "id": "nflverse-2026_05_CLE_NYJ",
-      "away": "Cleveland Browns",
-      "home": "New York Jets",
-      "kickoff": "2026-10-11T17:00:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2025-11-09",
-          "score": "Cleveland Browns 20–New York Jets 27",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2023-12-28",
-          "score": "New York Jets 20–Cleveland Browns 37",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2022-09-18",
-          "score": "New York Jets 31–Cleveland Browns 30",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2020-12-27",
-          "score": "Cleveland Browns 16–New York Jets 23",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2019-09-16",
-          "score": "Cleveland Browns 23–New York Jets 3",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists VJ Payne (DB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Kalia Davis (DL) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Nate Lynn (DL) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Parker Brailsford (C) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Kingsley Jonathan (DT) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Rest: Cleveland Browns 10 days; New York Jets 7 days. Away-city to venue: about 399 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Cleveland Browns 5 games, 18.6 points for and 22.4 allowed per game; New York Jets 5 games, 18.6 points for and 19.2 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ]
-    },
-    {
-      "id": "nflverse-2026_05_IND_PIT",
-      "away": "Indianapolis Colts",
-      "home": "Pittsburgh Steelers",
-      "kickoff": "2026-10-11T17:00:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2025-11-02",
-          "score": "Indianapolis Colts 20–Pittsburgh Steelers 27",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2024-09-29",
-          "score": "Pittsburgh Steelers 24–Indianapolis Colts 27",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2023-12-16",
-          "score": "Pittsburgh Steelers 13–Indianapolis Colts 30",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2022-11-28",
-          "score": "Pittsburgh Steelers 24–Indianapolis Colts 17",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2020-12-27",
-          "score": "Indianapolis Colts 24–Pittsburgh Steelers 28",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Will Mallory (TE) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Rest: Indianapolis Colts 7 days; Pittsburgh Steelers 10 days. Away-city to venue: about 328 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Indianapolis Colts 5 games, 24.8 points for and 27.6 allowed per game; Pittsburgh Steelers 5 games, 22.2 points for and 21.8 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ]
-    },
-    {
-      "id": "nflverse-2026_05_HOU_TEN",
-      "away": "Houston Texans",
-      "home": "Tennessee Titans",
-      "kickoff": "2026-10-11T17:00:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2025-11-16",
-          "score": "Houston Texans 16–Tennessee Titans 13",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2025-09-28",
-          "score": "Tennessee Titans 0–Houston Texans 26",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2025-01-05",
-          "score": "Houston Texans 23–Tennessee Titans 14",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2024-11-24",
-          "score": "Tennessee Titans 32–Houston Texans 27",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2023-12-31",
-          "score": "Tennessee Titans 3–Houston Texans 26",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Jake Hummel (LB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Henry To'oTo'o (LB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Rest: Houston Texans 7 days; Tennessee Titans 7 days. Away-city to venue: about 671 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Houston Texans 5 games, 22.0 points for and 22.4 allowed per game; Tennessee Titans 5 games, 11.6 points for and 21.8 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ]
-    },
-    {
-      "id": "nflverse-2026_05_NYG_WAS",
-      "away": "New York Giants",
-      "home": "Washington Commanders",
-      "kickoff": "2026-10-11T17:00:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2025-12-14",
-          "score": "Washington Commanders 29–New York Giants 21",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2025-09-07",
-          "score": "New York Giants 6–Washington Commanders 21",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2024-11-03",
-          "score": "Washington Commanders 27–New York Giants 22",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2024-09-15",
-          "score": "New York Giants 18–Washington Commanders 21",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2023-11-19",
-          "score": "New York Giants 31–Washington Commanders 19",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Jason Pinnock (CB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Devin Singletary (RB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Braxton Berrios (WR) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Rest: New York Giants 7 days; Washington Commanders 7 days. Away-city to venue: about 198 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: New York Giants 5 games, 21.8 points for and 21.2 allowed per game; Washington Commanders 5 games, 23.0 points for and 29.8 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ]
-    },
-    {
-      "id": "nflverse-2026_05_DEN_LAC",
-      "away": "Denver Broncos",
-      "home": "Los Angeles Chargers",
-      "kickoff": "2026-10-11T20:05:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2026-01-04",
-          "score": "Los Angeles Chargers 3–Denver Broncos 19",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2025-09-21",
-          "score": "Denver Broncos 20–Los Angeles Chargers 23",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2024-12-19",
-          "score": "Denver Broncos 27–Los Angeles Chargers 34",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2024-10-13",
-          "score": "Los Angeles Chargers 23–Denver Broncos 16",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2023-12-31",
-          "score": "Los Angeles Chargers 9–Denver Broncos 16",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Kage Casey (OT) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Brenen Thompson (WR) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Ladd McConkey (WR) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Levelle Bailey (LB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Sam Ehlinger (QB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Rest: Denver Broncos 7 days; Los Angeles Chargers 7 days. Away-city to venue: about 837 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Denver Broncos 5 games, 19.4 points for and 22.2 allowed per game; Los Angeles Chargers 5 games, 16.8 points for and 25.8 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ]
-    },
-    {
-      "id": "nflverse-2026_05_DET_ARI",
-      "away": "Detroit Lions",
-      "home": "Arizona Cardinals",
-      "kickoff": "2026-10-11T20:25:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2024-09-22",
-          "score": "Detroit Lions 20–Arizona Cardinals 13",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2021-12-19",
-          "score": "Arizona Cardinals 12–Detroit Lions 30",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2020-09-27",
-          "score": "Detroit Lions 26–Arizona Cardinals 23",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2019-09-08",
-          "score": "Detroit Lions 27–Arizona Cardinals 27",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2018-12-09",
-          "score": "Detroit Lions 17–Arizona Cardinals 3",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Cade Mays (OL) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Brian Branch (DB) as PUP; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Will Johnson (DB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Devin White (LB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Rest: Detroit Lions 7 days; Arizona Cardinals 7 days. Away-city to venue: about 1,694 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Detroit Lions 5 games, 32.8 points for and 29.6 allowed per game; Arizona Cardinals 5 games, 21.6 points for and 32.4 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ]
-    },
-    {
-      "id": "nflverse-2026_05_SF_SEA",
-      "away": "San Francisco 49ers",
-      "home": "Seattle Seahawks",
-      "kickoff": "2026-10-11T20:25:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2026-01-17",
-          "score": "San Francisco 49ers 6–Seattle Seahawks 41",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2026-01-03",
-          "score": "Seattle Seahawks 13–San Francisco 49ers 3",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2025-09-07",
-          "score": "San Francisco 49ers 17–Seattle Seahawks 13",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2024-11-17",
-          "score": "Seattle Seahawks 20–San Francisco 49ers 17",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2024-10-10",
-          "score": "San Francisco 49ers 36–Seattle Seahawks 24",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Beau Stephens (G) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Nate Hobbs (CB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Andrew Farmer (LB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Jake Tonges (TE) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Leonard Williams (DE) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Drew Lock (QB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Aaron Smith (LB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Robert Henry (RB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Jaxon Smith-Njigba (WR) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Jacardia Wright (RB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Rest: San Francisco 49ers 7 days; Seattle Seahawks 7 days. Away-city to venue: about 704 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: San Francisco 49ers 5 games, 30.8 points for and 18.6 allowed per game; Seattle Seahawks 5 games, 26.8 points for and 21.0 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ]
-    },
-    {
-      "id": "nflverse-2026_05_BAL_ATL",
-      "away": "Baltimore Ravens",
-      "home": "Atlanta Falcons",
-      "kickoff": "2026-10-12T00:20:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2022-12-24",
-          "score": "Atlanta Falcons 9–Baltimore Ravens 17",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2018-12-02",
-          "score": "Baltimore Ravens 26–Atlanta Falcons 16",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2014-10-19",
-          "score": "Atlanta Falcons 7–Baltimore Ravens 29",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2010-11-11",
-          "score": "Baltimore Ravens 21–Atlanta Falcons 26",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2006-11-19",
-          "score": "Atlanta Falcons 10–Baltimore Ravens 24",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Cameron Williams (OL) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists JD Bertrand (LB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Adam Randall (RB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Anterio Thompson (DT) as PUP; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Trey Sermon (RB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Da'Shawn Hand (DT) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Christian Harris (LB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Elijah Sarratt (WR) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Danny Pinter (G) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Cooper Rush (QB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists DeAngelo Malone (DL) as PUP; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Rest: Baltimore Ravens 7 days; Atlanta Falcons 6 days. Away-city to venue: about 576 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Baltimore Ravens 5 games, 29.2 points for and 23.8 allowed per game; Atlanta Falcons 5 games, 23.8 points for and 24.4 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ]
-    },
-    {
-      "id": "nflverse-2026_05_BUF_LA",
-      "away": "Buffalo Bills",
-      "home": "Los Angeles Rams",
-      "kickoff": "2026-10-13T00:15:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2024-12-08",
-          "score": "Buffalo Bills 42–Los Angeles Rams 44",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2022-09-08",
-          "score": "Buffalo Bills 31–Los Angeles Rams 10",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2020-09-27",
-          "score": "Los Angeles Rams 32–Buffalo Bills 35",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2016-10-09",
-          "score": "Buffalo Bills 30–Los Angeles Rams 19",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Ed Oliver (DT) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Rest: Buffalo Bills 8 days; Los Angeles Rams 8 days. Away-city to venue: about 2,206 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Buffalo Bills 5 games, 32.8 points for and 28.2 allowed per game; Los Angeles Rams 5 games, 23.8 points for and 24.0 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ]
-    },
     {
       "id": "855f58fad5f0f14b239f4f63df27998b",
       "away": "Seattle Seahawks",
@@ -1495,6 +123,27 @@
           "publisher": "Sleeper",
           "published_at": null,
           "role": "injuries"
+        },
+        {
+          "title": "NFL suspends Dre Greenlaw one game after head-butting incident in 49ers' win over Seahawks",
+          "url": "https://www.cbssports.com/nfl/news/nfl-suspends-49ers-dre-greenlaw-seahawks/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T18:34:12Z",
+          "role": "news"
+        },
+        {
+          "title": "Mike Evans trolls Trevon Diggs with name-check in 49ers' win over Seahawks",
+          "url": "https://www.cbssports.com/nfl/news/49ers-seahawks-mike-evans-trolls-trevon-diggs/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T01:42:16Z",
+          "role": "news"
+        },
+        {
+          "title": "Broncos estimate CB Riley Moss as limited practice participant",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-estimate-cb-riley-moss-as-limited-practice-participant",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-12T21:03:56Z",
+          "role": "news"
         },
         {
           "title": "Kickoff forecast near Empower Field at Mile High: 54°F, wind 10 mph N, precipitation 54%",
@@ -1621,6 +270,13 @@
           "role": "injuries"
         },
         {
+          "title": "Jaguars signing LS Jacob Bobenmoyer",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-signing-ls-jacob-bobenmoyer",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-12T21:03:28Z",
+          "role": "news"
+        },
+        {
           "title": "Rest: Houston Texans 7 days; Jacksonville Jaguars 7 days",
           "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
           "publisher": "nflverse schedule",
@@ -1738,6 +394,34 @@
           "role": "injuries"
         },
         {
+          "title": "Michael Penix Jr. injury: Falcons QB's injury not considered serious but Week 6 status unclear, per report",
+          "url": "https://www.cbssports.com/nfl/news/michael-penix-jr-injury-update-falcons-qb-ravens-bears/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T19:46:21Z",
+          "role": "news"
+        },
+        {
+          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Ravens-Falcons, NFL Sunday Night Football",
+          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-ravens-falcons-on-nfl-sunday-night-football/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-11T23:52:03Z",
+          "role": "news"
+        },
+        {
+          "title": "Are the Pack back? Green Bay, Jordan Love erupt in dominant win vs. Bears behind retooled offensive line",
+          "url": "https://www.cbssports.com/nfl/news/are-the-pack-back-green-bay-jordan-love-erupt-dominant-win-bears/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T03:38:08Z",
+          "role": "news"
+        },
+        {
+          "title": "Caleb Williams is \"progressing\" but Bears haven't determined who will start if he can't",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-is-progressing-but-bears-havent-determined-who-will-start-if-he-cant",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-12T20:52:44Z",
+          "role": "news"
+        },
+        {
           "title": "Rest: Chicago Bears 7 days; Atlanta Falcons 7 days. Away-city to venue: about 587 straight-line miles (not team itinerary).",
           "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
           "publisher": "nflverse schedule",
@@ -1832,6 +516,20 @@
           "publisher": "Sleeper",
           "published_at": null,
           "role": "injuries"
+        },
+        {
+          "title": "Has the David Bailey breakout arrived? Jets' No. 2 overall pick shines in three-sack day vs. Browns",
+          "url": "https://www.cbssports.com/nfl/news/jets-david-bailey-breakout-shines-vs-browns/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T14:25:05Z",
+          "role": "news"
+        },
+        {
+          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Ravens-Falcons, NFL Sunday Night Football",
+          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-ravens-falcons-on-nfl-sunday-night-football/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-11T23:52:03Z",
+          "role": "news"
         },
         {
           "title": "Kickoff forecast near Huntington Bank Field: 57°F, wind 10 mph SW, precipitation 2%",
@@ -1944,6 +642,27 @@
           "role": "injuries"
         },
         {
+          "title": "Eagles RB Will Shipley could miss weeks, per report: What's next with Saquon Barkley, Tank Bigsby also hurt",
+          "url": "https://www.cbssports.com/nfl/news/eagles-will-shipley-injury-update-saquon-barkley-tank-bigsby/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T17:21:55Z",
+          "role": "news"
+        },
+        {
+          "title": "Head-scratching decisions by Commanders, Eagles; Georgia new No. 1 in college football, CFP shake-up",
+          "url": "https://www.cbssports.com/nfl/news/head-scratching-decisions-by-commanders-eagles-georgia-new-no-1-in-college-football-cfp-shake-up/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T13:02:38Z",
+          "role": "news"
+        },
+        {
+          "title": "NFL Week 6 early odds: Eagles favored despite massive disadvantage, Packers-Cowboys line flips",
+          "url": "https://www.cbssports.com/nfl/news/nfl-week-6-early-odds-spreads-full-schedule/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T12:11:40Z",
+          "role": "news"
+        },
+        {
           "title": "Kickoff forecast near Lincoln Financial Field: 55°F, wind 5 mph W, precipitation 2%",
           "url": "https://api.weather.gov/gridpoints/PHI/50,76/forecast/hourly",
           "publisher": "National Weather Service",
@@ -2017,6 +736,20 @@
           "publisher": "Sleeper",
           "published_at": null,
           "role": "injuries"
+        },
+        {
+          "title": "Should winless Titans bench Cam Ward? Why abandoning the former No. 1 pick will not fix Tennessee's turmoil",
+          "url": "https://www.cbssports.com/nfl/news/why-titans-should-not-bench-cam-ward-robert-saleh/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-13T01:18:35Z",
+          "role": "news"
+        },
+        {
+          "title": "Robert Saleh backs Cam Ward as Titans' starting QB despite 0-5 start",
+          "url": "https://www.cbssports.com/nfl/news/titans-robert-saleh-cam-ward-starting-qb-2026/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-11T23:25:24Z",
+          "role": "news"
         },
         {
           "title": "Rest: Tennessee Titans 7 days; Indianapolis Colts 7 days. Away-city to venue: about 251 straight-line miles (not team itinerary).",
@@ -2127,6 +860,20 @@
           "publisher": "Sleeper",
           "published_at": null,
           "role": "injuries"
+        },
+        {
+          "title": "Bill Belichick noticeably absent from Patriots' celebration of 2001 Super Bowl team",
+          "url": "https://www.cbssports.com/nfl/news/bill-belichick-absent-patriots-celebration-2001-super-bowl-team/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-13T01:16:25Z",
+          "role": "news"
+        },
+        {
+          "title": "Has the David Bailey breakout arrived? Jets' No. 2 overall pick shines in three-sack day vs. Browns",
+          "url": "https://www.cbssports.com/nfl/news/jets-david-bailey-breakout-shines-vs-browns/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T14:25:05Z",
+          "role": "news"
         },
         {
           "title": "Kickoff forecast near Gillette Stadium: 49°F, wind 8 mph NW, precipitation 5%",
@@ -2244,6 +991,20 @@
           "publisher": "Sleeper",
           "published_at": null,
           "role": "injuries"
+        },
+        {
+          "title": "NFC East makes dubious NFL history with winless Week 5 as Giants hold unlikely division lead",
+          "url": "https://www.cbssports.com/nfl/news/nfc-east-standings-cowboys-eagles-giants-commanders-week-5/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T14:23:17Z",
+          "role": "news"
+        },
+        {
+          "title": "Giants to sign DL Dawuane Smoot to practice squad",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-to-sign-dl-dawuane-smoot-to-practice-squad",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-12T23:21:05Z",
+          "role": "news"
         },
         {
           "title": "Kickoff forecast near MetLife Stadium: 55°F, wind 9 mph W, precipitation 2%",
@@ -2389,6 +1150,111 @@
           "role": "injuries"
         },
         {
+          "title": "Use FanDuel promo code to get $250 bonus bets by targeting Rams vs. Bills, NFL Monday Night Football",
+          "url": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-250-bonus-bets-rams-vs-bills-nfl-monday-night-football/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T23:30:50Z",
+          "role": "news"
+        },
+        {
+          "title": "Rams vs. Bills prediction, odds: Matthew Stafford, Josh Allen clash in Week 5 'MNF' matchup",
+          "url": "https://www.cbssports.com/nfl/news/rams-vs-bills-how-to-watch-prediction-odds-monday-night-football/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-13T00:00:38Z",
+          "role": "news"
+        },
+        {
+          "title": "Use FanDuel promo code to get $250 bonus bets by targeting Bills vs. Rams on Monday Night Football",
+          "url": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-claim-250-bonus-bets-bills-rams-monday-night-football/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T22:58:58Z",
+          "role": "news"
+        },
+        {
+          "title": "Rams vs. Bills odds, prediction, betting preview, start time: Monday Night Football picks, best bets",
+          "url": "https://www.cbssports.com/betting/news/rams-bills-odds-prediction-betting-preview-start-time-monday-night-football-picks-best-bets/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T22:57:37Z",
+          "role": "news"
+        },
+        {
+          "title": "Is DJ Moore playing on 'Monday Night Football?' A look at the Bills WR's status vs. Rams",
+          "url": "https://www.cbssports.com/nfl/news/is-dj-moore-playing-on-mnf-bills-wrs-status-vs-rams/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T22:51:33Z",
+          "role": "news"
+        },
+        {
+          "title": "Bills vs. Rams odds, picks, player props: Expert's best bets for NFL Week 5 Monday Night Football",
+          "url": "https://www.cbssports.com/betting/news/bills-vs-rams-odds-picks-player-props-experts-best-bets-for-nfl-week-5-monday-night-football/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T22:30:51Z",
+          "role": "news"
+        },
+        {
+          "title": "Rams-Bills, NFL betting promos: Pocket more than $3,000 in bonuses from top online betting apps, sportsbooks",
+          "url": "https://www.cbssports.com/betting/news/rams-bills-nfl-betting-promos-pocket-more-than-3000-in-bonuses-from-top-online-betting-apps-sportsbooks/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T21:08:21Z",
+          "role": "news"
+        },
+        {
+          "title": "Today's top games to watch, best bets, odds: Dodgers vs. Brewers, Bills vs. Rams on MNF and more",
+          "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-dodgers-vs-brewers-bills-vs-rams-on-mnf-and-more/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T23:30:53Z",
+          "role": "news"
+        },
+        {
+          "title": "Pick Six: NFL Week 5 winners and losers, plus Marvin Harrison Jr. trade grades and Bills-Rams picks",
+          "url": "https://www.cbssports.com/nfl/news/pick-six-nfl-week-5-winners-losers-marvin-harrison-jr-bills-rams-picks/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T15:49:26Z",
+          "role": "news"
+        },
+        {
+          "title": "Monday Night Football: Bills beat Rams 37-34 in overtime in instant classic",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bills-beat-rams-37-34-in-overtime-in-instant-classic",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-13T03:58:23Z",
+          "role": "news"
+        },
+        {
+          "title": "Puka Nacua's touchdown gives Rams a 20-19 lead",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacuas-touchdown-gives-rams-a-20-19-lead",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-13T02:47:29Z",
+          "role": "news"
+        },
+        {
+          "title": "Cardinals will discuss making Carson Beck active on game day",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-will-discuss-making-carson-beck-active-on-game-day",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-13T02:39:01Z",
+          "role": "news"
+        },
+        {
+          "title": "Rams open second half with a touchdown, lead 14-13",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-open-second-half-with-a-touchdown-lead-14-13",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-13T02:03:27Z",
+          "role": "news"
+        },
+        {
+          "title": "Monday Night Football: Bills lead Rams 13-7 at halftime",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bills-lead-rams-13-7-at-halftime",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-13T01:45:46Z",
+          "role": "news"
+        },
+        {
+          "title": "Davante Adams' touchdown gives Rams a 7-6 lead",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/davante-adams-touchdown-gives-rams-a-7-6-lead",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-13T01:10:29Z",
+          "role": "news"
+        },
+        {
           "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
           "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
           "publisher": "nflverse schedule",
@@ -2476,6 +1342,125 @@
           "publisher": "Sleeper",
           "published_at": null,
           "role": "injuries"
+        },
+        {
+          "title": "NFL Week 5 grades for every team: Bills earn 'B+' for wild Monday night win, while two teams get failing marks",
+          "url": "https://www.cbssports.com/nfl/news/nfl-week-5-grades-for-every-team-patriots-packers-bears/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-13T04:12:01Z",
+          "role": "news"
+        },
+        {
+          "title": "Use FanDuel promo code to get $250 bonus bets by targeting Rams vs. Bills, NFL Monday Night Football",
+          "url": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-250-bonus-bets-rams-vs-bills-nfl-monday-night-football/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T23:30:50Z",
+          "role": "news"
+        },
+        {
+          "title": "Rams vs. Bills prediction, odds: Matthew Stafford, Josh Allen clash in Week 5 'MNF' matchup",
+          "url": "https://www.cbssports.com/nfl/news/rams-vs-bills-how-to-watch-prediction-odds-monday-night-football/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-13T00:00:38Z",
+          "role": "news"
+        },
+        {
+          "title": "Use FanDuel promo code to get $250 bonus bets by targeting Bills vs. Rams on Monday Night Football",
+          "url": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-claim-250-bonus-bets-bills-rams-monday-night-football/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T22:58:58Z",
+          "role": "news"
+        },
+        {
+          "title": "Rams vs. Bills odds, prediction, betting preview, start time: Monday Night Football picks, best bets",
+          "url": "https://www.cbssports.com/betting/news/rams-bills-odds-prediction-betting-preview-start-time-monday-night-football-picks-best-bets/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T22:57:37Z",
+          "role": "news"
+        },
+        {
+          "title": "Is DJ Moore playing on 'Monday Night Football?' A look at the Bills WR's status vs. Rams",
+          "url": "https://www.cbssports.com/nfl/news/is-dj-moore-playing-on-mnf-bills-wrs-status-vs-rams/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T22:51:33Z",
+          "role": "news"
+        },
+        {
+          "title": "Bills vs. Rams odds, picks, player props: Expert's best bets for NFL Week 5 Monday Night Football",
+          "url": "https://www.cbssports.com/betting/news/bills-vs-rams-odds-picks-player-props-experts-best-bets-for-nfl-week-5-monday-night-football/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T22:30:51Z",
+          "role": "news"
+        },
+        {
+          "title": "Rams-Bills, NFL betting promos: Pocket more than $3,000 in bonuses from top online betting apps, sportsbooks",
+          "url": "https://www.cbssports.com/betting/news/rams-bills-nfl-betting-promos-pocket-more-than-3000-in-bonuses-from-top-online-betting-apps-sportsbooks/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T21:08:21Z",
+          "role": "news"
+        },
+        {
+          "title": "Today's top games to watch, best bets, odds: Dodgers vs. Brewers, Bills vs. Rams on MNF and more",
+          "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-dodgers-vs-brewers-bills-vs-rams-on-mnf-and-more/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T23:30:53Z",
+          "role": "news"
+        },
+        {
+          "title": "Pick Six: NFL Week 5 winners and losers, plus Marvin Harrison Jr. trade grades and Bills-Rams picks",
+          "url": "https://www.cbssports.com/nfl/news/pick-six-nfl-week-5-winners-losers-marvin-harrison-jr-bills-rams-picks/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T15:49:26Z",
+          "role": "news"
+        },
+        {
+          "title": "What's wrong with Matthew Stafford? Why 2025 MVP is struggling this season, could bounce back vs. Bills",
+          "url": "https://www.cbssports.com/nfl/news/why-rams-matthew-stafford-bounce-back-vs-bills/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T12:31:20Z",
+          "role": "news"
+        },
+        {
+          "title": "Monday Night Football: Bills beat Rams 37-34 in overtime in instant classic",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bills-beat-rams-37-34-in-overtime-in-instant-classic",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-13T03:58:23Z",
+          "role": "news"
+        },
+        {
+          "title": "Bills regain lead, 19-14, on Josh Allen's first TD pass of night",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-regain-lead-19-14-on-josh-allens-first-td-pass-of-night",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-13T02:34:03Z",
+          "role": "news"
+        },
+        {
+          "title": "Monday Night Football: Bills lead Rams 13-7 at halftime",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bills-lead-rams-13-7-at-halftime",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-13T01:45:46Z",
+          "role": "news"
+        },
+        {
+          "title": "James Cook finds the end zone, giving Bills a 13-7 lead",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/james-cook-finds-the-end-zone-giving-bills-a-13-7-lead",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-13T01:20:00Z",
+          "role": "news"
+        },
+        {
+          "title": "Monday Night Football: Bills WR DJ Moore, CB Dee Alford are inactive",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-bills-wr-dj-moore-cb-dee-alford-are-inactive",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-12T23:03:09Z",
+          "role": "news"
+        },
+        {
+          "title": "Bills elevate WR Trent Sherfield, DL Phidarian Mathis for Monday night",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-elevate-wr-trent-sherfield-dl-phidarian-mathis-for-monday-night",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-12T21:00:28Z",
+          "role": "news"
         },
         {
           "title": "Allegiant Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
@@ -2588,6 +1573,13 @@
           "role": "injuries"
         },
         {
+          "title": "What's next for Chargers? Why Khalil Mack should be traded, plus what to do about Jim Harbaugh, Mike McDaniel",
+          "url": "https://www.cbssports.com/nfl/news/chargers-record-2026-justin-herbert-jim-harbaugh-nfl-trade-deadline/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T15:55:41Z",
+          "role": "news"
+        },
+        {
           "title": "Kickoff forecast near GEHA Field at Arrowhead Stadium: 70°F, wind 10 mph S, precipitation 5%",
           "url": "https://api.weather.gov/gridpoints/EAX/47,48/forecast/hourly",
           "publisher": "National Weather Service",
@@ -2698,6 +1690,34 @@
           "role": "injuries"
         },
         {
+          "title": "Cowboys hire former NFL head coach, Packers' DC to help fix struggling defense",
+          "url": "https://www.cbssports.com/nfl/news/cowboys-hire-mike-pettine-to-help-defense-christian-parker/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T21:37:59Z",
+          "role": "news"
+        },
+        {
+          "title": "Javon Hargrave out for season with torn Achilles: Three trade targets for Packers",
+          "url": "https://www.cbssports.com/nfl/news/javon-hargrave-injury-update-packers-trade-targets/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T18:28:11Z",
+          "role": "news"
+        },
+        {
+          "title": "NFL Week 6 early odds: Eagles favored despite massive disadvantage, Packers-Cowboys line flips",
+          "url": "https://www.cbssports.com/nfl/news/nfl-week-6-early-odds-spreads-full-schedule/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T12:11:40Z",
+          "role": "news"
+        },
+        {
+          "title": "Bucs-Cowboys attracts 16.73 million viewers on Thursday night",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-cowboys-attracts-16-73-million-viewers-on-thursday-night",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-13T00:35:09Z",
+          "role": "news"
+        },
+        {
           "title": "Kickoff forecast near Lambeau Field: 56°F, wind 10 mph SSW, precipitation 3%",
           "url": "https://api.weather.gov/gridpoints/GRB/78,31/forecast/hourly",
           "publisher": "National Weather Service",
@@ -2785,6 +1805,48 @@
           "publisher": "Sleeper",
           "published_at": null,
           "role": "injuries"
+        },
+        {
+          "title": "Deebo Samuel injury: 49ers wideout expected to miss multiple weeks with hamstring injury",
+          "url": "https://www.cbssports.com/nfl/news/49ers-deebo-samuel-hamstring-injury-update/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T20:15:27Z",
+          "role": "news"
+        },
+        {
+          "title": "NFL suspends Dre Greenlaw one game after head-butting incident in 49ers' win over Seahawks",
+          "url": "https://www.cbssports.com/nfl/news/nfl-suspends-49ers-dre-greenlaw-seahawks/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T18:34:12Z",
+          "role": "news"
+        },
+        {
+          "title": "Head-scratching decisions by Commanders, Eagles; Georgia new No. 1 in college football, CFP shake-up",
+          "url": "https://www.cbssports.com/nfl/news/head-scratching-decisions-by-commanders-eagles-georgia-new-no-1-in-college-football-cfp-shake-up/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T13:02:38Z",
+          "role": "news"
+        },
+        {
+          "title": "Mike Evans trolls Trevon Diggs with name-check in 49ers' win over Seahawks",
+          "url": "https://www.cbssports.com/nfl/news/49ers-seahawks-mike-evans-trolls-trevon-diggs/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T01:42:16Z",
+          "role": "news"
+        },
+        {
+          "title": "NFL Week 5 winners and losers: Commanders botch overtime as 49ers take command of NFC West",
+          "url": "https://www.cbssports.com/nfl/news/nfl-week-5-winners-and-losers-commanders-nfc-east/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-12T00:46:35Z",
+          "role": "news"
+        },
+        {
+          "title": "Commanders minority owner Magic Johnson sounds off after stunning end-of-game botch",
+          "url": "https://www.cbssports.com/nfl/news/commanders-giants-overtime-clock-management-magic-johnson/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-11T23:45:51Z",
+          "role": "news"
         },
         {
           "title": "Rest: Washington Commanders 8 days; San Francisco 49ers 8 days. Away-city to venue: about 2,428 straight-line miles (not team itinerary).",
@@ -3539,23 +2601,23 @@
       "detail": "Sleeper player-status metadata, refreshed daily; not an official game injury report."
     },
     "News": {
-      "status": "unavailable",
-      "checked_at": null,
-      "detail": "No feed configured"
+      "status": "ok",
+      "checked_at": "2026-10-13T05:14:23Z",
+      "detail": "NFL RSS headlines from CBS Sports, NBC Sports matched to teams; player-only stories may be missed."
     },
     "Weather": {
       "status": "ok",
-      "checked_at": "2026-10-13T05:12:08Z",
+      "checked_at": "2026-10-13T05:14:22Z",
       "detail": "NWS hourly forecasts for 10 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
     },
     "Travel": {
       "status": "ok",
-      "checked_at": "2026-10-13T05:12:06Z",
+      "checked_at": "2026-10-13T05:14:20Z",
       "detail": "Rest days and approximate distances from nflverse; no verified team itinerary."
     },
     "Statistics": {
       "status": "ok",
-      "checked_at": "2026-10-13T05:12:06Z",
+      "checked_at": "2026-10-13T05:14:20Z",
       "detail": "Team scoring from current-season final scores; player and line ratings are not yet available."
     },
     "Historical Bovada": {
