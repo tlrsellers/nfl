@@ -23,7 +23,9 @@ from pipeline import ROOT, now_iso, parse_time
 DATA = ROOT / "data" / "free"
 SCHEDULE_URL = "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
 PLAYERS_URL = "https://api.sleeper.app/v1/players/nfl"
-NEWS_URL = "https://www.espn.com/espn/rss/nfl/news"
+NEWS_FEEDS = (("ESPN", "https://www.espn.com/espn/rss/nfl/news"),
+              ("CBS Sports", "https://www.cbssports.com/rss/headlines/nfl/"),
+              ("NBC Sports", "https://www.nbcsports.com/profootballtalk.rss"))
 STATS_URL = "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_{season}.csv"
 USER_AGENT = "FourthDownResearch/0.2 (https://github.com/tlrsellers/nfl)"
 
@@ -154,7 +156,7 @@ def upcoming_slate(rows: list[dict], now: datetime) -> list[dict]:
             kickoff = local.replace(tzinfo=ZoneInfo("America/New_York")).astimezone(timezone.utc)
         except (KeyError, ValueError):
             continue
-        if now - timedelta(days=2) < kickoff < now + timedelta(days=8):
+        if now < kickoff < now + timedelta(days=8):
             slate.append({"id": "nflverse-" + r["game_id"], "away": TEAMS[r["away_team"]][0],
                           "home": TEAMS[r["home_team"]][0], "kickoff": kickoff.isoformat().replace("+00:00", "Z"),
                           "status": "scheduled"})
@@ -163,7 +165,7 @@ def upcoming_slate(rows: list[dict], now: datetime) -> list[dict]:
 
 def combined_slate(snapshot: list[dict], schedule: list[dict], now: datetime) -> list[dict]:
     current = [g for g in snapshot if parse_time(g.get("kickoff")) and
-               now - timedelta(days=2) < parse_time(g["kickoff"]) < now + timedelta(days=8)]
+               now < parse_time(g["kickoff"]) < now + timedelta(days=8)]
     for game in schedule:
         kick = parse_time(game["kickoff"])
         if not any(g.get("away") == game["away"] and g.get("home") == game["home"] and
@@ -173,30 +175,37 @@ def combined_slate(snapshot: list[dict], schedule: list[dict], now: datetime) ->
 
 
 def collect_news(games: list[dict]) -> None:
-    root = ET.fromstring(fetch(NEWS_URL, 1_000_000))
-    findings, seen = [], set()
-    for item in root.findall(".//item"):
-        title = (item.findtext("title") or "").strip()
-        link = (item.findtext("link") or "").strip()
-        if not title or not link.startswith("https://") or link in seen:
-            continue
-        seen.add(link)
+    findings, seen, checked = [], set(), []
+    for publisher, url in NEWS_FEEDS:
         try:
-            published = parsedate_to_datetime(item.findtext("pubDate") or "").astimezone(timezone.utc)
-        except (TypeError, ValueError, IndexError):
+            root = ET.fromstring(fetch(url, 1_000_000))
+        except (OSError, ValueError, ET.ParseError):
             continue
-        if datetime.now(timezone.utc) - published > timedelta(days=3):
-            continue
-        text = title.casefold()
-        for g in games:
-            names = [g["away"], g["home"]]
-            tokens = [name.casefold() for name in names]
-            tokens += [SHORT[team].casefold() for team in map(code, names) if team in SHORT]
-            if any(re.search(r"(?<!\w)" + re.escape(token) + r"(?!\w)", text) for token in tokens):
-                findings.append({"game_id": g["id"], "title": title, "publisher": "ESPN",
-                                 "url": link, "published_at": published.isoformat().replace("+00:00", "Z")})
+        checked.append(publisher)
+        for item in root.findall(".//item"):
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            if not title or not link.startswith("https://") or link in seen:
+                continue
+            seen.add(link)
+            try:
+                published = parsedate_to_datetime(item.findtext("pubDate") or "").astimezone(timezone.utc)
+            except (TypeError, ValueError, IndexError):
+                continue
+            if datetime.now(timezone.utc) - published > timedelta(days=3):
+                continue
+            text = title.casefold()
+            for g in games:
+                names = [g["away"], g["home"]]
+                tokens = [name.casefold() for name in names]
+                tokens += [SHORT[team].casefold() for team in map(code, names) if team in SHORT]
+                if any(re.search(r"(?<!\w)" + re.escape(token) + r"(?!\w)", text) for token in tokens):
+                    findings.append({"game_id": g["id"], "title": title, "publisher": publisher,
+                                     "url": link, "published_at": published.isoformat().replace("+00:00", "Z")})
+    if not checked:
+        raise ValueError("No news feed responded with RSS")
     put("news", {"checked_at": now_iso(), "findings": findings[:100],
-                 "coverage_note": "ESPN NFL RSS headlines matched to teams; player-only stories may be missed."})
+                 "coverage_note": f"NFL RSS headlines from {', '.join(checked)} matched to teams; player-only stories may be missed."})
 
 
 def collect_injuries(games: list[dict], now: datetime) -> None:
@@ -214,7 +223,7 @@ def collect_injuries(games: list[dict], now: datetime) -> None:
         raise ValueError("Sleeper player directory incomplete")
     by_team = {code(g[side]) for g in games for side in ("away", "home")}
     status_values = {"Out", "Doubtful", "Questionable", "IR", "PUP", "NFI", "Suspended"}
-    findings = []
+    by_game = {g["id"]: [] for g in games}
     for player in players.values():
         if not isinstance(player, dict) or player.get("team") not in by_team:
             continue
@@ -223,9 +232,11 @@ def collect_injuries(games: list[dict], now: datetime) -> None:
             continue
         for g in games:
             if player["team"] in (code(g["away"]), code(g["home"])):
-                findings.append({"game_id": g["id"], "title": f"Sleeper lists {player['full_name']} ({player.get('position') or 'NFL'}) as {status}; verify the official team report",
-                                 "publisher": "Sleeper", "url": PLAYERS_URL})
-    put("injuries", {"checked_at": now_iso(), "findings": findings[:150],
+                by_game[g["id"]].append((0 if status in ("Out", "Doubtful", "Questionable") else 1,
+                    {"game_id": g["id"], "title": f"Sleeper lists {player['full_name']} ({player.get('position') or 'NFL'}) as {status}; verify the official team report",
+                     "publisher": "Sleeper", "url": PLAYERS_URL}))
+    findings = [entry for group in by_game.values() for _, entry in sorted(group, key=lambda v: (v[0], v[1]["title"]))[:12]]
+    put("injuries", {"checked_at": now_iso(), "findings": findings,
                      "coverage_note": "Sleeper player-status metadata, refreshed daily; not an official game injury report."})
 
 
