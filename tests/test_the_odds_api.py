@@ -1,7 +1,10 @@
 import sys
 import unittest
+from io import BytesIO
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from unittest.mock import patch
+from urllib.error import HTTPError
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import the_odds_api as odds
@@ -64,6 +67,15 @@ class AdapterTests(unittest.TestCase):
         self.assertEqual(client.spent, 5)
         self.assertEqual([m["category"] for m in result["markets"]], ["Spread", "Player prop"])
         self.assertIn("Test QB", result["markets"][1]["selection"])
+
+    def test_http_error_reports_reason_without_key(self):
+        error = HTTPError("https://api.the-odds-api.com/?apiKey=SECRET", 401,
+                          "Unauthorized", {}, BytesIO(b'{"error_code":"INVALID_KEY"}'))
+        with patch.object(odds.urllib.request, "urlopen", side_effect=error):
+            with self.assertRaises(odds.FeedError) as raised:
+                odds.Client("SECRET", 10).get("/events/", {}, 0)
+        self.assertEqual(str(raised.exception), "Provider events HTTP 401 (INVALID_KEY)")
+        self.assertNotIn("SECRET", str(raised.exception))
 
 
 if __name__ == "__main__":
