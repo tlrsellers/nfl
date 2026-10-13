@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "mode": "snapshot",
-  "generated_at": "2026-10-13T10:32:23Z",
+  "generated_at": "2026-10-13T10:57:15Z",
   "season": "2026",
   "coverage": {
     "games": 14,
@@ -123,6 +123,13 @@
           "publisher": "Sleeper",
           "published_at": null,
           "role": "injuries"
+        },
+        {
+          "title": "NFL Week 6 picks and score predictions: Seahawks destroy Broncos, Eagles lose again, Cowboys stun Packers",
+          "url": "https://www.cbssports.com/nfl/news/breech-nfl-week-6-picks-score-predictions-odds/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-13T10:00:55Z",
+          "role": "news"
         },
         {
           "title": "NFL suspends Dre Greenlaw one game after head-butting incident in 49ers' win over Seahawks",
@@ -401,13 +408,6 @@
           "role": "news"
         },
         {
-          "title": "Caleb Williams is \"progressing\" but Bears haven't determined who will start if he can't",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-is-progressing-but-bears-havent-determined-who-will-start-if-he-cant",
-          "publisher": "NBC Sports",
-          "published_at": "2026-10-12T20:52:44Z",
-          "role": "news"
-        },
-        {
           "title": "Rest: Chicago Bears 7 days; Atlanta Falcons 7 days. Away-city to venue: about 587 straight-line miles (not team itinerary).",
           "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
           "publisher": "nflverse schedule",
@@ -619,6 +619,13 @@
           "publisher": "Sleeper",
           "published_at": null,
           "role": "injuries"
+        },
+        {
+          "title": "NFL Week 6 picks and score predictions: Seahawks destroy Broncos, Eagles lose again, Cowboys stun Packers",
+          "url": "https://www.cbssports.com/nfl/news/breech-nfl-week-6-picks-score-predictions-odds/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-13T10:00:55Z",
+          "role": "news"
         },
         {
           "title": "Eagles RB Will Shipley could miss weeks, per report: What's next with Saquon Barkley, Tank Bigsby also hurt",
@@ -1697,6 +1704,13 @@
           "role": "injuries"
         },
         {
+          "title": "NFL Week 6 picks and score predictions: Seahawks destroy Broncos, Eagles lose again, Cowboys stun Packers",
+          "url": "https://www.cbssports.com/nfl/news/breech-nfl-week-6-picks-score-predictions-odds/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-13T10:00:55Z",
+          "role": "news"
+        },
+        {
           "title": "Prisco's NFL Week 6 Power Rankings: 49ers are league's best team, Packers climb 10 spots",
           "url": "https://www.cbssports.com/nfl/news/priscos-nfl-week-6-power-rankings-49ers-packers/",
           "publisher": "CBS Sports",
@@ -1853,13 +1867,6 @@
           "url": "https://www.cbssports.com/nfl/news/49ers-seahawks-mike-evans-trolls-trevon-diggs/",
           "publisher": "CBS Sports",
           "published_at": "2026-10-12T01:42:16Z",
-          "role": "news"
-        },
-        {
-          "title": "NFL Week 5 winners and losers: Commanders botch overtime as 49ers take command of NFC West",
-          "url": "https://www.cbssports.com/nfl/news/nfl-week-5-winners-and-losers-commanders-nfc-east/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-12T00:46:35Z",
           "role": "news"
         },
         {
@@ -2602,6 +2609,8 @@
     }
   ],
   "picks": [],
+  "team_ratings": {},
+  "scoring_version": "nfl-scoring-1.0",
   "alerts": [],
   "sources": {
     "Bovada odds": {
@@ -2616,22 +2625,22 @@
     },
     "News": {
       "status": "ok",
-      "checked_at": "2026-10-13T10:32:23Z",
+      "checked_at": "2026-10-13T10:57:15Z",
       "detail": "NFL RSS headlines from CBS Sports, NBC Sports matched to teams; player-only stories may be missed."
     },
     "Weather": {
       "status": "ok",
-      "checked_at": "2026-10-13T10:32:22Z",
+      "checked_at": "2026-10-13T10:57:14Z",
       "detail": "NWS hourly forecasts for 10 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
     },
     "Travel": {
       "status": "ok",
-      "checked_at": "2026-10-13T10:32:20Z",
+      "checked_at": "2026-10-13T10:57:12Z",
       "detail": "Rest days and approximate distances from nflverse; no verified team itinerary."
     },
     "Statistics": {
       "status": "ok",
-      "checked_at": "2026-10-13T10:32:20Z",
+      "checked_at": "2026-10-13T10:57:12Z",
       "detail": "Team scoring from current-season final scores; player and line ratings are not yet available."
     },
     "Historical Bovada": {
@@ -2658,6 +2667,11 @@
       "status": "unavailable",
       "checked_at": null,
       "detail": "Requires connected evidence and approved AI budget"
+    },
+    "Scoring engine": {
+      "status": "unavailable",
+      "checked_at": "2026-10-13T10:57:15Z",
+      "detail": "Need current-season EPA, success rates, explosive rates, and special-teams metrics."
     }
   },
   "ai_status": "Disabled pending cost approval",
