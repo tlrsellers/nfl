@@ -44,15 +44,17 @@ jobs:
         with:
           python-version: '3.12'
       - name: Fetch Bovada odds (manual and capped)
-        if: github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds
+        # This exact marker triggers one approved game-line check from a push.
+        # Normal pushes and all scheduled runs never call the paid API.
+        if: (github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[one-time-bovada-test-20261013]'))
         env:
           THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
-          ODDS_API_CREDIT_LIMIT: ${{ inputs.credit_limit }}
-          ODDS_API_INCLUDE_PROPS: ${{ inputs.include_player_props }}
+          ODDS_API_CREDIT_LIMIT: ${{ github.event_name == 'push' && '10' || inputs.credit_limit }}
+          ODDS_API_INCLUDE_PROPS: ${{ github.event_name == 'push' && 'false' || inputs.include_player_props }}
         run: python3 scripts/the_odds_api.py
       - name: Build verified public feed
         env:
-          ODDS_FEED_FILE: ${{ github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds && 'data/the_odds_api_feed.json' || '' }}
+          ODDS_FEED_FILE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[one-time-bovada-test-20261013]'))) && 'data/the_odds_api_feed.json' || '' }}
           ODDS_FEED_URL: ${{ vars.ODDS_FEED_URL }}
           ODDS_FEED_TOKEN: ${{ secrets.ODDS_FEED_TOKEN }}
           INJURIES_FEED_URL: ${{ vars.INJURIES_FEED_URL }}
