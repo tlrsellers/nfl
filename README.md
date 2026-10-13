@@ -9,11 +9,11 @@ A responsive GitHub Pages dashboard for NFL market research. It shows games, sou
 - Python pipeline that accepts separate authorized JSON feeds for Bovada odds, injuries, news, weather, travel, current-season statistics, historical Bovada lines, and externally validated probability estimates.
 - Manual The Odds API adapter for current Bovada NFL game lines and provider-listed full-game player props. It requires a private API key and enforces a credit limit per run; provider coverage is not guaranteed to contain every Bovada website offer.
 - Odds validation, timestamps, 12-minute freshness gate, American-odds EV calculation with pushes, conservative-value gate, and a valid result of zero recommended picks.
-- GitHub Actions and Pages workflow with a five-minute scheduling target. Scheduled deployment is skipped until `ODDS_FEED_URL` is configured. A compact latest-market state is committed only when lines or odds change; line-move alerts compare the next observation to that state.
+- GitHub Actions and Pages workflow with an hourly schedule target. Scheduled deployment is skipped until an approved recurring source is configured. The latest public snapshot and market state are retained when a verified feed runs; line-move alerts compare the next observation to that state.
 
 ## What still needs verified integration
 
-No key for The Odds API, historical Bovada archive, score/stat source, source-specific crawlers, calibrated player-prop probability models, or Claude API agent calls are configured. **Do not read the deployed site as live betting research until those sources are working and audited.** GitHub Actions may start late or skip a scheduled run; the UI shows update times and stale quotes.
+The Odds API key has been used for capped manual tests. Historical Bovada archives, score/stat sources, source-specific crawlers, calibrated player-prop probability models, and Claude API agent calls are not configured. **Do not read the deployed site as live betting research until those sources are working and audited.** GitHub Actions may start late or skip a scheduled run; the UI shows update times and stale quotes.
 
 The project supports independent collector inputs but does not yet contain fully operating news, travel, injury, weather, and historical crawlers. Paid AI analysis is disabled while the required cost estimate and user-approved limit are pending. The Dashboard's `Agents & sources` page exposes these gaps.
 
@@ -38,11 +38,11 @@ For local feed testing, set `ODDS_FEED_FILE=/absolute/path/to/odds.json` and the
 6. Alternatively, once a verified and publishable normalized Bovada feed exists, set the repository variable `ODDS_FEED_URL`, then any other `<ROLE>_FEED_URL` variables. Store bearer tokens as Actions secrets. See the [feed contract](docs/DATA_CONTRACT.md).
 7. Confirm the feed's market coverage, freshness, and settlement rules. Only then consider enabling a validated model feed. There is no direct website scraper in this repository.
 
-This first version deploys the current published snapshot as a Pages artifact and retains only the latest market state in the repository for change detection. It does not preserve every five-minute quote or provide a comprehensive historical odds archive. A historical storage design, calibrated probability models, paid Claude agent execution, and provider permissions must be approved before those components can operate.
+This version deploys the current published snapshot as a Pages artifact and retains the latest public snapshot and market state in the repository after verified runs. It does not preserve every hourly quote or provide a comprehensive historical odds archive. A historical storage design, calibrated probability models, paid Claude agent execution, and provider permissions must be approved before those components can operate.
 
 ### Quota review before recurring polling
 
-The Odds API charges credits by region/bookmaker group and market. The featured `h2h`, `spreads`, and `totals` request is budgeted at 3 credits. Discovering props costs 1 credit per game; requesting all discovered prop types adds approximately 1 credit per type per game. The adapter uses the provider's actual `x-requests-last` response header and stops at the manual run cap. A naive 24/7 five-minute schedule is 8,640 runs in 30 days; even 3 credits per run would be 25,920 credits before any props. Actual usage depends on available markets and a narrower schedule. We will measure coverage and usage before proposing a monthly plan or enabling scheduled paid requests.
+The Odds API charges credits by region/bookmaker group and market. The featured `h2h`, `spreads`, and `totals` request is budgeted at 3 credits. Discovering props costs 1 credit per game; requesting all discovered prop types adds approximately 1 credit per type per game. The adapter uses the provider's actual `x-requests-last` response header and stops at the manual run cap. A 24/7 hourly schedule is 720 runs in 30 days; at 3 credits per run, game lines alone would use 2,160 credits before props. Actual usage depends on available markets. We will measure coverage and usage before proposing a monthly plan or enabling scheduled paid requests. Quotes and picks become stale after 12 minutes even though the next scheduled check is an hour away.
 
 ## Ratings and suggested amount
 
