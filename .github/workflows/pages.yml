@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '3/5 * * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
       fetch_live_odds:
@@ -53,6 +53,7 @@ jobs:
           ODDS_API_INCLUDE_PROPS: ${{ github.event_name == 'push' && 'false' || inputs.include_player_props }}
         run: python3 scripts/the_odds_api.py
       - name: Build verified public feed
+        if: vars.ODDS_FEED_URL != '' || (github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[one-time-bovada-test-20261013]'))
         env:
           ODDS_FEED_FILE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[one-time-bovada-test-20261013]'))) && 'data/the_odds_api_feed.json' || '' }}
           ODDS_FEED_URL: ${{ vars.ODDS_FEED_URL }}
@@ -70,11 +71,12 @@ jobs:
           MODEL_FEED_TOKEN: ${{ secrets.MODEL_FEED_TOKEN }}
         run: python3 scripts/pipeline.py
       - name: Preserve the latest observed market state
+        if: vars.ODDS_FEED_URL != '' || (github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[one-time-bovada-test-20261013]'))
         run: |
           if [ -f data/state.json ]; then
             git config user.name 'fourth-down-bot'
             git config user.email 'fourth-down-bot@users.noreply.github.com'
-            git add data/state.json
+            git add data/state.json data/dashboard.json
             if ! git diff --cached --quiet; then
               git commit -m 'Update observed Bovada market state [skip ci]'
               git push
