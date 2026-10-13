@@ -1,0 +1,66 @@
+name: Refresh NFL research desk
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '3/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: fourth-down-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    # Until a verified source URL exists, scheduled runs should not repeatedly
+    # publish an empty dashboard. Push and manual dispatch still work.
+    if: github.event_name != 'schedule' || vars.ODDS_FEED_URL != ''
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build verified public feed
+        env:
+          ODDS_FEED_URL: ${{ vars.ODDS_FEED_URL }}
+          ODDS_FEED_TOKEN: ${{ secrets.ODDS_FEED_TOKEN }}
+          INJURIES_FEED_URL: ${{ vars.INJURIES_FEED_URL }}
+          INJURIES_FEED_TOKEN: ${{ secrets.INJURIES_FEED_TOKEN }}
+          NEWS_FEED_URL: ${{ vars.NEWS_FEED_URL }}
+          NEWS_FEED_TOKEN: ${{ secrets.NEWS_FEED_TOKEN }}
+          WEATHER_FEED_URL: ${{ vars.WEATHER_FEED_URL }}
+          WEATHER_FEED_TOKEN: ${{ secrets.WEATHER_FEED_TOKEN }}
+          TRAVEL_FEED_URL: ${{ vars.TRAVEL_FEED_URL }}
+          STATS_FEED_URL: ${{ vars.STATS_FEED_URL }}
+          HISTORICAL_FEED_URL: ${{ vars.HISTORICAL_FEED_URL }}
+          MODEL_FEED_URL: ${{ vars.MODEL_FEED_URL }}
+          MODEL_FEED_TOKEN: ${{ secrets.MODEL_FEED_TOKEN }}
+        run: python3 scripts/pipeline.py
+      - name: Preserve the latest observed market state
+        run: |
+          if [ -f data/state.json ]; then
+            git config user.name 'fourth-down-bot'
+            git config user.email 'fourth-down-bot@users.noreply.github.com'
+            git add data/state.json
+            if ! git diff --cached --quiet; then
+              git commit -m 'Update observed Bovada market state [skip ci]'
+              git push
+            fi
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
