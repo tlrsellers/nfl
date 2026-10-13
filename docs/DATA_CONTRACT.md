@@ -44,6 +44,19 @@ The adapter must distinguish publication time from retrieval time and cite the o
 
 `MODEL` is an external, calibrated probability feed. The current project does not train such a model and therefore normally emits zero picks. A model feed requires `validated: true`, a `model_version`, and at least 100 time-ordered calibration observations per estimate. An estimate includes `market_id`, `model_version`, `samples`, `p_win`, `p_loss`, `p_push`, `conservative_p_win`, `conservative_p_loss`, `blockers`, and a source-backed `rationale`. The pipeline recomputes EV from these probabilities and Bovada's exact price. It cannot independently prove that a feed's `validated` claim is true; the operator must audit it before enabling this input.
 
+## Deterministic scoring module
+
+Agents can now use `scripts/nfl_scoring.py` for both team strength/weekly matchup
+and price-based betting value. The [scoring contract](SCORING.md) documents the
+raw `STATS.teams` schema, supported context adjustments, callable Python functions,
+missing-data handling, optional projection fitting, and exact score bands.
+The pipeline calculates these added team scores instead of treating an agent's
+subjective grade as measured performance. Existing legacy `matchups` remain
+supported separately. The UI shows both teams' new scores in the game report.
+Bet recommendations use conservative EV for the value grade and retain the
+existing model-validation and quote-freshness gates.
+
 ## Public and private data
 
 The generated `data/dashboard.json` is public. It must contain only publishable research. Wagers entered on the dashboard are stored in the browser under `fourth-down-private-wagers-v1`; no crawler or GitHub workflow reads them. JSON export/import is the backup path. Clearing browser data without a backup erases those entries.
+
