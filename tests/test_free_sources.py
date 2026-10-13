@@ -64,6 +64,19 @@ class FreeSourceTests(unittest.TestCase):
             feed = json.loads((Path(tmp) / "injuries.json").read_text())
             self.assertIn("verify the official team report", feed["findings"][0]["title"])
 
+    def test_news_uses_available_feed_when_espn_is_blocked(self):
+        pub = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
+        rss = f'<rss><channel><item><title>Seahawks practice update</title><link>https://www.cbssports.com/nfl/news/example</link><pubDate>{pub}</pubDate></item></channel></rss>'
+        with tempfile.TemporaryDirectory() as tmp, patch.object(fs, "DATA", Path(tmp)):
+            def fake_fetch(url, limit=0):
+                if "cbssports.com" in url:
+                    return rss.encode()
+                raise OSError("feed unavailable")
+            with patch.object(fs, "fetch", side_effect=fake_fetch):
+                fs.collect_news([self.game])
+            feed = json.loads((Path(tmp) / "news.json").read_text())
+            self.assertEqual(feed["findings"][0]["publisher"], "CBS Sports")
+
 
 if __name__ == "__main__":
     unittest.main()
