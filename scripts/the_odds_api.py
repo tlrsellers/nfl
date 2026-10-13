@@ -87,6 +87,7 @@ def convert_event(event: dict) -> tuple[dict | None, list[dict]]:
 
 class Client:
     def __init__(self, key: str, limit: int):
+        key = key.strip()
         if not key:
             raise FeedError("THE_ODDS_API_KEY secret is missing")
         if not 3 <= limit <= 1000:
