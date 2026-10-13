@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="NFL market research dashboard with source and freshness tracking.">
+  <title>Fourth Down — NFL research desk</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#overview" aria-label="Fourth Down home"><span class="brand-mark">4<span>TH</span></span><span>FOURTH DOWN<small>RESEARCH DESK</small></span></a>
+      <div class="nav-label">WORKSPACE</div>
+      <nav aria-label="Primary">
+        <button class="nav active" data-view="overview"><span>◈</span> Overview</button>
+        <button class="nav" data-view="games"><span>▦</span> Games</button>
+        <button class="nav" data-view="markets"><span>≋</span> Markets</button>
+        <button class="nav" data-view="picks"><span>◆</span> Pick rankings</button>
+        <button class="nav" data-view="wagers"><span>▤</span> My wagers <i>LOCAL</i></button>
+        <button class="nav" data-view="system"><span>⌁</span> Agents & sources</button>
+      </nav>
+      <div class="sidebar-bottom"><span class="status-dot"></span><span id="sidebar-status">Checking data…</span><small>Research only · Straight bets</small></div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div class="crumb">NFL / <span id="crumb-label">Overview</span></div>
+        <div class="top-actions"><span id="mode-badge" class="badge badge-muted">UNAVAILABLE</span><button id="demo-toggle" class="text-button" type="button">Explore demo</button><button id="refresh-button" class="icon-button" type="button" title="Reload published data" aria-label="Reload published data">↻</button></div>
+      </header>
+      <div class="page">
+        <section class="hero">
+          <div><div class="eyebrow">THE NFL RESEARCH DESK <span class="hero-rule"></span> <span id="season-label">CURRENT SEASON</span></div><h1 id="page-title">See the whole field.</h1><p id="page-subtitle">Markets, matchups, and the evidence behind every decision.</p></div>
+          <div class="hero-aside"><div class="hero-aside-label">LAST VERIFIED UPDATE</div><strong id="last-updated">No verified feed</strong><small id="freshness-line">Live odds are unavailable</small></div>
+        </section>
+        <div id="notice" class="notice" role="status"></div>
+        <section id="content" aria-live="polite"></section>
+        <footer>FOURTH DOWN <span>·</span> All times shown in Central Time <span>·</span> No automatic wagering</footer>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
