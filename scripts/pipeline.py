@@ -276,6 +276,10 @@ def build() -> dict[str, Any]:
         if feed and age_minutes(observed, now) > SOURCE_MAX_AGE[role]:
             source_status = "stale"
             detail = "Source check is overdue"
+        elif role == "odds" and feed and feed.get("coverage_note"):
+            detail = str(feed["coverage_note"])[:250]
+            if feed.get("player_props_requested") is False:
+                detail += "; player props were not requested in this test"
         sources[name] = {"status": source_status,
                          "checked_at": observed if parse_time(observed) else None,
                          "detail": detail}
