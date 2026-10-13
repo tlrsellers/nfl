@@ -11,7 +11,7 @@ import os
 import sys
 import urllib.error
 import urllib.request
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -308,7 +308,7 @@ def build() -> dict[str, Any]:
         sources[name] = {"status": "unavailable", "checked_at": None,
                          "detail": "Requires connected evidence and approved AI budget"}
     odds = feeds["odds"]
-    games = [g for g in normalize_games(odds) if parse_time(g["kickoff"]) > now - timedelta(days=2)]
+    games = [g for g in normalize_games(odds) if parse_time(g["kickoff"]) > now]
     schedule, _ = get_json("schedule")
     for scheduled in normalize_games(schedule):
         kick = parse_time(scheduled["kickoff"])
