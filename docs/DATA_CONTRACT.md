@@ -4,7 +4,9 @@ The pipeline reads independent HTTPS JSON feeds configured with `<ROLE>_FEED_URL
 
 ## Odds feed
 
-This feed must represent **Bovada** observations. An adapter that returns another book's odds must use a different product; the pipeline rejects it. Each market has a stable ID for the exact event, period, selection, line, and price. The `observed_at` timestamp describes when the provider observed the actual quote, not when this pipeline downloaded the JSON.
+This feed must represent **Bovada** observations. An adapter that returns another book's odds must use a different product; the pipeline rejects it. Each market has a stable ID for the event, period, market type, and selection so ordinary line or price changes can be compared; simultaneous alternate-line ladder selections also include the point. The `observed_at` timestamp describes when the provider observed the actual quote, not when this pipeline downloaded the JSON.
+
+The optional `scripts/the_odds_api.py` adapter converts only the Bovada bookmaker from The Odds API into this schema. It excludes period markets and accepts every `player_` key advertised for each event except quarter/half/period-specific keys. It does not claim to cover Bovada offers the provider omits. The manual Actions workflow uses `THE_ODDS_API_KEY` as a server-side secret and requires a per-run credit cap. Its generated feed is not committed to the repository.
 
 ```json
 {
