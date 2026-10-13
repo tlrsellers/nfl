@@ -4,6 +4,9 @@ A responsive GitHub Pages dashboard for NFL market research. It shows games, sou
 
 ## What works now
 
+- Deterministic 1–10 team strength and weekly matchup ratings for both teams, computed from current-season nflverse play data. The adapter supplies passing/rushing EPA, success and explosive rates, a distance-binned field-goal baseline, net punting, and return/coverage efficiency. Missing inputs remain explicit. See [agent scoring contract](docs/SCORING.md).
+- Paper-only margin, total, and projected-score forecasts. First pregame forecasts are frozen in `data/paper/<season>.json` and evaluated after final scores arrive. Historical earlier-week feature reconstruction is labeled as backtesting, separate from prospective calibration. Paper forecasts never enable recommendations by themselves.
+
 - Static dashboard with mobile layout, game and market views, distinct win-likelihood and betting-value rankings, agent status, and browser-only wagers capped at $25 each.
 - Private wager form with results, deletion, and JSON export/import. No personal wagers are committed or uploaded.
 - Python pipeline that accepts separate authorized JSON feeds for Bovada odds, injuries, news, weather, travel, current-season statistics, historical Bovada lines, and externally validated probability estimates.
@@ -14,18 +17,21 @@ A responsive GitHub Pages dashboard for NFL market research. It shows games, sou
 
 ## What still needs verified integration
 
-The Odds API key has been used for capped manual tests. Historical Bovada archives, score/stat sources, source-specific crawlers, calibrated player-prop probability models, and Claude API agent calls are not configured. **Do not read the deployed site as live betting research until those sources are working and audited.** GitHub Actions may start late or skip a scheduled run; the UI shows update times and stale quotes.
+The Odds API key has been used for capped manual tests. Historical Bovada archives, individual player/line data, calibrated betting probability models, and Claude API agent calls still need verified integration. Team and matchup research runs independently of those gaps. Betting recommendations remain paused without fresh odds and an audited probability model. GitHub Actions may start late or skip a scheduled run; the UI shows update times and stale quotes.
 
-The free feeds may fail, change format, or have incomplete coverage. Sleeper player status is not an official game injury report; ESPN headline matching can miss player-only stories; weather skips neutral/unknown venues. Current-season team points from final scores are available, but player statistics and offensive/defensive line ratings are not connected. The last five head-to-head scores come from nflverse, while the historical Bovada source remains unavailable until actual Bovada lines can be verified. Paid AI analysis is disabled while the required cost estimate and user-approved limit are pending. The Dashboard's `Agents & sources` page exposes these gaps.
+The free feeds may fail, change format, or have incomplete coverage. Sleeper player status is not an official game injury report; headline matching can miss player-only stories; weather skips neutral/unknown venues. Team performance metrics and matchup ratings are connected, but individual player and offensive/defensive line ratings are not. Special-teams baselines are provisional. Injury and weather reports do not generate automatic numeric penalties without verified source-backed adjustments. The last five head-to-head scores come from nflverse, while historical Bovada lines remain unavailable until actual records can be verified. Paid AI analysis remains disabled pending the required cost estimate and approved limit. The Dashboard's `Agents & sources` page exposes these gaps.
 
 ## Run locally
 
 ```bash
 python3 scripts/pipeline.py
+python3 scripts/paper_tracking.py
 python3 -m http.server 8000
 ```
 
 Open `http://localhost:8000`. Use **Explore demo** to inspect the layout without confusing sample content for actual games or picks.
+
+For a full free-source refresh, first run `python3 -m pip install -r scripts/nfl_scoring_requirements.txt` and `python3 scripts/free_sources.py`, then the commands above. Ordinary team/value scoring does not require the model dependencies. The hourly workflow installs them and runs source collection, scoring, and paper tracking automatically. Only static frontend files and the published dashboard JSON enter the Pages artifact.
 
 For local feed testing, set `ODDS_FEED_FILE=/absolute/path/to/odds.json` and the analogous `<ROLE>_FEED_FILE` variables before running the pipeline. The [feed contract](docs/DATA_CONTRACT.md) gives example JSON. Feed URLs require HTTPS; secrets belong in GitHub Actions secrets.
 

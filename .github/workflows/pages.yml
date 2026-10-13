@@ -40,6 +40,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: scripts/nfl_scoring_requirements.txt
+      - name: Install paper model dependencies
+        run: python3 -m pip install -r scripts/nfl_scoring_requirements.txt
+      - name: Test scoring and source adapters
+        run: python3 -m unittest discover -s tests
       - name: Fetch Bovada odds (manual and capped)
         # This exact marker triggers one approved game-line check from a push.
         # Normal pushes and all scheduled runs never call the paid API.
@@ -68,11 +74,14 @@ jobs:
           MODEL_FEED_URL: ${{ vars.MODEL_FEED_URL }}
           MODEL_FEED_TOKEN: ${{ secrets.MODEL_FEED_TOKEN }}
         run: python3 scripts/pipeline.py
+      - name: Freeze paper forecasts and evaluate settled predictions
+        run: python3 scripts/paper_tracking.py
       - name: Preserve public snapshot and free source checks
         run: |
           git config user.name 'fourth-down-bot'
           git config user.email 'fourth-down-bot@users.noreply.github.com'
           git add data/dashboard.json data/free
+          if [ -d data/paper ]; then git add data/paper; fi
           if [ -f data/state.json ]; then git add data/state.json; fi
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh NFL public research [skip ci]'
@@ -80,9 +89,14 @@ jobs:
             git push
           fi
       - uses: actions/configure-pages@v5
+      - name: Stage public dashboard files
+        run: |
+          mkdir -p _site/data
+          cp index.html app.js styles.css _site/
+          cp data/dashboard.json _site/data/
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: .
+          path: _site
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

@@ -336,9 +336,24 @@ def build() -> dict[str, Any]:
                    "detail": f"Scoring input rejected: {exc}"}
     for g in games:
         if g["id"] in scoring["games"]:
-            g["scoring"] = scoring["games"][g["id"]]
+            report = scoring["games"][g["id"]]
+            g["scoring"] = report
+            home, away = report["home"], report["away"]
+            g["rating_side"] = g["home"]
+            g["pass"] = home["category_matchups"]["pass_offense"]
+            g["rush"] = home["category_matchups"]["rush_offense"]
+            base = scoring["teams"][g["home"]]["units"]
+            if base["pass_offense"] is not None and base["rush_offense"] is not None:
+                g["offense"] = (.35 * base["pass_offense"] + .15 * base["rush_offense"]) / .5
+            if base["pass_defense"] is not None and base["rush_defense"] is not None:
+                g["defense"] = (.35 * base["pass_defense"] + .10 * base["rush_defense"]) / .45
+            g["confidence"] = min(home["data_confidence"], away["data_confidence"])
+            g["summary"] = "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
     sources["Scoring engine"] = {"status": scoring["status"],
                                  "checked_at": now_iso(), "detail": scoring["detail"]}
+    if scoring["games"]:
+        sources["Matchup"] = {"status": "ok", "checked_at": now_iso(),
+                              "detail": "Deterministic team matchup ratings active. Paid AI narrative agents remain disabled."}
     picks = make_picks(feeds["model"], markets, now)
     # An unapproved AI workflow is never silently invoked by this job.
     ai_status = "Disabled pending cost approval"

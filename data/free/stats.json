@@ -1,6 +1,3809 @@
 {
-  "checked_at": "2026-10-13T10:57:12Z",
   "season": "2026",
+  "as_of": "2026-10-13T11:03:14.110623Z",
+  "checked_at": "2026-10-13T11:03:14.110623Z",
+  "teams": [
+    {
+      "team": "Arizona Cardinals",
+      "team_code": "ARI",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": -0.029033702027875405,
+            "season_sample": 182,
+            "last_three": -0.10315531904125867,
+            "recent_sample": 116
+          },
+          "success_rate": {
+            "season_to_date": 0.44505494505494503,
+            "season_sample": 182,
+            "last_three": 0.43103448275862066,
+            "recent_sample": 116
+          },
+          "explosive_rate": {
+            "season_to_date": 0.038461538461538464,
+            "season_sample": 182,
+            "last_three": 0.04310344827586207,
+            "recent_sample": 116
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.03748099420701309,
+            "season_sample": 102,
+            "last_three": 0.02199363616208785,
+            "recent_sample": 62
+          },
+          "success_rate": {
+            "season_to_date": 0.45098039215686275,
+            "season_sample": 102,
+            "last_three": 0.5,
+            "recent_sample": 62
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0392156862745098,
+            "season_sample": 102,
+            "last_three": 0.03225806451612903,
+            "recent_sample": 62
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.3355089507087059,
+            "season_sample": 141,
+            "last_three": 0.3869452799619877,
+            "recent_sample": 86
+          },
+          "success_rate": {
+            "season_to_date": 0.46099290780141844,
+            "season_sample": 141,
+            "last_three": 0.45348837209302323,
+            "recent_sample": 86
+          },
+          "explosive_rate": {
+            "season_to_date": 0.12056737588652482,
+            "season_sample": 141,
+            "last_three": 0.1511627906976744,
+            "recent_sample": 86
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.23870682251108977,
+            "season_sample": 106,
+            "last_three": -0.11995696358973357,
+            "recent_sample": 65
+          },
+          "success_rate": {
+            "season_to_date": 0.3867924528301887,
+            "season_sample": 106,
+            "last_three": 0.4,
+            "recent_sample": 65
+          },
+          "explosive_rate": {
+            "season_to_date": 0.10377358490566038,
+            "season_sample": 106,
+            "last_three": 0.1076923076923077,
+            "recent_sample": 65
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.005501603659498399,
+            "season_sample": 10,
+            "last_three": 0.07085248085248086,
+            "recent_sample": 5
+          },
+          "net_punting": {
+            "season_to_date": 37.96,
+            "season_sample": 25,
+            "last_three": 38.06666666666667,
+            "recent_sample": 15
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.051751986583469495,
+            "season_sample": 93,
+            "last_three": -0.01760978777759304,
+            "recent_sample": 61
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Atlanta Falcons",
+      "team_code": "ATL",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": -0.10615699359757448,
+            "season_sample": 125,
+            "last_three": 0.12615526887111525,
+            "recent_sample": 81
+          },
+          "success_rate": {
+            "season_to_date": 0.44,
+            "season_sample": 125,
+            "last_three": 0.49382716049382713,
+            "recent_sample": 81
+          },
+          "explosive_rate": {
+            "season_to_date": 0.088,
+            "season_sample": 125,
+            "last_three": 0.09876543209876543,
+            "recent_sample": 81
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": 0.03178299445223918,
+            "season_sample": 122,
+            "last_three": 0.15843557437649008,
+            "recent_sample": 75
+          },
+          "success_rate": {
+            "season_to_date": 0.4672131147540984,
+            "season_sample": 122,
+            "last_three": 0.49333333333333335,
+            "recent_sample": 75
+          },
+          "explosive_rate": {
+            "season_to_date": 0.10655737704918032,
+            "season_sample": 122,
+            "last_three": 0.12,
+            "recent_sample": 75
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": -0.02237675522620603,
+            "season_sample": 172,
+            "last_three": -0.05554705720667554,
+            "recent_sample": 97
+          },
+          "success_rate": {
+            "season_to_date": 0.4186046511627907,
+            "season_sample": 172,
+            "last_three": 0.4329896907216495,
+            "recent_sample": 97
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0755813953488372,
+            "season_sample": 172,
+            "last_three": 0.05154639175257732,
+            "recent_sample": 97
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.11619162887035063,
+            "season_sample": 81,
+            "last_three": -0.06009669171476854,
+            "recent_sample": 54
+          },
+          "success_rate": {
+            "season_to_date": 0.35802469135802467,
+            "season_sample": 81,
+            "last_three": 0.3888888888888889,
+            "recent_sample": 54
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09876543209876543,
+            "season_sample": 81,
+            "last_three": 0.1111111111111111,
+            "recent_sample": 54
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": -0.09676666261003612,
+            "season_sample": 12,
+            "last_three": 0.07346801346801346,
+            "recent_sample": 6
+          },
+          "net_punting": {
+            "season_to_date": 40.05882352941177,
+            "season_sample": 17,
+            "last_three": 42.875,
+            "recent_sample": 8
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.09719466726848301,
+            "season_sample": 91,
+            "last_three": -0.09945016312225821,
+            "recent_sample": 56
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Baltimore Ravens",
+      "team_code": "BAL",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.2545040474291646,
+            "season_sample": 146,
+            "last_three": 0.2269255620263664,
+            "recent_sample": 87
+          },
+          "success_rate": {
+            "season_to_date": 0.547945205479452,
+            "season_sample": 146,
+            "last_three": 0.5402298850574713,
+            "recent_sample": 87
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0958904109589041,
+            "season_sample": 146,
+            "last_three": 0.10344827586206896,
+            "recent_sample": 87
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": 0.10336797419101232,
+            "season_sample": 117,
+            "last_three": 0.05616482196826402,
+            "recent_sample": 81
+          },
+          "success_rate": {
+            "season_to_date": 0.4700854700854701,
+            "season_sample": 117,
+            "last_three": 0.43209876543209874,
+            "recent_sample": 81
+          },
+          "explosive_rate": {
+            "season_to_date": 0.1452991452991453,
+            "season_sample": 117,
+            "last_three": 0.1728395061728395,
+            "recent_sample": 81
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.02141292185118794,
+            "season_sample": 169,
+            "last_three": 0.05272453647228191,
+            "recent_sample": 110
+          },
+          "success_rate": {
+            "season_to_date": 0.4437869822485207,
+            "season_sample": 169,
+            "last_three": 0.44545454545454544,
+            "recent_sample": 110
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08284023668639054,
+            "season_sample": 169,
+            "last_three": 0.07272727272727272,
+            "recent_sample": 110
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.10065825602354644,
+            "season_sample": 114,
+            "last_three": -0.1379960620688507,
+            "recent_sample": 72
+          },
+          "success_rate": {
+            "season_to_date": 0.3508771929824561,
+            "season_sample": 114,
+            "last_three": 0.3194444444444444,
+            "recent_sample": 72
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08771929824561403,
+            "season_sample": 114,
+            "last_three": 0.08333333333333333,
+            "recent_sample": 72
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.05689447285899618,
+            "season_sample": 11,
+            "last_three": 0.11335551788513465,
+            "recent_sample": 7
+          },
+          "net_punting": {
+            "season_to_date": 41.68421052631579,
+            "season_sample": 19,
+            "last_three": 41.61538461538461,
+            "recent_sample": 13
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.05079351101597633,
+            "season_sample": 93,
+            "last_three": -0.014102306553154621,
+            "recent_sample": 58
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Buffalo Bills",
+      "team_code": "BUF",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.32433603148533074,
+            "season_sample": 163,
+            "last_three": 0.20096831813930713,
+            "recent_sample": 96
+          },
+          "success_rate": {
+            "season_to_date": 0.4601226993865031,
+            "season_sample": 163,
+            "last_three": 0.4375,
+            "recent_sample": 96
+          },
+          "explosive_rate": {
+            "season_to_date": 0.147239263803681,
+            "season_sample": 163,
+            "last_three": 0.14583333333333334,
+            "recent_sample": 96
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": 0.043804916713318175,
+            "season_sample": 116,
+            "last_three": 0.025130962453683913,
+            "recent_sample": 76
+          },
+          "success_rate": {
+            "season_to_date": 0.5258620689655172,
+            "season_sample": 116,
+            "last_three": 0.5394736842105263,
+            "recent_sample": 76
+          },
+          "explosive_rate": {
+            "season_to_date": 0.16379310344827586,
+            "season_sample": 116,
+            "last_three": 0.17105263157894737,
+            "recent_sample": 76
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.18400017784734976,
+            "season_sample": 201,
+            "last_three": 0.19374231041698511,
+            "recent_sample": 132
+          },
+          "success_rate": {
+            "season_to_date": 0.4975124378109453,
+            "season_sample": 201,
+            "last_three": 0.49242424242424243,
+            "recent_sample": 132
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0845771144278607,
+            "season_sample": 201,
+            "last_three": 0.09090909090909091,
+            "recent_sample": 132
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.005840643804366362,
+            "season_sample": 123,
+            "last_three": -0.008616309391385326,
+            "recent_sample": 78
+          },
+          "success_rate": {
+            "season_to_date": 0.45528455284552843,
+            "season_sample": 123,
+            "last_three": 0.47435897435897434,
+            "recent_sample": 78
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0975609756097561,
+            "season_sample": 123,
+            "last_three": 0.08974358974358974,
+            "recent_sample": 78
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.07589473531502515,
+            "season_sample": 9,
+            "last_three": 0.07672890281585931,
+            "recent_sample": 6
+          },
+          "net_punting": {
+            "season_to_date": 45.7,
+            "season_sample": 10,
+            "last_three": 44.166666666666664,
+            "recent_sample": 6
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": 0.0976839007208501,
+            "season_sample": 88,
+            "last_three": 0.1434296011872358,
+            "recent_sample": 50
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Carolina Panthers",
+      "team_code": "CAR",
+      "season": "2026",
+      "games_played": 4,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.24356564047354787,
+            "season_sample": 154,
+            "last_three": 0.27145781170197697,
+            "recent_sample": 123
+          },
+          "success_rate": {
+            "season_to_date": 0.4675324675324675,
+            "season_sample": 154,
+            "last_three": 0.4715447154471545,
+            "recent_sample": 123
+          },
+          "explosive_rate": {
+            "season_to_date": 0.1038961038961039,
+            "season_sample": 154,
+            "last_three": 0.0975609756097561,
+            "recent_sample": 123
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.085675170909678,
+            "season_sample": 72,
+            "last_three": -0.10344372716444082,
+            "recent_sample": 58
+          },
+          "success_rate": {
+            "season_to_date": 0.3888888888888889,
+            "season_sample": 72,
+            "last_three": 0.3620689655172414,
+            "recent_sample": 58
+          },
+          "explosive_rate": {
+            "season_to_date": 0.1388888888888889,
+            "season_sample": 72,
+            "last_three": 0.15517241379310345,
+            "recent_sample": 58
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.17512758733861608,
+            "season_sample": 135,
+            "last_three": 0.07955328458240589,
+            "recent_sample": 103
+          },
+          "success_rate": {
+            "season_to_date": 0.4740740740740741,
+            "season_sample": 135,
+            "last_three": 0.4368932038834951,
+            "recent_sample": 103
+          },
+          "explosive_rate": {
+            "season_to_date": 0.07407407407407407,
+            "season_sample": 135,
+            "last_three": 0.04854368932038835,
+            "recent_sample": 103
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.06262000733340634,
+            "season_sample": 72,
+            "last_three": -0.16983705690690645,
+            "recent_sample": 50
+          },
+          "success_rate": {
+            "season_to_date": 0.3888888888888889,
+            "season_sample": 72,
+            "last_three": 0.34,
+            "recent_sample": 50
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09722222222222222,
+            "season_sample": 72,
+            "last_three": 0.1,
+            "recent_sample": 50
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.10596953691144913,
+            "season_sample": 9,
+            "last_three": 0.09475920728624984,
+            "recent_sample": 8
+          },
+          "net_punting": {
+            "season_to_date": 43.23076923076923,
+            "season_sample": 13,
+            "last_three": 45.8,
+            "recent_sample": 10
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.005130420795564131,
+            "season_sample": 75,
+            "last_three": 0.10701563194853199,
+            "recent_sample": 53
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Chicago Bears",
+      "team_code": "CHI",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.11532386332367046,
+            "season_sample": 155,
+            "last_three": 0.042584545098214466,
+            "recent_sample": 82
+          },
+          "success_rate": {
+            "season_to_date": 0.4967741935483871,
+            "season_sample": 155,
+            "last_three": 0.5487804878048781,
+            "recent_sample": 82
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0967741935483871,
+            "season_sample": 155,
+            "last_three": 0.0975609756097561,
+            "recent_sample": 82
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.08159005532975275,
+            "season_sample": 119,
+            "last_three": -0.08852655123875071,
+            "recent_sample": 69
+          },
+          "success_rate": {
+            "season_to_date": 0.42857142857142855,
+            "season_sample": 119,
+            "last_three": 0.4492753623188406,
+            "recent_sample": 69
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09243697478991597,
+            "season_sample": 119,
+            "last_three": 0.07246376811594203,
+            "recent_sample": 69
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": -0.10485718025609914,
+            "season_sample": 120,
+            "last_three": -0.2587787887804818,
+            "recent_sample": 65
+          },
+          "success_rate": {
+            "season_to_date": 0.4,
+            "season_sample": 120,
+            "last_three": 0.38461538461538464,
+            "recent_sample": 65
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08333333333333333,
+            "season_sample": 120,
+            "last_three": 0.06153846153846154,
+            "recent_sample": 65
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": 0.02120801824951599,
+            "season_sample": 84,
+            "last_three": 0.1404793853072861,
+            "recent_sample": 43
+          },
+          "success_rate": {
+            "season_to_date": 0.44047619047619047,
+            "season_sample": 84,
+            "last_three": 0.5116279069767442,
+            "recent_sample": 43
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09523809523809523,
+            "season_sample": 84,
+            "last_three": 0.11627906976744186,
+            "recent_sample": 43
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": -0.12498531779861703,
+            "season_sample": 9,
+            "last_three": -0.10062801932367149,
+            "recent_sample": 6
+          },
+          "net_punting": {
+            "season_to_date": 44.25,
+            "season_sample": 12,
+            "last_three": 43.666666666666664,
+            "recent_sample": 6
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": 0.08560112609964919,
+            "season_sample": 81,
+            "last_three": -0.016872792741619545,
+            "recent_sample": 43
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Cincinnati Bengals",
+      "team_code": "CIN",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.1863783556232503,
+            "season_sample": 192,
+            "last_three": 0.2615835861142498,
+            "recent_sample": 126
+          },
+          "success_rate": {
+            "season_to_date": 0.5208333333333334,
+            "season_sample": 192,
+            "last_three": 0.5714285714285714,
+            "recent_sample": 126
+          },
+          "explosive_rate": {
+            "season_to_date": 0.078125,
+            "season_sample": 192,
+            "last_three": 0.06349206349206349,
+            "recent_sample": 126
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.030697137672091146,
+            "season_sample": 84,
+            "last_three": -0.04369395886561313,
+            "recent_sample": 52
+          },
+          "success_rate": {
+            "season_to_date": 0.42857142857142855,
+            "season_sample": 84,
+            "last_three": 0.46153846153846156,
+            "recent_sample": 52
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09523809523809523,
+            "season_sample": 84,
+            "last_three": 0.057692307692307696,
+            "recent_sample": 52
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": -0.03928149502018115,
+            "season_sample": 158,
+            "last_three": 0.0571489720367148,
+            "recent_sample": 83
+          },
+          "success_rate": {
+            "season_to_date": 0.46835443037974683,
+            "season_sample": 158,
+            "last_three": 0.4578313253012048,
+            "recent_sample": 83
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08860759493670886,
+            "season_sample": 158,
+            "last_three": 0.10843373493975904,
+            "recent_sample": 83
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.024815024982352392,
+            "season_sample": 94,
+            "last_three": 0.11241439536545211,
+            "recent_sample": 65
+          },
+          "success_rate": {
+            "season_to_date": 0.3617021276595745,
+            "season_sample": 94,
+            "last_three": 0.4153846153846154,
+            "recent_sample": 65
+          },
+          "explosive_rate": {
+            "season_to_date": 0.13829787234042554,
+            "season_sample": 94,
+            "last_three": 0.16923076923076924,
+            "recent_sample": 65
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.16254320987654322,
+            "season_sample": 10,
+            "last_three": 0.08975308641975308,
+            "recent_sample": 4
+          },
+          "net_punting": {
+            "season_to_date": 39.8125,
+            "season_sample": 16,
+            "last_three": 40.857142857142854,
+            "recent_sample": 7
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.050538448085980237,
+            "season_sample": 83,
+            "last_three": -0.047913514755101264,
+            "recent_sample": 47
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Cleveland Browns",
+      "team_code": "CLE",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.024459858548863327,
+            "season_sample": 163,
+            "last_three": 0.051185514264005555,
+            "recent_sample": 120
+          },
+          "success_rate": {
+            "season_to_date": 0.4233128834355828,
+            "season_sample": 163,
+            "last_three": 0.4,
+            "recent_sample": 120
+          },
+          "explosive_rate": {
+            "season_to_date": 0.07975460122699386,
+            "season_sample": 163,
+            "last_three": 0.09166666666666666,
+            "recent_sample": 120
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.3315649367377972,
+            "season_sample": 85,
+            "last_three": -0.26538128410157197,
+            "recent_sample": 62
+          },
+          "success_rate": {
+            "season_to_date": 0.2823529411764706,
+            "season_sample": 85,
+            "last_three": 0.3064516129032258,
+            "recent_sample": 62
+          },
+          "explosive_rate": {
+            "season_to_date": 0.058823529411764705,
+            "season_sample": 85,
+            "last_three": 0.08064516129032258,
+            "recent_sample": 62
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": -0.06721910450584016,
+            "season_sample": 188,
+            "last_three": -0.12307332114352906,
+            "recent_sample": 131
+          },
+          "success_rate": {
+            "season_to_date": 0.42021276595744683,
+            "season_sample": 188,
+            "last_three": 0.40458015267175573,
+            "recent_sample": 131
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0797872340425532,
+            "season_sample": 188,
+            "last_three": 0.07633587786259542,
+            "recent_sample": 131
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": 0.002247222888583003,
+            "season_sample": 108,
+            "last_three": 0.0017303961910472424,
+            "recent_sample": 73
+          },
+          "success_rate": {
+            "season_to_date": 0.4166666666666667,
+            "season_sample": 108,
+            "last_three": 0.3972602739726027,
+            "recent_sample": 73
+          },
+          "explosive_rate": {
+            "season_to_date": 0.1388888888888889,
+            "season_sample": 108,
+            "last_three": 0.1506849315068493,
+            "recent_sample": 73
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.14494771894771893,
+            "season_sample": 10,
+            "last_three": 0.18450160950160951,
+            "recent_sample": 6
+          },
+          "net_punting": {
+            "season_to_date": 45.125,
+            "season_sample": 24,
+            "last_three": 44.94117647058823,
+            "recent_sample": 17
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.0034814779607690643,
+            "season_sample": 97,
+            "last_three": -0.06135358047275439,
+            "recent_sample": 62
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Dallas Cowboys",
+      "team_code": "DAL",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.1471461311489206,
+            "season_sample": 191,
+            "last_three": 0.06323347745141296,
+            "recent_sample": 135
+          },
+          "success_rate": {
+            "season_to_date": 0.49214659685863876,
+            "season_sample": 191,
+            "last_three": 0.45925925925925926,
+            "recent_sample": 135
+          },
+          "explosive_rate": {
+            "season_to_date": 0.05759162303664921,
+            "season_sample": 191,
+            "last_three": 0.06666666666666667,
+            "recent_sample": 135
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.0043511693230273716,
+            "season_sample": 88,
+            "last_three": 0.04213405222408709,
+            "recent_sample": 61
+          },
+          "success_rate": {
+            "season_to_date": 0.4318181818181818,
+            "season_sample": 88,
+            "last_three": 0.4426229508196721,
+            "recent_sample": 61
+          },
+          "explosive_rate": {
+            "season_to_date": 0.07954545454545454,
+            "season_sample": 88,
+            "last_three": 0.11475409836065574,
+            "recent_sample": 61
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.3876558666430565,
+            "season_sample": 146,
+            "last_three": 0.4171064899841073,
+            "recent_sample": 82
+          },
+          "success_rate": {
+            "season_to_date": 0.5684931506849316,
+            "season_sample": 146,
+            "last_three": 0.573170731707317,
+            "recent_sample": 82
+          },
+          "explosive_rate": {
+            "season_to_date": 0.11643835616438356,
+            "season_sample": 146,
+            "last_three": 0.17073170731707318,
+            "recent_sample": 82
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.0047754359729281805,
+            "season_sample": 122,
+            "last_three": -0.02570342265550471,
+            "recent_sample": 76
+          },
+          "success_rate": {
+            "season_to_date": 0.4344262295081967,
+            "season_sample": 122,
+            "last_three": 0.39473684210526316,
+            "recent_sample": 76
+          },
+          "explosive_rate": {
+            "season_to_date": 0.11475409836065574,
+            "season_sample": 122,
+            "last_three": 0.13157894736842105,
+            "recent_sample": 76
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.004527507538260219,
+            "season_sample": 9,
+            "last_three": -0.024474191110135823,
+            "recent_sample": 7
+          },
+          "net_punting": {
+            "season_to_date": 43.8,
+            "season_sample": 10,
+            "last_three": 44.0,
+            "recent_sample": 7
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": 0.06173925775219693,
+            "season_sample": 80,
+            "last_three": 0.10500642344935464,
+            "recent_sample": 53
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 3,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Denver Broncos",
+      "team_code": "DEN",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": -0.04957147218806151,
+            "season_sample": 160,
+            "last_three": -0.06673412234853839,
+            "recent_sample": 103
+          },
+          "success_rate": {
+            "season_to_date": 0.40625,
+            "season_sample": 160,
+            "last_three": 0.36893203883495146,
+            "recent_sample": 103
+          },
+          "explosive_rate": {
+            "season_to_date": 0.06875,
+            "season_sample": 160,
+            "last_three": 0.05825242718446602,
+            "recent_sample": 103
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.04207854381460998,
+            "season_sample": 108,
+            "last_three": -0.026168034773993328,
+            "recent_sample": 74
+          },
+          "success_rate": {
+            "season_to_date": 0.39814814814814814,
+            "season_sample": 108,
+            "last_three": 0.40540540540540543,
+            "recent_sample": 74
+          },
+          "explosive_rate": {
+            "season_to_date": 0.06481481481481481,
+            "season_sample": 108,
+            "last_three": 0.04054054054054054,
+            "recent_sample": 74
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": -0.06319476880715039,
+            "season_sample": 179,
+            "last_three": -0.040102071374284766,
+            "recent_sample": 122
+          },
+          "success_rate": {
+            "season_to_date": 0.4301675977653631,
+            "season_sample": 179,
+            "last_three": 0.4426229508196721,
+            "recent_sample": 122
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0670391061452514,
+            "season_sample": 179,
+            "last_three": 0.06557377049180328,
+            "recent_sample": 122
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.007222114201567884,
+            "season_sample": 128,
+            "last_three": -0.13600538658736308,
+            "recent_sample": 82
+          },
+          "success_rate": {
+            "season_to_date": 0.359375,
+            "season_sample": 128,
+            "last_three": 0.3170731707317073,
+            "recent_sample": 82
+          },
+          "explosive_rate": {
+            "season_to_date": 0.109375,
+            "season_sample": 128,
+            "last_three": 0.10975609756097561,
+            "recent_sample": 82
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": -0.16668770418770418,
+            "season_sample": 10,
+            "last_three": -0.26772455343883916,
+            "recent_sample": 7
+          },
+          "net_punting": {
+            "season_to_date": 45.291666666666664,
+            "season_sample": 24,
+            "last_three": 45.0,
+            "recent_sample": 15
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.04126860564966872,
+            "season_sample": 92,
+            "last_three": -0.03620450510462781,
+            "recent_sample": 58
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 1,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Detroit Lions",
+      "team_code": "DET",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.2088866200196125,
+            "season_sample": 173,
+            "last_three": 0.28502291369585336,
+            "recent_sample": 107
+          },
+          "success_rate": {
+            "season_to_date": 0.48554913294797686,
+            "season_sample": 173,
+            "last_three": 0.5046728971962616,
+            "recent_sample": 107
+          },
+          "explosive_rate": {
+            "season_to_date": 0.06358381502890173,
+            "season_sample": 173,
+            "last_three": 0.08411214953271028,
+            "recent_sample": 107
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.001575738790412744,
+            "season_sample": 103,
+            "last_three": 0.02268353563717033,
+            "recent_sample": 57
+          },
+          "success_rate": {
+            "season_to_date": 0.4854368932038835,
+            "season_sample": 103,
+            "last_three": 0.49122807017543857,
+            "recent_sample": 57
+          },
+          "explosive_rate": {
+            "season_to_date": 0.14563106796116504,
+            "season_sample": 103,
+            "last_three": 0.10526315789473684,
+            "recent_sample": 57
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.2012615032118575,
+            "season_sample": 208,
+            "last_three": 0.2620788632904049,
+            "recent_sample": 112
+          },
+          "success_rate": {
+            "season_to_date": 0.5,
+            "season_sample": 208,
+            "last_three": 0.5178571428571429,
+            "recent_sample": 112
+          },
+          "explosive_rate": {
+            "season_to_date": 0.10096153846153846,
+            "season_sample": 208,
+            "last_three": 0.10714285714285714,
+            "recent_sample": 112
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.04698916911884423,
+            "season_sample": 94,
+            "last_three": -0.1712365894790683,
+            "recent_sample": 51
+          },
+          "success_rate": {
+            "season_to_date": 0.39361702127659576,
+            "season_sample": 94,
+            "last_three": 0.3333333333333333,
+            "recent_sample": 51
+          },
+          "explosive_rate": {
+            "season_to_date": 0.11702127659574468,
+            "season_sample": 94,
+            "last_three": 0.09803921568627451,
+            "recent_sample": 51
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.1180130589785321,
+            "season_sample": 8,
+            "last_three": 0.15209822005218424,
+            "recent_sample": 6
+          },
+          "net_punting": {
+            "season_to_date": 43.31578947368421,
+            "season_sample": 19,
+            "last_three": 44.75,
+            "recent_sample": 8
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": 0.11356176865333928,
+            "season_sample": 97,
+            "last_three": 0.18609718885748988,
+            "recent_sample": 55
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Green Bay Packers",
+      "team_code": "GB",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.0897805583964651,
+            "season_sample": 152,
+            "last_three": 0.19865561082286798,
+            "recent_sample": 85
+          },
+          "success_rate": {
+            "season_to_date": 0.4342105263157895,
+            "season_sample": 152,
+            "last_three": 0.49411764705882355,
+            "recent_sample": 85
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08552631578947369,
+            "season_sample": 152,
+            "last_three": 0.07058823529411765,
+            "recent_sample": 85
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.30673892217539594,
+            "season_sample": 83,
+            "last_three": -0.19338845173412922,
+            "recent_sample": 44
+          },
+          "success_rate": {
+            "season_to_date": 0.3614457831325301,
+            "season_sample": 83,
+            "last_three": 0.38636363636363635,
+            "recent_sample": 44
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08433734939759036,
+            "season_sample": 83,
+            "last_three": 0.06818181818181818,
+            "recent_sample": 44
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": -0.06529223321841868,
+            "season_sample": 158,
+            "last_three": -0.17273480747744166,
+            "recent_sample": 80
+          },
+          "success_rate": {
+            "season_to_date": 0.44936708860759494,
+            "season_sample": 158,
+            "last_three": 0.475,
+            "recent_sample": 80
+          },
+          "explosive_rate": {
+            "season_to_date": 0.03164556962025317,
+            "season_sample": 158,
+            "last_three": 0.0375,
+            "recent_sample": 80
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.011773998472187323,
+            "season_sample": 121,
+            "last_three": 0.16692182999694297,
+            "recent_sample": 73
+          },
+          "success_rate": {
+            "season_to_date": 0.4297520661157025,
+            "season_sample": 121,
+            "last_three": 0.5205479452054794,
+            "recent_sample": 73
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09917355371900827,
+            "season_sample": 121,
+            "last_three": 0.1232876712328767,
+            "recent_sample": 73
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": -0.16823909423909425,
+            "season_sample": 10,
+            "last_three": -0.43890842490842485,
+            "recent_sample": 5
+          },
+          "net_punting": {
+            "season_to_date": 45.09090909090909,
+            "season_sample": 22,
+            "last_three": 45.15384615384615,
+            "recent_sample": 13
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": 0.05397272311880905,
+            "season_sample": 89,
+            "last_three": -0.01651172638261446,
+            "recent_sample": 47
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Houston Texans",
+      "team_code": "HOU",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.16757319440559953,
+            "season_sample": 177,
+            "last_three": 0.2608257861581247,
+            "recent_sample": 95
+          },
+          "success_rate": {
+            "season_to_date": 0.5141242937853108,
+            "season_sample": 177,
+            "last_three": 0.5368421052631579,
+            "recent_sample": 95
+          },
+          "explosive_rate": {
+            "season_to_date": 0.10734463276836158,
+            "season_sample": 177,
+            "last_three": 0.12631578947368421,
+            "recent_sample": 95
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.20066774336145093,
+            "season_sample": 101,
+            "last_three": -0.18721000408262709,
+            "recent_sample": 56
+          },
+          "success_rate": {
+            "season_to_date": 0.3069306930693069,
+            "season_sample": 101,
+            "last_three": 0.30357142857142855,
+            "recent_sample": 56
+          },
+          "explosive_rate": {
+            "season_to_date": 0.04950495049504951,
+            "season_sample": 101,
+            "last_three": 0.017857142857142856,
+            "recent_sample": 56
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.06229403740371831,
+            "season_sample": 176,
+            "last_three": -0.0871379093621815,
+            "recent_sample": 112
+          },
+          "success_rate": {
+            "season_to_date": 0.39204545454545453,
+            "season_sample": 176,
+            "last_three": 0.39285714285714285,
+            "recent_sample": 112
+          },
+          "explosive_rate": {
+            "season_to_date": 0.10795454545454546,
+            "season_sample": 176,
+            "last_three": 0.08035714285714286,
+            "recent_sample": 112
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.12239646563306453,
+            "season_sample": 100,
+            "last_three": -0.08754734660883859,
+            "recent_sample": 65
+          },
+          "success_rate": {
+            "season_to_date": 0.39,
+            "season_sample": 100,
+            "last_three": 0.4153846153846154,
+            "recent_sample": 65
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08,
+            "season_sample": 100,
+            "last_three": 0.06153846153846154,
+            "recent_sample": 65
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.0787902027149339,
+            "season_sample": 12,
+            "last_three": 0.1432284924220408,
+            "recent_sample": 8
+          },
+          "net_punting": {
+            "season_to_date": 42.9,
+            "season_sample": 20,
+            "last_three": 42.90909090909091,
+            "recent_sample": 11
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.14383287727417027,
+            "season_sample": 91,
+            "last_three": -0.21826492380525456,
+            "recent_sample": 50
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Indianapolis Colts",
+      "team_code": "IND",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": -0.1340221867075161,
+            "season_sample": 166,
+            "last_three": -0.12415437095152773,
+            "recent_sample": 113
+          },
+          "success_rate": {
+            "season_to_date": 0.40963855421686746,
+            "season_sample": 166,
+            "last_three": 0.39823008849557523,
+            "recent_sample": 113
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0783132530120482,
+            "season_sample": 166,
+            "last_three": 0.08849557522123894,
+            "recent_sample": 113
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": 0.0949342390943204,
+            "season_sample": 126,
+            "last_three": 0.0920409870491634,
+            "recent_sample": 79
+          },
+          "success_rate": {
+            "season_to_date": 0.4365079365079365,
+            "season_sample": 126,
+            "last_three": 0.43037974683544306,
+            "recent_sample": 79
+          },
+          "explosive_rate": {
+            "season_to_date": 0.1111111111111111,
+            "season_sample": 126,
+            "last_three": 0.0759493670886076,
+            "recent_sample": 79
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.16352125254263716,
+            "season_sample": 164,
+            "last_three": -0.008868494872597651,
+            "recent_sample": 91
+          },
+          "success_rate": {
+            "season_to_date": 0.43902439024390244,
+            "season_sample": 164,
+            "last_three": 0.3626373626373626,
+            "recent_sample": 91
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09146341463414634,
+            "season_sample": 164,
+            "last_three": 0.08791208791208792,
+            "recent_sample": 91
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": 0.10033376899763413,
+            "season_sample": 98,
+            "last_three": 0.01941304789682575,
+            "recent_sample": 53
+          },
+          "success_rate": {
+            "season_to_date": 0.4489795918367347,
+            "season_sample": 98,
+            "last_three": 0.41509433962264153,
+            "recent_sample": 53
+          },
+          "explosive_rate": {
+            "season_to_date": 0.10204081632653061,
+            "season_sample": 98,
+            "last_three": 0.07547169811320754,
+            "recent_sample": 53
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.18449401105651103,
+            "season_sample": 16,
+            "last_three": 0.18549088861588858,
+            "recent_sample": 12
+          },
+          "net_punting": {
+            "season_to_date": 46.61538461538461,
+            "season_sample": 13,
+            "last_three": 49.166666666666664,
+            "recent_sample": 6
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": 0.09375439439115674,
+            "season_sample": 92,
+            "last_three": 0.16141440228225218,
+            "recent_sample": 53
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Jacksonville Jaguars",
+      "team_code": "JAX",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.24554617603476517,
+            "season_sample": 148,
+            "last_three": 0.2758552676075253,
+            "recent_sample": 100
+          },
+          "success_rate": {
+            "season_to_date": 0.4864864864864865,
+            "season_sample": 148,
+            "last_three": 0.47,
+            "recent_sample": 100
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08783783783783784,
+            "season_sample": 148,
+            "last_three": 0.08,
+            "recent_sample": 100
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.012225279271259012,
+            "season_sample": 103,
+            "last_three": -0.03855123857757639,
+            "recent_sample": 66
+          },
+          "success_rate": {
+            "season_to_date": 0.4174757281553398,
+            "season_sample": 103,
+            "last_three": 0.3939393939393939,
+            "recent_sample": 66
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0970873786407767,
+            "season_sample": 103,
+            "last_three": 0.10606060606060606,
+            "recent_sample": 66
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": -0.03754943506311141,
+            "season_sample": 159,
+            "last_three": -0.012547543702403035,
+            "recent_sample": 120
+          },
+          "success_rate": {
+            "season_to_date": 0.4528301886792453,
+            "season_sample": 159,
+            "last_three": 0.45,
+            "recent_sample": 120
+          },
+          "explosive_rate": {
+            "season_to_date": 0.06918238993710692,
+            "season_sample": 159,
+            "last_three": 0.05,
+            "recent_sample": 120
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.26149689199570064,
+            "season_sample": 75,
+            "last_three": -0.3336396129193473,
+            "recent_sample": 47
+          },
+          "success_rate": {
+            "season_to_date": 0.29333333333333333,
+            "season_sample": 75,
+            "last_three": 0.23404255319148937,
+            "recent_sample": 47
+          },
+          "explosive_rate": {
+            "season_to_date": 0.04,
+            "season_sample": 75,
+            "last_three": 0.0,
+            "recent_sample": 47
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.02792816001424384,
+            "season_sample": 11,
+            "last_three": 0.06823141556774422,
+            "recent_sample": 6
+          },
+          "net_punting": {
+            "season_to_date": 41.588235294117645,
+            "season_sample": 17,
+            "last_three": 38.72727272727273,
+            "recent_sample": 11
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.0811399563827128,
+            "season_sample": 78,
+            "last_three": -0.06794132758118307,
+            "recent_sample": 48
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Kansas City Chiefs",
+      "team_code": "KC",
+      "season": "2026",
+      "games_played": 4,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.19243067766930358,
+            "season_sample": 136,
+            "last_three": 0.2588629946610341,
+            "recent_sample": 110
+          },
+          "success_rate": {
+            "season_to_date": 0.4852941176470588,
+            "season_sample": 136,
+            "last_three": 0.509090909090909,
+            "recent_sample": 110
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08823529411764706,
+            "season_sample": 136,
+            "last_three": 0.1,
+            "recent_sample": 110
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": 0.1463479098310731,
+            "season_sample": 94,
+            "last_three": 0.06982828683205973,
+            "recent_sample": 72
+          },
+          "success_rate": {
+            "season_to_date": 0.48936170212765956,
+            "season_sample": 94,
+            "last_three": 0.5138888888888888,
+            "recent_sample": 72
+          },
+          "explosive_rate": {
+            "season_to_date": 0.14893617021276595,
+            "season_sample": 94,
+            "last_three": 0.1527777777777778,
+            "recent_sample": 72
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.045317859848702395,
+            "season_sample": 141,
+            "last_three": 0.13807396141747408,
+            "recent_sample": 115
+          },
+          "success_rate": {
+            "season_to_date": 0.46099290780141844,
+            "season_sample": 141,
+            "last_three": 0.46956521739130436,
+            "recent_sample": 115
+          },
+          "explosive_rate": {
+            "season_to_date": 0.07092198581560284,
+            "season_sample": 141,
+            "last_three": 0.08695652173913043,
+            "recent_sample": 115
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.11139266080678542,
+            "season_sample": 92,
+            "last_three": -0.1245144381530488,
+            "recent_sample": 81
+          },
+          "success_rate": {
+            "season_to_date": 0.33695652173913043,
+            "season_sample": 92,
+            "last_three": 0.345679012345679,
+            "recent_sample": 81
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09782608695652174,
+            "season_sample": 92,
+            "last_three": 0.09876543209876543,
+            "recent_sample": 81
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": -0.10922910621835352,
+            "season_sample": 9,
+            "last_three": -0.12519755931046253,
+            "recent_sample": 8
+          },
+          "net_punting": {
+            "season_to_date": 47.25,
+            "season_sample": 12,
+            "last_three": 48.125,
+            "recent_sample": 8
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": 0.10672366015268916,
+            "season_sample": 69,
+            "last_three": 0.15656750650377968,
+            "recent_sample": 50
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Los Angeles Rams",
+      "team_code": "LA",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.1566197863118724,
+            "season_sample": 206,
+            "last_three": 0.11942653888424655,
+            "recent_sample": 167
+          },
+          "success_rate": {
+            "season_to_date": 0.4854368932038835,
+            "season_sample": 206,
+            "last_three": 0.49101796407185627,
+            "recent_sample": 167
+          },
+          "explosive_rate": {
+            "season_to_date": 0.10194174757281553,
+            "season_sample": 206,
+            "last_three": 0.08383233532934131,
+            "recent_sample": 167
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.021903957693513162,
+            "season_sample": 98,
+            "last_three": 0.04413780876179047,
+            "recent_sample": 67
+          },
+          "success_rate": {
+            "season_to_date": 0.42857142857142855,
+            "season_sample": 98,
+            "last_three": 0.3880597014925373,
+            "recent_sample": 67
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09183673469387756,
+            "season_sample": 98,
+            "last_three": 0.05970149253731343,
+            "recent_sample": 67
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.09826965341351741,
+            "season_sample": 153,
+            "last_three": 0.18237030485551708,
+            "recent_sample": 96
+          },
+          "success_rate": {
+            "season_to_date": 0.46405228758169936,
+            "season_sample": 153,
+            "last_three": 0.4583333333333333,
+            "recent_sample": 96
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0718954248366013,
+            "season_sample": 153,
+            "last_three": 0.09375,
+            "recent_sample": 96
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.10578013068854776,
+            "season_sample": 117,
+            "last_three": -0.13605336513617466,
+            "recent_sample": 77
+          },
+          "success_rate": {
+            "season_to_date": 0.41025641025641024,
+            "season_sample": 117,
+            "last_three": 0.4025974025974026,
+            "recent_sample": 77
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09401709401709402,
+            "season_sample": 117,
+            "last_three": 0.09090909090909091,
+            "recent_sample": 77
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": -0.2977493819000759,
+            "season_sample": 9,
+            "last_three": -0.2310354703679225,
+            "recent_sample": 8
+          },
+          "net_punting": {
+            "season_to_date": 38.125,
+            "season_sample": 16,
+            "last_three": 35.9,
+            "recent_sample": 10
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.19356250111047096,
+            "season_sample": 87,
+            "last_three": -0.2057608633037664,
+            "recent_sample": 57
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Los Angeles Chargers",
+      "team_code": "LAC",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": -0.28690978917708115,
+            "season_sample": 149,
+            "last_three": -0.4858561600202825,
+            "recent_sample": 93
+          },
+          "success_rate": {
+            "season_to_date": 0.3691275167785235,
+            "season_sample": 149,
+            "last_three": 0.3225806451612903,
+            "recent_sample": 93
+          },
+          "explosive_rate": {
+            "season_to_date": 0.06040268456375839,
+            "season_sample": 149,
+            "last_three": 0.06451612903225806,
+            "recent_sample": 93
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.2558653649513345,
+            "season_sample": 119,
+            "last_three": -0.1294113306301662,
+            "recent_sample": 72
+          },
+          "success_rate": {
+            "season_to_date": 0.36134453781512604,
+            "season_sample": 119,
+            "last_three": 0.375,
+            "recent_sample": 72
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09243697478991597,
+            "season_sample": 119,
+            "last_three": 0.09722222222222222,
+            "recent_sample": 72
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.009291772183356778,
+            "season_sample": 149,
+            "last_three": -0.22087133266664216,
+            "recent_sample": 79
+          },
+          "success_rate": {
+            "season_to_date": 0.4429530201342282,
+            "season_sample": 149,
+            "last_three": 0.3670886075949367,
+            "recent_sample": 79
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09395973154362416,
+            "season_sample": 149,
+            "last_three": 0.10126582278481013,
+            "recent_sample": 79
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.05874212923666882,
+            "season_sample": 122,
+            "last_three": 0.02534203559342686,
+            "recent_sample": 74
+          },
+          "success_rate": {
+            "season_to_date": 0.4262295081967213,
+            "season_sample": 122,
+            "last_three": 0.4864864864864865,
+            "recent_sample": 74
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09016393442622951,
+            "season_sample": 122,
+            "last_three": 0.12162162162162163,
+            "recent_sample": 74
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": -0.12118306325905381,
+            "season_sample": 9,
+            "last_three": -0.04662506381349438,
+            "recent_sample": 8
+          },
+          "net_punting": {
+            "season_to_date": 42.5,
+            "season_sample": 20,
+            "last_three": 39.15384615384615,
+            "recent_sample": 13
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.1589410008901209,
+            "season_sample": 92,
+            "last_three": -0.21586710680020874,
+            "recent_sample": 57
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Las Vegas Raiders",
+      "team_code": "LV",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.20254873059098136,
+            "season_sample": 163,
+            "last_three": 0.19538378209864402,
+            "recent_sample": 106
+          },
+          "success_rate": {
+            "season_to_date": 0.49693251533742333,
+            "season_sample": 163,
+            "last_three": 0.5094339622641509,
+            "recent_sample": 106
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08588957055214724,
+            "season_sample": 163,
+            "last_three": 0.08490566037735849,
+            "recent_sample": 106
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.16328748078167174,
+            "season_sample": 107,
+            "last_three": -0.21103236194280905,
+            "recent_sample": 60
+          },
+          "success_rate": {
+            "season_to_date": 0.35514018691588783,
+            "season_sample": 107,
+            "last_three": 0.31666666666666665,
+            "recent_sample": 60
+          },
+          "explosive_rate": {
+            "season_to_date": 0.06542056074766354,
+            "season_sample": 107,
+            "last_three": 0.05,
+            "recent_sample": 60
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.16117094002914706,
+            "season_sample": 150,
+            "last_three": 0.21207677712195894,
+            "recent_sample": 97
+          },
+          "success_rate": {
+            "season_to_date": 0.5066666666666667,
+            "season_sample": 150,
+            "last_three": 0.5360824742268041,
+            "recent_sample": 97
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08,
+            "season_sample": 150,
+            "last_three": 0.08247422680412371,
+            "recent_sample": 97
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.13924028616215092,
+            "season_sample": 109,
+            "last_three": 0.05243992315875152,
+            "recent_sample": 66
+          },
+          "success_rate": {
+            "season_to_date": 0.41284403669724773,
+            "season_sample": 109,
+            "last_three": 0.48484848484848486,
+            "recent_sample": 66
+          },
+          "explosive_rate": {
+            "season_to_date": 0.13761467889908258,
+            "season_sample": 109,
+            "last_three": 0.16666666666666666,
+            "recent_sample": 66
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.05873233814410287,
+            "season_sample": 12,
+            "last_three": 0.022663897663897696,
+            "recent_sample": 9
+          },
+          "net_punting": {
+            "season_to_date": 43.36842105263158,
+            "season_sample": 19,
+            "last_three": 39.4,
+            "recent_sample": 10
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.06675174952776979,
+            "season_sample": 92,
+            "last_three": -0.13751033540497057,
+            "recent_sample": 56
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Miami Dolphins",
+      "team_code": "MIA",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": -0.15892158518332974,
+            "season_sample": 120,
+            "last_three": -0.25409469779021715,
+            "recent_sample": 76
+          },
+          "success_rate": {
+            "season_to_date": 0.38333333333333336,
+            "season_sample": 120,
+            "last_three": 0.35526315789473684,
+            "recent_sample": 76
+          },
+          "explosive_rate": {
+            "season_to_date": 0.06666666666666667,
+            "season_sample": 120,
+            "last_three": 0.05263157894736842,
+            "recent_sample": 76
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.041716764158441756,
+            "season_sample": 94,
+            "last_three": -0.04327712778467683,
+            "recent_sample": 62
+          },
+          "success_rate": {
+            "season_to_date": 0.35106382978723405,
+            "season_sample": 94,
+            "last_three": 0.3064516129032258,
+            "recent_sample": 62
+          },
+          "explosive_rate": {
+            "season_to_date": 0.1276595744680851,
+            "season_sample": 94,
+            "last_three": 0.16129032258064516,
+            "recent_sample": 62
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.34761301755896407,
+            "season_sample": 138,
+            "last_three": 0.2338183729041431,
+            "recent_sample": 98
+          },
+          "success_rate": {
+            "season_to_date": 0.5579710144927537,
+            "season_sample": 138,
+            "last_three": 0.5306122448979592,
+            "recent_sample": 98
+          },
+          "explosive_rate": {
+            "season_to_date": 0.07246376811594203,
+            "season_sample": 138,
+            "last_three": 0.07142857142857142,
+            "recent_sample": 98
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.020749311774743023,
+            "season_sample": 106,
+            "last_three": -0.06846025242365622,
+            "recent_sample": 69
+          },
+          "success_rate": {
+            "season_to_date": 0.4811320754716981,
+            "season_sample": 106,
+            "last_three": 0.4782608695652174,
+            "recent_sample": 69
+          },
+          "explosive_rate": {
+            "season_to_date": 0.10377358490566038,
+            "season_sample": 106,
+            "last_three": 0.10144927536231885,
+            "recent_sample": 69
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": -0.13887969957713256,
+            "season_sample": 9,
+            "last_three": 0.01702306079664569,
+            "recent_sample": 3
+          },
+          "net_punting": {
+            "season_to_date": 39.64705882352941,
+            "season_sample": 17,
+            "last_three": 39.7,
+            "recent_sample": 10
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.10101453266261769,
+            "season_sample": 75,
+            "last_three": -0.1543125954663588,
+            "recent_sample": 45
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Minnesota Vikings",
+      "team_code": "MIN",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": -0.050604738024294854,
+            "season_sample": 167,
+            "last_three": -0.07039275385352801,
+            "recent_sample": 113
+          },
+          "success_rate": {
+            "season_to_date": 0.3712574850299401,
+            "season_sample": 167,
+            "last_three": 0.37168141592920356,
+            "recent_sample": 113
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0718562874251497,
+            "season_sample": 167,
+            "last_three": 0.07964601769911504,
+            "recent_sample": 113
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.1674270673645521,
+            "season_sample": 117,
+            "last_three": -0.20836097061669887,
+            "recent_sample": 65
+          },
+          "success_rate": {
+            "season_to_date": 0.3504273504273504,
+            "season_sample": 117,
+            "last_three": 0.36923076923076925,
+            "recent_sample": 65
+          },
+          "explosive_rate": {
+            "season_to_date": 0.06837606837606838,
+            "season_sample": 117,
+            "last_three": 0.07692307692307693,
+            "recent_sample": 65
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": -0.1989647508471436,
+            "season_sample": 162,
+            "last_three": -0.3615900234679526,
+            "recent_sample": 86
+          },
+          "success_rate": {
+            "season_to_date": 0.345679012345679,
+            "season_sample": 162,
+            "last_three": 0.3372093023255814,
+            "recent_sample": 86
+          },
+          "explosive_rate": {
+            "season_to_date": 0.06790123456790123,
+            "season_sample": 162,
+            "last_three": 0.03488372093023256,
+            "recent_sample": 86
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.21579168377776098,
+            "season_sample": 101,
+            "last_three": -0.10002286276721854,
+            "recent_sample": 52
+          },
+          "success_rate": {
+            "season_to_date": 0.297029702970297,
+            "season_sample": 101,
+            "last_three": 0.2692307692307692,
+            "recent_sample": 52
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0891089108910891,
+            "season_sample": 101,
+            "last_three": 0.057692307692307696,
+            "recent_sample": 52
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.17439076932988656,
+            "season_sample": 15,
+            "last_three": 0.21588778632157626,
+            "recent_sample": 11
+          },
+          "net_punting": {
+            "season_to_date": 39.4,
+            "season_sample": 25,
+            "last_three": 38.266666666666666,
+            "recent_sample": 15
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": 0.14426272217671574,
+            "season_sample": 97,
+            "last_three": 0.22951789201451014,
+            "recent_sample": 61
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "New England Patriots",
+      "team_code": "NE",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.1949158145068897,
+            "season_sample": 152,
+            "last_three": 0.34307686894465783,
+            "recent_sample": 86
+          },
+          "success_rate": {
+            "season_to_date": 0.5328947368421053,
+            "season_sample": 152,
+            "last_three": 0.5581395348837209,
+            "recent_sample": 86
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08552631578947369,
+            "season_sample": 152,
+            "last_three": 0.10465116279069768,
+            "recent_sample": 86
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.117938115062619,
+            "season_sample": 102,
+            "last_three": -0.09339221834909299,
+            "recent_sample": 61
+          },
+          "success_rate": {
+            "season_to_date": 0.38235294117647056,
+            "season_sample": 102,
+            "last_three": 0.39344262295081966,
+            "recent_sample": 61
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09803921568627451,
+            "season_sample": 102,
+            "last_three": 0.09836065573770492,
+            "recent_sample": 61
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.011426194107787164,
+            "season_sample": 145,
+            "last_three": 0.13842688389551525,
+            "recent_sample": 87
+          },
+          "success_rate": {
+            "season_to_date": 0.4206896551724138,
+            "season_sample": 145,
+            "last_three": 0.41379310344827586,
+            "recent_sample": 87
+          },
+          "explosive_rate": {
+            "season_to_date": 0.07586206896551724,
+            "season_sample": 145,
+            "last_three": 0.09195402298850575,
+            "recent_sample": 87
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.03587994573502898,
+            "season_sample": 88,
+            "last_three": 0.03727613048680258,
+            "recent_sample": 49
+          },
+          "success_rate": {
+            "season_to_date": 0.3977272727272727,
+            "season_sample": 88,
+            "last_three": 0.4897959183673469,
+            "recent_sample": 49
+          },
+          "explosive_rate": {
+            "season_to_date": 0.07954545454545454,
+            "season_sample": 88,
+            "last_three": 0.08163265306122448,
+            "recent_sample": 49
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": -0.1417096729996346,
+            "season_sample": 8,
+            "last_three": -0.19934006211180122,
+            "recent_sample": 4
+          },
+          "net_punting": {
+            "season_to_date": 39.5625,
+            "season_sample": 16,
+            "last_three": 37.625,
+            "recent_sample": 8
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.019245871860424403,
+            "season_sample": 85,
+            "last_three": -0.03729268289901615,
+            "recent_sample": 51
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "New Orleans Saints",
+      "team_code": "NO",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": -0.02594167193210318,
+            "season_sample": 194,
+            "last_three": -0.11873382931946784,
+            "recent_sample": 93
+          },
+          "success_rate": {
+            "season_to_date": 0.4690721649484536,
+            "season_sample": 194,
+            "last_three": 0.4731182795698925,
+            "recent_sample": 93
+          },
+          "explosive_rate": {
+            "season_to_date": 0.07216494845360824,
+            "season_sample": 194,
+            "last_three": 0.043010752688172046,
+            "recent_sample": 93
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.1569624777714594,
+            "season_sample": 103,
+            "last_three": -0.20891236870998672,
+            "recent_sample": 56
+          },
+          "success_rate": {
+            "season_to_date": 0.3592233009708738,
+            "season_sample": 103,
+            "last_three": 0.375,
+            "recent_sample": 56
+          },
+          "explosive_rate": {
+            "season_to_date": 0.038834951456310676,
+            "season_sample": 103,
+            "last_three": 0.03571428571428571,
+            "recent_sample": 56
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.13553797345885887,
+            "season_sample": 170,
+            "last_three": 0.22353887975406836,
+            "recent_sample": 94
+          },
+          "success_rate": {
+            "season_to_date": 0.5058823529411764,
+            "season_sample": 170,
+            "last_three": 0.5212765957446809,
+            "recent_sample": 94
+          },
+          "explosive_rate": {
+            "season_to_date": 0.07058823529411765,
+            "season_sample": 170,
+            "last_three": 0.0851063829787234,
+            "recent_sample": 94
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.013627406126410078,
+            "season_sample": 116,
+            "last_three": -0.057466885729368304,
+            "recent_sample": 66
+          },
+          "success_rate": {
+            "season_to_date": 0.49137931034482757,
+            "season_sample": 116,
+            "last_three": 0.4090909090909091,
+            "recent_sample": 66
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09482758620689655,
+            "season_sample": 116,
+            "last_three": 0.06060606060606061,
+            "recent_sample": 66
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": -0.09736093018767791,
+            "season_sample": 7,
+            "last_three": -0.3478835978835979,
+            "recent_sample": 2
+          },
+          "net_punting": {
+            "season_to_date": 40.833333333333336,
+            "season_sample": 18,
+            "last_three": 41.5,
+            "recent_sample": 10
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": 0.027630185585197288,
+            "season_sample": 90,
+            "last_three": 0.004912792264447293,
+            "recent_sample": 51
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "New York Giants",
+      "team_code": "NYG",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.09827705058406484,
+            "season_sample": 170,
+            "last_three": 0.0654377717947453,
+            "recent_sample": 115
+          },
+          "success_rate": {
+            "season_to_date": 0.4588235294117647,
+            "season_sample": 170,
+            "last_three": 0.43478260869565216,
+            "recent_sample": 115
+          },
+          "explosive_rate": {
+            "season_to_date": 0.058823529411764705,
+            "season_sample": 170,
+            "last_three": 0.0782608695652174,
+            "recent_sample": 115
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.19682480122883225,
+            "season_sample": 128,
+            "last_three": -0.24364181866842546,
+            "recent_sample": 83
+          },
+          "success_rate": {
+            "season_to_date": 0.359375,
+            "season_sample": 128,
+            "last_three": 0.3373493975903614,
+            "recent_sample": 83
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0546875,
+            "season_sample": 128,
+            "last_three": 0.04819277108433735,
+            "recent_sample": 83
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.030878271296301704,
+            "season_sample": 164,
+            "last_three": -0.14773494424877492,
+            "recent_sample": 113
+          },
+          "success_rate": {
+            "season_to_date": 0.4634146341463415,
+            "season_sample": 164,
+            "last_three": 0.4424778761061947,
+            "recent_sample": 113
+          },
+          "explosive_rate": {
+            "season_to_date": 0.07926829268292683,
+            "season_sample": 164,
+            "last_three": 0.07079646017699115,
+            "recent_sample": 113
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.049497158489725517,
+            "season_sample": 94,
+            "last_three": -0.011346975474639965,
+            "recent_sample": 67
+          },
+          "success_rate": {
+            "season_to_date": 0.425531914893617,
+            "season_sample": 94,
+            "last_three": 0.417910447761194,
+            "recent_sample": 67
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09574468085106383,
+            "season_sample": 94,
+            "last_three": 0.08955223880597014,
+            "recent_sample": 67
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": -0.0492868639795948,
+            "season_sample": 14,
+            "last_three": -0.08327809620020621,
+            "recent_sample": 12
+          },
+          "net_punting": {
+            "season_to_date": 45.55555555555556,
+            "season_sample": 18,
+            "last_three": 46.45454545454545,
+            "recent_sample": 11
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": 0.18555657788455457,
+            "season_sample": 87,
+            "last_three": 0.18478481077231815,
+            "recent_sample": 58
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "New York Jets",
+      "team_code": "NYJ",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": -0.00455811205517188,
+            "season_sample": 167,
+            "last_three": -0.15332823580316218,
+            "recent_sample": 95
+          },
+          "success_rate": {
+            "season_to_date": 0.4550898203592814,
+            "season_sample": 167,
+            "last_three": 0.43157894736842106,
+            "recent_sample": 95
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0718562874251497,
+            "season_sample": 167,
+            "last_three": 0.07368421052631578,
+            "recent_sample": 95
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.09514868742227132,
+            "season_sample": 107,
+            "last_three": -0.04775881632425213,
+            "recent_sample": 60
+          },
+          "success_rate": {
+            "season_to_date": 0.40186915887850466,
+            "season_sample": 107,
+            "last_three": 0.38333333333333336,
+            "recent_sample": 60
+          },
+          "explosive_rate": {
+            "season_to_date": 0.102803738317757,
+            "season_sample": 107,
+            "last_three": 0.11666666666666667,
+            "recent_sample": 60
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": -0.013195838044314305,
+            "season_sample": 164,
+            "last_three": 0.061213355475242065,
+            "recent_sample": 109
+          },
+          "success_rate": {
+            "season_to_date": 0.43902439024390244,
+            "season_sample": 164,
+            "last_three": 0.47706422018348627,
+            "recent_sample": 109
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08536585365853659,
+            "season_sample": 164,
+            "last_three": 0.11926605504587157,
+            "recent_sample": 109
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.18087265962417223,
+            "season_sample": 106,
+            "last_three": -0.1279122139060756,
+            "recent_sample": 80
+          },
+          "success_rate": {
+            "season_to_date": 0.44339622641509435,
+            "season_sample": 106,
+            "last_three": 0.475,
+            "recent_sample": 80
+          },
+          "explosive_rate": {
+            "season_to_date": 0.07547169811320754,
+            "season_sample": 106,
+            "last_three": 0.0625,
+            "recent_sample": 80
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.04633506550746072,
+            "season_sample": 9,
+            "last_three": 0.1278923872013422,
+            "recent_sample": 4
+          },
+          "net_punting": {
+            "season_to_date": 40.28,
+            "season_sample": 25,
+            "last_three": 42.06666666666667,
+            "recent_sample": 15
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": 0.012188803564331272,
+            "season_sample": 94,
+            "last_three": -0.00789038061805691,
+            "recent_sample": 53
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Philadelphia Eagles",
+      "team_code": "PHI",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": -0.038342891330970026,
+            "season_sample": 172,
+            "last_three": -0.20368871092312668,
+            "recent_sample": 97
+          },
+          "success_rate": {
+            "season_to_date": 0.38372093023255816,
+            "season_sample": 172,
+            "last_three": 0.35051546391752575,
+            "recent_sample": 97
+          },
+          "explosive_rate": {
+            "season_to_date": 0.05813953488372093,
+            "season_sample": 172,
+            "last_three": 0.020618556701030927,
+            "recent_sample": 97
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.18840003046213852,
+            "season_sample": 104,
+            "last_three": -0.22962292571331752,
+            "recent_sample": 56
+          },
+          "success_rate": {
+            "season_to_date": 0.34615384615384615,
+            "season_sample": 104,
+            "last_three": 0.375,
+            "recent_sample": 56
+          },
+          "explosive_rate": {
+            "season_to_date": 0.04807692307692308,
+            "season_sample": 104,
+            "last_three": 0.07142857142857142,
+            "recent_sample": 56
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.14010206415972834,
+            "season_sample": 191,
+            "last_three": 0.15647954143234924,
+            "recent_sample": 128
+          },
+          "success_rate": {
+            "season_to_date": 0.4607329842931937,
+            "season_sample": 191,
+            "last_three": 0.4921875,
+            "recent_sample": 128
+          },
+          "explosive_rate": {
+            "season_to_date": 0.07853403141361257,
+            "season_sample": 191,
+            "last_three": 0.078125,
+            "recent_sample": 128
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.06624787087154152,
+            "season_sample": 118,
+            "last_three": -0.14494099111283085,
+            "recent_sample": 62
+          },
+          "success_rate": {
+            "season_to_date": 0.4067796610169492,
+            "season_sample": 118,
+            "last_three": 0.3548387096774194,
+            "recent_sample": 62
+          },
+          "explosive_rate": {
+            "season_to_date": 0.07627118644067797,
+            "season_sample": 118,
+            "last_three": 0.06451612903225806,
+            "recent_sample": 62
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.16354849890684162,
+            "season_sample": 5,
+            "last_three": 0.16898851739277276,
+            "recent_sample": 3
+          },
+          "net_punting": {
+            "season_to_date": 43.84,
+            "season_sample": 25,
+            "last_three": 42.9375,
+            "recent_sample": 16
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": 0.11091592842812374,
+            "season_sample": 90,
+            "last_three": 0.17656724246910188,
+            "recent_sample": 52
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Pittsburgh Steelers",
+      "team_code": "PIT",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": -0.07838933438433468,
+            "season_sample": 188,
+            "last_three": 0.13755447908066956,
+            "recent_sample": 114
+          },
+          "success_rate": {
+            "season_to_date": 0.4095744680851064,
+            "season_sample": 188,
+            "last_three": 0.43859649122807015,
+            "recent_sample": 114
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0851063829787234,
+            "season_sample": 188,
+            "last_three": 0.11403508771929824,
+            "recent_sample": 114
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": 0.07753573141801447,
+            "season_sample": 90,
+            "last_three": 0.24344904211545815,
+            "recent_sample": 55
+          },
+          "success_rate": {
+            "season_to_date": 0.4222222222222222,
+            "season_sample": 90,
+            "last_three": 0.5272727272727272,
+            "recent_sample": 55
+          },
+          "explosive_rate": {
+            "season_to_date": 0.1,
+            "season_sample": 90,
+            "last_three": 0.12727272727272726,
+            "recent_sample": 55
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.07608361366679249,
+            "season_sample": 165,
+            "last_three": 0.26908809495927977,
+            "recent_sample": 115
+          },
+          "success_rate": {
+            "season_to_date": 0.48484848484848486,
+            "season_sample": 165,
+            "last_three": 0.5304347826086957,
+            "recent_sample": 115
+          },
+          "explosive_rate": {
+            "season_to_date": 0.12121212121212122,
+            "season_sample": 165,
+            "last_three": 0.11304347826086956,
+            "recent_sample": 115
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.02527037970179048,
+            "season_sample": 109,
+            "last_three": -0.06424846602585027,
+            "recent_sample": 62
+          },
+          "success_rate": {
+            "season_to_date": 0.43119266055045874,
+            "season_sample": 109,
+            "last_three": 0.3870967741935484,
+            "recent_sample": 62
+          },
+          "explosive_rate": {
+            "season_to_date": 0.10091743119266056,
+            "season_sample": 109,
+            "last_three": 0.08064516129032258,
+            "recent_sample": 62
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": -0.08936652915311451,
+            "season_sample": 12,
+            "last_three": -0.016933156305978612,
+            "recent_sample": 7
+          },
+          "net_punting": {
+            "season_to_date": 43.904761904761905,
+            "season_sample": 21,
+            "last_three": 48.44444444444444,
+            "recent_sample": 9
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": 0.007175472662221112,
+            "season_sample": 91,
+            "last_three": 0.04222632814263396,
+            "recent_sample": 54
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Seattle Seahawks",
+      "team_code": "SEA",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.10121109200866116,
+            "season_sample": 154,
+            "last_three": -0.0560827425750459,
+            "recent_sample": 101
+          },
+          "success_rate": {
+            "season_to_date": 0.474025974025974,
+            "season_sample": 154,
+            "last_three": 0.46534653465346537,
+            "recent_sample": 101
+          },
+          "explosive_rate": {
+            "season_to_date": 0.1038961038961039,
+            "season_sample": 154,
+            "last_three": 0.10891089108910891,
+            "recent_sample": 101
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.3477366326922863,
+            "season_sample": 105,
+            "last_three": -0.3625779596642476,
+            "recent_sample": 60
+          },
+          "success_rate": {
+            "season_to_date": 0.3333333333333333,
+            "season_sample": 105,
+            "last_three": 0.3333333333333333,
+            "recent_sample": 60
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08571428571428572,
+            "season_sample": 105,
+            "last_three": 0.06666666666666667,
+            "recent_sample": 60
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": -0.14769370789931419,
+            "season_sample": 169,
+            "last_three": -0.21737760548002277,
+            "recent_sample": 99
+          },
+          "success_rate": {
+            "season_to_date": 0.39644970414201186,
+            "season_sample": 169,
+            "last_three": 0.36363636363636365,
+            "recent_sample": 99
+          },
+          "explosive_rate": {
+            "season_to_date": 0.047337278106508875,
+            "season_sample": 169,
+            "last_three": 0.08080808080808081,
+            "recent_sample": 99
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.27651954300959863,
+            "season_sample": 102,
+            "last_three": -0.2032868730592486,
+            "recent_sample": 63
+          },
+          "success_rate": {
+            "season_to_date": 0.3137254901960784,
+            "season_sample": 102,
+            "last_three": 0.3492063492063492,
+            "recent_sample": 63
+          },
+          "explosive_rate": {
+            "season_to_date": 0.058823529411764705,
+            "season_sample": 102,
+            "last_three": 0.07936507936507936,
+            "recent_sample": 63
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.14448445698445697,
+            "season_sample": 10,
+            "last_three": 0.1999943428514857,
+            "recent_sample": 7
+          },
+          "net_punting": {
+            "season_to_date": 42.75,
+            "season_sample": 20,
+            "last_three": 41.15384615384615,
+            "recent_sample": 13
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": 0.1800161072835909,
+            "season_sample": 100,
+            "last_three": 0.15177089609110175,
+            "recent_sample": 67
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "San Francisco 49ers",
+      "team_code": "SF",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.38623438043622765,
+            "season_sample": 144,
+            "last_three": 0.28323994502777966,
+            "recent_sample": 95
+          },
+          "success_rate": {
+            "season_to_date": 0.5694444444444444,
+            "season_sample": 144,
+            "last_three": 0.5052631578947369,
+            "recent_sample": 95
+          },
+          "explosive_rate": {
+            "season_to_date": 0.09027777777777778,
+            "season_sample": 144,
+            "last_three": 0.10526315789473684,
+            "recent_sample": 95
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.024424621391238806,
+            "season_sample": 102,
+            "last_three": -0.07396638647175828,
+            "recent_sample": 69
+          },
+          "success_rate": {
+            "season_to_date": 0.5,
+            "season_sample": 102,
+            "last_three": 0.4927536231884058,
+            "recent_sample": 69
+          },
+          "explosive_rate": {
+            "season_to_date": 0.1568627450980392,
+            "season_sample": 102,
+            "last_three": 0.17391304347826086,
+            "recent_sample": 69
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.022891660565578315,
+            "season_sample": 156,
+            "last_three": 0.04244736048164121,
+            "recent_sample": 122
+          },
+          "success_rate": {
+            "season_to_date": 0.41025641025641024,
+            "season_sample": 156,
+            "last_three": 0.4180327868852459,
+            "recent_sample": 122
+          },
+          "explosive_rate": {
+            "season_to_date": 0.05128205128205128,
+            "season_sample": 156,
+            "last_three": 0.040983606557377046,
+            "recent_sample": 122
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.09740856076827549,
+            "season_sample": 113,
+            "last_three": -0.16424665158580382,
+            "recent_sample": 73
+          },
+          "success_rate": {
+            "season_to_date": 0.4778761061946903,
+            "season_sample": 113,
+            "last_three": 0.4383561643835616,
+            "recent_sample": 73
+          },
+          "explosive_rate": {
+            "season_to_date": 0.035398230088495575,
+            "season_sample": 113,
+            "last_three": 0.0136986301369863,
+            "recent_sample": 73
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": -0.1767652888220264,
+            "season_sample": 8,
+            "last_three": -0.19510280106024785,
+            "recent_sample": 5
+          },
+          "net_punting": {
+            "season_to_date": 43.625,
+            "season_sample": 16,
+            "last_three": 45.75,
+            "recent_sample": 12
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.0397266497389483,
+            "season_sample": 86,
+            "last_three": -0.050675933581275666,
+            "recent_sample": 59
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Tampa Bay Buccaneers",
+      "team_code": "TB",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": -0.15837748571058774,
+            "season_sample": 180,
+            "last_three": -0.07030578721102566,
+            "recent_sample": 105
+          },
+          "success_rate": {
+            "season_to_date": 0.40555555555555556,
+            "season_sample": 180,
+            "last_three": 0.4,
+            "recent_sample": 105
+          },
+          "explosive_rate": {
+            "season_to_date": 0.06666666666666667,
+            "season_sample": 180,
+            "last_three": 0.06666666666666667,
+            "recent_sample": 105
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": 0.0356239960430013,
+            "season_sample": 103,
+            "last_three": 0.034177016757012235,
+            "recent_sample": 66
+          },
+          "success_rate": {
+            "season_to_date": 0.39805825242718446,
+            "season_sample": 103,
+            "last_three": 0.3787878787878788,
+            "recent_sample": 66
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08737864077669903,
+            "season_sample": 103,
+            "last_three": 0.07575757575757576,
+            "recent_sample": 66
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": -0.012418062148752863,
+            "season_sample": 172,
+            "last_three": -0.11660352673919903,
+            "recent_sample": 102
+          },
+          "success_rate": {
+            "season_to_date": 0.4418604651162791,
+            "season_sample": 172,
+            "last_three": 0.38235294117647056,
+            "recent_sample": 102
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0755813953488372,
+            "season_sample": 172,
+            "last_three": 0.0784313725490196,
+            "recent_sample": 102
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.1985331291636058,
+            "season_sample": 86,
+            "last_three": -0.15535740424764702,
+            "recent_sample": 52
+          },
+          "success_rate": {
+            "season_to_date": 0.3372093023255814,
+            "season_sample": 86,
+            "last_three": 0.36538461538461536,
+            "recent_sample": 52
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08139534883720931,
+            "season_sample": 86,
+            "last_three": 0.07692307692307693,
+            "recent_sample": 52
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": 0.1363362895429962,
+            "season_sample": 10,
+            "last_three": 0.13157724484200298,
+            "recent_sample": 4
+          },
+          "net_punting": {
+            "season_to_date": 37.142857142857146,
+            "season_sample": 21,
+            "last_three": 36.11764705882353,
+            "recent_sample": 17
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": 0.02474683418404313,
+            "season_sample": 93,
+            "last_three": -0.045243098349350676,
+            "recent_sample": 58
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Tennessee Titans",
+      "team_code": "TEN",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": -0.2354631405842044,
+            "season_sample": 128,
+            "last_three": -0.318284556003288,
+            "recent_sample": 81
+          },
+          "success_rate": {
+            "season_to_date": 0.390625,
+            "season_sample": 128,
+            "last_three": 0.37037037037037035,
+            "recent_sample": 81
+          },
+          "explosive_rate": {
+            "season_to_date": 0.0703125,
+            "season_sample": 128,
+            "last_three": 0.06172839506172839,
+            "recent_sample": 81
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.10163238474487442,
+            "season_sample": 90,
+            "last_three": -0.19390076430916614,
+            "recent_sample": 55
+          },
+          "success_rate": {
+            "season_to_date": 0.37777777777777777,
+            "season_sample": 90,
+            "last_three": 0.34545454545454546,
+            "recent_sample": 55
+          },
+          "explosive_rate": {
+            "season_to_date": 0.07777777777777778,
+            "season_sample": 90,
+            "last_three": 0.05454545454545454,
+            "recent_sample": 55
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.23918849347043283,
+            "season_sample": 149,
+            "last_three": 0.22000717568880418,
+            "recent_sample": 83
+          },
+          "success_rate": {
+            "season_to_date": 0.4899328859060403,
+            "season_sample": 149,
+            "last_three": 0.4939759036144578,
+            "recent_sample": 83
+          },
+          "explosive_rate": {
+            "season_to_date": 0.10067114093959731,
+            "season_sample": 149,
+            "last_three": 0.08433734939759036,
+            "recent_sample": 83
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.03935507942745003,
+            "season_sample": 116,
+            "last_three": -0.06484023169218608,
+            "recent_sample": 62
+          },
+          "success_rate": {
+            "season_to_date": 0.41379310344827586,
+            "season_sample": 116,
+            "last_three": 0.3709677419354839,
+            "recent_sample": 62
+          },
+          "explosive_rate": {
+            "season_to_date": 0.06896551724137931,
+            "season_sample": 116,
+            "last_three": 0.0967741935483871,
+            "recent_sample": 62
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": -0.07856052942890938,
+            "season_sample": 6,
+            "last_three": -0.23008326618318556,
+            "recent_sample": 3
+          },
+          "net_punting": {
+            "season_to_date": 41.52,
+            "season_sample": 25,
+            "last_three": 46.357142857142854,
+            "recent_sample": 14
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.18594640847843363,
+            "season_sample": 85,
+            "last_three": -0.08831127532689335,
+            "recent_sample": 51
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    },
+    {
+      "team": "Washington Commanders",
+      "team_code": "WAS",
+      "season": "2026",
+      "games_played": 5,
+      "metrics": {
+        "pass_offense": {
+          "epa": {
+            "season_to_date": 0.0721352876614429,
+            "season_sample": 172,
+            "last_three": 0.06180144027507341,
+            "recent_sample": 101
+          },
+          "success_rate": {
+            "season_to_date": 0.3953488372093023,
+            "season_sample": 172,
+            "last_three": 0.38613861386138615,
+            "recent_sample": 101
+          },
+          "explosive_rate": {
+            "season_to_date": 0.08139534883720931,
+            "season_sample": 172,
+            "last_three": 0.09900990099009901,
+            "recent_sample": 101
+          }
+        },
+        "rush_offense": {
+          "epa": {
+            "season_to_date": -0.1213674702304625,
+            "season_sample": 117,
+            "last_three": -0.18908299258187436,
+            "recent_sample": 68
+          },
+          "success_rate": {
+            "season_to_date": 0.37606837606837606,
+            "season_sample": 117,
+            "last_three": 0.3088235294117647,
+            "recent_sample": 68
+          },
+          "explosive_rate": {
+            "season_to_date": 0.06837606837606838,
+            "season_sample": 117,
+            "last_three": 0.07352941176470588,
+            "recent_sample": 68
+          }
+        },
+        "pass_defense": {
+          "epa": {
+            "season_to_date": 0.09654951094212183,
+            "season_sample": 197,
+            "last_three": 0.011914832658853021,
+            "recent_sample": 136
+          },
+          "success_rate": {
+            "season_to_date": 0.48223350253807107,
+            "season_sample": 197,
+            "last_three": 0.47058823529411764,
+            "recent_sample": 136
+          },
+          "explosive_rate": {
+            "season_to_date": 0.07106598984771574,
+            "season_sample": 197,
+            "last_three": 0.058823529411764705,
+            "recent_sample": 136
+          }
+        },
+        "rush_defense": {
+          "epa": {
+            "season_to_date": -0.15074149029561984,
+            "season_sample": 94,
+            "last_three": -0.14167568120596402,
+            "recent_sample": 65
+          },
+          "success_rate": {
+            "season_to_date": 0.40425531914893614,
+            "season_sample": 94,
+            "last_three": 0.4461538461538462,
+            "recent_sample": 65
+          },
+          "explosive_rate": {
+            "season_to_date": 0.06382978723404255,
+            "season_sample": 94,
+            "last_three": 0.07692307692307693,
+            "recent_sample": 65
+          }
+        },
+        "special_teams": {
+          "field_goals_above_expected": {
+            "season_to_date": -0.037157253097457654,
+            "season_sample": 11,
+            "last_three": 0.0896233159464211,
+            "recent_sample": 6
+          },
+          "net_punting": {
+            "season_to_date": 41.68,
+            "season_sample": 25,
+            "last_three": 41.27777777777778,
+            "recent_sample": 18
+          },
+          "return_coverage_efficiency": {
+            "season_to_date": -0.04390708653839537,
+            "season_sample": 101,
+            "last_three": -0.09389265160268508,
+            "recent_sample": 63
+          }
+        }
+      },
+      "sources": [
+        "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      ],
+      "field_goal_unrated_attempts": 0,
+      "missing_game_ids": []
+    }
+  ],
+  "data_game_ids": [
+    "2026_01_ARI_LAC",
+    "2026_01_ATL_PIT",
+    "2026_01_BAL_IND",
+    "2026_01_BUF_HOU",
+    "2026_01_CHI_CAR",
+    "2026_01_CLE_JAX",
+    "2026_01_DAL_NYG",
+    "2026_01_DEN_KC",
+    "2026_01_GB_MIN",
+    "2026_01_MIA_LV",
+    "2026_01_NE_SEA",
+    "2026_01_NO_DET",
+    "2026_01_NYJ_TEN",
+    "2026_01_SF_LA",
+    "2026_01_TB_CIN",
+    "2026_01_WAS_PHI",
+    "2026_02_CAR_ATL",
+    "2026_02_CIN_HOU",
+    "2026_02_CLE_TB",
+    "2026_02_DET_BUF",
+    "2026_02_GB_NYJ",
+    "2026_02_IND_KC",
+    "2026_02_JAX_DEN",
+    "2026_02_LV_LAC",
+    "2026_02_MIA_SF",
+    "2026_02_MIN_CHI",
+    "2026_02_NO_BAL",
+    "2026_02_NYG_LA",
+    "2026_02_PHI_TEN",
+    "2026_02_PIT_NE",
+    "2026_02_SEA_ARI",
+    "2026_02_WAS_DAL",
+    "2026_03_ARI_SF",
+    "2026_03_ATL_GB",
+    "2026_03_BAL_DAL",
+    "2026_03_CAR_CLE",
+    "2026_03_CIN_PIT",
+    "2026_03_HOU_IND",
+    "2026_03_KC_MIA",
+    "2026_03_LAC_BUF",
+    "2026_03_LA_DEN",
+    "2026_03_LV_NO",
+    "2026_03_MIN_TB",
+    "2026_03_NE_JAX",
+    "2026_03_NYJ_DET",
+    "2026_03_PHI_CHI",
+    "2026_03_SEA_WAS",
+    "2026_03_TEN_NYG",
+    "2026_04_ARI_NYG",
+    "2026_04_ATL_NO",
+    "2026_04_DAL_HOU",
+    "2026_04_DEN_SF",
+    "2026_04_DET_CAR",
+    "2026_04_GB_TB",
+    "2026_04_IND_WAS",
+    "2026_04_JAX_CIN",
+    "2026_04_KC_LV",
+    "2026_04_LAC_SEA",
+    "2026_04_LA_PHI",
+    "2026_04_MIA_MIN",
+    "2026_04_NE_BUF",
+    "2026_04_NYJ_CHI",
+    "2026_04_PIT_CLE",
+    "2026_04_TEN_BAL",
+    "2026_05_BAL_ATL",
+    "2026_05_BUF_LA",
+    "2026_05_CHI_GB",
+    "2026_05_CIN_MIA",
+    "2026_05_CLE_NYJ",
+    "2026_05_DEN_LAC",
+    "2026_05_DET_ARI",
+    "2026_05_HOU_TEN",
+    "2026_05_IND_PIT",
+    "2026_05_LV_NE",
+    "2026_05_MIN_NO",
+    "2026_05_NYG_WAS",
+    "2026_05_PHI_JAX",
+    "2026_05_SF_SEA",
+    "2026_05_TB_DAL"
+  ],
+  "missing_game_ids": [],
+  "metric_method": {
+    "version": "nflverse-pbp-1",
+    "season_type": "REG",
+    "garbage_time": "Exclude offense/defense plays outside preplay WP 5%-95%; retain unknown WP",
+    "passing": "All qb_dropback plays, including sacks and scrambles; no spikes/kneels",
+    "rushing": "Designed rush attempts excluding scrambles and kneels",
+    "field_goals": "Made indicator minus other teams' current-season distance-bin make rate, >=5 peer attempts",
+    "net_punting": "Nonblocked punt distance minus return yards minus 20 for touchbacks",
+    "return_coverage": "Team-perspective EPA per punt/kickoff opportunity; provisional combined return/coverage metric",
+    "opponent_adjusted": false
+  },
+  "coverage_note": "Current-season nflverse play data for 79 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
+  "scoring_context": {
+    "855f58fad5f0f14b239f4f63df27998b": {
+      "neutral_site": false,
+      "rest_days_difference": 0.0
+    },
+    "57418b2cf5aca558b3c98eafac1e264a": {
+      "neutral_site": true,
+      "rest_days_difference": 0.0
+    },
+    "7c312fdf24fb35f58b0e07c2932cc997": {
+      "neutral_site": false,
+      "rest_days_difference": 0.0
+    },
+    "e86227938fd3cf008fc5648fb5128344": {
+      "neutral_site": false,
+      "rest_days_difference": 0.0
+    },
+    "caca2d752fe1a1779029082e95332fcc": {
+      "neutral_site": false,
+      "rest_days_difference": -7.0
+    },
+    "84aa9e190e625d7e9cd67e1f157a45b4": {
+      "neutral_site": false,
+      "rest_days_difference": 0.0
+    },
+    "0b0b582b32b09ab6ff6664ffae0c9653": {
+      "neutral_site": false,
+      "rest_days_difference": 0.0
+    },
+    "1cf74afd313e9fd300e1462012b174cb": {
+      "neutral_site": false,
+      "rest_days_difference": 0.0
+    },
+    "27f3994841ce8081c0b7349cf3d1e3d7": {
+      "neutral_site": false,
+      "rest_days_difference": 3.0
+    },
+    "3729ac6d2a66b642850caf2044cdc658": {
+      "neutral_site": false,
+      "rest_days_difference": -1.0
+    },
+    "45b2690b350ed45145c7a716b18e8e66": {
+      "neutral_site": false,
+      "rest_days_difference": 1.0
+    },
+    "20fefae8c296247460ba5773caa42218": {
+      "neutral_site": false,
+      "rest_days_difference": 7.0
+    },
+    "82fd5a159fa130e67abab93a9537f70b": {
+      "neutral_site": false,
+      "rest_days_difference": -3.0
+    },
+    "f122527f003276d3bca19efa48c902c1": {
+      "neutral_site": false,
+      "rest_days_difference": 0.0
+    }
+  },
   "findings": [
     {
       "game_id": "855f58fad5f0f14b239f4f63df27998b",
@@ -86,6 +3889,5 @@
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
-  ],
-  "coverage_note": "Team scoring from current-season final scores; player and line ratings are not yet available."
+  ]
 }

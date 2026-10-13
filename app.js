@@ -60,6 +60,12 @@ function renderTeamScoring(g){
     ['Special teams',h.expected_lineup_units.special_teams,a.expected_lineup_units.special_teams]];
   return `<div class="card"><div class="table-wrap"><table><thead><tr><th>Rating</th><th>${esc(h.team)}</th><th>${esc(a.team)}</th></tr></thead><tbody>${rows.map(([label,hv,av])=>`<tr><td>${esc(label)}</td><td>${rating(hv)}</td><td>${rating(av)}</td></tr>`).join('')}</tbody></table></div><p class="mini">5.5 is league average. Home inputs: ${esc(h.status)}; away inputs: ${esc(a.status)}. These performance scores are separate from betting value.</p></div>`;
 }
+function renderPaperForecast(g){
+  const f=g.paper_forecast;
+  if(!f) return '';
+  const p=f.projection;
+  return `<div class="card"><span class="pill warn">PAPER TRACKING · UNCALIBRATED</span><h3>Projected score</h3><div class="detail-row"><span>${esc(g.home)}</span><strong>${Number(p.projected_home_points).toFixed(1)}</strong></div><div class="detail-row"><span>${esc(g.away)}</span><strong>${Number(p.projected_away_points).toFixed(1)}</strong></div><div class="detail-row"><span>Projected total</span><strong>${Number(p.total).toFixed(1)}</strong></div><div class="detail-row"><span>Model home spread</span><strong>${Number(p.fair_home_spread).toFixed(1)}</strong></div><p class="mini">Research estimate, not a recommended bet. Forecast ${fmtDate(f.forecast_as_of)}. Injury adjustments ${f.injury_adjustments_applied?'included':'not applied'}; verify the expected lineup.</p></div>`;
+}
 function renderGameDetail(g,data){
   const hs=g.head_to_head||[], players=g.players||[];
   const marketCount=(data.markets||[]).filter(m=>m.game_id===g.id).length;
@@ -79,6 +85,7 @@ function renderGameDetail(g,data){
       <button class="secondary" id="game-markets">Browse markets →</button></div></div>
     ${section('Team strength and weekly matchup','Current-season 1–10 scores for both teams')}
     ${renderTeamScoring(g)}
+    ${renderPaperForecast(g)}
     ${section('Individual matchups','Current-season performance and role')}
     <div class="card">${players.length ? `<div class="table-wrap"><table><thead><tr><th>Player</th><th>Position</th><th>Performance</th><th>Matchup</th><th>Sample</th></tr></thead><tbody>
       ${players.map(p=>`<tr><td class="strong">${esc(p.name)}<br><span class="muted">${esc(p.side)}</span></td><td>${esc(p.position)}</td><td>${rating(p.performance)}</td><td>${rating(p.matchup)}</td><td class="muted">${esc(p.sample)}</td></tr>`).join('')}

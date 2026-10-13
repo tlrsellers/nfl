@@ -229,6 +229,30 @@ The pipeline consumes additions to STATS automatically. Its output includes
 team_ratings at the top level and games[].scoring for matching games. The game
 report displays both teams' strength, weekly matchup, and expected unit ratings.
 Scoring engine source health explains missing inputs or rejects invalid data.
-Existing scoring-only free feeds cannot populate the EPA model. Supply a full
-current-season play-data adapter or verified agent feed to enable team grades.
+The free collector now calls `scripts/performance_data.py` to populate the EPA
+model from the current-season nflverse release and completed regular-season games.
+All 32 teams use the same extraction and special-teams definitions. A failed
+download preserves the previous performance snapshot's own cutoff timestamp;
+old metrics are never labeled as a newly computed result merely because schedule
+findings were refreshed. Missing games and metrics remain explicit.
+
+`scripts/paper_tracking.py` reconstructs earlier-week current-season features
+for model fitting, with neutral imputation for unavailable early-season units.
+It excludes the target week from training features and does not reconstruct
+historical injuries. These are retrospective backtests, not prospective records.
+It saves the first future-game forecast under the NFL game ID, separately from
+later displayed forecasts, and settles it against the final-score schedule.
+The persistent archive is `data/paper/<season>.json`; model coefficients and
+backtest records are in `data/paper/model_<season>.json`. Paper results and scores
+never set a validated-model flag automatically. No player-prop model is enabled.
+
+The return/coverage input is team-perspective EPA per punt/kickoff opportunity;
+it includes both receiving and kicking opportunities with the appropriate EPA
+sign. Net punting excludes blocked attempts and deducts returns and 20 yards for
+touchbacks. Field-goal expectation uses other teams' current-season make rates
+within 10-yard distance bands, requiring at least five peer attempts. Rare
+unsupported attempts are disclosed and excluded. These definitions are consistent
+but provisional; no claim is made that they isolate individual kicker or coverage
+talent or remove schedule/context effects.
+
 No scheduled paid calls, personal wagers, or AI budget settings are changed.

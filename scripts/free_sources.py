@@ -137,8 +137,15 @@ def schedule_data(games: list[dict], rows: list[dict], now: datetime) -> None:
     if travel:
         put("travel", {"checked_at": stamp, "findings": travel, "coverage_note": "Rest days and approximate distances from nflverse; no verified team itinerary."})
     if stats:
-        put("stats", {"checked_at": stamp, "season": str(season), "findings": stats,
-                      "coverage_note": "Team scoring from current-season final scores; player and line ratings are not yet available."})
+        previous = {}
+        try:
+            previous = json.loads((DATA / "stats.json").read_text())
+            if previous.get("season") != str(season):
+                previous = {}
+        except (OSError, ValueError):
+            pass
+        put("stats", {**previous, "checked_at": stamp, "season": str(season), "findings": stats,
+                      "coverage_note": "Team scoring refreshed; play-data ratings retain their own as_of until renewed." if previous.get("teams") else "Team scoring from current-season final scores; player and line ratings are not yet available."})
     if history:
         put("score_history", {"checked_at": stamp, "games": history})
 
@@ -303,6 +310,13 @@ def run() -> None:
     if not games:
         print("Free sources: no published game slate yet")
         return
+    if rows:
+        try:
+            from performance_data import collect
+            result = collect(games, rows, now)
+            print(f"Free performance data: {result}")
+        except Exception as exc:
+            print(f"Free performance data unavailable ({type(exc).__name__})")
     for label, callback in (("news", lambda: collect_news(games)), ("injuries", lambda: collect_injuries(games, now))):
         try:
             callback()
