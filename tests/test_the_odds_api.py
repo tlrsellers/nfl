@@ -77,6 +77,9 @@ class AdapterTests(unittest.TestCase):
         self.assertEqual(str(raised.exception), "Provider events HTTP 401 (INVALID_KEY)")
         self.assertNotIn("SECRET", str(raised.exception))
 
+    def test_key_copy_whitespace_is_ignored(self):
+        self.assertEqual(odds.Client("  SECRET\n", 10).key, "SECRET")
+
 
 if __name__ == "__main__":
     unittest.main()
