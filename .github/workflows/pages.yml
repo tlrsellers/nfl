@@ -6,6 +6,19 @@ on:
   schedule:
     - cron: '3/5 * * * *'
   workflow_dispatch:
+    inputs:
+      fetch_live_odds:
+        description: 'Fetch Bovada prices from The Odds API for this manual run'
+        type: boolean
+        default: false
+      include_player_props:
+        description: 'Fetch every listed full-game player prop (may require many credits)'
+        type: boolean
+        default: false
+      credit_limit:
+        description: 'Maximum API credits allowed for this run (3–1000)'
+        type: string
+        default: '10'
 
 permissions:
   contents: write
@@ -30,8 +43,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Fetch Bovada odds (manual and capped)
+        if: github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds
+        env:
+          THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
+          ODDS_API_CREDIT_LIMIT: ${{ inputs.credit_limit }}
+          ODDS_API_INCLUDE_PROPS: ${{ inputs.include_player_props }}
+        run: python3 scripts/the_odds_api.py
       - name: Build verified public feed
         env:
+          ODDS_FEED_FILE: ${{ github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds && 'data/the_odds_api_feed.json' || '' }}
           ODDS_FEED_URL: ${{ vars.ODDS_FEED_URL }}
           ODDS_FEED_TOKEN: ${{ secrets.ODDS_FEED_TOKEN }}
           INJURIES_FEED_URL: ${{ vars.INJURIES_FEED_URL }}
