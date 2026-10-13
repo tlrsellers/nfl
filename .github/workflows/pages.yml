@@ -5,6 +5,12 @@ on:
     branches: [main]
   schedule:
     - cron: '17 * * * *'
+    # Bovada game-line checks (UTC; Central Time is UTC-5 until Nov 1, then UTC-6).
+    # Game lines only, about 3 credits each: ~17 runs and ~52 credits a month.
+    - cron: '23 15 * * 2'   # Tuesday mid-morning: new week's lines
+    - cron: '23 21 * * 4'   # Thursday afternoon: before Thursday night
+    - cron: '23 15 * * 6'   # Saturday mid-morning
+    - cron: '23 15 * * 0'   # Sunday ~10 AM CT: before the early games
   workflow_dispatch:
     inputs:
       fetch_live_odds:
@@ -46,14 +52,36 @@ jobs:
         run: python3 -m pip install -r scripts/nfl_scoring_requirements.txt
       - name: Test scoring and source adapters
         run: python3 -m unittest discover -s tests
-      - name: Fetch Bovada odds (manual and capped)
-        # This exact marker triggers one approved game-line check from a push.
-        # Normal pushes and all scheduled runs never call the paid API.
-        if: (github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[one-time-bovada-test-20261013]'))
+      - name: Decide whether this run checks Bovada odds
+        id: odds
+        # Paid odds are fetched only on a manual run with the box checked or on
+        # one of the four game-line schedules above. The hourly run never calls it.
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          MANUAL: ${{ inputs.fetch_live_odds }}
+          MANUAL_LIMIT: ${{ inputs.credit_limit }}
+          MANUAL_PROPS: ${{ inputs.include_player_props }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ] && [ "$MANUAL" = "true" ]; then
+            echo "fetch=true" >> "$GITHUB_OUTPUT"
+            echo "limit=$MANUAL_LIMIT" >> "$GITHUB_OUTPUT"
+            echo "props=$MANUAL_PROPS" >> "$GITHUB_OUTPUT"
+          elif [ "$EVENT" = "schedule" ] && [ "$SCHEDULE" != "17 * * * *" ]; then
+            echo "fetch=true" >> "$GITHUB_OUTPUT"
+            echo "limit=5" >> "$GITHUB_OUTPUT"
+            echo "props=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "fetch=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Fetch Bovada odds (capped)
+        if: steps.odds.outputs.fetch == 'true'
+        # A failed scheduled check keeps the last prices and still publishes.
+        continue-on-error: ${{ github.event_name == 'schedule' }}
         env:
           THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
-          ODDS_API_CREDIT_LIMIT: ${{ github.event_name == 'push' && '10' || inputs.credit_limit }}
-          ODDS_API_INCLUDE_PROPS: ${{ github.event_name == 'push' && 'false' || inputs.include_player_props }}
+          ODDS_API_CREDIT_LIMIT: ${{ steps.odds.outputs.limit }}
+          ODDS_API_INCLUDE_PROPS: ${{ steps.odds.outputs.props }}
         run: python3 scripts/the_odds_api.py
       - name: Collect free NFL research
         run: python3 scripts/free_sources.py
@@ -68,7 +96,7 @@ jobs:
           python3 scripts/market_model.py all
       - name: Build verified public feed
         env:
-          ODDS_FEED_FILE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[one-time-bovada-test-20261013]'))) && 'data/the_odds_api_feed.json' || '' }}
+          ODDS_FEED_FILE: ${{ steps.odds.outputs.fetch == 'true' && 'data/the_odds_api_feed.json' || '' }}
           ODDS_FEED_URL: ${{ vars.ODDS_FEED_URL }}
           ODDS_FEED_TOKEN: ${{ secrets.ODDS_FEED_TOKEN }}
           INJURIES_FEED_URL: ${{ vars.INJURIES_FEED_URL }}
