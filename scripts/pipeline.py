@@ -31,8 +31,10 @@ SOURCE_NAMES = {
     "historical": "Historical Bovada",
 }
 AGENT_NAMES = ["Matchup", "Player props", "Verification"]
-FRESHNESS_MINUTES = 12
-SOURCE_MAX_AGE = {"odds": 12, "injuries": 1560, "news": 90, "weather": 120,
+# Bovada prices have no time limit: a quote stays current until a newer check
+# replaces it. It goes stale only when the latest check failed or no longer
+# lists it (pulled markets drop out), and games are removed at kickoff.
+SOURCE_MAX_AGE = {"injuries": 1560, "news": 90, "weather": 120,
                   "travel": 1440, "stats": 2880, "historical": 10080}
 
 
@@ -148,7 +150,7 @@ def normalize_markets(feed: dict[str, Any] | None, game_ids: set[str], now: date
         if m["id"] in seen:
             continue
         seen.add(m["id"])
-        status = "live" if age_minutes(m["observed_at"], now) <= FRESHNESS_MINUTES and m.get("available", True) else "stale"
+        status = "live" if m.get("available", True) else "stale"
         markets.append({"id": str(m["id"]), "game_id": str(m["game_id"]),
                         "category": m["category"], "selection": str(m["selection"]),
                         "line": m.get("line"), "odds": int(m["odds"]),
@@ -322,21 +324,31 @@ def build() -> dict[str, Any]:
     sources = {}
     for role, name in SOURCE_NAMES.items():
         feed, detail = get_json(role)
+        odds_check_failed = False
         if role == "odds" and not feed and OUTPUT.exists():
+            # A check was attempted this run (file or URL configured) but produced nothing.
+            odds_check_failed = bool(os.getenv("ODDS_FEED_FILE") or os.getenv("ODDS_FEED_URL"))
             try:
                 old = json.loads(OUTPUT.read_text())
                 old_source = old.get("sources", {}).get("Bovada odds", {})
                 if old.get("games") and isinstance(old.get("markets"), list):
+                    # Carry prices forward unchanged. They stay current until a newer
+                    # check replaces them; a failed check marks them stale.
                     feed = {"checked_at": old_source.get("checked_at"), "games": old["games"],
-                            "markets": [dict(m, period="full_game", available=False)
+                            "markets": [dict(m, period="full_game",
+                                             available=(m.get("status") == "live" and not odds_check_failed))
                                         for m in old["markets"] if isinstance(m, dict)]}
-                    detail = "Retained previous Bovada snapshot; no new odds fetched"
+                    when = old_source.get("checked_at") or "unknown time"
+                    detail = (f"Latest Bovada check failed; prices from {when} are marked stale until the next successful check"
+                              if odds_check_failed else f"Prices from the latest Bovada check ({when}); next scheduled check updates them")
             except (OSError, ValueError, TypeError):
                 pass
         feeds[role] = feed
         observed = feed.get("checked_at") if feed else None
         source_status = "ok" if feed else "error" if detail.startswith("Source error") else "unavailable"
-        if feed and age_minutes(observed, now) > SOURCE_MAX_AGE[role]:
+        if role == "odds" and odds_check_failed and feed:
+            source_status = "stale"
+        elif role != "odds" and feed and age_minutes(observed, now) > SOURCE_MAX_AGE[role]:
             source_status = "stale"
             detail = "Source check is overdue"
         elif feed and feed.get("coverage_note"):

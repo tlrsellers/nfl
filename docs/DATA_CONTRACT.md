@@ -20,7 +20,7 @@ The optional `scripts/the_odds_api.py` adapter converts only the Bovada bookmake
 }
 ```
 
-Categories: `Spread`, `Moneyline`, `Total`, `Player prop`. Alternate lines need separate IDs. A quote older than 12 minutes or suspended by its provider is marked stale. The provider must document its permission to collect and publish its data. This repository does not contain an unverified Bovada scraper.
+Categories: `Spread`, `Moneyline`, `Total`, `Player prop`. Alternate lines need separate IDs. A quote stays current until a newer check replaces it. It is marked stale if it is suspended by its provider or the latest check failed; a market missing from the latest successful check is dropped. The provider must document its permission to collect and publish its data. This repository does not contain an unverified Bovada scraper.
 
 ## Research feeds
 

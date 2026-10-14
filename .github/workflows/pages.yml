@@ -5,12 +5,11 @@ on:
     branches: [main]
   schedule:
     - cron: '17 * * * *'
-    # Bovada game-line checks (UTC; Central Time is UTC-5 until Nov 1, then UTC-6).
-    # Game lines only, about 3 credits each: ~17 runs and ~52 credits a month.
-    - cron: '23 15 * * 2'   # Tuesday mid-morning: new week's lines
-    - cron: '23 21 * * 4'   # Thursday afternoon: before Thursday night
-    - cron: '23 15 * * 6'   # Saturday mid-morning
-    - cron: '23 15 * * 0'   # Sunday ~10 AM CT: before the early games
+    # Bovada game-line checks twice a day, every day (UTC; Central Time is
+    # UTC-5 until Nov 1, then UTC-6, so these run an hour earlier in winter).
+    # Game lines only, 3 credits each: ~60 runs and ~180 credits a month.
+    - cron: '23 15 * * *'   # ~10:20 AM Central
+    - cron: '23 22 * * *'   # ~5:20 PM Central
   workflow_dispatch:
     inputs:
       fetch_live_odds:
