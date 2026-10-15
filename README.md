@@ -10,9 +10,9 @@ A responsive GitHub Pages dashboard for NFL market research. It shows games, sou
 - Static dashboard with mobile layout, game and market views, distinct win-likelihood and betting-value rankings, agent status, and browser-only wagers capped at $25 each.
 - Private wager form with results, deletion, and JSON export/import. No personal wagers are committed or uploaded.
 - Python pipeline that accepts separate authorized JSON feeds for Bovada odds, injuries, news, weather, travel, current-season statistics, and historical Bovada lines. Probabilities come from the built-in market model, not an external feed.
-- Manual The Odds API adapter for current Bovada NFL game lines and provider-listed full-game player props. It requires a private API key and enforces a credit limit per run; provider coverage is not guaranteed to contain every Bovada website offer.
+- Quota-capped The Odds API adapter for current Bovada NFL game lines, scheduled twice daily at **8 a.m. and 5 p.m. America/Chicago (Central time)**. Provider-listed full-game player props remain available through manual runs. It requires a private API key and enforces a credit limit per run; provider coverage is not guaranteed to contain every Bovada website offer.
 - Odds validation, timestamps, 12-minute freshness gate, American-odds EV calculation with pushes, conservative-value gate, and a valid result of zero recommended picks.
-- GitHub Actions and Pages workflow with an hourly research refresh. Scheduled runs make no paid odds or AI calls. The latest public snapshot and market state are retained; line-move alerts compare the next odds observation to that state.
+- GitHub Actions and Pages workflow with an hourly research refresh. Only the 8 a.m./5 p.m. Central schedule fetches paid odds, capped at 3 API credits per run with props disabled; hourly research runs make no paid odds or AI calls. The latest public snapshot and market state are retained; line-move alerts compare the next odds observation to that state.
 - Free hourly research collectors: nflverse schedule, scores, rest and current-season team scoring; National Weather Service kickoff forecasts for supported outdoor home venues; ESPN NFL RSS headlines; and daily Sleeper player-status metadata. The schedule supplies upcoming games without purchasing odds credits. Each result retains a publisher link and source check time.
 
 ## What still needs verified integration
@@ -39,17 +39,21 @@ For local feed testing, set `ODDS_FEED_FILE=/absolute/path/to/odds.json` and the
 
 1. Put these files at the root of the `nfl` repository's `main` branch.
 2. In repository Settings → Pages, select **GitHub Actions** as the build/deploy source.
-3. Push to `main` or run **Refresh NFL research desk** manually. Free research refreshes on the hourly workflow schedule. The last Bovada quotes are retained as stale until a new, separately approved odds check runs.
+3. Push to `main` or run **Refresh NFL research desk** manually. Free research refreshes on the hourly workflow schedule. Bovada game lines refresh at 8 a.m. and 5 p.m. Central, automatically following daylight-saving time. Other runs retain the last odds snapshot with its original timestamp.
 4. For an initial live-price test, register for [The Odds API](https://the-odds-api.com/), save the key as repository **Settings → Secrets and variables → Actions → New repository secret**, named `THE_ODDS_API_KEY`. Never put it in the repository or browser. On the Actions tab, run **Refresh NFL research desk** manually with **Fetch Bovada prices** checked. Leave **player props** unchecked and use the default 10-credit cap for the first test.
-5. Inspect the coverage and credit usage in the Actions log. A later manual run can request all provider-listed full-game player props with a higher per-run cap after reviewing its estimated usage. If the discovered markets exceed the cap, the adapter stops before publishing a partial prop board. The paid historical API and recurring direct API checks remain disabled pending a cost estimate and approved limit.
+5. Inspect the coverage and credit usage in the Actions log. A later manual run can request all provider-listed full-game player props with a higher per-run cap after reviewing its estimated usage. If the discovered markets exceed the cap, the adapter stops before publishing a partial prop board. The paid historical API and automatic player-prop checks remain disabled. Scheduled game-line checks use a 3-credit cap.
 6. Alternatively, once a verified and publishable normalized Bovada feed exists, set the repository variable `ODDS_FEED_URL`, then any other `<ROLE>_FEED_URL` variables. Store bearer tokens as Actions secrets. See the [feed contract](docs/DATA_CONTRACT.md).
 7. Confirm the feed's market coverage, freshness, and settlement rules. Picks also depend on the market model's backtest gate ([details](docs/MARKET_MODEL.md)). There is no direct website scraper in this repository.
 
 This version deploys the current published snapshot as a Pages artifact and retains the latest public snapshot, free-feed checks, and market state in the repository after runs. It does not preserve every hourly quote or provide a comprehensive historical odds archive. A historical storage design, calibrated probability models, paid Claude agent execution, and provider permissions must be approved before those components can operate.
 
-### Quota review before recurring polling
+### Twice-daily odds schedule and quota
 
-The Odds API charges credits by region/bookmaker group and market. The featured `h2h`, `spreads`, and `totals` request is budgeted at 3 credits. Discovering props costs 1 credit per game; requesting all discovered prop types adds approximately 1 credit per type per game. The adapter uses the provider's actual `x-requests-last` response header and stops at the manual run cap. A 24/7 hourly schedule is 720 runs in 30 days; at 3 credits per run, game lines alone would use 2,160 credits before props. Actual usage depends on available markets. We will measure coverage and usage before proposing a monthly plan or enabling scheduled paid requests. Quotes and picks become stale after 12 minutes even though the next scheduled check is an hour away.
+The workflow requests Bovada moneylines (`h2h`), spreads, and totals at **8 a.m. and 5 p.m. America/Chicago** every day. GitHub's timezone-aware schedule follows daylight-saving time; Actions can start late or skip a scheduled run. Free research continues hourly at minute 17.
+
+Each automatic odds run is capped at **3 API credits**, with player props disabled: approximately **6 credits per day, 180 per 30 days, or 186 per 31 days**. The existing private `THE_ODDS_API_KEY` secret is used server-side. The adapter records actual usage from the provider's `x-requests-last` header. Manual runs retain their configurable credit cap and optional props.
+
+Hourly research and normal pushes do not call the paid odds API. They preserve the latest public snapshot and its original observation time. If an odds request fails, free research and publication continue with the previous snapshot; inspect the odds step's warning and source timestamps. Quotes and picks still become stale after 12 minutes, so a twice-daily snapshot is not presented as an all-day live price.
 
 ## Bet evaluation, picks and suggested amount
 
