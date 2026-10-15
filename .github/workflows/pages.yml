@@ -5,6 +5,8 @@ on:
     branches: [main]
   schedule:
     - cron: '17 * * * *'
+    - cron: '0 8,17 * * *'
+      timezone: 'America/Chicago'
   workflow_dispatch:
     inputs:
       fetch_live_odds:
@@ -46,14 +48,17 @@ jobs:
         run: python3 -m pip install -r scripts/nfl_scoring_requirements.txt
       - name: Test scoring and source adapters
         run: python3 -m unittest discover -s tests
-      - name: Fetch Bovada odds (manual and capped)
-        # This exact marker triggers one approved game-line check from a push.
-        # Normal pushes and all scheduled runs never call the paid API.
-        if: (github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[one-time-bovada-test-20261013]'))
+      - name: Fetch Bovada odds (twice daily or manual, capped)
+        id: odds
+        # Only the 8 AM / 5 PM Central schedule calls the paid API automatically.
+        # Hourly research and push runs retain the last public odds snapshot.
+        if: (github.event_name == 'schedule' && github.event.schedule == '0 8,17 * * *') || (github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds)
+        # A provider outage must not prevent the free research refresh.
+        continue-on-error: true
         env:
           THE_ODDS_API_KEY: ${{ secrets.THE_ODDS_API_KEY }}
-          ODDS_API_CREDIT_LIMIT: ${{ github.event_name == 'push' && '10' || inputs.credit_limit }}
-          ODDS_API_INCLUDE_PROPS: ${{ github.event_name == 'push' && 'false' || inputs.include_player_props }}
+          ODDS_API_CREDIT_LIMIT: ${{ github.event_name == 'schedule' && '3' || inputs.credit_limit }}
+          ODDS_API_INCLUDE_PROPS: ${{ github.event_name == 'workflow_dispatch' && inputs.include_player_props || 'false' }}
         run: python3 scripts/the_odds_api.py
       - name: Collect free NFL research
         run: python3 scripts/free_sources.py
@@ -68,7 +73,7 @@ jobs:
           python3 scripts/market_model.py all
       - name: Build verified public feed
         env:
-          ODDS_FEED_FILE: ${{ ((github.event_name == 'workflow_dispatch' && inputs.fetch_live_odds) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[one-time-bovada-test-20261013]'))) && 'data/the_odds_api_feed.json' || '' }}
+          ODDS_FEED_FILE: ${{ steps.odds.outcome == 'success' && 'data/the_odds_api_feed.json' || '' }}
           ODDS_FEED_URL: ${{ vars.ODDS_FEED_URL }}
           ODDS_FEED_TOKEN: ${{ secrets.ODDS_FEED_TOKEN }}
           INJURIES_FEED_URL: ${{ vars.INJURIES_FEED_URL }}
