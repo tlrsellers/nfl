@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-10-18T16:38:20.184901Z",
-  "checked_at": "2026-10-18T16:38:20.184901Z",
+  "as_of": "2026-10-18T17:35:43.781312Z",
+  "checked_at": "2026-10-18T17:35:43.781312Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -1483,7 +1483,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_06_HOU_JAX"
+      ]
     },
     {
       "team": "Indianapolis Colts",
@@ -1711,7 +1713,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_06_HOU_JAX"
+      ]
     },
     {
       "team": "Kansas City Chiefs",
@@ -3734,7 +3738,9 @@
     "2026_05_TB_DAL",
     "2026_06_SEA_DEN"
   ],
-  "missing_game_ids": [],
+  "missing_game_ids": [
+    "2026_06_HOU_JAX"
+  ],
   "metric_method": {
     "version": "nflverse-pbp-1",
     "season_type": "REG",
@@ -3746,36 +3752,8 @@
     "return_coverage": "Team-perspective EPA per punt/kickoff opportunity; provisional combined return/coverage metric",
     "opponent_adjusted": false
   },
-  "coverage_note": "Current-season nflverse play data for 80 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
+  "coverage_note": "Current-season nflverse play data for 80 completed games; 1 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
   "scoring_context": {
-    "7c312fdf24fb35f58b0e07c2932cc997": {
-      "neutral_site": false,
-      "rest_days_difference": 0.0
-    },
-    "e86227938fd3cf008fc5648fb5128344": {
-      "neutral_site": false,
-      "rest_days_difference": 0.0
-    },
-    "caca2d752fe1a1779029082e95332fcc": {
-      "neutral_site": false,
-      "rest_days_difference": -7.0
-    },
-    "84aa9e190e625d7e9cd67e1f157a45b4": {
-      "neutral_site": false,
-      "rest_days_difference": 0.0
-    },
-    "0b0b582b32b09ab6ff6664ffae0c9653": {
-      "neutral_site": false,
-      "rest_days_difference": 0.0
-    },
-    "1cf74afd313e9fd300e1462012b174cb": {
-      "neutral_site": false,
-      "rest_days_difference": 0.0
-    },
-    "27f3994841ce8081c0b7349cf3d1e3d7": {
-      "neutral_site": false,
-      "rest_days_difference": 3.0
-    },
     "3729ac6d2a66b642850caf2044cdc658": {
       "neutral_site": false,
       "rest_days_difference": -1.0
@@ -3850,48 +3828,6 @@
     }
   },
   "findings": [
-    {
-      "game_id": "7c312fdf24fb35f58b0e07c2932cc997",
-      "title": "Current-season scores: Chicago Bears 5 games, 23.8 points for and 19.2 allowed per game; Atlanta Falcons 5 games, 23.8 points for and 24.4 allowed per game",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
-    {
-      "game_id": "e86227938fd3cf008fc5648fb5128344",
-      "title": "Current-season scores: Baltimore Ravens 5 games, 29.2 points for and 23.8 allowed per game; Cleveland Browns 5 games, 18.6 points for and 22.4 allowed per game",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
-    {
-      "game_id": "caca2d752fe1a1779029082e95332fcc",
-      "title": "Current-season scores: Carolina Panthers 4 games, 30.2 points for and 27.2 allowed per game; Philadelphia Eagles 5 games, 18.4 points for and 22.4 allowed per game",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
-    {
-      "game_id": "84aa9e190e625d7e9cd67e1f157a45b4",
-      "title": "Current-season scores: Tennessee Titans 5 games, 11.6 points for and 21.8 allowed per game; Indianapolis Colts 5 games, 24.8 points for and 27.6 allowed per game",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
-    {
-      "game_id": "0b0b582b32b09ab6ff6664ffae0c9653",
-      "title": "Current-season scores: New York Jets 5 games, 18.6 points for and 19.2 allowed per game; New England Patriots 5 games, 22.0 points for and 18.8 allowed per game",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
-    {
-      "game_id": "1cf74afd313e9fd300e1462012b174cb",
-      "title": "Current-season scores: New Orleans Saints 5 games, 23.6 points for and 30.2 allowed per game; New York Giants 5 games, 21.8 points for and 21.2 allowed per game",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
-    {
-      "game_id": "27f3994841ce8081c0b7349cf3d1e3d7",
-      "title": "Current-season scores: Pittsburgh Steelers 5 games, 22.2 points for and 21.8 allowed per game; Tampa Bay Buccaneers 5 games, 20.0 points for and 22.4 allowed per game",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
     {
       "game_id": "3729ac6d2a66b642850caf2044cdc658",
       "title": "Current-season scores: Arizona Cardinals 5 games, 21.6 points for and 32.4 allowed per game; Los Angeles Rams 5 games, 23.8 points for and 24.0 allowed per game",

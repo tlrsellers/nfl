@@ -1,36 +1,6 @@
 {
-  "checked_at": "2026-10-18T16:38:22Z",
+  "checked_at": "2026-10-18T17:35:46Z",
   "findings": [
-    {
-      "game_id": "e86227938fd3cf008fc5648fb5128344",
-      "title": "Kickoff forecast near Huntington Bank Field: 57°F, wind 8 mph S, precipitation 0%",
-      "publisher": "National Weather Service",
-      "url": "https://api.weather.gov/gridpoints/CLE/83,65/forecast/hourly"
-    },
-    {
-      "game_id": "caca2d752fe1a1779029082e95332fcc",
-      "title": "Kickoff forecast near Lincoln Financial Field: 55°F, wind 5 mph N, precipitation 0%",
-      "publisher": "National Weather Service",
-      "url": "https://api.weather.gov/gridpoints/PHI/50,76/forecast/hourly"
-    },
-    {
-      "game_id": "0b0b582b32b09ab6ff6664ffae0c9653",
-      "title": "Kickoff forecast near Gillette Stadium: 52°F, wind 3 mph N, precipitation 0%",
-      "publisher": "National Weather Service",
-      "url": "https://api.weather.gov/gridpoints/BOX/67,88/forecast/hourly"
-    },
-    {
-      "game_id": "1cf74afd313e9fd300e1462012b174cb",
-      "title": "Kickoff forecast near MetLife Stadium: 55°F, wind 6 mph N, precipitation 0%",
-      "publisher": "National Weather Service",
-      "url": "https://api.weather.gov/gridpoints/OKX/30,46/forecast/hourly"
-    },
-    {
-      "game_id": "27f3994841ce8081c0b7349cf3d1e3d7",
-      "title": "Kickoff forecast near Raymond James Stadium: 77°F, wind 15 mph NE, precipitation 0%",
-      "publisher": "National Weather Service",
-      "url": "https://api.weather.gov/gridpoints/TBW/69,99/forecast/hourly"
-    },
     {
       "game_id": "3729ac6d2a66b642850caf2044cdc658",
       "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
@@ -72,7 +42,13 @@
       "title": "Stade de France: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "f3992ad4496724baf7dcd1ef58245d6b",
+      "title": "U.S. Bank Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 12 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 8 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
