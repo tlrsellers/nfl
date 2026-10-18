@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-18T13:28:24Z",
+  "checked_at": "2026-10-18T13:37:36Z",
   "findings": [
     {
       "game_id": "e86227938fd3cf008fc5648fb5128344",
@@ -66,7 +66,13 @@
       "title": "Kickoff forecast near Soldier Field: 64°F, wind 5 mph ENE, precipitation 0%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/LOT/76,72/forecast/hourly"
+    },
+    {
+      "game_id": "2e710ea5a306b614f0f966e3d78732f8",
+      "title": "Stade de France: enclosed roof listed in schedule; outdoor forecast not applied",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 11 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 12 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
