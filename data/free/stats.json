@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-10-17T23:31:26.075709Z",
-  "checked_at": "2026-10-17T23:31:26.075709Z",
+  "as_of": "2026-10-18T00:51:00.273515Z",
+  "checked_at": "2026-10-18T00:51:00.273515Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -3847,6 +3847,10 @@
     "f7679cf18454e4d88a8f2b990c3f08ac": {
       "neutral_site": false,
       "rest_days_difference": 0.0
+    },
+    "nflverse-2026_07_KC_SEA": {
+      "neutral_site": false,
+      "rest_days_difference": 3.0
     }
   },
   "findings": [
@@ -3997,6 +4001,12 @@
     {
       "game_id": "f7679cf18454e4d88a8f2b990c3f08ac",
       "title": "Current-season scores: Los Angeles Rams 5 games, 23.8 points for and 24.0 allowed per game; Las Vegas Raiders 5 games, 26.4 points for and 25.8 allowed per game",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "nflverse-2026_07_KC_SEA",
+      "title": "Current-season scores: Kansas City Chiefs 4 games, 29.5 points for and 19.2 allowed per game; Seattle Seahawks 6 games, 24.7 points for and 20.3 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
