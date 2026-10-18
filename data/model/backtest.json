@@ -16,20 +16,20 @@
  ],
  "note": "Walk-forward: each season predicted by a model trained only on earlier seasons, settled at nflverse closing lines and prices (consensus market, not Bovada).",
  "accuracy": {
-  "model_margin_mae": 9.831,
-  "line_margin_mae": 9.814,
-  "model_total_mae": 10.468,
-  "line_total_mae": 10.435
+  "model_margin_mae": 9.825,
+  "line_margin_mae": 9.808,
+  "model_total_mae": 10.459,
+  "line_total_mae": 10.427
  },
  "markets": {
   "spread": {
-   "bets": 839,
-   "wins": 410,
-   "losses": 401,
+   "bets": 841,
+   "wins": 411,
+   "losses": 402,
    "pushes": 28,
    "win_rate": 0.5055,
    "roi": -0.0042,
-   "units": -3.54,
+   "units": -3.49,
    "seasons_profitable": 0.5,
    "by_value_score": {
     "3": {
@@ -60,13 +60,13 @@
      "units": -5.83
     },
     "6": {
-     "bets": 110,
+     "bets": 111,
      "wins": 56,
-     "losses": 49,
+     "losses": 50,
      "pushes": 5,
-     "win_rate": 0.5333,
-     "roi": 0.0337,
-     "units": 3.7
+     "win_rate": 0.5283,
+     "roi": 0.0244,
+     "units": 2.7
     },
     "7": {
      "bets": 81,
@@ -96,27 +96,27 @@
      "units": 0.77
     },
     "10": {
-     "bets": 133,
-     "wins": 68,
+     "bets": 134,
+     "wins": 69,
      "losses": 60,
      "pushes": 5,
-     "win_rate": 0.5312,
-     "roi": 0.0539,
-     "units": 7.16
+     "win_rate": 0.5349,
+     "roi": 0.0613,
+     "units": 8.21
     }
    },
-   "roi_standard_error": 0.0335,
-   "roi_lower_bound": -0.0591,
+   "roi_standard_error": 0.0334,
+   "roi_lower_bound": -0.059,
    "enabled": false
   },
   "total": {
-   "bets": 666,
-   "wins": 331,
-   "losses": 324,
+   "bets": 668,
+   "wins": 332,
+   "losses": 325,
    "pushes": 11,
    "win_rate": 0.5053,
    "roi": -0.0059,
-   "units": -3.9,
+   "units": -3.95,
    "seasons_profitable": 0.333,
    "by_value_score": {
     "3": {
@@ -138,13 +138,13 @@
      "units": -11.66
     },
     "5": {
-     "bets": 100,
-     "wins": 48,
-     "losses": 52,
+     "bets": 102,
+     "wins": 49,
+     "losses": 53,
      "pushes": 0,
-     "win_rate": 0.48,
-     "roi": -0.0557,
-     "units": -5.57
+     "win_rate": 0.4804,
+     "roi": -0.055,
+     "units": -5.61
     },
     "6": {
      "bets": 84,
@@ -193,17 +193,17 @@
     }
    },
    "roi_standard_error": 0.0378,
-   "roi_lower_bound": -0.068,
+   "roi_lower_bound": -0.0679,
    "enabled": false
   },
   "moneyline": {
-   "bets": 741,
-   "wins": 435,
-   "losses": 305,
+   "bets": 743,
+   "wins": 436,
+   "losses": 306,
    "pushes": 1,
-   "win_rate": 0.5878,
-   "roi": 0.0035,
-   "units": 2.59,
+   "win_rate": 0.5876,
+   "roi": 0.0034,
+   "units": 2.52,
    "seasons_profitable": 0.667,
    "by_value_score": {
     "3": {
@@ -234,13 +234,13 @@
      "units": -2.91
     },
     "6": {
-     "bets": 81,
+     "bets": 82,
      "wins": 55,
-     "losses": 26,
+     "losses": 27,
      "pushes": 0,
-     "win_rate": 0.679,
-     "roi": 0.185,
-     "units": 14.98
+     "win_rate": 0.6707,
+     "roi": 0.1705,
+     "units": 13.98
     },
     "7": {
      "bets": 76,
@@ -270,17 +270,17 @@
      "units": -0.2
     },
     "10": {
-     "bets": 96,
-     "wins": 46,
+     "bets": 97,
+     "wins": 47,
      "losses": 50,
      "pushes": 0,
-     "win_rate": 0.4792,
-     "roi": 0.1516,
-     "units": 14.55
+     "win_rate": 0.4845,
+     "roi": 0.1596,
+     "units": 15.48
     }
    },
    "roi_standard_error": 0.035,
-   "roi_lower_bound": -0.0539,
+   "roi_lower_bound": -0.054,
    "enabled": false
   }
  },
@@ -628,33 +628,33 @@
   },
   {
    "season": 2026,
-   "games": 81,
+   "games": 87,
    "spread": {
-    "bets": 15,
-    "wins": 7,
-    "losses": 8,
+    "bets": 17,
+    "wins": 8,
+    "losses": 9,
     "pushes": 0,
-    "win_rate": 0.4667,
-    "roi": -0.1016,
-    "units": -1.52
+    "win_rate": 0.4706,
+    "roi": -0.0867,
+    "units": -1.47
    },
    "total": {
-    "bets": 7,
-    "wins": 3,
-    "losses": 4,
+    "bets": 9,
+    "wins": 4,
+    "losses": 5,
     "pushes": 0,
-    "win_rate": 0.4286,
-    "roi": -0.1678,
-    "units": -1.17
+    "win_rate": 0.4444,
+    "roi": -0.1358,
+    "units": -1.22
    },
    "moneyline": {
-    "bets": 16,
-    "wins": 8,
-    "losses": 8,
+    "bets": 18,
+    "wins": 9,
+    "losses": 9,
     "pushes": 0,
     "win_rate": 0.5,
-    "roi": 0.1005,
-    "units": 1.61
+    "roi": 0.0853,
+    "units": 1.53
    }
   }
  ],

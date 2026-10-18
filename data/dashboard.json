@@ -1,855 +1,14 @@
 {
   "schema_version": 1,
   "mode": "snapshot",
-  "generated_at": "2026-10-18T19:33:39Z",
+  "generated_at": "2026-10-18T20:36:52Z",
   "season": "2026",
   "coverage": {
-    "games": 18,
-    "markets": 30,
-    "analyzed": 18
+    "games": 15,
+    "markets": 12,
+    "analyzed": 15
   },
   "games": [
-    {
-      "id": "3729ac6d2a66b642850caf2044cdc658",
-      "away": "Arizona Cardinals",
-      "home": "Los Angeles Rams",
-      "kickoff": "2026-10-18T20:05:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2026-01-04",
-          "score": "Arizona Cardinals 20\u2013Los Angeles Rams 37",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2025-12-07",
-          "score": "Los Angeles Rams 45\u2013Arizona Cardinals 17",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2024-12-28",
-          "score": "Arizona Cardinals 9\u2013Los Angeles Rams 13",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2024-09-15",
-          "score": "Los Angeles Rams 10\u2013Arizona Cardinals 41",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2023-11-26",
-          "score": "Los Angeles Rams 37\u2013Arizona Cardinals 14",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Andrew Wingard (DB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Blake Gillikin (P) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Budda Baker (DB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Jeremiyah Love (RB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Kitan Crawford (DB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Wydett Williams (DB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Zaven Collins (LB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Chase Bisontis (G) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Hunter Long (TE) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Isaiah Adams (OL) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists James Conner (RB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Jameson Geers (TE) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Cardinals vs. Rams odds, predictions: Kalshi promo code CBSSPORTS55 for $55 bonus on NFL Week 6 division clash",
-          "url": "https://www.cbssports.com/prediction/news/cardinals-vs-rams-odds-predictions-kalshi-promo-code-cbssports55-for-55-bonus-on-nfl-week-6-division-clash/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T18:30:51Z",
-          "role": "news"
-        },
-        {
-          "title": "Best Kalshi promo code CBSSPORTS55 in California: Get $55 bonus for Chargers, Rams, 49ers Week 6 NFL games",
-          "url": "https://www.cbssports.com/prediction/news/best-kalshi-promo-code-cbssports55-in-california-get-55-bonus-for-chargers-rams-49ers-week-6-nfl-games/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T14:11:25Z",
-          "role": "news"
-        },
-        {
-          "title": "Week 6 NFL odds, picks, predictions: Computer model backs Patriots and Cardinals",
-          "url": "https://www.cbssports.com/betting/news/nfl-odds-picks-spread-predictions-bets-lines-for-week-6-2026/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T13:44:08Z",
-          "role": "news"
-        },
-        {
-          "title": "Trent McDuffie inactive for Rams-Cardinals",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/trent-mcduffie-inactive-for-rams-cardinals",
-          "publisher": "NBC Sports",
-          "published_at": "2026-10-18T18:53:51Z",
-          "role": "news"
-        },
-        {
-          "title": "Cardinals' defense is on a potentially historic run of futility",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-defense-is-on-a-potentially-historic-run-of-futility",
-          "publisher": "NBC Sports",
-          "published_at": "2026-10-18T18:47:27Z",
-          "role": "news"
-        },
-        {
-          "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "weather"
-        },
-        {
-          "title": "Rest: Arizona Cardinals 7 days; Los Angeles Rams 6 days. Away-city to venue: about 350 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Arizona Cardinals 5 games, 21.6 points for and 32.4 allowed per game; Los Angeles Rams 5 games, 23.8 points for and 24.0 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ],
-      "scoring": {
-        "home": {
-          "team": "Los Angeles Rams",
-          "team_strength": 5.723387096774194,
-          "expected_lineup_units": {
-            "pass_offense": 6.435483870967742,
-            "rush_offense": 6.241935483870968,
-            "pass_defense": 5.064516129032258,
-            "rush_defense": 6.096774193548387,
-            "special_teams": 3.0483870967741935
-          },
-          "unit_adjustments": [],
-          "data_confidence": 5.6,
-          "status": "complete",
-          "category_matchups": {
-            "pass_offense": 6.82258064516129,
-            "rush_offense": 5.129032258064516,
-            "pass_defense": 5.758064516129032,
-            "rush_defense": 5.451612903225806,
-            "special_teams": 4.653225806451613
-          },
-          "matchup_base": 5.950403225806451,
-          "situational_adjustment": 0.15000000000000002,
-          "weekly_matchup": 6.100403225806452
-        },
-        "away": {
-          "team": "Arizona Cardinals",
-          "team_strength": 4.7830645161290315,
-          "expected_lineup_units": {
-            "pass_offense": 4.548387096774193,
-            "rush_offense": 6.193548387096774,
-            "pass_defense": 3.790322580645161,
-            "rush_defense": 6.983870967741935,
-            "special_teams": 4.741935483870968
-          },
-          "unit_adjustments": [],
-          "data_confidence": 5.6,
-          "status": "complete",
-          "category_matchups": {
-            "pass_offense": 5.241935483870968,
-            "rush_offense": 5.548387096774194,
-            "pass_defense": 4.17741935483871,
-            "rush_defense": 5.870967741935484,
-            "special_teams": 6.346774193548387
-          },
-          "matchup_base": 5.033467741935484,
-          "situational_adjustment": 0.05,
-          "weekly_matchup": 5.0834677419354835
-        },
-        "matchup_difference_home_minus_away": 1.0169354838709683,
-        "scoring_version": "nfl-scoring-1.0"
-      },
-      "rating_side": "Los Angeles Rams",
-      "pass": 6.82258064516129,
-      "rush": 5.129032258064516,
-      "offense": 6.377419354838709,
-      "defense": 5.293906810035843,
-      "confidence": 5.6,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
-      "model": {
-        "nflverse_game_id": "2026_06_ARI_LA",
-        "fair_home_margin": 13.33,
-        "fair_home_spread": -13.3,
-        "fair_total": 52.6,
-        "market_home_spread": -13.0,
-        "market_total": 51.5,
-        "anchor_source": "Bovada",
-        "spread_edge_points": 0.33,
-        "total_edge_points": 1.1,
-        "projected_home_points": 33.0,
-        "projected_away_points": 19.6
-      },
-      "paper_forecast": {
-        "game_id": "3729ac6d2a66b642850caf2044cdc658",
-        "nflverse_game_id": "2026_06_ARI_LA",
-        "home": "Los Angeles Rams",
-        "away": "Arizona Cardinals",
-        "kickoff": "2026-10-18T20:05:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
-        "model_version": "paper-2026-w5-633442bf61",
-        "projection": {
-          "margin": 2.7244451861970123,
-          "total": 52.22853844776098,
-          "projected_home_points": 27.476491816978996,
-          "projected_away_points": 24.752046630781987,
-          "fair_home_spread": -2.7244451861970123,
-          "model_status": "provisional_unapproved"
-        },
-        "outcome_probabilities": {
-          "home": 0.5723544243279883,
-          "tie": 0.03189305233658257,
-          "away": 0.3957525233354291
-        },
-        "status": "paper_only_uncalibrated",
-        "origin": "prospective",
-        "injury_adjustments_applied": false
-      }
-    },
-    {
-      "id": "45b2690b350ed45145c7a716b18e8e66",
-      "away": "Buffalo Bills",
-      "home": "Las Vegas Raiders",
-      "kickoff": "2026-10-18T20:25:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2023-09-17",
-          "score": "Las Vegas Raiders 10\u2013Buffalo Bills 38",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2020-10-04",
-          "score": "Buffalo Bills 30\u2013Las Vegas Raiders 23",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists DJ Moore (WR) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Dee Alford (DB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Ed Oliver (DT) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Joshua Palmer (WR) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists T.J. Sanders (DL) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Te'Cory Couch (CB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Tonka Hemingway (DT) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Trey Zuhn (OT) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Tyler Scott (WR) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Brennan Jackson (DE) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Carter Runyon (TE) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Chigozie Anusiem (CB) as IR; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Bills vs. Raiders odds, picks, predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus on NFL Week 6",
-          "url": "https://www.cbssports.com/prediction/news/bills-vs-raiders-odds-picks-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus-on-nfl-week-6/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T18:45:46Z",
-          "role": "news"
-        },
-        {
-          "title": "DJ Moore, Ed Oliver inactive for Bills vs. Raiders",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dj-moore-ed-oliver-inactive-for-bills-vs-raiders",
-          "publisher": "NBC Sports",
-          "published_at": "2026-10-18T19:11:06Z",
-          "role": "news"
-        },
-        {
-          "title": "Allegiant Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "weather"
-        },
-        {
-          "title": "Rest: Buffalo Bills 6 days; Las Vegas Raiders 7 days. Away-city to venue: about 1,980 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Buffalo Bills 5 games, 32.8 points for and 28.2 allowed per game; Las Vegas Raiders 5 games, 26.4 points for and 25.8 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ],
-      "scoring": {
-        "home": {
-          "team": "Las Vegas Raiders",
-          "team_strength": 5.059677419354838,
-          "expected_lineup_units": {
-            "pass_offense": 6.629032258064516,
-            "rush_offense": 4.016129032258064,
-            "pass_defense": 3.854838709677419,
-            "rush_defense": 5.193548387096774,
-            "special_teams": 5.370967741935484
-          },
-          "unit_adjustments": [],
-          "data_confidence": 5.6,
-          "status": "complete",
-          "category_matchups": {
-            "pass_offense": 6.846774193548387,
-            "rush_offense": 5.57258064516129,
-            "pass_defense": 3.814516129032258,
-            "rush_defense": 4.338709677419355,
-            "special_teams": 4.733870967741936
-          },
-          "matchup_base": 5.237903225806451,
-          "situational_adjustment": 0.25,
-          "weekly_matchup": 5.487903225806451
-        },
-        "away": {
-          "team": "Buffalo Bills",
-          "team_strength": 5.766129032258064,
-          "expected_lineup_units": {
-            "pass_offense": 7.225806451612903,
-            "rush_offense": 7.516129032258064,
-            "pass_defense": 3.935483870967742,
-            "rush_defense": 3.870967741935484,
-            "special_teams": 6.903225806451613
-          },
-          "unit_adjustments": [],
-          "data_confidence": 5.6,
-          "status": "complete",
-          "category_matchups": {
-            "pass_offense": 7.185483870967742,
-            "rush_offense": 6.661290322580645,
-            "pass_defense": 4.153225806451613,
-            "rush_defense": 5.42741935483871,
-            "special_teams": 6.266129032258064
-          },
-          "matchup_base": 5.823790322580645,
-          "situational_adjustment": -0.05,
-          "weekly_matchup": 5.773790322580645
-        },
-        "matchup_difference_home_minus_away": -0.28588709677419377,
-        "scoring_version": "nfl-scoring-1.0"
-      },
-      "rating_side": "Las Vegas Raiders",
-      "pass": 6.846774193548387,
-      "rush": 5.57258064516129,
-      "offense": 5.845161290322579,
-      "defense": 4.1523297491039415,
-      "confidence": 5.6,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
-      "model": {
-        "nflverse_game_id": "2026_06_BUF_LV",
-        "fair_home_margin": -4.57,
-        "fair_home_spread": 4.6,
-        "fair_total": 54.3,
-        "market_home_spread": 4.5,
-        "market_total": 53.5,
-        "anchor_source": "Bovada",
-        "spread_edge_points": -0.07,
-        "total_edge_points": 0.83,
-        "projected_home_points": 24.9,
-        "projected_away_points": 29.5
-      },
-      "paper_forecast": {
-        "game_id": "45b2690b350ed45145c7a716b18e8e66",
-        "nflverse_game_id": "2026_06_BUF_LV",
-        "home": "Las Vegas Raiders",
-        "away": "Buffalo Bills",
-        "kickoff": "2026-10-18T20:25:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
-        "model_version": "paper-2026-w5-633442bf61",
-        "projection": {
-          "margin": 0.02300623147342029,
-          "total": 48.98720098805114,
-          "projected_home_points": 24.50510360976228,
-          "projected_away_points": 24.482097378288863,
-          "fair_home_spread": -0.02300623147342029,
-          "model_status": "provisional_unapproved"
-        },
-        "outcome_probabilities": {
-          "home": 0.48440277031983636,
-          "tie": 0.0326981405851996,
-          "away": 0.48289908909496404
-        },
-        "status": "paper_only_uncalibrated",
-        "origin": "prospective",
-        "injury_adjustments_applied": false
-      }
-    },
-    {
-      "id": "20fefae8c296247460ba5773caa42218",
-      "away": "Los Angeles Chargers",
-      "home": "Kansas City Chiefs",
-      "kickoff": "2026-10-18T20:25:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2025-12-14",
-          "score": "Los Angeles Chargers 16\u2013Kansas City Chiefs 13",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2025-09-05",
-          "score": "Kansas City Chiefs 21\u2013Los Angeles Chargers 27",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2024-12-08",
-          "score": "Los Angeles Chargers 17\u2013Kansas City Chiefs 19",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2024-09-29",
-          "score": "Kansas City Chiefs 17\u2013Los Angeles Chargers 10",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2024-01-07",
-          "score": "Kansas City Chiefs 13\u2013Los Angeles Chargers 12",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Brenen Thompson (WR) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Bud Dupree (LB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Daiyan Henley (LB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Dalvin Tomlinson (DT) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Derwin James (DB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Donte Jackson (CB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Evan Svoboda (TE) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Jamaree Caldwell (DT) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Joe Alt (OL) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Josh Simmons (OL) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Kayode Awosika (OL) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists KeAndre Lambert-Smith (WR) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Kalshi promo code CBSSPORTS55: Get $55 bonus for Chargers vs. Chiefs, NFL Week 6 predictions",
-          "url": "https://www.cbssports.com/prediction/news/kalshi-promo-code-cbssports55-get-55-bonus-for-chargers-chiefs-nfl-week-6-predictions/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T19:00:52Z",
-          "role": "news"
-        },
-        {
-          "title": "Chargers vs. Chiefs odds, predictions: Kalshi promo code CBSSPORTS55 for $55 bonus on NFL Week 6 showdown",
-          "url": "https://www.cbssports.com/prediction/news/chargers-vs-chiefs-odds-predictions-kalshi-promo-code-cbssports55-for-55-bonus-on-nfl-week-6-showdown/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T18:30:57Z",
-          "role": "news"
-        },
-        {
-          "title": "Week 6 NFL odds, spreads, totals, lines for every game, including Chargers-Chiefs, Packers-Cowboys",
-          "url": "https://www.cbssports.com/betting/news/week-6-nfl-spreads-betting-odds-totals-lines/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T16:15:32Z",
-          "role": "news"
-        },
-        {
-          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Steelers-Buccaneers, Chargers-Chiefs, NFL Week 6",
-          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-steelers-buccaneers-chargers-chiefs-nfl-week-6/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T16:13:37Z",
-          "role": "news"
-        },
-        {
-          "title": "2026 Week 6 NFL odds, picks, predictions, best bets: Experts backing Giants, Chiefs, Packers on Sunday",
-          "url": "https://www.cbssports.com/betting/news/2026-week-6-nfl-odds-picks-predictions-best-bets-experts-backing-giants-chiefs-packers-sunday/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T16:07:48Z",
-          "role": "news"
-        },
-        {
-          "title": "NFL odds: Week 6 parlays featuring favorites, underdogs include Panthers-Eagles, Chiefs-Chargers",
-          "url": "https://www.cbssports.com/betting/news/nfl-odds-week-6-parlays-featuring-favorites-underdogs-include-panthers-eagles-chiefs-chargers/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T15:11:18Z",
-          "role": "news"
-        },
-        {
-          "title": "Best Kalshi promo code CBSSPORTS55 in California: Get $55 bonus for Chargers, Rams, 49ers Week 6 NFL games",
-          "url": "https://www.cbssports.com/prediction/news/best-kalshi-promo-code-cbssports55-in-california-get-55-bonus-for-chargers-rams-49ers-week-6-nfl-games/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T14:11:25Z",
-          "role": "news"
-        },
-        {
-          "title": "If Chargers lose again today, will offensive coordinator Mike McDaniel be out?",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/if-chargers-lose-again-today-will-offensive-coordinator-mike-mcdaniel-be-out",
-          "publisher": "NBC Sports",
-          "published_at": "2026-10-18T19:16:14Z",
-          "role": "news"
-        },
-        {
-          "title": "L'Jarius Sneed active for Chiefs, Bud Dupree inactive for Chargers",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ljarius-sneed-active-for-chiefs-bud-dupree-inactive-for-chargers",
-          "publisher": "NBC Sports",
-          "published_at": "2026-10-18T19:07:24Z",
-          "role": "news"
-        },
-        {
-          "title": "Kickoff forecast near GEHA Field at Arrowhead Stadium: 68\u00b0F, wind 12 mph S, precipitation 0%",
-          "url": "https://api.weather.gov/gridpoints/EAX/47,48/forecast/hourly",
-          "publisher": "National Weather Service",
-          "published_at": null,
-          "role": "weather"
-        },
-        {
-          "title": "Rest: Los Angeles Chargers 7 days; Kansas City Chiefs 14 days. Away-city to venue: about 1,367 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Los Angeles Chargers 5 games, 16.8 points for and 25.8 allowed per game; Kansas City Chiefs 4 games, 29.5 points for and 19.2 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ],
-      "scoring": {
-        "home": {
-          "team": "Kansas City Chiefs",
-          "team_strength": 6.312177419354838,
-          "expected_lineup_units": {
-            "pass_offense": 6.719354838709677,
-            "rush_offense": 7.619354838709677,
-            "pass_defense": 5.282258064516129,
-            "rush_defense": 6.719354838709677,
-            "special_teams": 5.935483870967742
-          },
-          "unit_adjustments": [],
-          "data_confidence": 5.0,
-          "status": "complete",
-          "category_matchups": {
-            "pass_offense": 5.593548387096774,
-            "rush_offense": 7.0112903225806456,
-            "pass_defense": 6.608870967741936,
-            "rush_defense": 6.827419354838709,
-            "special_teams": 6.298387096774194
-          },
-          "matchup_base": 6.320201612903226,
-          "situational_adjustment": 0.4,
-          "weekly_matchup": 6.720201612903226
-        },
-        "away": {
-          "team": "Los Angeles Chargers",
-          "team_strength": 4.64516129032258,
-          "expected_lineup_units": {
-            "pass_offense": 3.064516129032258,
-            "rush_offense": 4.064516129032258,
-            "pass_defense": 6.532258064516129,
-            "rush_defense": 4.596774193548387,
-            "special_teams": 4.338709677419355
-          },
-          "unit_adjustments": [],
-          "data_confidence": 5.6,
-          "status": "complete",
-          "category_matchups": {
-            "pass_offense": 4.391129032258064,
-            "rush_offense": 4.172580645161291,
-            "pass_defense": 5.406451612903226,
-            "rush_defense": 3.988709677419355,
-            "special_teams": 4.701612903225806
-          },
-          "matchup_base": 4.6889919354838705,
-          "situational_adjustment": -0.2,
-          "weekly_matchup": 4.48899193548387
-        },
-        "matchup_difference_home_minus_away": 2.231209677419356,
-        "scoring_version": "nfl-scoring-1.0"
-      },
-      "rating_side": "Kansas City Chiefs",
-      "pass": 5.593548387096774,
-      "rush": 7.0112903225806456,
-      "offense": 6.989354838709676,
-      "defense": 5.6016129032258055,
-      "confidence": 5.0,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
-      "model": {
-        "nflverse_game_id": "2026_06_LAC_KC",
-        "fair_home_margin": 7.56,
-        "fair_home_spread": -7.6,
-        "fair_total": 41.9,
-        "market_home_spread": -7.0,
-        "market_total": 41.5,
-        "anchor_source": "Bovada",
-        "spread_edge_points": 0.56,
-        "total_edge_points": 0.41,
-        "projected_home_points": 24.7,
-        "projected_away_points": 17.2
-      },
-      "paper_forecast": {
-        "game_id": "20fefae8c296247460ba5773caa42218",
-        "nflverse_game_id": "2026_06_LAC_KC",
-        "home": "Kansas City Chiefs",
-        "away": "Los Angeles Chargers",
-        "kickoff": "2026-10-18T20:25:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
-        "model_version": "paper-2026-w5-633442bf61",
-        "projection": {
-          "margin": 23.96242536812409,
-          "total": 36.96573832214358,
-          "projected_home_points": 30.464081845133833,
-          "projected_away_points": 6.501656477009744,
-          "fair_home_spread": -23.96242536812409,
-          "model_status": "provisional_unapproved"
-        },
-        "outcome_probabilities": {
-          "home": 0.9727958281389096,
-          "tie": 0.00475237657592964,
-          "away": 0.022451795285160725
-        },
-        "status": "paper_only_uncalibrated",
-        "origin": "prospective",
-        "injury_adjustments_applied": false
-      }
-    },
     {
       "id": "82fd5a159fa130e67abab93a9537f70b",
       "away": "Dallas Cowboys",
@@ -980,6 +139,13 @@
           "role": "injuries"
         },
         {
+          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Chargers-Chiefs, Cowboys-Packers, NFL Week 6",
+          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-chargers-chiefs-cowboys-packers-nfl-week-6/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-18T19:33:31Z",
+          "role": "news"
+        },
+        {
           "title": "NFL Week 6 odds, predictions, expert picks: Cowboys roll into Lambeau Field to face Packers",
           "url": "https://www.cbssports.com/nfl/news/nfl-week-6-picks-and-predictions-spread-odds-best-bets/",
           "publisher": "CBS Sports",
@@ -1005,13 +171,6 @@
           "url": "https://www.cbssports.com/prediction/news/polymarket-promo-code-cbssports-in-texas-get-25-bonus-for-texans-cowboys-in-week-6/",
           "publisher": "CBS Sports",
           "published_at": "2026-10-18T13:09:10Z",
-          "role": "news"
-        },
-        {
-          "title": "NFL Week 6 picks, odds: Our experts face off on Ravens at Browns, Packers vs. Cowboys and more",
-          "url": "https://www.cbssports.com/nfl/news/nfl-week-6-picks-experts-on-seahawks-broncos-ravens-browns/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T10:00:52Z",
           "role": "news"
         },
         {
@@ -1104,7 +263,7 @@
         "market_total": 54.0,
         "anchor_source": "Bovada",
         "spread_edge_points": -1.44,
-        "total_edge_points": -1.11,
+        "total_edge_points": -1.08,
         "projected_home_points": 26.2,
         "projected_away_points": 26.7
       },
@@ -1114,8 +273,8 @@
         "home": "Green Bay Packers",
         "away": "Dallas Cowboys",
         "kickoff": "2026-10-19T00:20:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": -4.144795194280356,
@@ -1354,16 +513,16 @@
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
       "model": {
         "nflverse_game_id": "2026_06_WAS_SF",
-        "fair_home_margin": 8.95,
+        "fair_home_margin": 8.92,
         "fair_home_spread": -8.9,
-        "fair_total": 52.2,
+        "fair_total": 52.3,
         "market_home_spread": -7.5,
         "market_total": 52.5,
         "anchor_source": "Bovada",
-        "spread_edge_points": 1.45,
-        "total_edge_points": -0.28,
+        "spread_edge_points": 1.42,
+        "total_edge_points": -0.24,
         "projected_home_points": 30.6,
-        "projected_away_points": 21.6
+        "projected_away_points": 21.7
       },
       "paper_forecast": {
         "game_id": "f122527f003276d3bca19efa48c902c1",
@@ -1371,8 +530,8 @@
         "home": "San Francisco 49ers",
         "away": "Washington Commanders",
         "kickoff": "2026-10-20T00:15:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 7.7953935804215755,
@@ -1543,17 +702,24 @@
           "role": "news"
         },
         {
+          "title": "Caleb Williams and the Bears jump out to big lead, hold on to win 31-23",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-and-the-bears-jump-out-to-big-lead-hold-on-to-win-31-23",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-18T20:22:30Z",
+          "role": "news"
+        },
+        {
+          "title": "Patriots beat Jets 26-19, extend winning streak to three games",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-beat-jets-26-19-extend-winning-streak-to-three-games",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-18T20:16:14Z",
+          "role": "news"
+        },
+        {
           "title": "Patriots lead Jets 17-3 at halftime",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-lead-jets-17-3-at-halftime",
           "publisher": "NBC Sports",
           "published_at": "2026-10-18T18:31:20Z",
-          "role": "news"
-        },
-        {
-          "title": "Drake Maye, Romeo Doubs put Patriots up 7-3",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-maye-romeo-doubs-put-patriots-up-7-3",
-          "publisher": "NBC Sports",
-          "published_at": "2026-10-18T17:35:10Z",
           "role": "news"
         },
         {
@@ -1643,8 +809,8 @@
         "home": "Chicago Bears",
         "away": "New England Patriots",
         "kickoff": "2026-10-23T00:15:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 2.74471533323205,
@@ -1794,6 +960,13 @@
           "role": "injuries"
         },
         {
+          "title": "Jameis Winston benched: Giants make move to J.J. McCarthy during Saints blowout",
+          "url": "https://www.cbssports.com/nfl/news/jameis-winston-benched-giants-j-j-mccarthy-makes-debut/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-18T20:13:39Z",
+          "role": "news"
+        },
+        {
           "title": "Pittsburgh coach Mike McCarthy suffers injury during Steelers' game vs. Buccaneers",
           "url": "https://www.cbssports.com/nfl/news/steelers-mike-mccarthy-suffers-injury-vs-buccaneers/",
           "publisher": "CBS Sports",
@@ -1815,13 +988,6 @@
           "role": "news"
         },
         {
-          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Steelers-Buccaneers, Chargers-Chiefs, NFL Week 6",
-          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-steelers-buccaneers-chargers-chiefs-nfl-week-6/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T16:13:37Z",
-          "role": "news"
-        },
-        {
           "title": "Saints vs. Giants odds, picks, prediction, spread: Start time, betting preview, NFL Week 6 best bets",
           "url": "https://www.cbssports.com/betting/news/saints-vs-giants-odds-picks-prediction-spread-start-time-betting-preview-nfl-week-6-best-bets/",
           "publisher": "CBS Sports",
@@ -1836,10 +1002,17 @@
           "role": "news"
         },
         {
-          "title": "Saints QB Tyler Shough playing through broken bones in non-throwing hand, per report",
-          "url": "https://www.cbssports.com/nfl/news/saints-tyler-shough-playing-through-broken-bones-non-throwing-hand/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T12:36:24Z",
+          "title": "Giants put J.J. McCarthy in with Saints up 34-10 in fourth quarter",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-put-j-j-mccarthy-in-with-saints-up-34-10-in-fourth-quarter",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-18T19:45:46Z",
+          "role": "news"
+        },
+        {
+          "title": "Aaron Rodgers' TD throw has Steelers within 16-10 of Bucs",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-td-throw-has-steelers-within-16-10-of-bucs",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-18T19:36:08Z",
           "role": "news"
         },
         {
@@ -1868,13 +1041,6 @@
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-lead-steelers-10-0",
           "publisher": "NBC Sports",
           "published_at": "2026-10-18T17:54:17Z",
-          "role": "news"
-        },
-        {
-          "title": "Giants take early 7-0 lead over Saints",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-take-early-7-0-lead-over-saints",
-          "publisher": "NBC Sports",
-          "published_at": "2026-10-18T17:25:21Z",
           "role": "news"
         },
         {
@@ -1964,8 +1130,8 @@
         "home": "New Orleans Saints",
         "away": "Pittsburgh Steelers",
         "kickoff": "2026-10-25T13:30:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": -9.065836827492944,
@@ -2215,8 +1381,8 @@
         "home": "Atlanta Falcons",
         "away": "San Francisco 49ers",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 1.824524136222674,
@@ -2373,10 +1539,10 @@
           "role": "news"
         },
         {
-          "title": "NFL Week 6 picks, odds: Our experts face off on Ravens at Browns, Packers vs. Cowboys and more",
-          "url": "https://www.cbssports.com/nfl/news/nfl-week-6-picks-experts-on-seahawks-broncos-ravens-browns/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T10:00:52Z",
+          "title": "Browns move into first place with 13-10 victory over Ravens",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-move-into-first-place-with-13-10-victory-over-ravens",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-18T20:03:23Z",
           "role": "news"
         },
         {
@@ -2384,13 +1550,6 @@
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-in-control-lead-browns-10-0-at-halftime",
           "publisher": "NBC Sports",
           "published_at": "2026-10-18T18:26:39Z",
-          "role": "news"
-        },
-        {
-          "title": "Tyler Huntley 2-yard touchdown pass gives Ravens early 7-0 lead",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-huntley-2-yard-touchdown-pass-gives-ravens-early-7-0-lead",
-          "publisher": "NBC Sports",
-          "published_at": "2026-10-18T17:19:12Z",
           "role": "news"
         },
         {
@@ -2473,8 +1632,8 @@
         "home": "Baltimore Ravens",
         "away": "Cincinnati Bengals",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": -19.68130345822993,
@@ -2631,13 +1790,6 @@
           "role": "news"
         },
         {
-          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Steelers-Buccaneers, Chargers-Chiefs, NFL Week 6",
-          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-steelers-buccaneers-chargers-chiefs-nfl-week-6/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T16:13:37Z",
-          "role": "news"
-        },
-        {
           "title": "NFL odds: Week 6 parlays featuring favorites, underdogs include Panthers-Eagles, Chiefs-Chargers",
           "url": "https://www.cbssports.com/betting/news/nfl-odds-week-6-parlays-featuring-favorites-underdogs-include-panthers-eagles-chiefs-chargers/",
           "publisher": "CBS Sports",
@@ -2656,13 +1808,6 @@
           "url": "https://www.cbssports.com/prediction/news/steelers-vs-buccaneers-odds-predictions-use-polymarket-promo-code-cbssports-in-nfl-week-6-for-25-bonus/",
           "publisher": "CBS Sports",
           "published_at": "2026-10-18T16:01:32Z",
-          "role": "news"
-        },
-        {
-          "title": "Best Kalshi promo code CBSSPORTS55 in Florida: Get $55 bonus for Jaguars, Buccaneers in Week 6",
-          "url": "https://www.cbssports.com/prediction/news/best-kalshi-promo-code-cbssports55-in-florida-get-55-bonus-for-jaguars-buccaneers-in-week-6/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T13:02:24Z",
           "role": "news"
         },
         {
@@ -2766,8 +1911,8 @@
         "home": "Carolina Panthers",
         "away": "Tampa Bay Buccaneers",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 0.8159876745005354,
@@ -2931,10 +2076,31 @@
           "role": "news"
         },
         {
-          "title": "NFL Week 6 picks, odds: Our experts face off on Ravens at Browns, Packers vs. Cowboys and more",
-          "url": "https://www.cbssports.com/nfl/news/nfl-week-6-picks-experts-on-seahawks-broncos-ravens-browns/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T10:00:52Z",
+          "title": "Titans get first win of 2026, beat Colts 26-20",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-get-first-win-of-2026-beat-colts-26-20",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-18T20:18:29Z",
+          "role": "news"
+        },
+        {
+          "title": "Browns move into first place with 13-10 victory over Ravens",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-move-into-first-place-with-13-10-victory-over-ravens",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-18T20:03:23Z",
+          "role": "news"
+        },
+        {
+          "title": "Titans take 20-13 lead with blocked punt returned for touchdown in fourth quarter",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-take-20-13-lead-with-blocked-punt-returned-for-touchdown-in-fourth-quarter",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-18T19:37:51Z",
+          "role": "news"
+        },
+        {
+          "title": "Carnell Tate's first touchdown catch ties Titans-Colts at 13-13",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/carnell-tates-first-touchdown-catch-ties-titans-colts-at-13-13",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-18T19:28:21Z",
           "role": "news"
         },
         {
@@ -3031,8 +2197,8 @@
         "home": "Tennessee Titans",
         "away": "Cleveland Browns",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": -3.7229645759563583,
@@ -3182,6 +2348,13 @@
           "role": "injuries"
         },
         {
+          "title": "Jameis Winston benched: Giants make move to J.J. McCarthy during Saints blowout",
+          "url": "https://www.cbssports.com/nfl/news/jameis-winston-benched-giants-j-j-mccarthy-makes-debut/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-18T20:13:39Z",
+          "role": "news"
+        },
+        {
           "title": "Has the Travis Hunter breakout arrived? Jacksonville CB/WR showcases long-term, two-way potential vs. Texans",
           "url": "https://www.cbssports.com/nfl/news/jaguars-travis-hunter-breakout-two-way-potential-vs-texans/",
           "publisher": "CBS Sports",
@@ -3224,10 +2397,10 @@
           "role": "news"
         },
         {
-          "title": "Texans vs. Jaguars prediction: Marvin Harrison Jr. makes Houston debut in London",
-          "url": "https://www.cbssports.com/nfl/news/texans-vs-jaguars-prediction-where-to-watch-london/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T11:22:28Z",
+          "title": "Giants put J.J. McCarthy in with Saints up 34-10 in fourth quarter",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-put-j-j-mccarthy-in-with-saints-up-34-10-in-fourth-quarter",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-18T19:45:46Z",
           "role": "news"
         },
         {
@@ -3242,13 +2415,6 @@
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-kick-last-second-field-goal-to-beat-jaguars-in-london",
           "publisher": "NBC Sports",
           "published_at": "2026-10-18T16:50:04Z",
-          "role": "news"
-        },
-        {
-          "title": "Giants take early 7-0 lead over Saints",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-take-early-7-0-lead-over-saints",
-          "publisher": "NBC Sports",
-          "published_at": "2026-10-18T17:25:21Z",
           "role": "news"
         },
         {
@@ -3331,8 +2497,8 @@
         "home": "Houston Texans",
         "away": "New York Giants",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 1.7440322997986353,
@@ -3489,6 +2655,20 @@
           "role": "news"
         },
         {
+          "title": "Titans get first win of 2026, beat Colts 26-20",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-get-first-win-of-2026-beat-colts-26-20",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-18T20:18:29Z",
+          "role": "news"
+        },
+        {
+          "title": "Carnell Tate's first touchdown catch ties Titans-Colts at 13-13",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/carnell-tates-first-touchdown-catch-ties-titans-colts-at-13-13",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-18T19:28:21Z",
+          "role": "news"
+        },
+        {
           "title": "Colts having no trouble with Titans, lead 13-0 at halftime",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-having-no-trouble-with-titans-lead-13-0-at-halftime",
           "publisher": "NBC Sports",
@@ -3582,8 +2762,8 @@
         "home": "Minnesota Vikings",
         "away": "Indianapolis Colts",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 20.637692107411347,
@@ -3740,6 +2920,13 @@
           "role": "news"
         },
         {
+          "title": "Patriots beat Jets 26-19, extend winning streak to three games",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-beat-jets-26-19-extend-winning-streak-to-three-games",
+          "publisher": "NBC Sports",
+          "published_at": "2026-10-18T20:16:14Z",
+          "role": "news"
+        },
+        {
           "title": "Patriots lead Jets 17-3 at halftime",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-lead-jets-17-3-at-halftime",
           "publisher": "NBC Sports",
@@ -3826,8 +3013,8 @@
         "home": "New York Jets",
         "away": "Miami Dolphins",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": -17.160148133784638,
@@ -4084,8 +3271,8 @@
         "home": "Arizona Cardinals",
         "away": "Denver Broncos",
         "kickoff": "2026-10-25T20:05:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": -12.01832946186569,
@@ -4235,6 +3422,13 @@
           "role": "injuries"
         },
         {
+          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Chargers-Chiefs, Cowboys-Packers, NFL Week 6",
+          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-chargers-chiefs-cowboys-packers-nfl-week-6/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-18T19:33:31Z",
+          "role": "news"
+        },
+        {
           "title": "NFL Week 6 odds, predictions, expert picks: Cowboys roll into Lambeau Field to face Packers",
           "url": "https://www.cbssports.com/nfl/news/nfl-week-6-picks-and-predictions-spread-odds-best-bets/",
           "publisher": "CBS Sports",
@@ -4256,11 +3450,11 @@
           "role": "news"
         },
         {
-          "title": "NFL Week 6 picks, odds: Our experts face off on Ravens at Browns, Packers vs. Cowboys and more",
-          "url": "https://www.cbssports.com/nfl/news/nfl-week-6-picks-experts-on-seahawks-broncos-ravens-browns/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T10:00:52Z",
-          "role": "news"
+          "title": "Ford Field: enclosed roof listed in schedule; outdoor forecast not applied",
+          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+          "publisher": "nflverse schedule",
+          "published_at": null,
+          "role": "weather"
         },
         {
           "title": "Rest: Green Bay Packers 7 days; Detroit Lions 14 days. Away-city to venue: about 293 straight-line miles (not team itinerary).",
@@ -4342,8 +3536,8 @@
         "home": "Detroit Lions",
         "away": "Green Bay Packers",
         "kickoff": "2026-10-25T20:25:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 18.307169830158042,
@@ -4507,6 +3701,13 @@
           "role": "news"
         },
         {
+          "title": "Allegiant Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
+          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+          "publisher": "nflverse schedule",
+          "published_at": null,
+          "role": "weather"
+        },
+        {
           "title": "Rest: Los Angeles Rams 7 days; Las Vegas Raiders 7 days. Away-city to venue: about 232 straight-line miles (not team itinerary).",
           "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
           "publisher": "nflverse schedule",
@@ -4586,8 +3787,8 @@
         "home": "Las Vegas Raiders",
         "away": "Los Angeles Rams",
         "kickoff": "2026-10-25T20:25:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": -2.9289998988035624,
@@ -4737,6 +3938,27 @@
           "role": "injuries"
         },
         {
+          "title": "Use DraftKings promo code to get $200 in bonus bets, free NBA League Pass for NFL betting, Chiefs-Chargers",
+          "url": "https://www.cbssports.com/nfl/news/use-draftkings-promo-code-to-get-200-bonus-bets-free-nba-league-pass-nfl-betting-chiefs-chargers/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-18T19:48:35Z",
+          "role": "news"
+        },
+        {
+          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Chargers-Chiefs, Cowboys-Packers, NFL Week 6",
+          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-chargers-chiefs-cowboys-packers-nfl-week-6/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-18T19:33:31Z",
+          "role": "news"
+        },
+        {
+          "title": "Use FanDuel promo code to get $350 in bonus bets by targeting Chargers-Chiefs, NFL Week 6",
+          "url": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-350-bonus-bets-chargers-chiefs-nfl-week-6/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-10-18T19:26:39Z",
+          "role": "news"
+        },
+        {
           "title": "Kalshi promo code CBSSPORTS55: Get $55 bonus for Chargers vs. Chiefs, NFL Week 6 predictions",
           "url": "https://www.cbssports.com/prediction/news/kalshi-promo-code-cbssports55-get-55-bonus-for-chargers-chiefs-nfl-week-6-predictions/",
           "publisher": "CBS Sports",
@@ -4755,13 +3977,6 @@
           "url": "https://www.cbssports.com/betting/news/week-6-nfl-spreads-betting-odds-totals-lines/",
           "publisher": "CBS Sports",
           "published_at": "2026-10-18T16:15:32Z",
-          "role": "news"
-        },
-        {
-          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Steelers-Buccaneers, Chargers-Chiefs, NFL Week 6",
-          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-steelers-buccaneers-chargers-chiefs-nfl-week-6/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-10-18T16:13:37Z",
           "role": "news"
         },
         {
@@ -4865,8 +4080,8 @@
         "home": "Seattle Seahawks",
         "away": "Kansas City Chiefs",
         "kickoff": "2026-10-26T00:20:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 7.704694242743743,
@@ -4889,402 +4104,6 @@
   ],
   "markets": [
     {
-      "id": "1dd763d7e3a7a0bfa64a",
-      "game_id": "3729ac6d2a66b642850caf2044cdc658",
-      "category": "Moneyline",
-      "selection": "Arizona Cardinals",
-      "line": null,
-      "odds": 575,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "moneyline",
-        "p_win": 0.1012,
-        "p_push": 0.0063,
-        "p_loss": 0.8925,
-        "ev": -0.3107,
-        "conservative_ev": -0.4457,
-        "value_score": 1,
-        "break_even": 0.1481
-      }
-    },
-    {
-      "id": "08499df5cac266b0274c",
-      "game_id": "3729ac6d2a66b642850caf2044cdc658",
-      "category": "Moneyline",
-      "selection": "Los Angeles Rams",
-      "line": null,
-      "odds": -900,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "moneyline",
-        "p_win": 0.8925,
-        "p_push": 0.0063,
-        "p_loss": 0.1012,
-        "ev": -0.002,
-        "conservative_ev": -0.0242,
-        "value_score": 1,
-        "break_even": 0.9
-      }
-    },
-    {
-      "id": "c3a1a3e22f0b574d8b67",
-      "game_id": "3729ac6d2a66b642850caf2044cdc658",
-      "category": "Spread",
-      "selection": "Arizona Cardinals",
-      "line": 13.0,
-      "odds": -110,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "spread",
-        "p_win": 0.4462,
-        "p_push": 0.041,
-        "p_loss": 0.5127,
-        "ev": -0.1071,
-        "conservative_ev": -0.1452,
-        "value_score": 1,
-        "break_even": 0.5238
-      }
-    },
-    {
-      "id": "a6a2c92d3838176d7da2",
-      "game_id": "3729ac6d2a66b642850caf2044cdc658",
-      "category": "Spread",
-      "selection": "Los Angeles Rams",
-      "line": -13.0,
-      "odds": -110,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "spread",
-        "p_win": 0.5127,
-        "p_push": 0.041,
-        "p_loss": 0.4462,
-        "ev": 0.0199,
-        "conservative_ev": -0.0183,
-        "value_score": 1,
-        "break_even": 0.5238
-      }
-    },
-    {
-      "id": "17a7ae82301037172f0a",
-      "game_id": "3729ac6d2a66b642850caf2044cdc658",
-      "category": "Total",
-      "selection": "Over",
-      "line": 51.5,
-      "odds": -110,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "total",
-        "p_win": 0.5305,
-        "p_push": 0,
-        "p_loss": 0.4695,
-        "ev": 0.0128,
-        "conservative_ev": -0.0253,
-        "value_score": 1,
-        "break_even": 0.5238
-      }
-    },
-    {
-      "id": "22bda511c226033485e5",
-      "game_id": "3729ac6d2a66b642850caf2044cdc658",
-      "category": "Total",
-      "selection": "Under",
-      "line": 51.5,
-      "odds": -110,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "total",
-        "p_win": 0.4695,
-        "p_push": 0,
-        "p_loss": 0.5305,
-        "ev": -0.1037,
-        "conservative_ev": -0.1419,
-        "value_score": 1,
-        "break_even": 0.5238
-      }
-    },
-    {
-      "id": "5409e2df18c7fcf55e38",
-      "game_id": "45b2690b350ed45145c7a716b18e8e66",
-      "category": "Moneyline",
-      "selection": "Buffalo Bills",
-      "line": null,
-      "odds": -230,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "moneyline",
-        "p_win": 0.6359,
-        "p_push": 0.0029,
-        "p_loss": 0.3612,
-        "ev": -0.0847,
-        "conservative_ev": -0.1134,
-        "value_score": 1,
-        "break_even": 0.697
-      }
-    },
-    {
-      "id": "cef3be2ab867a8f8fe54",
-      "game_id": "45b2690b350ed45145c7a716b18e8e66",
-      "category": "Moneyline",
-      "selection": "Las Vegas Raiders",
-      "line": null,
-      "odds": 190,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "moneyline",
-        "p_win": 0.3612,
-        "p_push": 0.0029,
-        "p_loss": 0.6359,
-        "ev": 0.0503,
-        "conservative_ev": -0.0077,
-        "value_score": 1,
-        "break_even": 0.3448
-      }
-    },
-    {
-      "id": "4bf0105a98a59ae8fabd",
-      "game_id": "45b2690b350ed45145c7a716b18e8e66",
-      "category": "Spread",
-      "selection": "Buffalo Bills",
-      "line": -4.5,
-      "odds": -110,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "spread",
-        "p_win": 0.4697,
-        "p_push": 0,
-        "p_loss": 0.5303,
-        "ev": -0.1034,
-        "conservative_ev": -0.1415,
-        "value_score": 1,
-        "break_even": 0.5238
-      }
-    },
-    {
-      "id": "b3213656dfd3bb216844",
-      "game_id": "45b2690b350ed45145c7a716b18e8e66",
-      "category": "Spread",
-      "selection": "Las Vegas Raiders",
-      "line": 4.5,
-      "odds": -110,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "spread",
-        "p_win": 0.5303,
-        "p_push": 0,
-        "p_loss": 0.4697,
-        "ev": 0.0124,
-        "conservative_ev": -0.0257,
-        "value_score": 1,
-        "break_even": 0.5238
-      }
-    },
-    {
-      "id": "6bb075961374716702bc",
-      "game_id": "45b2690b350ed45145c7a716b18e8e66",
-      "category": "Total",
-      "selection": "Over",
-      "line": 53.5,
-      "odds": -110,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "total",
-        "p_win": 0.5287,
-        "p_push": 0,
-        "p_loss": 0.4713,
-        "ev": 0.0094,
-        "conservative_ev": -0.0288,
-        "value_score": 1,
-        "break_even": 0.5238
-      }
-    },
-    {
-      "id": "19ca7d74090010b9eb08",
-      "game_id": "45b2690b350ed45145c7a716b18e8e66",
-      "category": "Total",
-      "selection": "Under",
-      "line": 53.5,
-      "odds": -110,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "total",
-        "p_win": 0.4713,
-        "p_push": 0,
-        "p_loss": 0.5287,
-        "ev": -0.1003,
-        "conservative_ev": -0.1385,
-        "value_score": 1,
-        "break_even": 0.5238
-      }
-    },
-    {
-      "id": "cea2970addf03d7a7cc0",
-      "game_id": "20fefae8c296247460ba5773caa42218",
-      "category": "Moneyline",
-      "selection": "Kansas City Chiefs",
-      "line": null,
-      "odds": -440,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "moneyline",
-        "p_win": 0.7481,
-        "p_push": 0.0047,
-        "p_loss": 0.2472,
-        "ev": -0.0772,
-        "conservative_ev": -0.1017,
-        "value_score": 1,
-        "break_even": 0.8148
-      }
-    },
-    {
-      "id": "53d842b007d082f72c9c",
-      "game_id": "20fefae8c296247460ba5773caa42218",
-      "category": "Moneyline",
-      "selection": "Los Angeles Chargers",
-      "line": null,
-      "odds": 330,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "moneyline",
-        "p_win": 0.2472,
-        "p_push": 0.0047,
-        "p_loss": 0.7481,
-        "ev": 0.0677,
-        "conservative_ev": -0.0183,
-        "value_score": 1,
-        "break_even": 0.2326
-      }
-    },
-    {
-      "id": "a5896bfacf7acb7b8c73",
-      "game_id": "20fefae8c296247460ba5773caa42218",
-      "category": "Spread",
-      "selection": "Kansas City Chiefs",
-      "line": -7.0,
-      "odds": -120,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "spread",
-        "p_win": 0.4619,
-        "p_push": 0.0694,
-        "p_loss": 0.4687,
-        "ev": -0.0837,
-        "conservative_ev": -0.1204,
-        "value_score": 1,
-        "break_even": 0.5455
-      }
-    },
-    {
-      "id": "c1bac7bad527c6fa5349",
-      "game_id": "20fefae8c296247460ba5773caa42218",
-      "category": "Spread",
-      "selection": "Los Angeles Chargers",
-      "line": 7.0,
-      "odds": 100,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "spread",
-        "p_win": 0.4687,
-        "p_push": 0.0694,
-        "p_loss": 0.4619,
-        "ev": 0.0068,
-        "conservative_ev": -0.0332,
-        "value_score": 1,
-        "break_even": 0.5
-      }
-    },
-    {
-      "id": "3230ecf4f262542cdf39",
-      "game_id": "20fefae8c296247460ba5773caa42218",
-      "category": "Total",
-      "selection": "Over",
-      "line": 41.5,
-      "odds": -110,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "total",
-        "p_win": 0.5041,
-        "p_push": 0,
-        "p_loss": 0.4959,
-        "ev": -0.0376,
-        "conservative_ev": -0.0758,
-        "value_score": 1,
-        "break_even": 0.5238
-      }
-    },
-    {
-      "id": "ed02fac85e0a5a78d0fb",
-      "game_id": "20fefae8c296247460ba5773caa42218",
-      "category": "Total",
-      "selection": "Under",
-      "line": 41.5,
-      "odds": -110,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "total",
-        "p_win": 0.4959,
-        "p_push": 0,
-        "p_loss": 0.5041,
-        "ev": -0.0533,
-        "conservative_ev": -0.0915,
-        "value_score": 1,
-        "break_even": 0.5238
-      }
-    },
-    {
       "id": "b45fba2588660c101e67",
       "game_id": "82fd5a159fa130e67abab93a9537f70b",
       "category": "Moneyline",
@@ -5297,11 +4116,11 @@
       "sportsbook": "Bovada",
       "model": {
         "market": "moneyline",
-        "p_win": 0.5078,
+        "p_win": 0.5086,
         "p_push": 0.0014,
-        "p_loss": 0.4908,
-        "ev": -0.0071,
-        "conservative_ev": -0.0462,
+        "p_loss": 0.49,
+        "ev": -0.0056,
+        "conservative_ev": -0.0447,
         "value_score": 1,
         "break_even": 0.5122
       }
@@ -5319,11 +4138,11 @@
       "sportsbook": "Bovada",
       "model": {
         "market": "moneyline",
-        "p_win": 0.4908,
+        "p_win": 0.49,
         "p_push": 0.0014,
-        "p_loss": 0.5078,
-        "ev": -0.0811,
-        "conservative_ev": -0.1185,
+        "p_loss": 0.5086,
+        "ev": -0.0825,
+        "conservative_ev": -0.1199,
         "value_score": 1,
         "break_even": 0.5349
       }
@@ -5341,11 +4160,11 @@
       "sportsbook": "Bovada",
       "model": {
         "market": "spread",
-        "p_win": 0.5092,
+        "p_win": 0.51,
         "p_push": 0.0225,
-        "p_loss": 0.4683,
-        "ev": -0.0255,
-        "conservative_ev": -0.0629,
+        "p_loss": 0.4676,
+        "ev": -0.0241,
+        "conservative_ev": -0.0615,
         "value_score": 1,
         "break_even": 0.5349
       }
@@ -5363,11 +4182,11 @@
       "sportsbook": "Bovada",
       "model": {
         "market": "spread",
-        "p_win": 0.4683,
+        "p_win": 0.4676,
         "p_push": 0.0225,
-        "p_loss": 0.5092,
-        "ev": -0.0633,
-        "conservative_ev": -0.1023,
+        "p_loss": 0.51,
+        "ev": -0.0647,
+        "conservative_ev": -0.1037,
         "value_score": 1,
         "break_even": 0.5122
       }
@@ -5385,11 +4204,11 @@
       "sportsbook": "Bovada",
       "model": {
         "market": "total",
-        "p_win": 0.4638,
-        "p_push": 0.0306,
-        "p_loss": 0.5056,
-        "ev": -0.0639,
-        "conservative_ev": -0.1029,
+        "p_win": 0.463,
+        "p_push": 0.0322,
+        "p_loss": 0.5047,
+        "ev": -0.0638,
+        "conservative_ev": -0.1028,
         "value_score": 1,
         "break_even": 0.5122
       }
@@ -5407,10 +4226,10 @@
       "sportsbook": "Bovada",
       "model": {
         "market": "total",
-        "p_win": 0.5056,
-        "p_push": 0.0306,
-        "p_loss": 0.4638,
-        "ev": -0.0242,
+        "p_win": 0.5047,
+        "p_push": 0.0322,
+        "p_loss": 0.463,
+        "ev": -0.0241,
         "conservative_ev": -0.0615,
         "value_score": 1,
         "break_even": 0.5349
@@ -5429,11 +4248,11 @@
       "sportsbook": "Bovada",
       "model": {
         "market": "moneyline",
-        "p_win": 0.7712,
+        "p_win": 0.7713,
         "p_push": 0.0036,
-        "p_loss": 0.2252,
-        "ev": -0.0459,
-        "conservative_ev": -0.0705,
+        "p_loss": 0.2251,
+        "ev": -0.0457,
+        "conservative_ev": -0.0704,
         "value_score": 1,
         "break_even": 0.8113
       }
@@ -5451,11 +4270,11 @@
       "sportsbook": "Bovada",
       "model": {
         "market": "moneyline",
-        "p_win": 0.2252,
+        "p_win": 0.2251,
         "p_push": 0.0036,
-        "p_loss": 0.7712,
-        "ev": -0.0505,
-        "conservative_ev": -0.1345,
+        "p_loss": 0.7713,
+        "ev": -0.051,
+        "conservative_ev": -0.135,
         "value_score": 1,
         "break_even": 0.2381
       }
@@ -5473,11 +4292,11 @@
       "sportsbook": "Bovada",
       "model": {
         "market": "spread",
-        "p_win": 0.4943,
+        "p_win": 0.4938,
         "p_push": 0,
-        "p_loss": 0.5057,
-        "ev": -0.0564,
-        "conservative_ev": -0.0946,
+        "p_loss": 0.5062,
+        "ev": -0.0573,
+        "conservative_ev": -0.0955,
         "value_score": 1,
         "break_even": 0.5238
       }
@@ -5495,11 +4314,11 @@
       "sportsbook": "Bovada",
       "model": {
         "market": "spread",
-        "p_win": 0.5057,
+        "p_win": 0.5062,
         "p_push": 0,
-        "p_loss": 0.4943,
-        "ev": -0.0345,
-        "conservative_ev": -0.0727,
+        "p_loss": 0.4938,
+        "ev": -0.0336,
+        "conservative_ev": -0.0718,
         "value_score": 1,
         "break_even": 0.5238
       }
@@ -5517,11 +4336,11 @@
       "sportsbook": "Bovada",
       "model": {
         "market": "total",
-        "p_win": 0.5014,
+        "p_win": 0.503,
         "p_push": 0,
-        "p_loss": 0.4986,
-        "ev": -0.0428,
-        "conservative_ev": -0.081,
+        "p_loss": 0.497,
+        "ev": -0.0397,
+        "conservative_ev": -0.0779,
         "value_score": 1,
         "break_even": 0.5238
       }
@@ -5539,201 +4358,18 @@
       "sportsbook": "Bovada",
       "model": {
         "market": "total",
-        "p_win": 0.4986,
+        "p_win": 0.497,
         "p_push": 0,
-        "p_loss": 0.5014,
-        "ev": -0.0481,
-        "conservative_ev": -0.0863,
+        "p_loss": 0.503,
+        "ev": -0.0512,
+        "conservative_ev": -0.0894,
         "value_score": 1,
         "break_even": 0.5238
       }
     }
   ],
   "picks": [],
-  "leans": [
-    {
-      "id": "53d842b007d082f72c9c",
-      "game_id": "20fefae8c296247460ba5773caa42218",
-      "category": "Moneyline",
-      "selection": "Los Angeles Chargers",
-      "line": null,
-      "odds": 330,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "win_probability": 0.2472,
-      "push_probability": 0.0047,
-      "break_even_probability": 0.2326,
-      "ev": 0.0677,
-      "conservative_ev": -0.0183,
-      "win_rating": 3,
-      "value_rating": 1,
-      "model_version": "market-model-1.0",
-      "status": "lean",
-      "suggested_stake": 0.0,
-      "blockers": [
-        "moneyline model has not passed the backtest gate",
-        "quote is stale",
-        "not positive under conservative assumptions",
-        "value score below 7"
-      ],
-      "rationale": "Research lean only: moneyline model has not passed the backtest gate; quote is stale; not positive under conservative assumptions; value score below 7."
-    },
-    {
-      "id": "cef3be2ab867a8f8fe54",
-      "game_id": "45b2690b350ed45145c7a716b18e8e66",
-      "category": "Moneyline",
-      "selection": "Las Vegas Raiders",
-      "line": null,
-      "odds": 190,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "win_probability": 0.3612,
-      "push_probability": 0.0029,
-      "break_even_probability": 0.3448,
-      "ev": 0.0503,
-      "conservative_ev": -0.0077,
-      "win_rating": 4,
-      "value_rating": 1,
-      "model_version": "market-model-1.0",
-      "status": "lean",
-      "suggested_stake": 0.0,
-      "blockers": [
-        "moneyline model has not passed the backtest gate",
-        "quote is stale",
-        "not positive under conservative assumptions",
-        "value score below 7"
-      ],
-      "rationale": "Research lean only: moneyline model has not passed the backtest gate; quote is stale; not positive under conservative assumptions; value score below 7."
-    },
-    {
-      "id": "a6a2c92d3838176d7da2",
-      "game_id": "3729ac6d2a66b642850caf2044cdc658",
-      "category": "Spread",
-      "selection": "Los Angeles Rams",
-      "line": -13.0,
-      "odds": -110,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "win_probability": 0.5127,
-      "push_probability": 0.041,
-      "break_even_probability": 0.5238,
-      "ev": 0.0199,
-      "conservative_ev": -0.0183,
-      "win_rating": 6,
-      "value_rating": 1,
-      "model_version": "market-model-1.0",
-      "status": "lean",
-      "suggested_stake": 0.0,
-      "blockers": [
-        "spread model has not passed the backtest gate",
-        "quote is stale",
-        "not positive under conservative assumptions",
-        "value score below 7"
-      ],
-      "rationale": "Research lean only: spread model has not passed the backtest gate; quote is stale; not positive under conservative assumptions; value score below 7."
-    },
-    {
-      "id": "17a7ae82301037172f0a",
-      "game_id": "3729ac6d2a66b642850caf2044cdc658",
-      "category": "Total",
-      "selection": "Over",
-      "line": 51.5,
-      "odds": -110,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "win_probability": 0.5305,
-      "push_probability": 0,
-      "break_even_probability": 0.5238,
-      "ev": 0.0128,
-      "conservative_ev": -0.0253,
-      "win_rating": 6,
-      "value_rating": 1,
-      "model_version": "market-model-1.0",
-      "status": "lean",
-      "suggested_stake": 0.0,
-      "blockers": [
-        "total model has not passed the backtest gate",
-        "quote is stale",
-        "not positive under conservative assumptions",
-        "value score below 7"
-      ],
-      "rationale": "Research lean only: total model has not passed the backtest gate; quote is stale; not positive under conservative assumptions; value score below 7."
-    },
-    {
-      "id": "b3213656dfd3bb216844",
-      "game_id": "45b2690b350ed45145c7a716b18e8e66",
-      "category": "Spread",
-      "selection": "Las Vegas Raiders",
-      "line": 4.5,
-      "odds": -110,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "win_probability": 0.5303,
-      "push_probability": 0,
-      "break_even_probability": 0.5238,
-      "ev": 0.0124,
-      "conservative_ev": -0.0257,
-      "win_rating": 6,
-      "value_rating": 1,
-      "model_version": "market-model-1.0",
-      "status": "lean",
-      "suggested_stake": 0.0,
-      "blockers": [
-        "spread model has not passed the backtest gate",
-        "quote is stale",
-        "not positive under conservative assumptions",
-        "value score below 7"
-      ],
-      "rationale": "Research lean only: spread model has not passed the backtest gate; quote is stale; not positive under conservative assumptions; value score below 7."
-    },
-    {
-      "id": "6bb075961374716702bc",
-      "game_id": "45b2690b350ed45145c7a716b18e8e66",
-      "category": "Total",
-      "selection": "Over",
-      "line": 53.5,
-      "odds": -110,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "win_probability": 0.5287,
-      "push_probability": 0,
-      "break_even_probability": 0.5238,
-      "ev": 0.0094,
-      "conservative_ev": -0.0288,
-      "win_rating": 6,
-      "value_rating": 1,
-      "model_version": "market-model-1.0",
-      "status": "lean",
-      "suggested_stake": 0.0,
-      "blockers": [
-        "total model has not passed the backtest gate",
-        "quote is stale",
-        "not positive under conservative assumptions",
-        "value score below 7"
-      ],
-      "rationale": "Research lean only: total model has not passed the backtest gate; quote is stale; not positive under conservative assumptions; value score below 7."
-    },
-    {
-      "id": "c1bac7bad527c6fa5349",
-      "game_id": "20fefae8c296247460ba5773caa42218",
-      "category": "Spread",
-      "selection": "Los Angeles Chargers",
-      "line": 7.0,
-      "odds": 100,
-      "observed_at": "2026-10-18T13:25:56Z",
-      "win_probability": 0.4687,
-      "push_probability": 0.0694,
-      "break_even_probability": 0.5,
-      "ev": 0.0068,
-      "conservative_ev": -0.0332,
-      "win_rating": 5,
-      "value_rating": 1,
-      "model_version": "market-model-1.0",
-      "status": "lean",
-      "suggested_stake": 0.0,
-      "blockers": [
-        "spread model has not passed the backtest gate",
-        "quote is stale",
-        "not positive under conservative assumptions",
-        "value score below 7"
-      ],
-      "rationale": "Research lean only: spread model has not passed the backtest gate; quote is stale; not positive under conservative assumptions; value score below 7."
-    }
-  ],
+  "leans": [],
   "model": {
     "model_version": "market-model-1.0",
     "enabled": {
@@ -5743,26 +4379,26 @@
     },
     "backtest": {
       "spread": {
-        "bets": 839,
+        "bets": 841,
         "win_rate": 0.5055,
         "roi": -0.0042,
-        "roi_lower_bound": -0.0591,
+        "roi_lower_bound": -0.059,
         "seasons_profitable": 0.5,
         "enabled": false
       },
       "total": {
-        "bets": 666,
+        "bets": 668,
         "win_rate": 0.5053,
         "roi": -0.0059,
-        "roi_lower_bound": -0.068,
+        "roi_lower_bound": -0.0679,
         "seasons_profitable": 0.333,
         "enabled": false
       },
       "moneyline": {
-        "bets": 741,
-        "win_rate": 0.5878,
-        "roi": 0.0035,
-        "roi_lower_bound": -0.0539,
+        "bets": 743,
+        "win_rate": 0.5876,
+        "roi": 0.0034,
+        "roi_lower_bound": -0.054,
         "seasons_profitable": 0.667,
         "enabled": false
       }
@@ -9799,23 +8435,23 @@
     },
     "News": {
       "status": "ok",
-      "checked_at": "2026-10-18T19:33:35Z",
+      "checked_at": "2026-10-18T20:36:48Z",
       "detail": "NFL RSS headlines from CBS Sports, NBC Sports matched to teams; player-only stories may be missed."
     },
     "Weather": {
       "status": "ok",
-      "checked_at": "2026-10-18T19:33:34Z",
-      "detail": "NWS hourly forecasts for 8 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+      "checked_at": "2026-10-18T20:36:47Z",
+      "detail": "NWS hourly forecasts for 7 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
     },
     "Travel": {
       "status": "ok",
-      "checked_at": "2026-10-18T19:33:32Z",
+      "checked_at": "2026-10-18T20:36:45Z",
       "detail": "Rest days and approximate distances from nflverse; no verified team itinerary."
     },
     "Statistics": {
       "status": "ok",
-      "checked_at": "2026-10-18T19:33:31.977629Z",
-      "detail": "Current-season nflverse play data for 80 completed games; 1 missing. Special-teams baseline is provisional; no automatic injury or weather penalties."
+      "checked_at": "2026-10-18T20:36:45.175954Z",
+      "detail": "Current-season nflverse play data for 80 completed games; 7 missing. Special-teams baseline is provisional; no automatic injury or weather penalties."
     },
     "Historical Bovada": {
       "status": "unavailable",
@@ -9824,7 +8460,7 @@
     },
     "Matchup": {
       "status": "ok",
-      "checked_at": "2026-10-18T19:33:38Z",
+      "checked_at": "2026-10-18T20:36:51Z",
       "detail": "Deterministic team matchup ratings active. Paid AI narrative agents remain disabled."
     },
     "Player props": {
@@ -9839,17 +8475,17 @@
     },
     "Scoring engine": {
       "status": "ok",
-      "checked_at": "2026-10-18T19:33:38Z",
+      "checked_at": "2026-10-18T20:36:51Z",
       "detail": "Calculated 32 team ratings; missing components are explicitly flagged."
     },
     "Probability & value": {
       "status": "ok",
-      "checked_at": "2026-10-18T19:33:39Z",
-      "detail": "Internal model market-model-1.0: 5 games, 30 markets scored. No market type has passed the backtest gate; showing research leans only."
+      "checked_at": "2026-10-18T20:36:52Z",
+      "detail": "Internal model market-model-1.0: 2 games, 12 markets scored. No market type has passed the backtest gate; showing research leans only."
     },
     "Paper predictions": {
       "status": "ok",
-      "checked_at": "2026-10-18T19:33:39.155175Z",
+      "checked_at": "2026-10-18T20:36:52.277214Z",
       "detail": "Uncalibrated point forecasts; first pregame predictions are frozen for prospective evaluation. No bets recommended."
     }
   },
@@ -9858,94 +8494,16 @@
   "paper_tracking": {
     "status": "paper_only_uncalibrated",
     "model_version": "paper-2026-w5-633442bf61",
-    "forecast_count": 18,
+    "forecast_count": 15,
     "forecasts": [
-      {
-        "game_id": "3729ac6d2a66b642850caf2044cdc658",
-        "nflverse_game_id": "2026_06_ARI_LA",
-        "home": "Los Angeles Rams",
-        "away": "Arizona Cardinals",
-        "kickoff": "2026-10-18T20:05:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
-        "model_version": "paper-2026-w5-633442bf61",
-        "projection": {
-          "margin": 2.7244451861970123,
-          "total": 52.22853844776098,
-          "projected_home_points": 27.476491816978996,
-          "projected_away_points": 24.752046630781987,
-          "fair_home_spread": -2.7244451861970123,
-          "model_status": "provisional_unapproved"
-        },
-        "outcome_probabilities": {
-          "home": 0.5723544243279883,
-          "tie": 0.03189305233658257,
-          "away": 0.3957525233354291
-        },
-        "status": "paper_only_uncalibrated",
-        "origin": "prospective",
-        "injury_adjustments_applied": false
-      },
-      {
-        "game_id": "45b2690b350ed45145c7a716b18e8e66",
-        "nflverse_game_id": "2026_06_BUF_LV",
-        "home": "Las Vegas Raiders",
-        "away": "Buffalo Bills",
-        "kickoff": "2026-10-18T20:25:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
-        "model_version": "paper-2026-w5-633442bf61",
-        "projection": {
-          "margin": 0.02300623147342029,
-          "total": 48.98720098805114,
-          "projected_home_points": 24.50510360976228,
-          "projected_away_points": 24.482097378288863,
-          "fair_home_spread": -0.02300623147342029,
-          "model_status": "provisional_unapproved"
-        },
-        "outcome_probabilities": {
-          "home": 0.48440277031983636,
-          "tie": 0.0326981405851996,
-          "away": 0.48289908909496404
-        },
-        "status": "paper_only_uncalibrated",
-        "origin": "prospective",
-        "injury_adjustments_applied": false
-      },
-      {
-        "game_id": "20fefae8c296247460ba5773caa42218",
-        "nflverse_game_id": "2026_06_LAC_KC",
-        "home": "Kansas City Chiefs",
-        "away": "Los Angeles Chargers",
-        "kickoff": "2026-10-18T20:25:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
-        "model_version": "paper-2026-w5-633442bf61",
-        "projection": {
-          "margin": 23.96242536812409,
-          "total": 36.96573832214358,
-          "projected_home_points": 30.464081845133833,
-          "projected_away_points": 6.501656477009744,
-          "fair_home_spread": -23.96242536812409,
-          "model_status": "provisional_unapproved"
-        },
-        "outcome_probabilities": {
-          "home": 0.9727958281389096,
-          "tie": 0.00475237657592964,
-          "away": 0.022451795285160725
-        },
-        "status": "paper_only_uncalibrated",
-        "origin": "prospective",
-        "injury_adjustments_applied": false
-      },
       {
         "game_id": "82fd5a159fa130e67abab93a9537f70b",
         "nflverse_game_id": "2026_06_DAL_GB",
         "home": "Green Bay Packers",
         "away": "Dallas Cowboys",
         "kickoff": "2026-10-19T00:20:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": -4.144795194280356,
@@ -9970,8 +8528,8 @@
         "home": "San Francisco 49ers",
         "away": "Washington Commanders",
         "kickoff": "2026-10-20T00:15:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 7.7953935804215755,
@@ -9996,8 +8554,8 @@
         "home": "Chicago Bears",
         "away": "New England Patriots",
         "kickoff": "2026-10-23T00:15:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 2.74471533323205,
@@ -10022,8 +8580,8 @@
         "home": "New Orleans Saints",
         "away": "Pittsburgh Steelers",
         "kickoff": "2026-10-25T13:30:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": -9.065836827492944,
@@ -10048,8 +8606,8 @@
         "home": "Atlanta Falcons",
         "away": "San Francisco 49ers",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 1.824524136222674,
@@ -10074,8 +8632,8 @@
         "home": "Baltimore Ravens",
         "away": "Cincinnati Bengals",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": -19.68130345822993,
@@ -10100,8 +8658,8 @@
         "home": "Carolina Panthers",
         "away": "Tampa Bay Buccaneers",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 0.8159876745005354,
@@ -10126,8 +8684,8 @@
         "home": "Tennessee Titans",
         "away": "Cleveland Browns",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": -3.7229645759563583,
@@ -10152,8 +8710,8 @@
         "home": "Houston Texans",
         "away": "New York Giants",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 1.7440322997986353,
@@ -10178,8 +8736,8 @@
         "home": "Minnesota Vikings",
         "away": "Indianapolis Colts",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 20.637692107411347,
@@ -10204,8 +8762,8 @@
         "home": "New York Jets",
         "away": "Miami Dolphins",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": -17.160148133784638,
@@ -10230,8 +8788,8 @@
         "home": "Arizona Cardinals",
         "away": "Denver Broncos",
         "kickoff": "2026-10-25T20:05:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": -12.01832946186569,
@@ -10256,8 +8814,8 @@
         "home": "Detroit Lions",
         "away": "Green Bay Packers",
         "kickoff": "2026-10-25T20:25:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 18.307169830158042,
@@ -10282,8 +8840,8 @@
         "home": "Las Vegas Raiders",
         "away": "Los Angeles Rams",
         "kickoff": "2026-10-25T20:25:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": -2.9289998988035624,
@@ -10308,8 +8866,8 @@
         "home": "Seattle Seahawks",
         "away": "Kansas City Chiefs",
         "kickoff": "2026-10-26T00:20:00Z",
-        "forecast_as_of": "2026-10-18T19:33:39.155175Z",
-        "statistics_as_of": "2026-10-18T19:33:31.977629Z",
+        "forecast_as_of": "2026-10-18T20:36:52.277214Z",
+        "statistics_as_of": "2026-10-18T20:36:45.175954Z",
         "model_version": "paper-2026-w5-633442bf61",
         "projection": {
           "margin": 7.704694242743743,
@@ -10339,10 +8897,10 @@
     },
     "evaluation": {
       "prospective_predictions": 27,
-      "settled_predictions": 2,
-      "mean_three_outcome_brier": 0.2899651092214973,
-      "margin_mae": 1.4209403676991037,
-      "total_mae": 14.356998310690312,
+      "settled_predictions": 8,
+      "mean_three_outcome_brier": 0.42769648199214877,
+      "margin_mae": 6.365640630381156,
+      "total_mae": 11.349699448989789,
       "calibration_status": "pending_separate_market_validation"
     },
     "detail": "Uncalibrated point forecasts; first pregame predictions are frozen for prospective evaluation. No bets recommended."

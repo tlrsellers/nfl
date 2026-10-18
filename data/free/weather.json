@@ -1,24 +1,6 @@
 {
-  "checked_at": "2026-10-18T19:33:34Z",
+  "checked_at": "2026-10-18T20:36:47Z",
   "findings": [
-    {
-      "game_id": "3729ac6d2a66b642850caf2044cdc658",
-      "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
-    {
-      "game_id": "45b2690b350ed45145c7a716b18e8e66",
-      "title": "Allegiant Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
-    {
-      "game_id": "20fefae8c296247460ba5773caa42218",
-      "title": "Kickoff forecast near GEHA Field at Arrowhead Stadium: 68°F, wind 12 mph S, precipitation 0%",
-      "publisher": "National Weather Service",
-      "url": "https://api.weather.gov/gridpoints/EAX/47,48/forecast/hourly"
-    },
     {
       "game_id": "82fd5a159fa130e67abab93a9537f70b",
       "title": "Kickoff forecast near Lambeau Field: 57°F, wind 9 mph SSW, precipitation 0%",
@@ -48,7 +30,19 @@
       "title": "U.S. Bank Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "e8e5715eefb6a9ce64765e9ddf49c0cc",
+      "title": "Ford Field: enclosed roof listed in schedule; outdoor forecast not applied",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "f7679cf18454e4d88a8f2b990c3f08ac",
+      "title": "Allegiant Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 8 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 7 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
