@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-19T12:50:54Z",
+  "checked_at": "2026-10-19T13:45:45Z",
   "findings": [
     {
       "game_id": "f122527f003276d3bca19efa48c902c1",
@@ -32,6 +32,12 @@
       "url": "https://api.weather.gov/gridpoints/GSP/118,65/forecast/hourly"
     },
     {
+      "game_id": "5dce18baccec5d3ad5fb3a3ce52f7619",
+      "title": "Kickoff forecast near Nissan Stadium: 69°F, wind 5 mph SSW, precipitation 0%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/OHX/51,57/forecast/hourly"
+    },
+    {
       "game_id": "f3992ad4496724baf7dcd1ef58245d6b",
       "title": "U.S. Bank Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
@@ -44,23 +50,23 @@
       "url": "https://api.weather.gov/gridpoints/OKX/30,46/forecast/hourly"
     },
     {
-      "game_id": "nflverse-2026_07_CLE_TEN",
-      "title": "Kickoff forecast near Nissan Stadium: 69°F, wind 5 mph SSW, precipitation 0%",
-      "publisher": "National Weather Service",
-      "url": "https://api.weather.gov/gridpoints/OHX/51,57/forecast/hourly"
-    },
-    {
-      "game_id": "nflverse-2026_07_GB_DET",
+      "game_id": "e8e5715eefb6a9ce64765e9ddf49c0cc",
       "title": "Ford Field: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     },
     {
-      "game_id": "nflverse-2026_07_LA_LV",
+      "game_id": "f7679cf18454e4d88a8f2b990c3f08ac",
       "title": "Allegiant Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "176d474ed8b2bbf1eb4d7e9c56b4bf22",
+      "title": "Kickoff forecast near Lumen Field: 55°F, wind 6 mph N, precipitation 34%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/SEW/124,67/forecast/hourly"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 10 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 11 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
