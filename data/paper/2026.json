@@ -396,7 +396,18 @@
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
-      "injury_adjustments_applied": false
+      "injury_adjustments_applied": false,
+      "settlement": {
+        "home_score": 30,
+        "away_score": 33,
+        "actual_margin": -3,
+        "actual_total": 63,
+        "outcome": "away",
+        "margin_error": -3.0574142074461252,
+        "total_error": 13.943181692876166,
+        "three_outcome_brier": 0.5053633295120182,
+        "settled_at": "2026-10-19T00:52:39.708179Z"
+      }
     },
     "2026_06_LAC_KC": {
       "game_id": "20fefae8c296247460ba5773caa42218",
@@ -422,7 +433,18 @@
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
-      "injury_adjustments_applied": false
+      "injury_adjustments_applied": false,
+      "settlement": {
+        "home_score": 22,
+        "away_score": 6,
+        "actual_margin": 16,
+        "actual_total": 28,
+        "outcome": "home",
+        "margin_error": -7.895051860804479,
+        "total_error": -8.923907906085091,
+        "three_outcome_brier": 0.0012997068736810052,
+        "settled_at": "2026-10-19T00:52:39.708179Z"
+      }
     },
     "2026_06_DAL_GB": {
       "game_id": "82fd5a159fa130e67abab93a9537f70b",
@@ -809,6 +831,32 @@
         "home": 0.7226319677827691,
         "tie": 0.026787295424388236,
         "away": 0.25058073679284276
+      },
+      "status": "paper_only_uncalibrated",
+      "origin": "prospective",
+      "injury_adjustments_applied": false
+    },
+    "2026_07_DAL_PHI": {
+      "game_id": "nflverse-2026_07_DAL_PHI",
+      "nflverse_game_id": "2026_07_DAL_PHI",
+      "home": "Philadelphia Eagles",
+      "away": "Dallas Cowboys",
+      "kickoff": "2026-10-27T00:15:00Z",
+      "forecast_as_of": "2026-10-19T00:52:39.708179Z",
+      "statistics_as_of": "2026-10-19T00:52:32.950222Z",
+      "model_version": "paper-2026-w5-633442bf61",
+      "projection": {
+        "margin": -2.0615546136086977,
+        "total": 43.41158083264154,
+        "projected_home_points": 20.67501310951642,
+        "projected_away_points": 22.73656772312512,
+        "fair_home_spread": 2.0615546136086977,
+        "model_status": "provisional_unapproved"
+      },
+      "outcome_probabilities": {
+        "home": 0.41683011808824155,
+        "tie": 0.03223473596132942,
+        "away": 0.550935145950429
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
