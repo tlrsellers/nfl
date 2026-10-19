@@ -470,7 +470,18 @@
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
-      "injury_adjustments_applied": false
+      "injury_adjustments_applied": false,
+      "settlement": {
+        "home_score": 23,
+        "away_score": 13,
+        "actual_margin": 10,
+        "actual_total": 36,
+        "outcome": "home",
+        "margin_error": 14.165983353747173,
+        "total_error": -5.175697070885398,
+        "three_outcome_brier": 0.8041904938764298,
+        "settled_at": "2026-10-19T04:42:40.389160Z"
+      }
     },
     "2026_06_WAS_SF": {
       "game_id": "f122527f003276d3bca19efa48c902c1",
