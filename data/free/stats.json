@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-10-20T02:39:42.450850Z",
-  "checked_at": "2026-10-20T02:39:42.450850Z",
+  "as_of": "2026-10-20T03:41:13.029440Z",
+  "checked_at": "2026-10-20T03:41:13.029440Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -3307,7 +3307,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_06_WAS_SF"
+      ]
     },
     {
       "team": "Tampa Bay Buccaneers",
@@ -3649,7 +3651,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_06_WAS_SF"
+      ]
     }
   ],
   "data_game_ids": [
@@ -3746,7 +3750,9 @@
     "2026_06_SEA_DEN",
     "2026_06_TEN_IND"
   ],
-  "missing_game_ids": [],
+  "missing_game_ids": [
+    "2026_06_WAS_SF"
+  ],
   "metric_method": {
     "version": "nflverse-pbp-1",
     "season_type": "REG",
@@ -3758,7 +3764,7 @@
     "return_coverage": "Team-perspective EPA per punt/kickoff opportunity; provisional combined return/coverage metric",
     "opponent_adjusted": false
   },
-  "coverage_note": "Current-season nflverse play data for 92 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
+  "coverage_note": "Current-season nflverse play data for 92 completed games; 1 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
   "scoring_context": {
     "ffebea881c1d7b2dfb85b3e590c35985": {
       "neutral_site": false,
@@ -3832,7 +3838,7 @@
     },
     {
       "game_id": "b1be064fb52a198a62109c279e7ab24c",
-      "title": "Current-season scores: San Francisco 49ers 5 games, 30.8 points for and 18.6 allowed per game; Atlanta Falcons 6 games, 23.7 points for and 25.5 allowed per game",
+      "title": "Current-season scores: San Francisco 49ers 6 games, 29.5 points for and 18.3 allowed per game; Atlanta Falcons 6 games, 23.7 points for and 25.5 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     },

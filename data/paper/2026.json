@@ -507,7 +507,18 @@
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
-      "injury_adjustments_applied": false
+      "injury_adjustments_applied": false,
+      "settlement": {
+        "home_score": 23,
+        "away_score": 17,
+        "actual_margin": 6,
+        "actual_total": 40,
+        "outcome": "home",
+        "margin_error": -1.82641669662158,
+        "total_error": -11.820003837392015,
+        "three_outcome_brier": 0.13701796904882071,
+        "settled_at": "2026-10-20T03:41:19.336037Z"
+      }
     },
     "2026_07_NE_CHI": {
       "game_id": "nflverse-2026_07_NE_CHI",
