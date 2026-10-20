@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "mode": "snapshot",
-  "generated_at": "2026-10-20T05:40:23Z",
+  "generated_at": "2026-10-20T06:48:42Z",
   "season": "2026",
   "coverage": {
     "games": 14,
@@ -153,7 +153,7 @@
           "role": "news"
         },
         {
-          "title": "Kickoff forecast near Soldier Field: 62\u00b0F, wind 5 mph ENE, precipitation 0%",
+          "title": "Kickoff forecast near Soldier Field: 60\u00b0F, wind 5 mph NE, precipitation 0%",
           "url": "https://api.weather.gov/gridpoints/LOT/76,72/forecast/hourly",
           "publisher": "National Weather Service",
           "published_at": null,
@@ -252,9 +252,9 @@
         "home": "Chicago Bears",
         "away": "New England Patriots",
         "kickoff": "2026-10-23T00:15:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
           "margin": 5.171270647703573,
           "total": 50.79538451631271,
@@ -509,21 +509,21 @@
         "home": "New Orleans Saints",
         "away": "Pittsburgh Steelers",
         "kickoff": "2026-10-25T13:30:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -6.412115302380746,
-          "total": 47.17136823275497,
-          "projected_home_points": 20.379626465187112,
-          "projected_away_points": 26.79174176756786,
-          "fair_home_spread": 6.412115302380746,
+          "margin": -6.4121153023807445,
+          "total": 47.171368232754965,
+          "projected_home_points": 20.37962646518711,
+          "projected_away_points": 26.791741767567856,
+          "fair_home_spread": 6.4121153023807445,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.27362059757968527,
+          "home": 0.2736205975796854,
           "tie": 0.029718673011779884,
-          "away": 0.6966607294085349
+          "away": 0.6966607294085347
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -864,21 +864,21 @@
         "home": "Atlanta Falcons",
         "away": "San Francisco 49ers",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -2.04750831373201,
+          "margin": -2.0475083137320094,
           "total": 51.382200681619175,
           "projected_home_points": 24.667346183943582,
           "projected_away_points": 26.714854497675592,
-          "fair_home_spread": 2.04750831373201,
+          "fair_home_spread": 2.0475083137320094,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.4122214883333306,
-          "tie": 0.034181189410349644,
-          "away": 0.5535973222563197
+          "tie": 0.034181189410349755,
+          "away": 0.5535973222563196
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -1022,7 +1022,7 @@
           "role": "news"
         },
         {
-          "title": "Kickoff forecast near M&T Bank Stadium: 61\u00b0F, wind 3 mph E, precipitation 0%",
+          "title": "Kickoff forecast near M&T Bank Stadium: 60\u00b0F, wind 3 mph SW, precipitation 0%",
           "url": "https://api.weather.gov/gridpoints/LWX/109,90/forecast/hourly",
           "publisher": "National Weather Service",
           "published_at": null,
@@ -1104,16 +1104,16 @@
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
       "model": {
         "nflverse_game_id": "2026_07_CIN_BAL",
-        "fair_home_margin": 2.53,
-        "fair_home_spread": -2.5,
+        "fair_home_margin": 2.0,
+        "fair_home_spread": -2.0,
         "fair_total": 51.8,
-        "market_home_spread": -3.0,
+        "market_home_spread": -2.5,
         "market_total": 51.5,
         "anchor_source": "nflverse consensus",
-        "spread_edge_points": -0.47,
+        "spread_edge_points": -0.5,
         "total_edge_points": 0.34,
-        "projected_home_points": 27.2,
-        "projected_away_points": 24.7
+        "projected_home_points": 26.9,
+        "projected_away_points": 24.9
       },
       "paper_forecast": {
         "game_id": "550ec5290f935d311995affbcb0b5c79",
@@ -1121,21 +1121,21 @@
         "home": "Baltimore Ravens",
         "away": "Cincinnati Bengals",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -13.398415478383454,
+          "margin": -13.398415478383455,
           "total": 42.72659491560783,
           "projected_home_points": 14.664089718612189,
           "projected_away_points": 28.062505196995644,
-          "fair_home_spread": 13.398415478383454,
+          "fair_home_spread": 13.398415478383455,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.11308986585196745,
-          "tie": 0.017590750703272318,
-          "away": 0.8693193834447602
+          "tie": 0.017590750703272207,
+          "away": 0.8693193834447603
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -1272,7 +1272,7 @@
           "role": "injuries"
         },
         {
-          "title": "Kickoff forecast near Bank of America Stadium: 64\u00b0F, wind 12 mph NE, precipitation 0%",
+          "title": "Kickoff forecast near Bank of America Stadium: 63\u00b0F, wind 7 mph NE, precipitation 0%",
           "url": "https://api.weather.gov/gridpoints/GSP/118,65/forecast/hourly",
           "publisher": "National Weather Service",
           "published_at": null,
@@ -1371,15 +1371,15 @@
         "home": "Carolina Panthers",
         "away": "Tampa Bay Buccaneers",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": 0.10077550215704789,
+          "margin": 0.10077550215704778,
           "total": 46.05060044040872,
           "projected_home_points": 23.075687971282886,
           "projected_away_points": 22.974912469125837,
-          "fair_home_spread": -0.10077550215704789,
+          "fair_home_spread": -0.10077550215704778,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
@@ -1529,7 +1529,7 @@
           "role": "news"
         },
         {
-          "title": "Kickoff forecast near Nissan Stadium: 69\u00b0F, wind 5 mph SSW, precipitation 0%",
+          "title": "Kickoff forecast near Nissan Stadium: 68\u00b0F, wind 5 mph S, precipitation 0%",
           "url": "https://api.weather.gov/gridpoints/OHX/51,57/forecast/hourly",
           "publisher": "National Weather Service",
           "published_at": null,
@@ -1628,20 +1628,20 @@
         "home": "Tennessee Titans",
         "away": "Cleveland Browns",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -3.2959836579540283,
+          "margin": -3.2959836579540296,
           "total": 38.626768508421826,
-          "projected_home_points": 17.6653924252339,
-          "projected_away_points": 20.961376083187925,
-          "fair_home_spread": 3.2959836579540283,
+          "projected_home_points": 17.665392425233897,
+          "projected_away_points": 20.96137608318793,
+          "fair_home_spread": 3.2959836579540296,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.3704922067528881,
-          "tie": 0.03332801807134256,
+          "home": 0.37049220675288796,
+          "tie": 0.03332801807134267,
           "away": 0.5961797751757694
         },
         "status": "paper_only_uncalibrated",
@@ -1892,20 +1892,20 @@
         "home": "Houston Texans",
         "away": "New York Giants",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -0.18996102005731424,
-          "total": 45.68504174891651,
+          "margin": -0.1899610200573149,
+          "total": 45.68504174891652,
           "projected_home_points": 22.7475403644296,
-          "projected_away_points": 22.93750138448691,
-          "fair_home_spread": 0.18996102005731424,
+          "projected_away_points": 22.937501384486918,
+          "fair_home_spread": 0.1899610200573149,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.47604554797995513,
-          "tie": 0.0347237265103818,
+          "home": 0.476045547979955,
+          "tie": 0.034723726510381914,
           "away": 0.48923072550966307
         },
         "status": "paper_only_uncalibrated",
@@ -2191,21 +2191,21 @@
         "home": "Minnesota Vikings",
         "away": "Indianapolis Colts",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": 11.921877853306857,
+          "margin": 11.921877853306858,
           "total": 31.325432433450977,
           "projected_home_points": 21.62365514337892,
-          "projected_away_points": 9.70177729007206,
-          "fair_home_spread": -11.921877853306857,
+          "projected_away_points": 9.701777290072059,
+          "fair_home_spread": -11.921877853306858,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.8400356313135056,
+          "home": 0.8400356313135057,
           "tie": 0.02026771223471513,
-          "away": 0.13969665645177926
+          "away": 0.1396966564517792
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -2441,21 +2441,21 @@
         "home": "New York Jets",
         "away": "Miami Dolphins",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -12.866516564993983,
+          "margin": -12.866516564993985,
           "total": 33.92644314598279,
-          "projected_home_points": 10.529963290494402,
+          "projected_home_points": 10.5299632904944,
           "projected_away_points": 23.396479855488387,
-          "fair_home_spread": 12.866516564993983,
+          "fair_home_spread": 12.866516564993985,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.12222390073090472,
-          "tie": 0.018546966682376986,
-          "away": 0.8592291325867183
+          "tie": 0.018546966682376875,
+          "away": 0.8592291325867184
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -2684,15 +2684,15 @@
         "home": "Arizona Cardinals",
         "away": "Denver Broncos",
         "kickoff": "2026-10-25T20:05:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -9.964202117423012,
+          "margin": -9.964202117423014,
           "total": 38.64010295759298,
           "projected_home_points": 14.337950420084983,
           "projected_away_points": 24.302152537507997,
-          "fair_home_spread": 9.964202117423012,
+          "fair_home_spread": 9.964202117423014,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
@@ -2948,20 +2948,20 @@
         "home": "Detroit Lions",
         "away": "Green Bay Packers",
         "kickoff": "2026-10-25T20:25:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": 8.640564203042828,
+          "margin": 8.64056420304283,
           "total": 39.189807652793206,
           "projected_home_points": 23.915185927918017,
           "projected_away_points": 15.274621724875189,
-          "fair_home_spread": -8.640564203042828,
+          "fair_home_spread": -8.64056420304283,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.7607978011127325,
-          "tie": 0.026171678532187492,
+          "tie": 0.026171678532187437,
           "away": 0.21303052035507997
         },
         "status": "paper_only_uncalibrated",
@@ -3240,21 +3240,21 @@
         "home": "Las Vegas Raiders",
         "away": "Los Angeles Rams",
         "kickoff": "2026-10-25T20:25:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -1.3414518875957535,
+          "margin": -1.3414518875957526,
           "total": 51.666752416916246,
           "projected_home_points": 25.162650264660247,
           "projected_away_points": 26.504102152256,
-          "fair_home_spread": 1.3414518875957535,
+          "fair_home_spread": 1.3414518875957526,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.43630206913657343,
-          "tie": 0.03449249325154424,
-          "away": 0.5292054376118823
+          "tie": 0.034492493251544354,
+          "away": 0.5292054376118822
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -3398,7 +3398,7 @@
           "role": "news"
         },
         {
-          "title": "Kickoff forecast near Lumen Field: 56\u00b0F, wind 5 mph N, precipitation 23%",
+          "title": "Kickoff forecast near Lumen Field: 55\u00b0F, wind 5 mph N, precipitation 26%",
           "url": "https://api.weather.gov/gridpoints/SEW/124,67/forecast/hourly",
           "publisher": "National Weather Service",
           "published_at": null,
@@ -3497,21 +3497,21 @@
         "home": "Seattle Seahawks",
         "away": "Kansas City Chiefs",
         "kickoff": "2026-10-26T00:20:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": 3.615081432123077,
+          "margin": 3.6150814321230786,
           "total": 42.42320055485427,
           "projected_home_points": 23.019140993488673,
           "projected_away_points": 19.404059561365596,
-          "fair_home_spread": -3.615081432123077,
+          "fair_home_spread": -3.6150814321230786,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.6069036210978138,
+          "home": 0.6069036210978139,
           "tie": 0.03305069481006562,
-          "away": 0.3600456840921205
+          "away": 0.36004568409212045
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -3782,15 +3782,15 @@
         "home": "Philadelphia Eagles",
         "away": "Dallas Cowboys",
         "kickoff": "2026-10-27T00:15:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -1.0254867287649228,
+          "margin": -1.0254867287649216,
           "total": 45.80155694663721,
           "projected_home_points": 22.388035108936144,
           "projected_away_points": 23.41352183770107,
-          "fair_home_spread": 1.0254867287649228,
+          "fair_home_spread": 1.0254867287649216,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
@@ -9574,22 +9574,22 @@
     },
     "News": {
       "status": "ok",
-      "checked_at": "2026-10-20T05:40:19Z",
+      "checked_at": "2026-10-20T06:48:39Z",
       "detail": "NFL RSS headlines from CBS Sports, NBC Sports matched to teams; player-only stories may be missed."
     },
     "Weather": {
       "status": "ok",
-      "checked_at": "2026-10-20T05:40:18Z",
+      "checked_at": "2026-10-20T06:48:38Z",
       "detail": "NWS hourly forecasts for 10 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
     },
     "Travel": {
       "status": "ok",
-      "checked_at": "2026-10-20T05:40:17Z",
+      "checked_at": "2026-10-20T06:48:37Z",
       "detail": "Rest days and approximate distances from nflverse; no verified team itinerary."
     },
     "Statistics": {
       "status": "ok",
-      "checked_at": "2026-10-20T05:40:17.247463Z",
+      "checked_at": "2026-10-20T06:48:36.982579Z",
       "detail": "Current-season nflverse play data for 93 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties."
     },
     "Historical Bovada": {
@@ -9599,7 +9599,7 @@
     },
     "Matchup": {
       "status": "ok",
-      "checked_at": "2026-10-20T05:40:22Z",
+      "checked_at": "2026-10-20T06:48:42Z",
       "detail": "Deterministic team matchup ratings active. Paid AI narrative agents remain disabled."
     },
     "Player props": {
@@ -9614,17 +9614,17 @@
     },
     "Scoring engine": {
       "status": "ok",
-      "checked_at": "2026-10-20T05:40:22Z",
+      "checked_at": "2026-10-20T06:48:42Z",
       "detail": "Calculated 32 team ratings; missing components are explicitly flagged."
     },
     "Probability & value": {
       "status": "ok",
-      "checked_at": "2026-10-20T05:40:23Z",
+      "checked_at": "2026-10-20T06:48:42Z",
       "detail": "Internal model market-model-1.0: 14 games, 60 markets scored. No market type has passed the backtest gate; showing research leans only."
     },
     "Paper predictions": {
       "status": "ok",
-      "checked_at": "2026-10-20T05:40:23.462234Z",
+      "checked_at": "2026-10-20T06:48:42.725732Z",
       "detail": "Uncalibrated point forecasts; first pregame predictions are frozen for prospective evaluation. No bets recommended."
     }
   },
@@ -9632,7 +9632,7 @@
   "changed_market_count": 0,
   "paper_tracking": {
     "status": "paper_only_uncalibrated",
-    "model_version": "paper-2026-w6-38395fd9d3",
+    "model_version": "paper-2026-w6-fb5811324f",
     "forecast_count": 14,
     "forecasts": [
       {
@@ -9641,9 +9641,9 @@
         "home": "Chicago Bears",
         "away": "New England Patriots",
         "kickoff": "2026-10-23T00:15:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
           "margin": 5.171270647703573,
           "total": 50.79538451631271,
@@ -9667,21 +9667,21 @@
         "home": "New Orleans Saints",
         "away": "Pittsburgh Steelers",
         "kickoff": "2026-10-25T13:30:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -6.412115302380746,
-          "total": 47.17136823275497,
-          "projected_home_points": 20.379626465187112,
-          "projected_away_points": 26.79174176756786,
-          "fair_home_spread": 6.412115302380746,
+          "margin": -6.4121153023807445,
+          "total": 47.171368232754965,
+          "projected_home_points": 20.37962646518711,
+          "projected_away_points": 26.791741767567856,
+          "fair_home_spread": 6.4121153023807445,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.27362059757968527,
+          "home": 0.2736205975796854,
           "tie": 0.029718673011779884,
-          "away": 0.6966607294085349
+          "away": 0.6966607294085347
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -9693,21 +9693,21 @@
         "home": "Atlanta Falcons",
         "away": "San Francisco 49ers",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -2.04750831373201,
+          "margin": -2.0475083137320094,
           "total": 51.382200681619175,
           "projected_home_points": 24.667346183943582,
           "projected_away_points": 26.714854497675592,
-          "fair_home_spread": 2.04750831373201,
+          "fair_home_spread": 2.0475083137320094,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.4122214883333306,
-          "tie": 0.034181189410349644,
-          "away": 0.5535973222563197
+          "tie": 0.034181189410349755,
+          "away": 0.5535973222563196
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -9719,21 +9719,21 @@
         "home": "Baltimore Ravens",
         "away": "Cincinnati Bengals",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -13.398415478383454,
+          "margin": -13.398415478383455,
           "total": 42.72659491560783,
           "projected_home_points": 14.664089718612189,
           "projected_away_points": 28.062505196995644,
-          "fair_home_spread": 13.398415478383454,
+          "fair_home_spread": 13.398415478383455,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.11308986585196745,
-          "tie": 0.017590750703272318,
-          "away": 0.8693193834447602
+          "tie": 0.017590750703272207,
+          "away": 0.8693193834447603
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -9745,15 +9745,15 @@
         "home": "Carolina Panthers",
         "away": "Tampa Bay Buccaneers",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": 0.10077550215704789,
+          "margin": 0.10077550215704778,
           "total": 46.05060044040872,
           "projected_home_points": 23.075687971282886,
           "projected_away_points": 22.974912469125837,
-          "fair_home_spread": -0.10077550215704789,
+          "fair_home_spread": -0.10077550215704778,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
@@ -9771,20 +9771,20 @@
         "home": "Tennessee Titans",
         "away": "Cleveland Browns",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -3.2959836579540283,
+          "margin": -3.2959836579540296,
           "total": 38.626768508421826,
-          "projected_home_points": 17.6653924252339,
-          "projected_away_points": 20.961376083187925,
-          "fair_home_spread": 3.2959836579540283,
+          "projected_home_points": 17.665392425233897,
+          "projected_away_points": 20.96137608318793,
+          "fair_home_spread": 3.2959836579540296,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.3704922067528881,
-          "tie": 0.03332801807134256,
+          "home": 0.37049220675288796,
+          "tie": 0.03332801807134267,
           "away": 0.5961797751757694
         },
         "status": "paper_only_uncalibrated",
@@ -9797,20 +9797,20 @@
         "home": "Houston Texans",
         "away": "New York Giants",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -0.18996102005731424,
-          "total": 45.68504174891651,
+          "margin": -0.1899610200573149,
+          "total": 45.68504174891652,
           "projected_home_points": 22.7475403644296,
-          "projected_away_points": 22.93750138448691,
-          "fair_home_spread": 0.18996102005731424,
+          "projected_away_points": 22.937501384486918,
+          "fair_home_spread": 0.1899610200573149,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.47604554797995513,
-          "tie": 0.0347237265103818,
+          "home": 0.476045547979955,
+          "tie": 0.034723726510381914,
           "away": 0.48923072550966307
         },
         "status": "paper_only_uncalibrated",
@@ -9823,21 +9823,21 @@
         "home": "Minnesota Vikings",
         "away": "Indianapolis Colts",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": 11.921877853306857,
+          "margin": 11.921877853306858,
           "total": 31.325432433450977,
           "projected_home_points": 21.62365514337892,
-          "projected_away_points": 9.70177729007206,
-          "fair_home_spread": -11.921877853306857,
+          "projected_away_points": 9.701777290072059,
+          "fair_home_spread": -11.921877853306858,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.8400356313135056,
+          "home": 0.8400356313135057,
           "tie": 0.02026771223471513,
-          "away": 0.13969665645177926
+          "away": 0.1396966564517792
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -9849,21 +9849,21 @@
         "home": "New York Jets",
         "away": "Miami Dolphins",
         "kickoff": "2026-10-25T17:00:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -12.866516564993983,
+          "margin": -12.866516564993985,
           "total": 33.92644314598279,
-          "projected_home_points": 10.529963290494402,
+          "projected_home_points": 10.5299632904944,
           "projected_away_points": 23.396479855488387,
-          "fair_home_spread": 12.866516564993983,
+          "fair_home_spread": 12.866516564993985,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.12222390073090472,
-          "tie": 0.018546966682376986,
-          "away": 0.8592291325867183
+          "tie": 0.018546966682376875,
+          "away": 0.8592291325867184
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -9875,15 +9875,15 @@
         "home": "Arizona Cardinals",
         "away": "Denver Broncos",
         "kickoff": "2026-10-25T20:05:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -9.964202117423012,
+          "margin": -9.964202117423014,
           "total": 38.64010295759298,
           "projected_home_points": 14.337950420084983,
           "projected_away_points": 24.302152537507997,
-          "fair_home_spread": 9.964202117423012,
+          "fair_home_spread": 9.964202117423014,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
@@ -9901,20 +9901,20 @@
         "home": "Detroit Lions",
         "away": "Green Bay Packers",
         "kickoff": "2026-10-25T20:25:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": 8.640564203042828,
+          "margin": 8.64056420304283,
           "total": 39.189807652793206,
           "projected_home_points": 23.915185927918017,
           "projected_away_points": 15.274621724875189,
-          "fair_home_spread": -8.640564203042828,
+          "fair_home_spread": -8.64056420304283,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.7607978011127325,
-          "tie": 0.026171678532187492,
+          "tie": 0.026171678532187437,
           "away": 0.21303052035507997
         },
         "status": "paper_only_uncalibrated",
@@ -9927,21 +9927,21 @@
         "home": "Las Vegas Raiders",
         "away": "Los Angeles Rams",
         "kickoff": "2026-10-25T20:25:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -1.3414518875957535,
+          "margin": -1.3414518875957526,
           "total": 51.666752416916246,
           "projected_home_points": 25.162650264660247,
           "projected_away_points": 26.504102152256,
-          "fair_home_spread": 1.3414518875957535,
+          "fair_home_spread": 1.3414518875957526,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.43630206913657343,
-          "tie": 0.03449249325154424,
-          "away": 0.5292054376118823
+          "tie": 0.034492493251544354,
+          "away": 0.5292054376118822
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -9953,21 +9953,21 @@
         "home": "Seattle Seahawks",
         "away": "Kansas City Chiefs",
         "kickoff": "2026-10-26T00:20:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": 3.615081432123077,
+          "margin": 3.6150814321230786,
           "total": 42.42320055485427,
           "projected_home_points": 23.019140993488673,
           "projected_away_points": 19.404059561365596,
-          "fair_home_spread": -3.615081432123077,
+          "fair_home_spread": -3.6150814321230786,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.6069036210978138,
+          "home": 0.6069036210978139,
           "tie": 0.03305069481006562,
-          "away": 0.3600456840921205
+          "away": 0.36004568409212045
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -9979,15 +9979,15 @@
         "home": "Philadelphia Eagles",
         "away": "Dallas Cowboys",
         "kickoff": "2026-10-27T00:15:00Z",
-        "forecast_as_of": "2026-10-20T05:40:23.462234Z",
-        "statistics_as_of": "2026-10-20T05:40:17.247463Z",
-        "model_version": "paper-2026-w6-38395fd9d3",
+        "forecast_as_of": "2026-10-20T06:48:42.725732Z",
+        "statistics_as_of": "2026-10-20T06:48:36.982579Z",
+        "model_version": "paper-2026-w6-fb5811324f",
         "projection": {
-          "margin": -1.0254867287649228,
+          "margin": -1.0254867287649216,
           "total": 45.80155694663721,
           "projected_home_points": 22.388035108936144,
           "projected_away_points": 23.41352183770107,
-          "fair_home_spread": 1.0254867287649228,
+          "fair_home_spread": 1.0254867287649216,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
