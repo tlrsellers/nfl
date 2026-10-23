@@ -16,10 +16,10 @@
  ],
  "note": "Walk-forward: each season predicted by a model trained only on earlier seasons, settled at nflverse closing lines and prices (consensus market, not Bovada).",
  "accuracy": {
-  "model_margin_mae": 9.82,
-  "line_margin_mae": 9.802,
-  "model_total_mae": 10.462,
-  "line_total_mae": 10.432
+  "model_margin_mae": 9.818,
+  "line_margin_mae": 9.8,
+  "model_total_mae": 10.46,
+  "line_total_mae": 10.429
  },
  "markets": {
   "spread": {
@@ -628,7 +628,7 @@
   },
   {
    "season": 2026,
-   "games": 93,
+   "games": 94,
    "spread": {
     "bets": 19,
     "wins": 8,
