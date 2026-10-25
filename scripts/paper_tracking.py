@@ -16,6 +16,7 @@ from free_sources import TEAMS, match_row
 from nfl_scoring import predict, probability, score_league, train
 from performance_data import CACHE, make_team_feed, num, schedule_complete
 from pipeline import ROOT, parse_time
+from results_tracking import build_results
 
 PAPER = ROOT / "data" / "paper"
 OUTPUT = ROOT / "data" / "dashboard.json"
@@ -125,6 +126,7 @@ def build_paper(dashboard, stats, plays, schedule, now, archive=None):
         projection = predict(model, game)
         probabilities = probability(projection["margin"], model["margin"]["sigma"], 0)
         forecast = {"game_id": g["id"], "nflverse_game_id": r["game_id"],
+                    "week": int(r["week"]),
                     "home": g["home"], "away": g["away"], "kickoff": g["kickoff"],
                     "forecast_as_of": now.isoformat().replace("+00:00", "Z"),
                     "statistics_as_of": stats["as_of"], "model_version": model_version,
@@ -168,6 +170,10 @@ def run():
     except (OSError, ValueError, KeyError, ImportError) as exc:
         report = {"status": "unavailable", "forecasts": [], "detail": f"Paper tracking unavailable: {type(exc).__name__}: {exc}"}
     dashboard["paper_tracking"] = report
+    # Results survive missing training data and include completed games that
+    # have already left the upcoming slate. Use the frozen archive, not the
+    # latest model run, so later forecasts cannot rewrite the track record.
+    dashboard["prediction_results"] = build_results(archive or {}, now)
     dashboard.setdefault("sources", {})["Paper predictions"] = {"status": "ok" if report["status"] == "paper_only_uncalibrated" else "unavailable",
           "checked_at": now.isoformat().replace("+00:00", "Z"), "detail": report.get("detail", report["status"])}
     OUTPUT.write_text(json.dumps(dashboard, indent=2, allow_nan=False) + "\n")
