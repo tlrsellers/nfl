@@ -581,7 +581,18 @@
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
-      "injury_adjustments_applied": false
+      "injury_adjustments_applied": false,
+      "settlement": {
+        "home_score": 10,
+        "away_score": 16,
+        "actual_margin": -6,
+        "actual_total": 26,
+        "outcome": "away",
+        "margin_error": 3.0658368274929444,
+        "total_error": -18.54531812546898,
+        "three_outcome_brier": 0.10566775880566412,
+        "settled_at": "2026-10-25T17:37:16.047061Z"
+      }
     },
     "2026_07_SF_ATL": {
       "game_id": "b1be064fb52a198a62109c279e7ab24c",
