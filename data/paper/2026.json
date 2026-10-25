@@ -929,7 +929,18 @@
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
-      "injury_adjustments_applied": false
+      "injury_adjustments_applied": false,
+      "settlement": {
+        "home_score": 16,
+        "away_score": 30,
+        "actual_margin": -14,
+        "actual_total": 46,
+        "outcome": "away",
+        "margin_error": -1.9816705381343098,
+        "total_error": 4.105071483104332,
+        "three_outcome_brier": 0.05337830548679884,
+        "settled_at": "2026-10-25T23:34:08.402889Z"
+      }
     },
     "2026_07_KC_SEA": {
       "game_id": "nflverse-2026_07_KC_SEA",
