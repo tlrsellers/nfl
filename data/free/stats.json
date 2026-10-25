@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-10-25T19:34:58.143800Z",
-  "checked_at": "2026-10-25T19:34:58.143800Z",
+  "as_of": "2026-10-25T20:36:12.797515Z",
+  "checked_at": "2026-10-25T20:36:12.797515Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -229,7 +229,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_SF_ATL"
+      ]
     },
     {
       "team": "Baltimore Ravens",
@@ -343,7 +345,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_CIN_BAL"
+      ]
     },
     {
       "team": "Buffalo Bills",
@@ -571,7 +575,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_TB_CAR"
+      ]
     },
     {
       "team": "Chicago Bears",
@@ -799,7 +805,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_CIN_BAL"
+      ]
     },
     {
       "team": "Cleveland Browns",
@@ -913,7 +921,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_CLE_TEN"
+      ]
     },
     {
       "team": "Dallas Cowboys",
@@ -1483,7 +1493,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_NYG_HOU"
+      ]
     },
     {
       "team": "Indianapolis Colts",
@@ -1597,7 +1609,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_IND_MIN"
+      ]
     },
     {
       "team": "Jacksonville Jaguars",
@@ -2281,7 +2295,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_MIA_NYJ"
+      ]
     },
     {
       "team": "Minnesota Vikings",
@@ -2395,7 +2411,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_IND_MIN"
+      ]
     },
     {
       "team": "New England Patriots",
@@ -2739,7 +2757,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_NYG_HOU"
+      ]
     },
     {
       "team": "New York Jets",
@@ -2853,7 +2873,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_MIA_NYJ"
+      ]
     },
     {
       "team": "Philadelphia Eagles",
@@ -3311,7 +3333,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_SF_ATL"
+      ]
     },
     {
       "team": "Tampa Bay Buccaneers",
@@ -3425,7 +3449,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_TB_CAR"
+      ]
     },
     {
       "team": "Tennessee Titans",
@@ -3539,7 +3565,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_CLE_TEN"
+      ]
     },
     {
       "team": "Washington Commanders",
@@ -3753,7 +3781,14 @@
     "2026_07_NE_CHI"
   ],
   "missing_game_ids": [
-    "2026_07_PIT_NO"
+    "2026_07_CIN_BAL",
+    "2026_07_CLE_TEN",
+    "2026_07_IND_MIN",
+    "2026_07_MIA_NYJ",
+    "2026_07_NYG_HOU",
+    "2026_07_PIT_NO",
+    "2026_07_SF_ATL",
+    "2026_07_TB_CAR"
   ],
   "metric_method": {
     "version": "nflverse-pbp-1",
@@ -3766,20 +3801,8 @@
     "return_coverage": "Team-perspective EPA per punt/kickoff opportunity; provisional combined return/coverage metric",
     "opponent_adjusted": false
   },
-  "coverage_note": "Current-season nflverse play data for 94 completed games; 1 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
+  "coverage_note": "Current-season nflverse play data for 94 completed games; 8 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
   "scoring_context": {
-    "436119bb3ccdaa6ed7808aa3ebd82b76": {
-      "neutral_site": false,
-      "rest_days_difference": -3.0
-    },
-    "e8e5715eefb6a9ce64765e9ddf49c0cc": {
-      "neutral_site": false,
-      "rest_days_difference": 7.0
-    },
-    "f7679cf18454e4d88a8f2b990c3f08ac": {
-      "neutral_site": false,
-      "rest_days_difference": 0.0
-    },
     "176d474ed8b2bbf1eb4d7e9c56b4bf22": {
       "neutral_site": false,
       "rest_days_difference": 3.0
@@ -3842,24 +3865,6 @@
     }
   },
   "findings": [
-    {
-      "game_id": "436119bb3ccdaa6ed7808aa3ebd82b76",
-      "title": "Current-season scores: Denver Broncos 6 games, 19.0 points for and 20.8 allowed per game; Arizona Cardinals 6 games, 21.0 points for and 29.7 allowed per game",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
-    {
-      "game_id": "e8e5715eefb6a9ce64765e9ddf49c0cc",
-      "title": "Current-season scores: Green Bay Packers 6 games, 21.2 points for and 20.8 allowed per game; Detroit Lions 5 games, 32.8 points for and 29.6 allowed per game",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
-    {
-      "game_id": "f7679cf18454e4d88a8f2b990c3f08ac",
-      "title": "Current-season scores: Los Angeles Rams 6 games, 22.5 points for and 23.0 allowed per game; Las Vegas Raiders 6 games, 27.0 points for and 27.0 allowed per game",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
     {
       "game_id": "176d474ed8b2bbf1eb4d7e9c56b4bf22",
       "title": "Current-season scores: Kansas City Chiefs 5 games, 28.0 points for and 16.6 allowed per game; Seattle Seahawks 6 games, 24.7 points for and 20.3 allowed per game",
