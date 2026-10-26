@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26T06:53:55Z",
+  "checked_at": "2026-10-26T07:57:33Z",
   "findings": [
     {
       "game_id": "4853610e63c246f2027a6a248e642c9a",
@@ -9,9 +9,39 @@
     },
     {
       "game_id": "nflverse-2026_08_CAR_GB",
-      "title": "Kickoff forecast near Lambeau Field: 60°F, wind 1 mph SW, precipitation 11%",
+      "title": "Kickoff forecast near Lambeau Field: 61°F, wind 1 mph WNW, precipitation 5%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/GRB/78,31/forecast/hourly"
+    },
+    {
+      "game_id": "921859689f5f8b3b8b1caf4248bdb1ec",
+      "title": "Kickoff forecast near Raymond James Stadium: 84°F, wind 7 mph E, precipitation 18%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/TBW/69,99/forecast/hourly"
+    },
+    {
+      "game_id": "c93c421e5fa46031a43162d111d981d0",
+      "title": "Kickoff forecast near Highmark Stadium: 64°F, wind 5 mph SW, precipitation 24%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/BUF/39,42/forecast/hourly"
+    },
+    {
+      "game_id": "9c5d8f57e0ba0fbd9ef436c1f0898f99",
+      "title": "Kickoff forecast near Paycor Stadium: 69°F, wind 7 mph S, precipitation 46%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/ILN/35,38/forecast/hourly"
+    },
+    {
+      "game_id": "ab5ab731ab655bd6308bc7a922275518",
+      "title": "Kickoff forecast near Acrisure Stadium: 66°F, wind 7 mph S, precipitation 35%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/PBZ/77,66/forecast/hourly"
+    },
+    {
+      "game_id": "159dbf0253dd2038eda2212f84387f0c",
+      "title": "Kickoff forecast near EverBank Stadium: 78°F, wind 12 mph E, precipitation 33%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/JAX/66,64/forecast/hourly"
     },
     {
       "game_id": "nflverse-2026_08_MIN_DET",
@@ -20,11 +50,17 @@
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     },
     {
+      "game_id": "nflverse-2026_08_LV_NYJ",
+      "title": "Kickoff forecast near MetLife Stadium: 65°F, wind 7 mph S, precipitation 14%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/OKX/30,46/forecast/hourly"
+    },
+    {
       "game_id": "nflverse-2026_08_LAC_LA",
       "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 4 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 10 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
