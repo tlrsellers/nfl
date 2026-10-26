@@ -988,7 +988,18 @@
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
-      "injury_adjustments_applied": false
+      "injury_adjustments_applied": false,
+      "settlement": {
+        "home_score": 20,
+        "away_score": 3,
+        "actual_margin": 17,
+        "actual_total": 23,
+        "outcome": "home",
+        "margin_error": 9.295305757256257,
+        "total_error": -21.319961280633997,
+        "three_outcome_brier": 0.14044129014385626,
+        "settled_at": "2026-10-26T03:42:56.064727Z"
+      }
     },
     "2026_07_DAL_PHI": {
       "game_id": "nflverse-2026_07_DAL_PHI",

@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-10-26T02:43:10.069429Z",
-  "checked_at": "2026-10-26T02:43:10.069429Z",
+  "as_of": "2026-10-26T03:42:43.893605Z",
+  "checked_at": "2026-10-26T03:42:43.893605Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -1825,7 +1825,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_KC_SEA"
+      ]
     },
     {
       "team": "Los Angeles Rams",
@@ -3193,7 +3195,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_KC_SEA"
+      ]
     },
     {
       "team": "San Francisco 49ers",
@@ -3759,7 +3763,9 @@
     "2026_07_SF_ATL",
     "2026_07_TB_CAR"
   ],
-  "missing_game_ids": [],
+  "missing_game_ids": [
+    "2026_07_KC_SEA"
+  ],
   "metric_method": {
     "version": "nflverse-pbp-1",
     "season_type": "REG",
@@ -3771,7 +3777,7 @@
     "return_coverage": "Team-perspective EPA per punt/kickoff opportunity; provisional combined return/coverage metric",
     "opponent_adjusted": false
   },
-  "coverage_note": "Current-season nflverse play data for 105 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
+  "coverage_note": "Current-season nflverse play data for 105 completed games; 1 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
   "scoring_context": {
     "4853610e63c246f2027a6a248e642c9a": {
       "neutral_site": false,
@@ -3909,7 +3915,7 @@
     },
     {
       "game_id": "nflverse-2026_08_KC_DEN",
-      "title": "Current-season scores: Kansas City Chiefs 5 games, 28.0 points for and 16.6 allowed per game; Denver Broncos 7 games, 20.6 points for and 20.1 allowed per game",
+      "title": "Current-season scores: Kansas City Chiefs 6 games, 23.8 points for and 17.2 allowed per game; Denver Broncos 7 games, 20.6 points for and 20.1 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     },
@@ -3921,7 +3927,7 @@
     },
     {
       "game_id": "7d664fbcd39350e559d83c0068ba7169",
-      "title": "Current-season scores: Chicago Bears 7 games, 25.7 points for and 20.4 allowed per game; Seattle Seahawks 6 games, 24.7 points for and 20.3 allowed per game",
+      "title": "Current-season scores: Chicago Bears 7 games, 25.7 points for and 20.4 allowed per game; Seattle Seahawks 7 games, 24.0 points for and 17.9 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
