@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26T09:51:45Z",
+  "checked_at": "2026-10-26T10:48:21Z",
   "findings": [
     {
       "game_id": "4853610e63c246f2027a6a248e642c9a",
@@ -60,7 +60,13 @@
       "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "05405af79752f5e742cdf50b61f6745e",
+      "title": "Kickoff forecast near Hard Rock Stadium: 84°F, wind 9 mph E, precipitation 34%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/MFL/107,58/forecast/hourly"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 10 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 11 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
