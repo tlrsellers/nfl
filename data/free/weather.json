@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-26T12:18:02Z",
+  "checked_at": "2026-10-26T15:10:28Z",
   "findings": [
     {
       "game_id": "4853610e63c246f2027a6a248e642c9a",
@@ -8,7 +8,7 @@
       "url": "https://api.weather.gov/gridpoints/PHI/50,76/forecast/hourly"
     },
     {
-      "game_id": "nflverse-2026_08_CAR_GB",
+      "game_id": "ab2865e9f2d4b012de8bc6fb6de11a7c",
       "title": "Kickoff forecast near Lambeau Field: 61°F, wind 1 mph WNW, precipitation 5%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/GRB/78,31/forecast/hourly"
@@ -38,28 +38,34 @@
       "url": "https://api.weather.gov/gridpoints/PBZ/77,66/forecast/hourly"
     },
     {
+      "game_id": "52e7ee9c42525e6deec02da32dc2fad8",
+      "title": "Ford Field: enclosed roof listed in schedule; outdoor forecast not applied",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
       "game_id": "159dbf0253dd2038eda2212f84387f0c",
       "title": "Kickoff forecast near EverBank Stadium: 78°F, wind 12 mph E, precipitation 33%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/JAX/66,64/forecast/hourly"
     },
     {
-      "game_id": "nflverse-2026_08_MIN_DET",
-      "title": "Ford Field: enclosed roof listed in schedule; outdoor forecast not applied",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
-    {
-      "game_id": "nflverse-2026_08_LV_NYJ",
+      "game_id": "98f1b121b793977434c046e76c707145",
       "title": "Kickoff forecast near MetLife Stadium: 65°F, wind 7 mph S, precipitation 14%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/OKX/30,46/forecast/hourly"
     },
     {
-      "game_id": "nflverse-2026_08_LAC_LA",
+      "game_id": "2ff84d3f6053d083c8c0a5bebf7cdd4c",
       "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "f2a036d5edf483a277880014861e78ad",
+      "title": "Kickoff forecast near Empower Field at Mile High: 64°F, wind 6 mph NE, precipitation 17%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/BOU/62,62/forecast/hourly"
     },
     {
       "game_id": "05405af79752f5e742cdf50b61f6745e",
@@ -68,11 +74,11 @@
       "url": "https://api.weather.gov/gridpoints/MFL/107,58/forecast/hourly"
     },
     {
-      "game_id": "nflverse-2026_08_KC_DEN",
-      "title": "Kickoff forecast near Empower Field at Mile High: 64°F, wind 6 mph NE, precipitation 17%",
+      "game_id": "b9c60db63b1a19ad319f24b33c0defe8",
+      "title": "Kickoff forecast near Northwest Stadium: 61°F, wind 3 mph SE, precipitation 30%",
       "publisher": "National Weather Service",
-      "url": "https://api.weather.gov/gridpoints/BOU/62,62/forecast/hourly"
+      "url": "https://api.weather.gov/gridpoints/LWX/102,73/forecast/hourly"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 12 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 13 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
