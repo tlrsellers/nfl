@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-10-27T02:39:55.404035Z",
-  "checked_at": "2026-10-27T02:39:55.404035Z",
+  "as_of": "2026-10-27T03:42:22.100764Z",
+  "checked_at": "2026-10-27T03:42:22.100764Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -1027,7 +1027,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_DAL_PHI"
+      ]
     },
     {
       "team": "Denver Broncos",
@@ -2965,7 +2967,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_07_DAL_PHI"
+      ]
     },
     {
       "team": "Pittsburgh Steelers",
@@ -3760,7 +3764,9 @@
     "2026_07_SF_ATL",
     "2026_07_TB_CAR"
   ],
-  "missing_game_ids": [],
+  "missing_game_ids": [
+    "2026_07_DAL_PHI"
+  ],
   "metric_method": {
     "version": "nflverse-pbp-1",
     "season_type": "REG",
@@ -3772,7 +3778,7 @@
     "return_coverage": "Team-perspective EPA per punt/kickoff opportunity; provisional combined return/coverage metric",
     "opponent_adjusted": false
   },
-  "coverage_note": "Current-season nflverse play data for 106 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
+  "coverage_note": "Current-season nflverse play data for 106 completed games; 1 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
   "scoring_context": {
     "ab2865e9f2d4b012de8bc6fb6de11a7c": {
       "neutral_site": false,
@@ -3840,7 +3846,7 @@
     },
     {
       "game_id": "9255ca8f32aea590d00aa57de79f6bb6",
-      "title": "Current-season scores: Arizona Cardinals 7 games, 20.3 points for and 29.7 allowed per game; Dallas Cowboys 6 games, 25.2 points for and 26.5 allowed per game",
+      "title": "Current-season scores: Arizona Cardinals 7 games, 20.3 points for and 29.7 allowed per game; Dallas Cowboys 7 games, 27.0 points for and 25.7 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     },
@@ -3906,7 +3912,7 @@
     },
     {
       "game_id": "b9c60db63b1a19ad319f24b33c0defe8",
-      "title": "Current-season scores: Philadelphia Eagles 6 games, 17.7 points for and 22.8 allowed per game; Washington Commanders 6 games, 22.0 points for and 28.7 allowed per game",
+      "title": "Current-season scores: Philadelphia Eagles 7 games, 18.1 points for and 25.0 allowed per game; Washington Commanders 6 games, 22.0 points for and 28.7 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     },
