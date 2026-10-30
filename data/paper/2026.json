@@ -1062,7 +1062,18 @@
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
-      "injury_adjustments_applied": false
+      "injury_adjustments_applied": false,
+      "settlement": {
+        "home_score": 27,
+        "away_score": 19,
+        "actual_margin": 8,
+        "actual_total": 46,
+        "outcome": "home",
+        "margin_error": 2.6097894217459485,
+        "total_error": -0.28786292453477813,
+        "three_outcome_brier": 0.20568908844707082,
+        "settled_at": "2026-10-30T03:54:02.164892Z"
+      }
     },
     "2026_08_ARI_DAL": {
       "game_id": "9255ca8f32aea590d00aa57de79f6bb6",
