@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-10-31T13:49:41.080136Z",
-  "checked_at": "2026-10-31T13:49:41.080136Z",
+  "as_of": "2026-10-31T14:43:04.979349Z",
+  "checked_at": "2026-10-31T14:43:04.979349Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -3831,6 +3831,10 @@
     "c75744790b7acf6260c78ba5e739c0e5": {
       "neutral_site": false,
       "rest_days_difference": 0.0
+    },
+    "dc56d980f527ffeef89940133b211b13": {
+      "neutral_site": true,
+      "rest_days_difference": 0.0
     }
   },
   "findings": [
@@ -3915,6 +3919,12 @@
     {
       "game_id": "c75744790b7acf6260c78ba5e739c0e5",
       "title": "Current-season scores: Jacksonville Jaguars 6 games, 25.7 points for and 17.3 allowed per game; Baltimore Ravens 7 games, 24.1 points for and 23.9 allowed per game",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "dc56d980f527ffeef89940133b211b13",
+      "title": "Current-season scores: Cincinnati Bengals 6 games, 27.2 points for and 20.3 allowed per game; Atlanta Falcons 7 games, 24.4 points for and 24.7 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
