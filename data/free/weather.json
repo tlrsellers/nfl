@@ -1,24 +1,6 @@
 {
-  "checked_at": "2026-11-01T20:44:25Z",
+  "checked_at": "2026-11-01T21:42:27Z",
   "findings": [
-    {
-      "game_id": "2ff84d3f6053d083c8c0a5bebf7cdd4c",
-      "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
-    {
-      "game_id": "f2a036d5edf483a277880014861e78ad",
-      "title": "Kickoff forecast near Empower Field at Mile High: 62°F, wind 7 mph ENE, precipitation 8%",
-      "publisher": "National Weather Service",
-      "url": "https://api.weather.gov/gridpoints/BOU/62,62/forecast/hourly"
-    },
-    {
-      "game_id": "05405af79752f5e742cdf50b61f6745e",
-      "title": "Kickoff forecast near Hard Rock Stadium: 79°F, wind 14 mph E, precipitation 69%",
-      "publisher": "National Weather Service",
-      "url": "https://api.weather.gov/gridpoints/MFL/107,58/forecast/hourly"
-    },
     {
       "game_id": "b9c60db63b1a19ad319f24b33c0defe8",
       "title": "Kickoff forecast near Northwest Stadium: 52°F, wind 1 mph SE, precipitation 0%",
@@ -42,7 +24,13 @@
       "title": "Caesars Superdome: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "39aeac43cea7b12558b91cdab1255a10",
+      "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 7 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 5 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
