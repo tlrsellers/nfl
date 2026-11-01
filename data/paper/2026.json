@@ -1099,7 +1099,18 @@
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
-      "injury_adjustments_applied": false
+      "injury_adjustments_applied": false,
+      "settlement": {
+        "home_score": 30,
+        "away_score": 33,
+        "actual_margin": -3,
+        "actual_total": 63,
+        "outcome": "away",
+        "margin_error": -5.37115546250214,
+        "total_error": 12.537047970548201,
+        "three_outcome_brier": 0.6785175358853299,
+        "settled_at": "2026-11-01T22:42:30.660822Z"
+      }
     },
     "2026_08_ATL_TB": {
       "game_id": "921859689f5f8b3b8b1caf4248bdb1ec",
@@ -1199,7 +1210,18 @@
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
-      "injury_adjustments_applied": false
+      "injury_adjustments_applied": false,
+      "settlement": {
+        "home_score": 43,
+        "away_score": 36,
+        "actual_margin": 7,
+        "actual_total": 79,
+        "outcome": "home",
+        "margin_error": -0.518492290809843,
+        "total_error": 32.13063414390696,
+        "three_outcome_brier": 0.1327936144035747,
+        "settled_at": "2026-11-01T22:42:30.660822Z"
+      }
     },
     "2026_08_CLE_PIT": {
       "game_id": "ab5ab731ab655bd6308bc7a922275518",
