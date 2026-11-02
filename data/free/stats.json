@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-11-02T01:11:01.598486Z",
-  "checked_at": "2026-11-02T01:11:01.598486Z",
+  "as_of": "2026-11-02T02:11:07.050283Z",
+  "checked_at": "2026-11-02T02:11:07.050283Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -3787,10 +3787,6 @@
   },
   "coverage_note": "Current-season nflverse play data for 119 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
   "scoring_context": {
-    "b9c60db63b1a19ad319f24b33c0defe8": {
-      "neutral_site": false,
-      "rest_days_difference": 7.0
-    },
     "7d664fbcd39350e559d83c0068ba7169": {
       "neutral_site": false,
       "rest_days_difference": -3.0
@@ -3850,15 +3846,13 @@
     "9760d8f19f84bfee300a74ceb656c95d": {
       "neutral_site": false,
       "rest_days_difference": -1.0
+    },
+    "17ad7eff2f7875e20a8109abe40470e3": {
+      "neutral_site": false,
+      "rest_days_difference": 0.0
     }
   },
   "findings": [
-    {
-      "game_id": "b9c60db63b1a19ad319f24b33c0defe8",
-      "title": "Current-season scores: Philadelphia Eagles 7 games, 18.1 points for and 25.0 allowed per game; Washington Commanders 6 games, 22.0 points for and 28.7 allowed per game",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
     {
       "game_id": "7d664fbcd39350e559d83c0068ba7169",
       "title": "Current-season scores: Chicago Bears 7 games, 25.7 points for and 20.4 allowed per game; Seattle Seahawks 7 games, 24.0 points for and 17.9 allowed per game",
@@ -3946,6 +3940,12 @@
     {
       "game_id": "9760d8f19f84bfee300a74ceb656c95d",
       "title": "Current-season scores: Tampa Bay Buccaneers 8 games, 22.2 points for and 18.9 allowed per game; Chicago Bears 7 games, 25.7 points for and 20.4 allowed per game",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "17ad7eff2f7875e20a8109abe40470e3",
+      "title": "Current-season scores: Buffalo Bills 7 games, 33.3 points for and 25.9 allowed per game; Minnesota Vikings 7 games, 20.0 points for and 13.3 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
