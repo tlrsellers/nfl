@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-02T10:12:55Z",
+  "checked_at": "2026-11-02T11:07:02Z",
   "findings": [
     {
       "game_id": "7d664fbcd39350e559d83c0068ba7169",
@@ -54,7 +54,25 @@
       "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
+      "title": "Kickoff forecast near Levi's Stadium: 75°F, wind 2 mph NW, precipitation 0%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/MTR/97,86/forecast/hourly"
+    },
+    {
+      "game_id": "240e23b02b1e3fef655d04a286b5a623",
+      "title": "Kickoff forecast near Lumen Field: 57°F, wind 8 mph S, precipitation 49%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/SEW/124,67/forecast/hourly"
+    },
+    {
+      "game_id": "2922c573ec3df8466c4a34975e446898",
+      "title": "Kickoff forecast near Gillette Stadium: 59°F, wind 5 mph W, precipitation 5%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/BOX/67,88/forecast/hourly"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 9 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 12 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
