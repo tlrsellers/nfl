@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-02T06:08:49Z",
+  "checked_at": "2026-11-02T07:31:50Z",
   "findings": [
     {
       "game_id": "7d664fbcd39350e559d83c0068ba7169",
@@ -9,9 +9,15 @@
     },
     {
       "game_id": "c75744790b7acf6260c78ba5e739c0e5",
-      "title": "Kickoff forecast near M&T Bank Stadium: 66°F, wind 5 mph S, precipitation 64%",
+      "title": "Kickoff forecast near M&T Bank Stadium: 65°F, wind 5 mph S, precipitation 56%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/LWX/109,90/forecast/hourly"
+    },
+    {
+      "game_id": "014282b888c741b7d70c857c09f40aa7",
+      "title": "Kickoff forecast near Bank of America Stadium: 68°F, wind 6 mph SSW, precipitation 8%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/GSP/118,65/forecast/hourly"
     },
     {
       "game_id": "e571bab6736f9338130a78a4f75c3231",
@@ -20,11 +26,35 @@
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     },
     {
+      "game_id": "44d8c37868b700e90f816db7c5df5cdd",
+      "title": "Kickoff forecast near Hard Rock Stadium: 82°F, wind 6 mph E, precipitation 11%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/MFL/107,58/forecast/hourly"
+    },
+    {
+      "game_id": "e354e6a04b1cb9c96e549b863debb92e",
+      "title": "Kickoff forecast near GEHA Field at Arrowhead Stadium: 59°F, wind 12 mph NW, precipitation 15%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/EAX/47,48/forecast/hourly"
+    },
+    {
+      "game_id": "89de07377e0aa8ffaa2ae6a7dc0855cc",
+      "title": "Kickoff forecast near Northwest Stadium: 64°F, wind 7 mph NW, precipitation 3%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/LWX/102,73/forecast/hourly"
+    },
+    {
+      "game_id": "fe93e6ab1e553c0169936a0a983c324f",
+      "title": "Kickoff forecast near Lincoln Financial Field: 64°F, wind 5 mph NW, precipitation 2%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/PHI/50,76/forecast/hourly"
+    },
+    {
       "game_id": "39aeac43cea7b12558b91cdab1255a10",
       "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 4 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 9 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
