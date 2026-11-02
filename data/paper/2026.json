@@ -1506,7 +1506,18 @@
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
-      "injury_adjustments_applied": false
+      "injury_adjustments_applied": false,
+      "settlement": {
+        "home_score": 27,
+        "away_score": 10,
+        "actual_margin": 17,
+        "actual_total": 37,
+        "outcome": "home",
+        "margin_error": 13.33266256371051,
+        "total_error": -4.167569953229261,
+        "three_outcome_brier": 0.2826530864153461,
+        "settled_at": "2026-11-02T05:06:52.496957Z"
+      }
     },
     "2026_08_CHI_SEA": {
       "game_id": "7d664fbcd39350e559d83c0068ba7169",

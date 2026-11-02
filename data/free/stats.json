@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-11-02T04:00:05.017266Z",
-  "checked_at": "2026-11-02T04:00:05.017266Z",
+  "as_of": "2026-11-02T05:06:44.319026Z",
+  "checked_at": "2026-11-02T05:06:44.319026Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -2965,7 +2965,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_08_PHI_WAS"
+      ]
     },
     {
       "team": "Pittsburgh Steelers",
@@ -3649,7 +3651,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_08_PHI_WAS"
+      ]
     }
   ],
   "data_game_ids": [
@@ -3773,7 +3777,9 @@
     "2026_08_NE_MIA",
     "2026_08_TEN_CIN"
   ],
-  "missing_game_ids": [],
+  "missing_game_ids": [
+    "2026_08_PHI_WAS"
+  ],
   "metric_method": {
     "version": "nflverse-pbp-1",
     "season_type": "REG",
@@ -3785,7 +3791,7 @@
     "return_coverage": "Team-perspective EPA per punt/kickoff opportunity; provisional combined return/coverage metric",
     "opponent_adjusted": false
   },
-  "coverage_note": "Current-season nflverse play data for 119 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
+  "coverage_note": "Current-season nflverse play data for 119 completed games; 1 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
   "scoring_context": {
     "7d664fbcd39350e559d83c0068ba7169": {
       "neutral_site": false,
@@ -3903,13 +3909,13 @@
     },
     {
       "game_id": "89de07377e0aa8ffaa2ae6a7dc0855cc",
-      "title": "Current-season scores: Los Angeles Rams 8 games, 24.2 points for and 21.0 allowed per game; Washington Commanders 6 games, 22.0 points for and 28.7 allowed per game",
+      "title": "Current-season scores: Los Angeles Rams 8 games, 24.2 points for and 21.0 allowed per game; Washington Commanders 7 games, 22.7 points for and 26.0 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     },
     {
       "game_id": "fe93e6ab1e553c0169936a0a983c324f",
-      "title": "Current-season scores: New York Giants 7 games, 23.3 points for and 23.0 allowed per game; Philadelphia Eagles 7 games, 18.1 points for and 25.0 allowed per game",
+      "title": "Current-season scores: New York Giants 7 games, 23.3 points for and 23.0 allowed per game; Philadelphia Eagles 8 games, 17.1 points for and 25.2 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     },
