@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "mode": "snapshot",
-  "generated_at": "2026-11-02T14:25:30Z",
+  "mode": "live",
+  "generated_at": "2026-11-02T14:57:23Z",
   "season": "2026",
   "coverage": {
     "games": 16,
-    "markets": 6,
+    "markets": 54,
     "analyzed": 16
   },
   "games": [
@@ -253,14 +253,14 @@
         "home": "Seattle Seahawks",
         "away": "Chicago Bears",
         "kickoff": "2026-11-03T01:20:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
           "margin": -9.56005526782947,
-          "total": 38.48599638277713,
-          "projected_home_points": 14.462970557473831,
-          "projected_away_points": 24.0230258253033,
+          "total": 38.48599638277714,
+          "projected_home_points": 14.462970557473835,
+          "projected_away_points": 24.023025825303304,
           "fair_home_spread": 9.56005526782947,
           "model_status": "provisional_unapproved"
         },
@@ -425,6 +425,13 @@
           "role": "news"
         },
         {
+          "title": "Ravens may explore trading for Tyson Bagent",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-may-explore-trading-for-tyson-bagent",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-02T02:46:08Z",
+          "role": "news"
+        },
+        {
           "title": "Kickoff forecast near M&T Bank Stadium: 65\u00b0F, wind 5 mph S, precipitation 56%",
           "url": "https://api.weather.gov/gridpoints/LWX/109,90/forecast/hourly",
           "publisher": "National Weather Service",
@@ -525,21 +532,21 @@
         "home": "Baltimore Ravens",
         "away": "Jacksonville Jaguars",
         "kickoff": "2026-11-06T01:15:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": 1.4051502319616493,
+          "margin": 1.4051502319616476,
           "total": 48.8902835030603,
           "projected_home_points": 25.147716867510976,
           "projected_away_points": 23.742566635549327,
-          "fair_home_spread": -1.4051502319616493,
+          "fair_home_spread": -1.4051502319616476,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5313084643634799,
+          "home": 0.5313084643634798,
           "tie": 0.03435767104539639,
-          "away": 0.4343338645911237
+          "away": 0.4343338645911238
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -770,7 +777,7 @@
         "fair_total": 51.5,
         "market_home_spread": 3.0,
         "market_total": 51.5,
-        "anchor_source": "nflverse consensus",
+        "anchor_source": "Bovada",
         "spread_edge_points": -0.41,
         "total_edge_points": 0.05,
         "projected_home_points": 24.1,
@@ -783,9 +790,9 @@
         "home": "Atlanta Falcons",
         "away": "Cincinnati Bengals",
         "kickoff": "2026-11-08T14:30:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
           "margin": -4.09568558784765,
           "total": 45.774839657759316,
@@ -948,6 +955,13 @@
           "role": "news"
         },
         {
+          "title": "Broncos' goal-line stand holds off Chiefs 28-24 for division lead",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-goal-line-stand-holds-off-chiefs-28-24-for-division-lead",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-02T00:53:36Z",
+          "role": "news"
+        },
+        {
           "title": "Panthers hire DeAngelo Hall to coach cornerbacks",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-panthers-to-hire-deangelo-hall-to-coach-cornerbacks",
           "publisher": "NBC Sports",
@@ -973,13 +987,6 @@
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-make-it-a-game-now-trail-24-21",
           "publisher": "NBC Sports",
           "published_at": "2026-11-02T00:16:50Z",
-          "role": "news"
-        },
-        {
-          "title": "Broncos' goal-line stand holds off Chiefs 28-24 for division lead",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-goal-line-stand-holds-off-chiefs-28-24-for-division-lead",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-02T00:53:36Z",
           "role": "news"
         },
         {
@@ -1083,14 +1090,14 @@
         "home": "Carolina Panthers",
         "away": "Denver Broncos",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
           "margin": 3.727120950928889,
-          "total": 39.21864048459451,
-          "projected_home_points": 21.4728807177617,
-          "projected_away_points": 17.74575976683281,
+          "total": 39.2186404845945,
+          "projected_home_points": 21.472880717761697,
+          "projected_away_points": 17.745759766832805,
           "fair_home_spread": -3.727120950928889,
           "model_status": "provisional_unapproved"
         },
@@ -1248,6 +1255,13 @@
           "role": "news"
         },
         {
+          "title": "Saints fire offensive run game coordinator T.J. Paganetti",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-fire-offensive-run-game-coordinator-t-j-paganetti",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-02T14:31:23Z",
+          "role": "news"
+        },
+        {
           "title": "Caesars Superdome: enclosed roof listed in schedule; outdoor forecast not applied",
           "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
           "publisher": "nflverse schedule",
@@ -1330,16 +1344,16 @@
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
       "model": {
         "nflverse_game_id": "2026_09_CLE_NO",
-        "fair_home_margin": 3.92,
-        "fair_home_spread": -3.9,
-        "fair_total": 45.0,
-        "market_home_spread": -2.5,
-        "market_total": 43.5,
-        "anchor_source": "nflverse consensus",
-        "spread_edge_points": 1.42,
-        "total_edge_points": 1.51,
+        "fair_home_margin": 4.46,
+        "fair_home_spread": -4.5,
+        "fair_total": 44.5,
+        "market_home_spread": -3.0,
+        "market_total": 43.0,
+        "anchor_source": "Bovada",
+        "spread_edge_points": 1.46,
+        "total_edge_points": 1.5,
         "projected_home_points": 24.5,
-        "projected_away_points": 20.5
+        "projected_away_points": 20.0
       },
       "paper_forecast": {
         "game_id": "e571bab6736f9338130a78a4f75c3231",
@@ -1348,21 +1362,21 @@
         "home": "New Orleans Saints",
         "away": "Cleveland Browns",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": 9.415800491913638,
-          "total": 34.61561698309766,
-          "projected_home_points": 22.015708737505648,
-          "projected_away_points": 12.599908245592012,
-          "fair_home_spread": -9.415800491913638,
+          "margin": 9.41580049191364,
+          "total": 34.61561698309767,
+          "projected_home_points": 22.015708737505655,
+          "projected_away_points": 12.599908245592014,
+          "fair_home_spread": -9.41580049191364,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.7804803009196037,
           "tie": 0.024792690887443902,
-          "away": 0.19472700819295236
+          "away": 0.1947270081929523
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -1625,14 +1639,14 @@
         "nflverse_game_id": "2026_09_DAL_IND",
         "fair_home_margin": -5.85,
         "fair_home_spread": 5.8,
-        "fair_total": 51.3,
+        "fair_total": 51.8,
         "market_home_spread": 5.5,
-        "market_total": 51.5,
-        "anchor_source": "nflverse consensus",
+        "market_total": 52.0,
+        "anchor_source": "Bovada",
         "spread_edge_points": -0.35,
-        "total_edge_points": -0.18,
-        "projected_home_points": 22.7,
-        "projected_away_points": 28.6
+        "total_edge_points": -0.17,
+        "projected_home_points": 23.0,
+        "projected_away_points": 28.8
       },
       "paper_forecast": {
         "game_id": "415fc42e72888c63e82f7bce24c65391",
@@ -1641,9 +1655,9 @@
         "home": "Indianapolis Colts",
         "away": "Dallas Cowboys",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
           "margin": 1.0837346175580698,
           "total": 51.43116955860176,
@@ -1907,7 +1921,7 @@
         "fair_total": 48.6,
         "market_home_spread": 7.0,
         "market_total": 49.5,
-        "anchor_source": "nflverse consensus",
+        "anchor_source": "Bovada",
         "spread_edge_points": 0.02,
         "total_edge_points": -0.88,
         "projected_home_points": 20.8,
@@ -1920,20 +1934,20 @@
         "home": "Miami Dolphins",
         "away": "Detroit Lions",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": 3.1197949023239966,
+          "margin": 3.119794902323995,
           "total": 53.04857217472131,
           "projected_home_points": 28.08418353852265,
           "projected_away_points": 24.964388636198656,
-          "fair_home_spread": -3.1197949023239966,
+          "fair_home_spread": -3.119794902323995,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.5899343573421965,
-          "tie": 0.03336880477188364,
+          "tie": 0.0333688047718837,
           "away": 0.3766968378859199
         },
         "status": "paper_only_uncalibrated",
@@ -2106,6 +2120,20 @@
           "role": "news"
         },
         {
+          "title": "Aaron Glenn says Jets aren't trading Breece Hall",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-says-jets-arent-trading-breece-hall",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-02T14:48:02Z",
+          "role": "news"
+        },
+        {
+          "title": "Broncos' goal-line stand holds off Chiefs 28-24 for division lead",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-goal-line-stand-holds-off-chiefs-28-24-for-division-lead",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-02T00:53:36Z",
+          "role": "news"
+        },
+        {
           "title": "Chiefs, Steelers, Commanders have interest in Brian Thomas Jr.",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-steelers-commanders-have-interest-in-brian-thomas-jr",
           "publisher": "NBC Sports",
@@ -2124,13 +2152,6 @@
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-third-td-gives-chiefs-a-24-13-lead",
           "publisher": "NBC Sports",
           "published_at": "2026-11-01T23:53:41Z",
-          "role": "news"
-        },
-        {
-          "title": "Broncos' goal-line stand holds off Chiefs 28-24 for division lead",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-goal-line-stand-holds-off-chiefs-28-24-for-division-lead",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-02T00:53:36Z",
           "role": "news"
         },
         {
@@ -2216,16 +2237,16 @@
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
       "model": {
         "nflverse_game_id": "2026_09_NYJ_KC",
-        "fair_home_margin": 9.39,
-        "fair_home_spread": -9.4,
-        "fair_total": 46.6,
-        "market_home_spread": -9.5,
-        "market_total": 46.5,
-        "anchor_source": "nflverse consensus",
-        "spread_edge_points": -0.11,
-        "total_edge_points": 0.09,
+        "fair_home_margin": 9.92,
+        "fair_home_spread": -9.9,
+        "fair_total": 46.1,
+        "market_home_spread": -10.0,
+        "market_total": 46.0,
+        "anchor_source": "Bovada",
+        "spread_edge_points": -0.08,
+        "total_edge_points": 0.08,
         "projected_home_points": 28.0,
-        "projected_away_points": 18.6
+        "projected_away_points": 18.1
       },
       "paper_forecast": {
         "game_id": "e354e6a04b1cb9c96e549b863debb92e",
@@ -2234,21 +2255,21 @@
         "home": "Kansas City Chiefs",
         "away": "New York Jets",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": 5.30716880203206,
+          "margin": 5.307168802032061,
           "total": 56.51900150703365,
           "projected_home_points": 30.913085154532855,
           "projected_away_points": 25.605916352500795,
-          "fair_home_spread": -5.30716880203206,
+          "fair_home_spread": -5.307168802032061,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.6617418897647446,
-          "tie": 0.031132101866559514,
-          "away": 0.3071260083686959
+          "tie": 0.03113210186655957,
+          "away": 0.30712600836869586
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -2441,17 +2462,17 @@
           "role": "news"
         },
         {
-          "title": "Sunday Night Football: Commanders roll to 27-10 victory over Eagles",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-commanders-roll-to-27-10-victory-over-eagles",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-02T04:30:07Z",
-          "role": "news"
-        },
-        {
           "title": "Chiefs, Steelers, Commanders have interest in Brian Thomas Jr.",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-steelers-commanders-have-interest-in-brian-thomas-jr",
           "publisher": "NBC Sports",
           "published_at": "2026-11-02T04:02:35Z",
+          "role": "news"
+        },
+        {
+          "title": "Sunday Night Football: Commanders roll to 27-10 victory over Eagles",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-commanders-roll-to-27-10-victory-over-eagles",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-02T04:30:07Z",
           "role": "news"
         },
         {
@@ -2483,18 +2504,18 @@
           "role": "news"
         },
         {
-          "title": "Rams dominate second half, defeat Chargers 24-9",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-dominate-second-half-defeat-chargers-24-9",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-02T00:00:36Z",
-          "role": "news"
-        },
-        {
           "title": "Kickoff forecast near Northwest Stadium: 64\u00b0F, wind 7 mph NW, precipitation 3%",
           "url": "https://api.weather.gov/gridpoints/LWX/102,73/forecast/hourly",
           "publisher": "National Weather Service",
           "published_at": null,
           "role": "weather"
+        },
+        {
+          "title": "Rest: Los Angeles Rams 7 days; Washington Commanders 7 days. Away-city to venue: about 2,311 straight-line miles (not team itinerary).",
+          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+          "publisher": "nflverse schedule",
+          "published_at": null,
+          "role": "travel"
         }
       ],
       "scoring": {
@@ -2560,14 +2581,14 @@
         "nflverse_game_id": "2026_09_LA_WAS",
         "fair_home_margin": -7.3,
         "fair_home_spread": 7.3,
-        "fair_total": 48.7,
+        "fair_total": 47.7,
         "market_home_spread": 5.5,
-        "market_total": 48.5,
+        "market_total": 47.5,
         "anchor_source": "nflverse consensus",
         "spread_edge_points": -1.8,
-        "total_edge_points": 0.21,
-        "projected_home_points": 20.7,
-        "projected_away_points": 28.0
+        "total_edge_points": 0.19,
+        "projected_home_points": 20.2,
+        "projected_away_points": 27.5
       },
       "paper_forecast": {
         "game_id": "89de07377e0aa8ffaa2ae6a7dc0855cc",
@@ -2576,21 +2597,21 @@
         "home": "Washington Commanders",
         "away": "Los Angeles Rams",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": -6.779980608968345,
+          "margin": -6.779980608968347,
           "total": 46.785569410867986,
           "projected_home_points": 20.00279440094982,
           "projected_away_points": 26.782775009918165,
-          "fair_home_spread": 6.779980608968345,
+          "fair_home_spread": 6.779980608968347,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.26374539798240204,
-          "tie": 0.029114372850351233,
-          "away": 0.7071402291672467
+          "tie": 0.029114372850351122,
+          "away": 0.7071402291672468
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -2904,21 +2925,21 @@
         "home": "Philadelphia Eagles",
         "away": "New York Giants",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": -15.83511889726712,
+          "margin": -15.835118897267124,
           "total": 36.78857392701636,
           "projected_home_points": 10.476727514874618,
           "projected_away_points": 26.31184641214174,
-          "fair_home_spread": 15.83511889726712,
+          "fair_home_spread": 15.835118897267124,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.07813178422043299,
-          "tie": 0.013469449551776758,
-          "away": 0.9083987662277903
+          "tie": 0.013469449551776647,
+          "away": 0.9083987662277904
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -3062,20 +3083,6 @@
           "role": "news"
         },
         {
-          "title": "Rams dominate second half, defeat Chargers 24-9",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-dominate-second-half-defeat-chargers-24-9",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-02T00:00:36Z",
-          "role": "news"
-        },
-        {
-          "title": "Sean McVay saw some good, some bad from having two kickers active vs. Chargers",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-saw-some-good-some-bad-from-having-two-kickers-active-vs-chargers",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-02T01:25:08Z",
-          "role": "news"
-        },
-        {
           "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
           "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
           "publisher": "nflverse schedule",
@@ -3176,21 +3183,21 @@
         "home": "Los Angeles Chargers",
         "away": "Houston Texans",
         "kickoff": "2026-11-08T21:05:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": -11.1924011965901,
-          "total": 31.970802461928038,
+          "margin": -11.192401196590103,
+          "total": 31.97080246192804,
           "projected_home_points": 10.38920063266897,
-          "projected_away_points": 21.581601829259068,
-          "fair_home_spread": 11.1924011965901,
+          "projected_away_points": 21.58160182925907,
+          "fair_home_spread": 11.192401196590103,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.15510013339873863,
+          "home": 0.15510013339873852,
           "tie": 0.021600972633757598,
-          "away": 0.8232988939675038
+          "away": 0.8232988939675039
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -3393,7 +3400,7 @@
         "fair_total": 50.8,
         "market_home_spread": -9.5,
         "market_total": 51.5,
-        "anchor_source": "nflverse consensus",
+        "anchor_source": "Bovada",
         "spread_edge_points": 1.74,
         "total_edge_points": -0.75,
         "projected_home_points": 31.0,
@@ -3406,21 +3413,21 @@
         "home": "San Francisco 49ers",
         "away": "Las Vegas Raiders",
         "kickoff": "2026-11-08T21:05:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": 18.906523466263632,
+          "margin": 18.906523466263636,
           "total": 45.38407056812849,
           "projected_home_points": 32.145297017196064,
-          "projected_away_points": 13.23877355093243,
-          "fair_home_spread": -18.906523466263632,
+          "projected_away_points": 13.238773550932429,
+          "fair_home_spread": -18.906523466263636,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.9449263191201326,
-          "tie": 0.009014021985793985,
-          "away": 0.04605965889407343
+          "tie": 0.00901402198579404,
+          "away": 0.046059658894073374
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -3678,20 +3685,20 @@
         "home": "Seattle Seahawks",
         "away": "Arizona Cardinals",
         "kickoff": "2026-11-08T21:25:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": 0.7406069904191083,
+          "margin": 0.7406069904191078,
           "total": 40.75667877123667,
           "projected_home_points": 20.74864288082789,
           "projected_away_points": 20.00803589040878,
-          "fair_home_spread": -0.7406069904191083,
+          "fair_home_spread": -0.7406069904191078,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.5083303702923703,
-          "tie": 0.034542574939603,
+          "tie": 0.034542574939603055,
           "away": 0.4571270547680267
         },
         "status": "paper_only_uncalibrated",
@@ -3836,13 +3843,6 @@
           "role": "news"
         },
         {
-          "title": "Carlton Davis is active for the Patriots in Miami",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/carlton-davis-is-active-for-the-patriots-in-miami",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-01T20:07:17Z",
-          "role": "news"
-        },
-        {
           "title": "Kickoff forecast near Gillette Stadium: 60\u00b0F, wind 5 mph W, precipitation 5%",
           "url": "https://api.weather.gov/gridpoints/BOX/67,88/forecast/hourly",
           "publisher": "National Weather Service",
@@ -3925,16 +3925,16 @@
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
       "model": {
         "nflverse_game_id": "2026_09_GB_NE",
-        "fair_home_margin": 4.21,
-        "fair_home_spread": -4.2,
+        "fair_home_margin": 3.67,
+        "fair_home_spread": -3.7,
         "fair_total": 47.0,
-        "market_home_spread": -3.0,
+        "market_home_spread": -2.5,
         "market_total": 47.5,
-        "anchor_source": "nflverse consensus",
-        "spread_edge_points": 1.21,
+        "anchor_source": "Bovada",
+        "spread_edge_points": 1.17,
         "total_edge_points": -0.46,
-        "projected_home_points": 25.6,
-        "projected_away_points": 21.4
+        "projected_home_points": 25.4,
+        "projected_away_points": 21.7
       },
       "paper_forecast": {
         "game_id": "2922c573ec3df8466c4a34975e446898",
@@ -3943,9 +3943,9 @@
         "home": "New England Patriots",
         "away": "Green Bay Packers",
         "kickoff": "2026-11-08T21:25:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
           "margin": -12.272713596279852,
           "total": 44.111695364227614,
@@ -4215,20 +4215,20 @@
         "home": "Chicago Bears",
         "away": "Tampa Bay Buccaneers",
         "kickoff": "2026-11-09T01:20:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": -1.6210092369239915,
+          "margin": -1.6210092369239923,
           "total": 41.55889891943862,
-          "projected_home_points": 19.968944841257315,
-          "projected_away_points": 21.589954078181304,
-          "fair_home_spread": 1.6210092369239915,
+          "projected_home_points": 19.96894484125731,
+          "projected_away_points": 21.589954078181307,
+          "fair_home_spread": 1.6210092369239923,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.42697310053827797,
-          "tie": 0.034273297870395236,
+          "home": 0.42697310053827786,
+          "tie": 0.03427329787039535,
           "away": 0.5387536015913268
         },
         "status": "paper_only_uncalibrated",
@@ -4303,17 +4303,17 @@
           "role": "news"
         },
         {
-          "title": "Dan Campbell wisely declined the Vikings' intentional offsides",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-wisely-declined-the-vikings-intentional-offsides",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-02T11:27:14Z",
-          "role": "news"
-        },
-        {
           "title": "Larry Csonka celebrates Vikings' loss as 1972 Dolphins stand alone for another year",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/larry-csonka-celebrates-vikings-loss-as-1972-dolphins-stand-alone-for-another-year",
           "publisher": "NBC Sports",
           "published_at": "2026-11-02T09:46:29Z",
+          "role": "news"
+        },
+        {
+          "title": "Dan Campbell wisely declined the Vikings' intentional offsides",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-wisely-declined-the-vikings-intentional-offsides",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-02T11:27:14Z",
           "role": "news"
         },
         {
@@ -4392,16 +4392,16 @@
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
       "model": {
         "nflverse_game_id": "2026_09_BUF_MIN",
-        "fair_home_margin": -3.75,
-        "fair_home_spread": 3.7,
+        "fair_home_margin": -4.28,
+        "fair_home_spread": 4.3,
         "fair_total": 48.2,
-        "market_home_spread": 2.5,
+        "market_home_spread": 3.0,
         "market_total": 46.5,
-        "anchor_source": "nflverse consensus",
-        "spread_edge_points": -1.25,
+        "anchor_source": "Bovada",
+        "spread_edge_points": -1.28,
         "total_edge_points": 1.66,
-        "projected_home_points": 22.2,
-        "projected_away_points": 26.0
+        "projected_home_points": 21.9,
+        "projected_away_points": 26.2
       },
       "paper_forecast": {
         "game_id": "17ad7eff2f7875e20a8109abe40470e3",
@@ -4410,21 +4410,21 @@
         "home": "Minnesota Vikings",
         "away": "Buffalo Bills",
         "kickoff": "2026-11-10T01:15:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": 2.864029967089629,
+          "margin": 2.8640299670896283,
           "total": 45.17793711937814,
           "projected_home_points": 24.020983543233886,
           "projected_away_points": 21.156953576144257,
-          "fair_home_spread": -2.864029967089629,
+          "fair_home_spread": -2.8640299670896283,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.5812834251026154,
-          "tie": 0.03356158590932229,
-          "away": 0.3851549889880623
+          "tie": 0.033561585909322234,
+          "away": 0.38515498898806233
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -4439,9 +4439,9 @@
       "category": "Moneyline",
       "selection": "Chicago Bears",
       "line": null,
-      "odds": 140,
-      "observed_at": "2026-11-01T23:31:14Z",
-      "status": "stale",
+      "odds": 145,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
       "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
       "sportsbook": "Bovada",
       "model": {
@@ -4449,10 +4449,10 @@
         "p_win": 0.4181,
         "p_push": 0.004,
         "p_loss": 0.5779,
-        "ev": 0.0073,
-        "conservative_ev": -0.0407,
+        "ev": 0.0282,
+        "conservative_ev": -0.0208,
         "value_score": 1,
-        "break_even": 0.4167
+        "break_even": 0.4082
       }
     },
     {
@@ -4461,9 +4461,9 @@
       "category": "Moneyline",
       "selection": "Seattle Seahawks",
       "line": null,
-      "odds": -165,
-      "observed_at": "2026-11-01T23:31:14Z",
-      "status": "stale",
+      "odds": -170,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
       "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
       "sportsbook": "Bovada",
       "model": {
@@ -4471,10 +4471,10 @@
         "p_win": 0.5779,
         "p_push": 0.004,
         "p_loss": 0.4181,
-        "ev": -0.0678,
-        "conservative_ev": -0.0999,
+        "ev": -0.0781,
+        "conservative_ev": -0.1099,
         "value_score": 1,
-        "break_even": 0.6226
+        "break_even": 0.6296
       }
     },
     {
@@ -4483,9 +4483,9 @@
       "category": "Spread",
       "selection": "Chicago Bears",
       "line": 3.0,
-      "odds": -110,
-      "observed_at": "2026-11-01T23:31:14Z",
-      "status": "stale",
+      "odds": 100,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
       "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
       "sportsbook": "Bovada",
       "model": {
@@ -4493,10 +4493,10 @@
         "p_win": 0.4726,
         "p_push": 0.0881,
         "p_loss": 0.4393,
-        "ev": -0.0097,
-        "conservative_ev": -0.0479,
+        "ev": 0.0333,
+        "conservative_ev": -0.0067,
         "value_score": 1,
-        "break_even": 0.5238
+        "break_even": 0.5
       }
     },
     {
@@ -4505,9 +4505,9 @@
       "category": "Spread",
       "selection": "Seattle Seahawks",
       "line": -3.0,
-      "odds": -110,
-      "observed_at": "2026-11-01T23:31:14Z",
-      "status": "stale",
+      "odds": -120,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
       "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
       "sportsbook": "Bovada",
       "model": {
@@ -4515,10 +4515,10 @@
         "p_win": 0.4393,
         "p_push": 0.0881,
         "p_loss": 0.4726,
-        "ev": -0.0732,
-        "conservative_ev": -0.1114,
+        "ev": -0.1065,
+        "conservative_ev": -0.1432,
         "value_score": 1,
-        "break_even": 0.5238
+        "break_even": 0.5455
       }
     },
     {
@@ -4527,9 +4527,9 @@
       "category": "Total",
       "selection": "Over",
       "line": 46.5,
-      "odds": -110,
-      "observed_at": "2026-11-01T23:31:14Z",
-      "status": "stale",
+      "odds": -108,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
       "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
       "sportsbook": "Bovada",
       "model": {
@@ -4537,10 +4537,10 @@
         "p_win": 0.482,
         "p_push": 0,
         "p_loss": 0.518,
-        "ev": -0.0799,
-        "conservative_ev": -0.1181,
+        "ev": -0.0718,
+        "conservative_ev": -0.1103,
         "value_score": 1,
-        "break_even": 0.5238
+        "break_even": 0.5192
       }
     },
     {
@@ -4549,9 +4549,9 @@
       "category": "Total",
       "selection": "Under",
       "line": 46.5,
-      "odds": -110,
-      "observed_at": "2026-11-01T23:31:14Z",
-      "status": "stale",
+      "odds": -112,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
       "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
       "sportsbook": "Bovada",
       "model": {
@@ -4559,8 +4559,1064 @@
         "p_win": 0.518,
         "p_push": 0,
         "p_loss": 0.482,
-        "ev": -0.011,
-        "conservative_ev": -0.0492,
+        "ev": -0.0194,
+        "conservative_ev": -0.0573,
+        "value_score": 1,
+        "break_even": 0.5283
+      }
+    },
+    {
+      "id": "a270199988c14bf7c9a8",
+      "game_id": "dc56d980f527ffeef89940133b211b13",
+      "category": "Moneyline",
+      "selection": "Atlanta Falcons",
+      "line": null,
+      "odds": 140,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.3923,
+        "p_push": 0.0034,
+        "p_loss": 0.6043,
+        "ev": -0.055,
+        "conservative_ev": -0.103,
+        "value_score": 1,
+        "break_even": 0.4167
+      }
+    },
+    {
+      "id": "2da260a9fb1e3124744d",
+      "game_id": "dc56d980f527ffeef89940133b211b13",
+      "category": "Moneyline",
+      "selection": "Cincinnati Bengals",
+      "line": null,
+      "odds": -165,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.6043,
+        "p_push": 0.0034,
+        "p_loss": 0.3923,
+        "ev": -0.0261,
+        "conservative_ev": -0.0582,
+        "value_score": 1,
+        "break_even": 0.6226
+      }
+    },
+    {
+      "id": "4b77737ef84059c99e83",
+      "game_id": "dc56d980f527ffeef89940133b211b13",
+      "category": "Spread",
+      "selection": "Atlanta Falcons",
+      "line": 3.0,
+      "odds": -108,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.4415,
+        "p_push": 0.0909,
+        "p_loss": 0.4676,
+        "ev": -0.0588,
+        "conservative_ev": -0.0973,
+        "value_score": 1,
+        "break_even": 0.5192
+      }
+    },
+    {
+      "id": "e73f98f8d802dddb78eb",
+      "game_id": "dc56d980f527ffeef89940133b211b13",
+      "category": "Spread",
+      "selection": "Cincinnati Bengals",
+      "line": -3.0,
+      "odds": -112,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.4676,
+        "p_push": 0.0909,
+        "p_loss": 0.4415,
+        "ev": -0.024,
+        "conservative_ev": -0.0619,
+        "value_score": 1,
+        "break_even": 0.5283
+      }
+    },
+    {
+      "id": "0b584d71cf683b86949c",
+      "game_id": "dc56d980f527ffeef89940133b211b13",
+      "category": "Total",
+      "selection": "Over",
+      "line": 51.5,
+      "odds": -108,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.4861,
+        "p_push": 0,
+        "p_loss": 0.5139,
+        "ev": -0.0638,
+        "conservative_ev": -0.1023,
+        "value_score": 1,
+        "break_even": 0.5192
+      }
+    },
+    {
+      "id": "8a61edc16e294dc7af33",
+      "game_id": "dc56d980f527ffeef89940133b211b13",
+      "category": "Total",
+      "selection": "Under",
+      "line": 51.5,
+      "odds": -112,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.5139,
+        "p_push": 0,
+        "p_loss": 0.4861,
+        "ev": -0.0272,
+        "conservative_ev": -0.0651,
+        "value_score": 1,
+        "break_even": 0.5283
+      }
+    },
+    {
+      "id": "ea7ab0b6aaa8d8c2712c",
+      "game_id": "e571bab6736f9338130a78a4f75c3231",
+      "category": "Moneyline",
+      "selection": "Cleveland Browns",
+      "line": null,
+      "odds": 130,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.3593,
+        "p_push": 0.0029,
+        "p_loss": 0.6378,
+        "ev": -0.1707,
+        "conservative_ev": -0.2167,
+        "value_score": 1,
+        "break_even": 0.4348
+      }
+    },
+    {
+      "id": "429e5338fdbcc8a24219",
+      "game_id": "e571bab6736f9338130a78a4f75c3231",
+      "category": "Moneyline",
+      "selection": "New Orleans Saints",
+      "line": null,
+      "odds": -150,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.6378,
+        "p_push": 0.0029,
+        "p_loss": 0.3593,
+        "ev": 0.0659,
+        "conservative_ev": 0.0325,
+        "value_score": 5,
+        "break_even": 0.6
+      }
+    },
+    {
+      "id": "97c6269d27b74f552977",
+      "game_id": "e571bab6736f9338130a78a4f75c3231",
+      "category": "Spread",
+      "selection": "Cleveland Browns",
+      "line": 3.0,
+      "odds": -120,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.4048,
+        "p_push": 0.0946,
+        "p_loss": 0.5006,
+        "ev": -0.1632,
+        "conservative_ev": -0.1999,
+        "value_score": 1,
+        "break_even": 0.5455
+      }
+    },
+    {
+      "id": "6cb9b8c58e94ed765d37",
+      "game_id": "e571bab6736f9338130a78a4f75c3231",
+      "category": "Spread",
+      "selection": "New Orleans Saints",
+      "line": -3.0,
+      "odds": 100,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.5006,
+        "p_push": 0.0946,
+        "p_loss": 0.4048,
+        "ev": 0.0958,
+        "conservative_ev": 0.0558,
+        "value_score": 7,
+        "break_even": 0.5
+      }
+    },
+    {
+      "id": "2254b279daf480fcde79",
+      "game_id": "e571bab6736f9338130a78a4f75c3231",
+      "category": "Total",
+      "selection": "Over",
+      "line": 43.0,
+      "odds": -112,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.5097,
+        "p_push": 0.0393,
+        "p_loss": 0.4509,
+        "ev": 0.0041,
+        "conservative_ev": -0.0337,
+        "value_score": 1,
+        "break_even": 0.5283
+      }
+    },
+    {
+      "id": "59dcb3cb98f1ae6a2e71",
+      "game_id": "e571bab6736f9338130a78a4f75c3231",
+      "category": "Total",
+      "selection": "Under",
+      "line": 43.0,
+      "odds": -108,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.4509,
+        "p_push": 0.0393,
+        "p_loss": 0.5097,
+        "ev": -0.0922,
+        "conservative_ev": -0.1307,
+        "value_score": 1,
+        "break_even": 0.5192
+      }
+    },
+    {
+      "id": "12a70af0df4df7a447ff",
+      "game_id": "415fc42e72888c63e82f7bce24c65391",
+      "category": "Moneyline",
+      "selection": "Dallas Cowboys",
+      "line": null,
+      "odds": -240,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.7041,
+        "p_push": 0.0041,
+        "p_loss": 0.2918,
+        "ev": 0.0015,
+        "conservative_ev": -0.0268,
+        "value_score": 1,
+        "break_even": 0.7059
+      }
+    },
+    {
+      "id": "54420483aaba16e91210",
+      "game_id": "415fc42e72888c63e82f7bce24c65391",
+      "category": "Moneyline",
+      "selection": "Indianapolis Colts",
+      "line": null,
+      "odds": 200,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.2918,
+        "p_push": 0.0041,
+        "p_loss": 0.7041,
+        "ev": -0.1204,
+        "conservative_ev": -0.1804,
+        "value_score": 1,
+        "break_even": 0.3333
+      }
+    },
+    {
+      "id": "bbc9bd8cef9ce2e40c67",
+      "game_id": "415fc42e72888c63e82f7bce24c65391",
+      "category": "Spread",
+      "selection": "Dallas Cowboys",
+      "line": -5.5,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.5082,
+        "p_push": 0,
+        "p_loss": 0.4918,
+        "ev": -0.0298,
+        "conservative_ev": -0.068,
+        "value_score": 1,
+        "break_even": 0.5238
+      }
+    },
+    {
+      "id": "54cc0867d01346ecd915",
+      "game_id": "415fc42e72888c63e82f7bce24c65391",
+      "category": "Spread",
+      "selection": "Indianapolis Colts",
+      "line": 5.5,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.4918,
+        "p_push": 0,
+        "p_loss": 0.5082,
+        "ev": -0.0611,
+        "conservative_ev": -0.0993,
+        "value_score": 1,
+        "break_even": 0.5238
+      }
+    },
+    {
+      "id": "72d968c33f2f90437a5c",
+      "game_id": "415fc42e72888c63e82f7bce24c65391",
+      "category": "Total",
+      "selection": "Over",
+      "line": 52.0,
+      "odds": -108,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.4787,
+        "p_push": 0.0195,
+        "p_loss": 0.5018,
+        "ev": -0.0585,
+        "conservative_ev": -0.0971,
+        "value_score": 1,
+        "break_even": 0.5192
+      }
+    },
+    {
+      "id": "c2a1a7c8060ebed3beb4",
+      "game_id": "415fc42e72888c63e82f7bce24c65391",
+      "category": "Total",
+      "selection": "Under",
+      "line": 52.0,
+      "odds": -112,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.5018,
+        "p_push": 0.0195,
+        "p_loss": 0.4787,
+        "ev": -0.0307,
+        "conservative_ev": -0.0685,
+        "value_score": 1,
+        "break_even": 0.5283
+      }
+    },
+    {
+      "id": "a6237838153016673f3a",
+      "game_id": "44d8c37868b700e90f816db7c5df5cdd",
+      "category": "Moneyline",
+      "selection": "Detroit Lions",
+      "line": null,
+      "odds": -320,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.7433,
+        "p_push": 0.0048,
+        "p_loss": 0.2518,
+        "ev": -0.0195,
+        "conservative_ev": -0.0458,
+        "value_score": 1,
+        "break_even": 0.7619
+      }
+    },
+    {
+      "id": "f93c75b5852402dcaeef",
+      "game_id": "44d8c37868b700e90f816db7c5df5cdd",
+      "category": "Moneyline",
+      "selection": "Miami Dolphins",
+      "line": null,
+      "odds": 260,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.2518,
+        "p_push": 0.0048,
+        "p_loss": 0.7433,
+        "ev": -0.0886,
+        "conservative_ev": -0.1606,
+        "value_score": 1,
+        "break_even": 0.2778
+      }
+    },
+    {
+      "id": "810460b24b09427ec672",
+      "game_id": "44d8c37868b700e90f816db7c5df5cdd",
+      "category": "Spread",
+      "selection": "Detroit Lions",
+      "line": -7.0,
+      "odds": -112,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.4493,
+        "p_push": 0.0672,
+        "p_loss": 0.4835,
+        "ev": -0.0823,
+        "conservative_ev": -0.1202,
+        "value_score": 1,
+        "break_even": 0.5283
+      }
+    },
+    {
+      "id": "eeb1d0632ff6008d6d4b",
+      "game_id": "44d8c37868b700e90f816db7c5df5cdd",
+      "category": "Spread",
+      "selection": "Miami Dolphins",
+      "line": 7.0,
+      "odds": -108,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.4835,
+        "p_push": 0.0672,
+        "p_loss": 0.4493,
+        "ev": -0.0016,
+        "conservative_ev": -0.0402,
+        "value_score": 1,
+        "break_even": 0.5192
+      }
+    },
+    {
+      "id": "d4a61e3e8bbd28039325",
+      "game_id": "44d8c37868b700e90f816db7c5df5cdd",
+      "category": "Total",
+      "selection": "Over",
+      "line": 49.5,
+      "odds": -112,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.471,
+        "p_push": 0,
+        "p_loss": 0.529,
+        "ev": -0.1085,
+        "conservative_ev": -0.1463,
+        "value_score": 1,
+        "break_even": 0.5283
+      }
+    },
+    {
+      "id": "a0b902d45f7b8c58c523",
+      "game_id": "44d8c37868b700e90f816db7c5df5cdd",
+      "category": "Total",
+      "selection": "Under",
+      "line": 49.5,
+      "odds": -108,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.529,
+        "p_push": 0,
+        "p_loss": 0.471,
+        "ev": 0.0188,
+        "conservative_ev": -0.0197,
+        "value_score": 1,
+        "break_even": 0.5192
+      }
+    },
+    {
+      "id": "63d66a771548f0abb3c5",
+      "game_id": "e354e6a04b1cb9c96e549b863debb92e",
+      "category": "Moneyline",
+      "selection": "Kansas City Chiefs",
+      "line": null,
+      "odds": -460,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.8044,
+        "p_push": 0.0018,
+        "p_loss": 0.1938,
+        "ev": -0.0189,
+        "conservative_ev": -0.0433,
+        "value_score": 1,
+        "break_even": 0.8214
+      }
+    },
+    {
+      "id": "f460f5cf79a2d019b9c3",
+      "game_id": "e354e6a04b1cb9c96e549b863debb92e",
+      "category": "Moneyline",
+      "selection": "New York Jets",
+      "line": null,
+      "odds": 355,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.1938,
+        "p_push": 0.0018,
+        "p_loss": 0.8044,
+        "ev": -0.1165,
+        "conservative_ev": -0.2075,
+        "value_score": 1,
+        "break_even": 0.2198
+      }
+    },
+    {
+      "id": "703ea67e45c8a132bf56",
+      "game_id": "e354e6a04b1cb9c96e549b863debb92e",
+      "category": "Spread",
+      "selection": "Kansas City Chiefs",
+      "line": -10.0,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.4334,
+        "p_push": 0.0462,
+        "p_loss": 0.5204,
+        "ev": -0.1264,
+        "conservative_ev": -0.1646,
+        "value_score": 1,
+        "break_even": 0.5238
+      }
+    },
+    {
+      "id": "f2e6e39b7ff54ca7db10",
+      "game_id": "e354e6a04b1cb9c96e549b863debb92e",
+      "category": "Spread",
+      "selection": "New York Jets",
+      "line": 10.0,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.5204,
+        "p_push": 0.0462,
+        "p_loss": 0.4334,
+        "ev": 0.0397,
+        "conservative_ev": 0.0015,
+        "value_score": 2,
+        "break_even": 0.5238
+      }
+    },
+    {
+      "id": "8bebfa46c1209385ce86",
+      "game_id": "e354e6a04b1cb9c96e549b863debb92e",
+      "category": "Total",
+      "selection": "Over",
+      "line": 46.0,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.469,
+        "p_push": 0.0255,
+        "p_loss": 0.5054,
+        "ev": -0.0791,
+        "conservative_ev": -0.1172,
+        "value_score": 1,
+        "break_even": 0.5238
+      }
+    },
+    {
+      "id": "80eb66d8b82c94bcb067",
+      "game_id": "e354e6a04b1cb9c96e549b863debb92e",
+      "category": "Total",
+      "selection": "Under",
+      "line": 46.0,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.5054,
+        "p_push": 0.0255,
+        "p_loss": 0.469,
+        "ev": -0.0095,
+        "conservative_ev": -0.0477,
+        "value_score": 1,
+        "break_even": 0.5238
+      }
+    },
+    {
+      "id": "1c2c4618146faa09fac4",
+      "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
+      "category": "Moneyline",
+      "selection": "Las Vegas Raiders",
+      "line": null,
+      "odds": 340,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.171,
+        "p_push": 0.0007,
+        "p_loss": 0.8283,
+        "ev": -0.2468,
+        "conservative_ev": -0.3348,
+        "value_score": 1,
+        "break_even": 0.2273
+      }
+    },
+    {
+      "id": "7f5cdfd27cb4313e1993",
+      "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
+      "category": "Moneyline",
+      "selection": "San Francisco 49ers",
+      "line": null,
+      "odds": -440,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.8283,
+        "p_push": 0.0007,
+        "p_loss": 0.171,
+        "ev": 0.0172,
+        "conservative_ev": -0.0073,
+        "value_score": 1,
+        "break_even": 0.8148
+      }
+    },
+    {
+      "id": "f3ae69b63032dd2dfdbe",
+      "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
+      "category": "Spread",
+      "selection": "Las Vegas Raiders",
+      "line": 9.5,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.4692,
+        "p_push": 0,
+        "p_loss": 0.5308,
+        "ev": -0.1042,
+        "conservative_ev": -0.1423,
+        "value_score": 1,
+        "break_even": 0.5238
+      }
+    },
+    {
+      "id": "ee5565a83377c159d56c",
+      "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
+      "category": "Spread",
+      "selection": "San Francisco 49ers",
+      "line": -9.5,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.5308,
+        "p_push": 0,
+        "p_loss": 0.4692,
+        "ev": 0.0133,
+        "conservative_ev": -0.0249,
+        "value_score": 1,
+        "break_even": 0.5238
+      }
+    },
+    {
+      "id": "53b877ab364f4de265fe",
+      "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
+      "category": "Total",
+      "selection": "Over",
+      "line": 51.5,
+      "odds": -112,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.4468,
+        "p_push": 0,
+        "p_loss": 0.5532,
+        "ev": -0.1543,
+        "conservative_ev": -0.1922,
+        "value_score": 1,
+        "break_even": 0.5283
+      }
+    },
+    {
+      "id": "3d08290c286a6a2707dc",
+      "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
+      "category": "Total",
+      "selection": "Under",
+      "line": 51.5,
+      "odds": -108,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.5532,
+        "p_push": 0,
+        "p_loss": 0.4468,
+        "ev": 0.0655,
+        "conservative_ev": 0.0269,
+        "value_score": 4,
+        "break_even": 0.5192
+      }
+    },
+    {
+      "id": "0e8eb4529579d9ff772b",
+      "game_id": "2922c573ec3df8466c4a34975e446898",
+      "category": "Moneyline",
+      "selection": "Green Bay Packers",
+      "line": null,
+      "odds": 130,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.3857,
+        "p_push": 0.0032,
+        "p_loss": 0.6111,
+        "ev": -0.1098,
+        "conservative_ev": -0.1558,
+        "value_score": 1,
+        "break_even": 0.4348
+      }
+    },
+    {
+      "id": "18d46b637f82a1c4884e",
+      "game_id": "2922c573ec3df8466c4a34975e446898",
+      "category": "Moneyline",
+      "selection": "New England Patriots",
+      "line": null,
+      "odds": -150,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.6111,
+        "p_push": 0.0032,
+        "p_loss": 0.3857,
+        "ev": 0.0218,
+        "conservative_ev": -0.0116,
+        "value_score": 1,
+        "break_even": 0.6
+      }
+    },
+    {
+      "id": "28fc2a78b9e302ce40ce",
+      "game_id": "2922c573ec3df8466c4a34975e446898",
+      "category": "Spread",
+      "selection": "Green Bay Packers",
+      "line": 2.5,
+      "odds": -103,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.4332,
+        "p_push": 0,
+        "p_loss": 0.5668,
+        "ev": -0.1462,
+        "conservative_ev": -0.1856,
+        "value_score": 1,
+        "break_even": 0.5074
+      }
+    },
+    {
+      "id": "d6f2db8ebd54b6d76aab",
+      "game_id": "2922c573ec3df8466c4a34975e446898",
+      "category": "Spread",
+      "selection": "New England Patriots",
+      "line": -2.5,
+      "odds": -117,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.5668,
+        "p_push": 0,
+        "p_loss": 0.4332,
+        "ev": 0.0512,
+        "conservative_ev": 0.0141,
+        "value_score": 3,
+        "break_even": 0.5392
+      }
+    },
+    {
+      "id": "7d9c769fa71f3c73a9ff",
+      "game_id": "2922c573ec3df8466c4a34975e446898",
+      "category": "Total",
+      "selection": "Over",
+      "line": 47.5,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.4693,
+        "p_push": 0,
+        "p_loss": 0.5307,
+        "ev": -0.1041,
+        "conservative_ev": -0.1423,
+        "value_score": 1,
+        "break_even": 0.5238
+      }
+    },
+    {
+      "id": "29d37c49fab39efbe370",
+      "game_id": "2922c573ec3df8466c4a34975e446898",
+      "category": "Total",
+      "selection": "Under",
+      "line": 47.5,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.5307,
+        "p_push": 0,
+        "p_loss": 0.4693,
+        "ev": 0.0132,
+        "conservative_ev": -0.0249,
+        "value_score": 1,
+        "break_even": 0.5238
+      }
+    },
+    {
+      "id": "674552afdca1fb896212",
+      "game_id": "17ad7eff2f7875e20a8109abe40470e3",
+      "category": "Moneyline",
+      "selection": "Buffalo Bills",
+      "line": null,
+      "odds": -163,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.6276,
+        "p_push": 0.0029,
+        "p_loss": 0.3694,
+        "ev": 0.0156,
+        "conservative_ev": -0.0167,
+        "value_score": 1,
+        "break_even": 0.6198
+      }
+    },
+    {
+      "id": "3e1568c7f9fea65e0f00",
+      "game_id": "17ad7eff2f7875e20a8109abe40470e3",
+      "category": "Moneyline",
+      "selection": "Minnesota Vikings",
+      "line": null,
+      "odds": 138,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "moneyline",
+        "p_win": 0.3694,
+        "p_push": 0.0029,
+        "p_loss": 0.6276,
+        "ev": -0.1178,
+        "conservative_ev": -0.1654,
+        "value_score": 1,
+        "break_even": 0.4202
+      }
+    },
+    {
+      "id": "f6eafb8b41166ba2f010",
+      "game_id": "17ad7eff2f7875e20a8109abe40470e3",
+      "category": "Spread",
+      "selection": "Buffalo Bills",
+      "line": -3.0,
+      "odds": -103,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.4912,
+        "p_push": 0.0939,
+        "p_loss": 0.4149,
+        "ev": 0.062,
+        "conservative_ev": 0.0226,
+        "value_score": 4,
+        "break_even": 0.5074
+      }
+    },
+    {
+      "id": "378870781c591e3d7a22",
+      "game_id": "17ad7eff2f7875e20a8109abe40470e3",
+      "category": "Spread",
+      "selection": "Minnesota Vikings",
+      "line": 3.0,
+      "odds": -117,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "spread",
+        "p_win": 0.4149,
+        "p_push": 0.0939,
+        "p_loss": 0.4912,
+        "ev": -0.1366,
+        "conservative_ev": -0.1737,
+        "value_score": 1,
+        "break_even": 0.5392
+      }
+    },
+    {
+      "id": "613e29f47e821f50c159",
+      "game_id": "17ad7eff2f7875e20a8109abe40470e3",
+      "category": "Total",
+      "selection": "Over",
+      "line": 46.5,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.5435,
+        "p_push": 0,
+        "p_loss": 0.4565,
+        "ev": 0.0376,
+        "conservative_ev": -0.0006,
+        "value_score": 1,
+        "break_even": 0.5238
+      }
+    },
+    {
+      "id": "fd57000fd96426efcebe",
+      "game_id": "17ad7eff2f7875e20a8109abe40470e3",
+      "category": "Total",
+      "selection": "Under",
+      "line": 46.5,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "status": "live",
+      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
+      "sportsbook": "Bovada",
+      "model": {
+        "market": "total",
+        "p_win": 0.4565,
+        "p_push": 0,
+        "p_loss": 0.5435,
+        "ev": -0.1285,
+        "conservative_ev": -0.1667,
         "value_score": 1,
         "break_even": 0.5238
       }
@@ -4569,18 +5625,211 @@
   "picks": [],
   "leans": [
     {
+      "id": "6cb9b8c58e94ed765d37",
+      "game_id": "e571bab6736f9338130a78a4f75c3231",
+      "category": "Spread",
+      "selection": "New Orleans Saints",
+      "line": -3.0,
+      "odds": 100,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "win_probability": 0.5006,
+      "push_probability": 0.0946,
+      "break_even_probability": 0.5,
+      "ev": 0.0958,
+      "conservative_ev": 0.0558,
+      "win_rating": 6,
+      "value_rating": 7,
+      "model_version": "market-model-1.0",
+      "status": "lean",
+      "suggested_stake": 0.0,
+      "blockers": [
+        "spread model has not passed the backtest gate"
+      ],
+      "rationale": "Research lean only: spread model has not passed the backtest gate."
+    },
+    {
+      "id": "429e5338fdbcc8a24219",
+      "game_id": "e571bab6736f9338130a78a4f75c3231",
+      "category": "Moneyline",
+      "selection": "New Orleans Saints",
+      "line": null,
+      "odds": -150,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "win_probability": 0.6378,
+      "push_probability": 0.0029,
+      "break_even_probability": 0.6,
+      "ev": 0.0659,
+      "conservative_ev": 0.0325,
+      "win_rating": 7,
+      "value_rating": 5,
+      "model_version": "market-model-1.0",
+      "status": "lean",
+      "suggested_stake": 0.0,
+      "blockers": [
+        "moneyline model has not passed the backtest gate",
+        "value score below 7"
+      ],
+      "rationale": "Research lean only: moneyline model has not passed the backtest gate; value score below 7."
+    },
+    {
+      "id": "3d08290c286a6a2707dc",
+      "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
+      "category": "Total",
+      "selection": "Under",
+      "line": 51.5,
+      "odds": -108,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "win_probability": 0.5532,
+      "push_probability": 0,
+      "break_even_probability": 0.5192,
+      "ev": 0.0655,
+      "conservative_ev": 0.0269,
+      "win_rating": 6,
+      "value_rating": 4,
+      "model_version": "market-model-1.0",
+      "status": "lean",
+      "suggested_stake": 0.0,
+      "blockers": [
+        "total model has not passed the backtest gate",
+        "value score below 7"
+      ],
+      "rationale": "Research lean only: total model has not passed the backtest gate; value score below 7."
+    },
+    {
+      "id": "f6eafb8b41166ba2f010",
+      "game_id": "17ad7eff2f7875e20a8109abe40470e3",
+      "category": "Spread",
+      "selection": "Buffalo Bills",
+      "line": -3.0,
+      "odds": -103,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "win_probability": 0.4912,
+      "push_probability": 0.0939,
+      "break_even_probability": 0.5074,
+      "ev": 0.062,
+      "conservative_ev": 0.0226,
+      "win_rating": 5,
+      "value_rating": 4,
+      "model_version": "market-model-1.0",
+      "status": "lean",
+      "suggested_stake": 0.0,
+      "blockers": [
+        "spread model has not passed the backtest gate",
+        "value score below 7"
+      ],
+      "rationale": "Research lean only: spread model has not passed the backtest gate; value score below 7."
+    },
+    {
+      "id": "d6f2db8ebd54b6d76aab",
+      "game_id": "2922c573ec3df8466c4a34975e446898",
+      "category": "Spread",
+      "selection": "New England Patriots",
+      "line": -2.5,
+      "odds": -117,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "win_probability": 0.5668,
+      "push_probability": 0,
+      "break_even_probability": 0.5392,
+      "ev": 0.0512,
+      "conservative_ev": 0.0141,
+      "win_rating": 6,
+      "value_rating": 3,
+      "model_version": "market-model-1.0",
+      "status": "lean",
+      "suggested_stake": 0.0,
+      "blockers": [
+        "spread model has not passed the backtest gate",
+        "value score below 7"
+      ],
+      "rationale": "Research lean only: spread model has not passed the backtest gate; value score below 7."
+    },
+    {
+      "id": "f2e6e39b7ff54ca7db10",
+      "game_id": "e354e6a04b1cb9c96e549b863debb92e",
+      "category": "Spread",
+      "selection": "New York Jets",
+      "line": 10.0,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "win_probability": 0.5204,
+      "push_probability": 0.0462,
+      "break_even_probability": 0.5238,
+      "ev": 0.0397,
+      "conservative_ev": 0.0015,
+      "win_rating": 6,
+      "value_rating": 2,
+      "model_version": "market-model-1.0",
+      "status": "lean",
+      "suggested_stake": 0.0,
+      "blockers": [
+        "spread model has not passed the backtest gate",
+        "value score below 7"
+      ],
+      "rationale": "Research lean only: spread model has not passed the backtest gate; value score below 7."
+    },
+    {
+      "id": "613e29f47e821f50c159",
+      "game_id": "17ad7eff2f7875e20a8109abe40470e3",
+      "category": "Total",
+      "selection": "Over",
+      "line": 46.5,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "win_probability": 0.5435,
+      "push_probability": 0,
+      "break_even_probability": 0.5238,
+      "ev": 0.0376,
+      "conservative_ev": -0.0006,
+      "win_rating": 6,
+      "value_rating": 1,
+      "model_version": "market-model-1.0",
+      "status": "lean",
+      "suggested_stake": 0.0,
+      "blockers": [
+        "total model has not passed the backtest gate",
+        "not positive under conservative assumptions",
+        "value score below 7"
+      ],
+      "rationale": "Research lean only: total model has not passed the backtest gate; not positive under conservative assumptions; value score below 7."
+    },
+    {
+      "id": "0ddc03ef81170a00ed2e",
+      "game_id": "7d664fbcd39350e559d83c0068ba7169",
+      "category": "Spread",
+      "selection": "Chicago Bears",
+      "line": 3.0,
+      "odds": 100,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "win_probability": 0.4726,
+      "push_probability": 0.0881,
+      "break_even_probability": 0.5,
+      "ev": 0.0333,
+      "conservative_ev": -0.0067,
+      "win_rating": 5,
+      "value_rating": 1,
+      "model_version": "market-model-1.0",
+      "status": "lean",
+      "suggested_stake": 0.0,
+      "blockers": [
+        "spread model has not passed the backtest gate",
+        "not positive under conservative assumptions",
+        "value score below 7"
+      ],
+      "rationale": "Research lean only: spread model has not passed the backtest gate; not positive under conservative assumptions; value score below 7."
+    },
+    {
       "id": "38369ba6112cdae35c2e",
       "game_id": "7d664fbcd39350e559d83c0068ba7169",
       "category": "Moneyline",
       "selection": "Chicago Bears",
       "line": null,
-      "odds": 140,
-      "observed_at": "2026-11-01T23:31:14Z",
+      "odds": 145,
+      "observed_at": "2026-11-02T14:56:10Z",
       "win_probability": 0.4181,
       "push_probability": 0.004,
-      "break_even_probability": 0.4167,
-      "ev": 0.0073,
-      "conservative_ev": -0.0407,
+      "break_even_probability": 0.4082,
+      "ev": 0.0282,
+      "conservative_ev": -0.0208,
       "win_rating": 5,
       "value_rating": 1,
       "model_version": "market-model-1.0",
@@ -4588,11 +5837,160 @@
       "suggested_stake": 0.0,
       "blockers": [
         "moneyline model has not passed the backtest gate",
-        "quote is stale",
         "not positive under conservative assumptions",
         "value score below 7"
       ],
-      "rationale": "Research lean only: moneyline model has not passed the backtest gate; quote is stale; not positive under conservative assumptions; value score below 7."
+      "rationale": "Research lean only: moneyline model has not passed the backtest gate; not positive under conservative assumptions; value score below 7."
+    },
+    {
+      "id": "18d46b637f82a1c4884e",
+      "game_id": "2922c573ec3df8466c4a34975e446898",
+      "category": "Moneyline",
+      "selection": "New England Patriots",
+      "line": null,
+      "odds": -150,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "win_probability": 0.6111,
+      "push_probability": 0.0032,
+      "break_even_probability": 0.6,
+      "ev": 0.0218,
+      "conservative_ev": -0.0116,
+      "win_rating": 7,
+      "value_rating": 1,
+      "model_version": "market-model-1.0",
+      "status": "lean",
+      "suggested_stake": 0.0,
+      "blockers": [
+        "moneyline model has not passed the backtest gate",
+        "not positive under conservative assumptions",
+        "value score below 7"
+      ],
+      "rationale": "Research lean only: moneyline model has not passed the backtest gate; not positive under conservative assumptions; value score below 7."
+    },
+    {
+      "id": "a0b902d45f7b8c58c523",
+      "game_id": "44d8c37868b700e90f816db7c5df5cdd",
+      "category": "Total",
+      "selection": "Under",
+      "line": 49.5,
+      "odds": -108,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "win_probability": 0.529,
+      "push_probability": 0,
+      "break_even_probability": 0.5192,
+      "ev": 0.0188,
+      "conservative_ev": -0.0197,
+      "win_rating": 6,
+      "value_rating": 1,
+      "model_version": "market-model-1.0",
+      "status": "lean",
+      "suggested_stake": 0.0,
+      "blockers": [
+        "total model has not passed the backtest gate",
+        "not positive under conservative assumptions",
+        "value score below 7"
+      ],
+      "rationale": "Research lean only: total model has not passed the backtest gate; not positive under conservative assumptions; value score below 7."
+    },
+    {
+      "id": "7f5cdfd27cb4313e1993",
+      "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
+      "category": "Moneyline",
+      "selection": "San Francisco 49ers",
+      "line": null,
+      "odds": -440,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "win_probability": 0.8283,
+      "push_probability": 0.0007,
+      "break_even_probability": 0.8148,
+      "ev": 0.0172,
+      "conservative_ev": -0.0073,
+      "win_rating": 9,
+      "value_rating": 1,
+      "model_version": "market-model-1.0",
+      "status": "lean",
+      "suggested_stake": 0.0,
+      "blockers": [
+        "moneyline model has not passed the backtest gate",
+        "not positive under conservative assumptions",
+        "value score below 7"
+      ],
+      "rationale": "Research lean only: moneyline model has not passed the backtest gate; not positive under conservative assumptions; value score below 7."
+    },
+    {
+      "id": "674552afdca1fb896212",
+      "game_id": "17ad7eff2f7875e20a8109abe40470e3",
+      "category": "Moneyline",
+      "selection": "Buffalo Bills",
+      "line": null,
+      "odds": -163,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "win_probability": 0.6276,
+      "push_probability": 0.0029,
+      "break_even_probability": 0.6198,
+      "ev": 0.0156,
+      "conservative_ev": -0.0167,
+      "win_rating": 7,
+      "value_rating": 1,
+      "model_version": "market-model-1.0",
+      "status": "lean",
+      "suggested_stake": 0.0,
+      "blockers": [
+        "moneyline model has not passed the backtest gate",
+        "not positive under conservative assumptions",
+        "value score below 7"
+      ],
+      "rationale": "Research lean only: moneyline model has not passed the backtest gate; not positive under conservative assumptions; value score below 7."
+    },
+    {
+      "id": "ee5565a83377c159d56c",
+      "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
+      "category": "Spread",
+      "selection": "San Francisco 49ers",
+      "line": -9.5,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "win_probability": 0.5308,
+      "push_probability": 0,
+      "break_even_probability": 0.5238,
+      "ev": 0.0133,
+      "conservative_ev": -0.0249,
+      "win_rating": 6,
+      "value_rating": 1,
+      "model_version": "market-model-1.0",
+      "status": "lean",
+      "suggested_stake": 0.0,
+      "blockers": [
+        "spread model has not passed the backtest gate",
+        "not positive under conservative assumptions",
+        "value score below 7"
+      ],
+      "rationale": "Research lean only: spread model has not passed the backtest gate; not positive under conservative assumptions; value score below 7."
+    },
+    {
+      "id": "29d37c49fab39efbe370",
+      "game_id": "2922c573ec3df8466c4a34975e446898",
+      "category": "Total",
+      "selection": "Under",
+      "line": 47.5,
+      "odds": -110,
+      "observed_at": "2026-11-02T14:56:10Z",
+      "win_probability": 0.5307,
+      "push_probability": 0,
+      "break_even_probability": 0.5238,
+      "ev": 0.0132,
+      "conservative_ev": -0.0249,
+      "win_rating": 6,
+      "value_rating": 1,
+      "model_version": "market-model-1.0",
+      "status": "lean",
+      "suggested_stake": 0.0,
+      "blockers": [
+        "total model has not passed the backtest gate",
+        "not positive under conservative assumptions",
+        "value score below 7"
+      ],
+      "rationale": "Research lean only: total model has not passed the backtest gate; not positive under conservative assumptions; value score below 7."
     }
   ],
   "model": {
@@ -8646,12 +10044,49 @@
     }
   },
   "scoring_version": "nfl-scoring-1.0",
-  "alerts": [],
+  "alerts": [
+    {
+      "id": "line-38369ba6112cdae35c2e",
+      "title": "Bovada line or price changed",
+      "detail": "Chicago Bears: None 140 \u2192 None 145",
+      "at": "2026-11-02T14:56:10Z"
+    },
+    {
+      "id": "line-adec18a95d8de8041ce9",
+      "title": "Bovada line or price changed",
+      "detail": "Seattle Seahawks: None -165 \u2192 None -170",
+      "at": "2026-11-02T14:56:10Z"
+    },
+    {
+      "id": "line-0ddc03ef81170a00ed2e",
+      "title": "Bovada line or price changed",
+      "detail": "Chicago Bears: 3.0 -110 \u2192 3.0 100",
+      "at": "2026-11-02T14:56:10Z"
+    },
+    {
+      "id": "line-b653c2db3a0603ba76d2",
+      "title": "Bovada line or price changed",
+      "detail": "Seattle Seahawks: -3.0 -110 \u2192 -3.0 -120",
+      "at": "2026-11-02T14:56:10Z"
+    },
+    {
+      "id": "line-0c904330012778172352",
+      "title": "Bovada line or price changed",
+      "detail": "Over: 46.5 -110 \u2192 46.5 -108",
+      "at": "2026-11-02T14:56:10Z"
+    },
+    {
+      "id": "line-3f51bdd2777d59de3342",
+      "title": "Bovada line or price changed",
+      "detail": "Under: 46.5 -110 \u2192 46.5 -112",
+      "at": "2026-11-02T14:56:10Z"
+    }
+  ],
   "sources": {
     "Bovada odds": {
-      "status": "stale",
-      "checked_at": "2026-11-01T23:32:33Z",
-      "detail": "Source check is overdue"
+      "status": "ok",
+      "checked_at": "2026-11-02T14:57:13Z",
+      "detail": "Bovada markets returned by The Odds API; provider coverage may omit Bovada website offers; player props were not requested in this test"
     },
     "Injuries": {
       "status": "ok",
@@ -8660,22 +10095,22 @@
     },
     "News": {
       "status": "ok",
-      "checked_at": "2026-11-02T14:25:27Z",
+      "checked_at": "2026-11-02T14:57:19Z",
       "detail": "NFL RSS headlines from CBS Sports, NBC Sports matched to teams; player-only stories may be missed."
     },
     "Weather": {
       "status": "ok",
-      "checked_at": "2026-11-02T14:25:26Z",
+      "checked_at": "2026-11-02T14:57:17Z",
       "detail": "NWS hourly forecasts for 13 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
     },
     "Travel": {
       "status": "ok",
-      "checked_at": "2026-11-02T14:25:22Z",
+      "checked_at": "2026-11-02T14:57:13Z",
       "detail": "Rest days and approximate distances from nflverse; no verified team itinerary."
     },
     "Statistics": {
       "status": "ok",
-      "checked_at": "2026-11-02T14:25:22.536578Z",
+      "checked_at": "2026-11-02T14:57:13.494894Z",
       "detail": "Current-season nflverse play data for 120 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties."
     },
     "Historical Bovada": {
@@ -8685,7 +10120,7 @@
     },
     "Matchup": {
       "status": "ok",
-      "checked_at": "2026-11-02T14:25:29Z",
+      "checked_at": "2026-11-02T14:57:22Z",
       "detail": "Deterministic team matchup ratings active. Paid AI narrative agents remain disabled."
     },
     "Player props": {
@@ -8700,25 +10135,25 @@
     },
     "Scoring engine": {
       "status": "ok",
-      "checked_at": "2026-11-02T14:25:29Z",
+      "checked_at": "2026-11-02T14:57:22Z",
       "detail": "Calculated 32 team ratings; missing components are explicitly flagged."
     },
     "Probability & value": {
       "status": "ok",
-      "checked_at": "2026-11-02T14:25:30Z",
-      "detail": "Internal model market-model-1.0: 16 games, 6 markets scored. No market type has passed the backtest gate; showing research leans only."
+      "checked_at": "2026-11-02T14:57:23Z",
+      "detail": "Internal model market-model-1.0: 16 games, 54 markets scored. No market type has passed the backtest gate; showing research leans only."
     },
     "Paper predictions": {
       "status": "ok",
-      "checked_at": "2026-11-02T14:25:30.108190Z",
+      "checked_at": "2026-11-02T14:57:23.225136Z",
       "detail": "Uncalibrated point forecasts; first pregame predictions are frozen for prospective evaluation. No bets recommended."
     }
   },
   "ai_status": "Disabled pending cost approval",
-  "changed_market_count": 0,
+  "changed_market_count": 6,
   "paper_tracking": {
     "status": "paper_only_uncalibrated",
-    "model_version": "paper-2026-w7-b6d2ebb278",
+    "model_version": "paper-2026-w7-1e60a2b118",
     "forecast_count": 16,
     "forecasts": [
       {
@@ -8728,14 +10163,14 @@
         "home": "Seattle Seahawks",
         "away": "Chicago Bears",
         "kickoff": "2026-11-03T01:20:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
           "margin": -9.56005526782947,
-          "total": 38.48599638277713,
-          "projected_home_points": 14.462970557473831,
-          "projected_away_points": 24.0230258253033,
+          "total": 38.48599638277714,
+          "projected_home_points": 14.462970557473835,
+          "projected_away_points": 24.023025825303304,
           "fair_home_spread": 9.56005526782947,
           "model_status": "provisional_unapproved"
         },
@@ -8755,21 +10190,21 @@
         "home": "Baltimore Ravens",
         "away": "Jacksonville Jaguars",
         "kickoff": "2026-11-06T01:15:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": 1.4051502319616493,
+          "margin": 1.4051502319616476,
           "total": 48.8902835030603,
           "projected_home_points": 25.147716867510976,
           "projected_away_points": 23.742566635549327,
-          "fair_home_spread": -1.4051502319616493,
+          "fair_home_spread": -1.4051502319616476,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5313084643634799,
+          "home": 0.5313084643634798,
           "tie": 0.03435767104539639,
-          "away": 0.4343338645911237
+          "away": 0.4343338645911238
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8782,9 +10217,9 @@
         "home": "Atlanta Falcons",
         "away": "Cincinnati Bengals",
         "kickoff": "2026-11-08T14:30:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
           "margin": -4.09568558784765,
           "total": 45.774839657759316,
@@ -8809,14 +10244,14 @@
         "home": "Carolina Panthers",
         "away": "Denver Broncos",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
           "margin": 3.727120950928889,
-          "total": 39.21864048459451,
-          "projected_home_points": 21.4728807177617,
-          "projected_away_points": 17.74575976683281,
+          "total": 39.2186404845945,
+          "projected_home_points": 21.472880717761697,
+          "projected_away_points": 17.745759766832805,
           "fair_home_spread": -3.727120950928889,
           "model_status": "provisional_unapproved"
         },
@@ -8836,21 +10271,21 @@
         "home": "New Orleans Saints",
         "away": "Cleveland Browns",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": 9.415800491913638,
-          "total": 34.61561698309766,
-          "projected_home_points": 22.015708737505648,
-          "projected_away_points": 12.599908245592012,
-          "fair_home_spread": -9.415800491913638,
+          "margin": 9.41580049191364,
+          "total": 34.61561698309767,
+          "projected_home_points": 22.015708737505655,
+          "projected_away_points": 12.599908245592014,
+          "fair_home_spread": -9.41580049191364,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.7804803009196037,
           "tie": 0.024792690887443902,
-          "away": 0.19472700819295236
+          "away": 0.1947270081929523
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8863,9 +10298,9 @@
         "home": "Indianapolis Colts",
         "away": "Dallas Cowboys",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
           "margin": 1.0837346175580698,
           "total": 51.43116955860176,
@@ -8890,20 +10325,20 @@
         "home": "Miami Dolphins",
         "away": "Detroit Lions",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": 3.1197949023239966,
+          "margin": 3.119794902323995,
           "total": 53.04857217472131,
           "projected_home_points": 28.08418353852265,
           "projected_away_points": 24.964388636198656,
-          "fair_home_spread": -3.1197949023239966,
+          "fair_home_spread": -3.119794902323995,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.5899343573421965,
-          "tie": 0.03336880477188364,
+          "tie": 0.0333688047718837,
           "away": 0.3766968378859199
         },
         "status": "paper_only_uncalibrated",
@@ -8917,21 +10352,21 @@
         "home": "Kansas City Chiefs",
         "away": "New York Jets",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": 5.30716880203206,
+          "margin": 5.307168802032061,
           "total": 56.51900150703365,
           "projected_home_points": 30.913085154532855,
           "projected_away_points": 25.605916352500795,
-          "fair_home_spread": -5.30716880203206,
+          "fair_home_spread": -5.307168802032061,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.6617418897647446,
-          "tie": 0.031132101866559514,
-          "away": 0.3071260083686959
+          "tie": 0.03113210186655957,
+          "away": 0.30712600836869586
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8944,21 +10379,21 @@
         "home": "Washington Commanders",
         "away": "Los Angeles Rams",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": -6.779980608968345,
+          "margin": -6.779980608968347,
           "total": 46.785569410867986,
           "projected_home_points": 20.00279440094982,
           "projected_away_points": 26.782775009918165,
-          "fair_home_spread": 6.779980608968345,
+          "fair_home_spread": 6.779980608968347,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.26374539798240204,
-          "tie": 0.029114372850351233,
-          "away": 0.7071402291672467
+          "tie": 0.029114372850351122,
+          "away": 0.7071402291672468
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8971,21 +10406,21 @@
         "home": "Philadelphia Eagles",
         "away": "New York Giants",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": -15.83511889726712,
+          "margin": -15.835118897267124,
           "total": 36.78857392701636,
           "projected_home_points": 10.476727514874618,
           "projected_away_points": 26.31184641214174,
-          "fair_home_spread": 15.83511889726712,
+          "fair_home_spread": 15.835118897267124,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.07813178422043299,
-          "tie": 0.013469449551776758,
-          "away": 0.9083987662277903
+          "tie": 0.013469449551776647,
+          "away": 0.9083987662277904
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8998,21 +10433,21 @@
         "home": "Los Angeles Chargers",
         "away": "Houston Texans",
         "kickoff": "2026-11-08T21:05:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": -11.1924011965901,
-          "total": 31.970802461928038,
+          "margin": -11.192401196590103,
+          "total": 31.97080246192804,
           "projected_home_points": 10.38920063266897,
-          "projected_away_points": 21.581601829259068,
-          "fair_home_spread": 11.1924011965901,
+          "projected_away_points": 21.58160182925907,
+          "fair_home_spread": 11.192401196590103,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.15510013339873863,
+          "home": 0.15510013339873852,
           "tie": 0.021600972633757598,
-          "away": 0.8232988939675038
+          "away": 0.8232988939675039
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -9025,21 +10460,21 @@
         "home": "San Francisco 49ers",
         "away": "Las Vegas Raiders",
         "kickoff": "2026-11-08T21:05:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": 18.906523466263632,
+          "margin": 18.906523466263636,
           "total": 45.38407056812849,
           "projected_home_points": 32.145297017196064,
-          "projected_away_points": 13.23877355093243,
-          "fair_home_spread": -18.906523466263632,
+          "projected_away_points": 13.238773550932429,
+          "fair_home_spread": -18.906523466263636,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.9449263191201326,
-          "tie": 0.009014021985793985,
-          "away": 0.04605965889407343
+          "tie": 0.00901402198579404,
+          "away": 0.046059658894073374
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -9052,20 +10487,20 @@
         "home": "Seattle Seahawks",
         "away": "Arizona Cardinals",
         "kickoff": "2026-11-08T21:25:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": 0.7406069904191083,
+          "margin": 0.7406069904191078,
           "total": 40.75667877123667,
           "projected_home_points": 20.74864288082789,
           "projected_away_points": 20.00803589040878,
-          "fair_home_spread": -0.7406069904191083,
+          "fair_home_spread": -0.7406069904191078,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.5083303702923703,
-          "tie": 0.034542574939603,
+          "tie": 0.034542574939603055,
           "away": 0.4571270547680267
         },
         "status": "paper_only_uncalibrated",
@@ -9079,9 +10514,9 @@
         "home": "New England Patriots",
         "away": "Green Bay Packers",
         "kickoff": "2026-11-08T21:25:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
           "margin": -12.272713596279852,
           "total": 44.111695364227614,
@@ -9106,20 +10541,20 @@
         "home": "Chicago Bears",
         "away": "Tampa Bay Buccaneers",
         "kickoff": "2026-11-09T01:20:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": -1.6210092369239915,
+          "margin": -1.6210092369239923,
           "total": 41.55889891943862,
-          "projected_home_points": 19.968944841257315,
-          "projected_away_points": 21.589954078181304,
-          "fair_home_spread": 1.6210092369239915,
+          "projected_home_points": 19.96894484125731,
+          "projected_away_points": 21.589954078181307,
+          "fair_home_spread": 1.6210092369239923,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.42697310053827797,
-          "tie": 0.034273297870395236,
+          "home": 0.42697310053827786,
+          "tie": 0.03427329787039535,
           "away": 0.5387536015913268
         },
         "status": "paper_only_uncalibrated",
@@ -9133,21 +10568,21 @@
         "home": "Minnesota Vikings",
         "away": "Buffalo Bills",
         "kickoff": "2026-11-10T01:15:00Z",
-        "forecast_as_of": "2026-11-02T14:25:30.108190Z",
-        "statistics_as_of": "2026-11-02T14:25:22.536578Z",
-        "model_version": "paper-2026-w7-b6d2ebb278",
+        "forecast_as_of": "2026-11-02T14:57:23.225136Z",
+        "statistics_as_of": "2026-11-02T14:57:13.494894Z",
+        "model_version": "paper-2026-w7-1e60a2b118",
         "projection": {
-          "margin": 2.864029967089629,
+          "margin": 2.8640299670896283,
           "total": 45.17793711937814,
           "projected_home_points": 24.020983543233886,
           "projected_away_points": 21.156953576144257,
-          "fair_home_spread": -2.864029967089629,
+          "fair_home_spread": -2.8640299670896283,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
           "home": 0.5812834251026154,
-          "tie": 0.03356158590932229,
-          "away": 0.3851549889880623
+          "tie": 0.033561585909322234,
+          "away": 0.38515498898806233
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -9174,7 +10609,7 @@
   },
   "prediction_results": {
     "season": 2026,
-    "updated_at": "2026-11-02T14:25:30.108190Z",
+    "updated_at": "2026-11-02T14:57:23.225136Z",
     "basis": "first_saved_pregame_forecast",
     "records": [
       {
