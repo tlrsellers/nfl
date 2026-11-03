@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-11-03T03:57:20.638117Z",
-  "checked_at": "2026-11-03T03:57:20.638117Z",
+  "as_of": "2026-11-03T04:59:46.079164Z",
+  "checked_at": "2026-11-03T04:59:46.079164Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -685,7 +685,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_08_CHI_SEA"
+      ]
     },
     {
       "team": "Cincinnati Bengals",
@@ -3193,7 +3195,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_08_CHI_SEA"
+      ]
     },
     {
       "team": "San Francisco 49ers",
@@ -3774,7 +3778,9 @@
     "2026_08_PHI_WAS",
     "2026_08_TEN_CIN"
   ],
-  "missing_game_ids": [],
+  "missing_game_ids": [
+    "2026_08_CHI_SEA"
+  ],
   "metric_method": {
     "version": "nflverse-pbp-1",
     "season_type": "REG",
@@ -3786,7 +3792,7 @@
     "return_coverage": "Team-perspective EPA per punt/kickoff opportunity; provisional combined return/coverage metric",
     "opponent_adjusted": false
   },
-  "coverage_note": "Current-season nflverse play data for 120 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
+  "coverage_note": "Current-season nflverse play data for 120 completed games; 1 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
   "scoring_context": {
     "c75744790b7acf6260c78ba5e739c0e5": {
       "neutral_site": false,
@@ -3918,7 +3924,7 @@
     },
     {
       "game_id": "240e23b02b1e3fef655d04a286b5a623",
-      "title": "Current-season scores: Arizona Cardinals 8 games, 21.9 points for and 29.8 allowed per game; Seattle Seahawks 7 games, 24.0 points for and 17.9 allowed per game",
+      "title": "Current-season scores: Arizona Cardinals 8 games, 21.9 points for and 29.8 allowed per game; Seattle Seahawks 8 games, 23.1 points for and 19.9 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     },
@@ -3930,7 +3936,7 @@
     },
     {
       "game_id": "9760d8f19f84bfee300a74ceb656c95d",
-      "title": "Current-season scores: Tampa Bay Buccaneers 8 games, 22.2 points for and 18.9 allowed per game; Chicago Bears 7 games, 25.7 points for and 20.4 allowed per game",
+      "title": "Current-season scores: Tampa Bay Buccaneers 8 games, 22.2 points for and 18.9 allowed per game; Chicago Bears 8 games, 26.8 points for and 20.0 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     },

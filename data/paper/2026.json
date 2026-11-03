@@ -1543,7 +1543,18 @@
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
-      "injury_adjustments_applied": false
+      "injury_adjustments_applied": false,
+      "settlement": {
+        "home_score": 17,
+        "away_score": 34,
+        "actual_margin": -17,
+        "actual_total": 51,
+        "outcome": "away",
+        "margin_error": -10.744119847002793,
+        "total_error": 7.607799921877529,
+        "three_outcome_brier": 0.17320519244427576,
+        "settled_at": "2026-11-03T04:59:53.180890Z"
+      }
     },
     "2026_09_JAX_BAL": {
       "game_id": "c75744790b7acf6260c78ba5e739c0e5",
