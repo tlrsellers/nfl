@@ -1,356 +1,14 @@
 {
   "schema_version": 1,
   "mode": "snapshot",
-  "generated_at": "2026-11-03T01:09:13Z",
+  "generated_at": "2026-11-03T02:07:22Z",
   "season": "2026",
   "coverage": {
-    "games": 16,
-    "markets": 60,
-    "analyzed": 16
+    "games": 15,
+    "markets": 54,
+    "analyzed": 15
   },
   "games": [
-    {
-      "id": "7d664fbcd39350e559d83c0068ba7169",
-      "away": "Chicago Bears",
-      "home": "Seattle Seahawks",
-      "kickoff": "2026-11-03T01:20:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2024-12-26",
-          "score": "Seattle Seahawks 6\u2013Chicago Bears 3",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2021-12-26",
-          "score": "Chicago Bears 25\u2013Seattle Seahawks 24",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2018-09-17",
-          "score": "Seattle Seahawks 17\u2013Chicago Bears 24",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2015-09-27",
-          "score": "Chicago Bears 0\u2013Seattle Seahawks 26",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2012-12-02",
-          "score": "Seattle Seahawks 23\u2013Chicago Bears 17",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists Aaron Smith (LB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Beau Stephens (G) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Brandon Pili (DT) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Case Keenum (QB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Charles Cross (OL) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Drew Lock (QB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Jacardia Wright (RB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Jayden Loving (DT) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Jordan McFadden (OL) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Jordan van den Berg (DL) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Kyle Monangai (RB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Malik Muhammad II (CB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Best Kalshi promo code CBSSPORTS55: Get $55 bonus for Bears vs. Seahawks, Monday Night Football, election",
-          "url": "https://www.cbssports.com/nfl/news/best-kalshi-promo-code-cbssports55-get-55-bonus-bears-vs-seahawks-monday-night-football-election/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-03T00:10:32Z",
-          "role": "news"
-        },
-        {
-          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Seahawks vs. Bears on Monday Night Football",
-          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-seahawks-vs-bears-on-monday-night-football/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-03T00:08:43Z",
-          "role": "news"
-        },
-        {
-          "title": "Use FanDuel promo code to get $200 in bonus bets by targeting Seahawks vs. Bears, NFL Monday Night Football",
-          "url": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-seahawks-vs-bears-nfl-monday-night-football/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-03T00:06:26Z",
-          "role": "news"
-        },
-        {
-          "title": "Use DraftKings promo code to claim $200 bonus + free NBA League Pass for Seahawks-Bears, Monday Night Football",
-          "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-claim-200-bonus-free-nba-league-pass-seahawks-bears-monday-night-football/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-03T00:03:49Z",
-          "role": "news"
-        },
-        {
-          "title": "Bears vs. Seahawks odds, picks, player props: Expert's best bets for Monday Night Football in NFL Week 8",
-          "url": "https://www.cbssports.com/betting/news/bears-vs-seahawks-odds-picks-player-props-experts-best-bets-for-monday-night-football-in-nfl-week-8/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-03T00:01:21Z",
-          "role": "news"
-        },
-        {
-          "title": "Bears vs. Seahawks odds, betting preview, prediction, start time: Monday Night Football picks, best bets",
-          "url": "https://www.cbssports.com/betting/news/bears-vs-seahawks-odds-betting-preview-prediction-start-time-monday-night-football-picks-best-bets/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-02T23:47:23Z",
-          "role": "news"
-        },
-        {
-          "title": "Week 8 NFL betting promos: Get over $3,000 in bonuses from betting apps, sportsbooks for Bears-Seahawks",
-          "url": "https://www.cbssports.com/betting/news/week-8-nfl-betting-promos-get-over-3000-in-bonuses-from-betting-apps-sportsbooks-for-bears-seahawks/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-02T23:44:24Z",
-          "role": "news"
-        },
-        {
-          "title": "Is Jadarian Price playing on MNF? Latest Seahawks RB injury update for game vs. Bears",
-          "url": "https://www.cbssports.com/nfl/news/is-jadarian-price-playing-seahawks-bears-monday-night-football/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-02T23:25:03Z",
-          "role": "news"
-        },
-        {
-          "title": "Seahawks vs. Bears prediction: Caleb Williams faces toughest test yet in Seattle defense",
-          "url": "https://www.cbssports.com/nfl/news/seahawks-vs-bears-how-to-watch-prediction-odds-caleb-williams/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-02T22:12:55Z",
-          "role": "news"
-        },
-        {
-          "title": "Pick Six: Seahawks, Bears picks for 'MNF'; plus 15 crazy stats from Week 8",
-          "url": "https://www.cbssports.com/nfl/news/pick-six-seahawks-bears-picks-mnf-15-crazy-stats-week-8/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-02T17:46:32Z",
-          "role": "news"
-        },
-        {
-          "title": "Monday Night Football: Zach Charbonnet, Jadarian Price are active for Seahawks vs. Bears",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-zach-charbonnet-jadarian-price-are-active-for-seahawks-vs-bears",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-03T00:05:22Z",
-          "role": "news"
-        },
-        {
-          "title": "Seahawks activate Jadarian Price from IR",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-activate-jadarian-price-from-ir",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-02T21:26:56Z",
-          "role": "news"
-        },
-        {
-          "title": "Bears elevate TE Stephen Carlson for Monday night vs. Seahawks",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-elevate-te-stephen-carlson-for-monday-night-vs-seahawks",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-02T21:10:22Z",
-          "role": "news"
-        },
-        {
-          "title": "Kickoff forecast near Lumen Field: 51\u00b0F, wind 1 mph SSE, precipitation 2%",
-          "url": "https://api.weather.gov/gridpoints/SEW/124,67/forecast/hourly",
-          "publisher": "National Weather Service",
-          "published_at": null,
-          "role": "weather"
-        },
-        {
-          "title": "Rest: Chicago Bears 11 days; Seattle Seahawks 8 days. Away-city to venue: about 1,734 straight-line miles (not team itinerary).",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: Chicago Bears 7 games, 25.7 points for and 20.4 allowed per game; Seattle Seahawks 7 games, 24.0 points for and 17.9 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ],
-      "scoring": {
-        "home": {
-          "team": "Seattle Seahawks",
-          "team_strength": 6.439457478005865,
-          "expected_lineup_units": {
-            "pass_offense": 5.555425219941349,
-            "rush_offense": 3.264516129032258,
-            "pass_defense": 8.141935483870968,
-            "rush_defense": 8.104985337243402,
-            "special_teams": 6.9041055718475075
-          },
-          "unit_adjustments": [],
-          "data_confidence": 6.4,
-          "status": "complete",
-          "category_matchups": {
-            "pass_offense": 4.705571847507331,
-            "rush_offense": 4.179032258064517,
-            "pass_defense": 5.786363636363637,
-            "rush_defense": 6.557697947214077,
-            "special_teams": 6.091202346041056
-          },
-          "matchup_base": 5.259362170087977,
-          "situational_adjustment": 0.04999999999999999,
-          "weekly_matchup": 5.309362170087977
-        },
-        "away": {
-          "team": "Chicago Bears",
-          "team_strength": 6.924890029325513,
-          "expected_lineup_units": {
-            "pass_offense": 7.569208211143695,
-            "rush_offense": 5.989589442815249,
-            "pass_defense": 7.1442815249266864,
-            "rush_defense": 5.906451612903226,
-            "special_teams": 5.721700879765396
-          },
-          "unit_adjustments": [],
-          "data_confidence": 6.4,
-          "status": "complete",
-          "category_matchups": {
-            "pass_offense": 5.213636363636363,
-            "rush_offense": 4.442302052785923,
-            "pass_defense": 6.294428152492669,
-            "rush_defense": 6.820967741935483,
-            "special_teams": 4.908797653958944
-          },
-          "matchup_base": 5.621704545454545,
-          "situational_adjustment": 0.15000000000000002,
-          "weekly_matchup": 5.771704545454545
-        },
-        "matchup_difference_home_minus_away": -0.4623423753665685,
-        "scoring_version": "nfl-scoring-1.0"
-      },
-      "rating_side": "Seattle Seahawks",
-      "pass": 4.705571847507331,
-      "rush": 4.179032258064517,
-      "offense": 4.868152492668622,
-      "defense": 8.133724340175952,
-      "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
-      "model": {
-        "nflverse_game_id": "2026_08_CHI_SEA",
-        "fair_home_margin": 3.01,
-        "fair_home_spread": -3.0,
-        "fair_total": 46.6,
-        "market_home_spread": -3.5,
-        "market_total": 46.5,
-        "anchor_source": "Bovada",
-        "spread_edge_points": -0.49,
-        "total_edge_points": 0.06,
-        "projected_home_points": 24.8,
-        "projected_away_points": 21.8
-      },
-      "paper_forecast": {
-        "game_id": "7d664fbcd39350e559d83c0068ba7169",
-        "nflverse_game_id": "2026_08_CHI_SEA",
-        "week": 8,
-        "home": "Seattle Seahawks",
-        "away": "Chicago Bears",
-        "kickoff": "2026-11-03T01:20:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
-        "projection": {
-          "margin": -9.56005526782947,
-          "total": 38.48599638277714,
-          "projected_home_points": 14.462970557473835,
-          "projected_away_points": 24.023025825303304,
-          "fair_home_spread": 9.56005526782947,
-          "model_status": "provisional_unapproved"
-        },
-        "outcome_probabilities": {
-          "home": 0.1912966486731119,
-          "tie": 0.024538551310474,
-          "away": 0.7841648000164141
-        },
-        "status": "paper_only_uncalibrated",
-        "origin": "prospective",
-        "injury_adjustments_applied": false
-      }
-    },
     {
       "id": "c75744790b7acf6260c78ba5e739c0e5",
       "away": "Jacksonville Jaguars",
@@ -509,6 +167,13 @@
           "role": "news"
         },
         {
+          "title": "QB Joe Fagnano estimated as limited in Ravens' practice with ankle injury",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/qb-joe-fagnano-estimated-as-limited-in-ravens-practice-with-ankle-injury",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-03T01:33:19Z",
+          "role": "news"
+        },
+        {
           "title": "Jaguars estimate DE Travon Walker as a non-participant Monday",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-estimate-de-travon-walker-as-a-non-participant-monday",
           "publisher": "NBC Sports",
@@ -630,21 +295,21 @@
         "home": "Baltimore Ravens",
         "away": "Jacksonville Jaguars",
         "kickoff": "2026-11-06T01:15:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 1.4051502319616476,
-          "total": 48.8902835030603,
-          "projected_home_points": 25.147716867510976,
-          "projected_away_points": 23.742566635549327,
-          "fair_home_spread": -1.4051502319616476,
+          "margin": -1.4742330995121313,
+          "total": 48.87010888713768,
+          "projected_home_points": 23.697937893812774,
+          "projected_away_points": 25.172170993324908,
+          "fair_home_spread": 1.4742330995121313,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5313084643634798,
-          "tie": 0.03435767104539639,
-          "away": 0.4343338645911238
+          "home": 0.43457644551259933,
+          "tie": 0.03302831537285089,
+          "away": 0.5323952391145498
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -781,17 +446,17 @@
           "role": "injuries"
         },
         {
+          "title": "NFL reinstates James Pearce Jr. after eight-game suspension: Why EDGE returns at critical time for Falcons",
+          "url": "https://www.cbssports.com/nfl/news/nfl-reinstates-james-pearce-jr-after-eight-game-suspension-falcons/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-03T01:09:32Z",
+          "role": "news"
+        },
+        {
           "title": "Falcons cut DEs Jared Ivey, Drake Jackson",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-cut-des-jared-ivey-drake-jackson",
           "publisher": "NBC Sports",
           "published_at": "2026-11-02T21:37:19Z",
-          "role": "news"
-        },
-        {
-          "title": "Falcons rule DE Samson Ebukam, WR Zachariah Branch out for Week 9",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-rule-de-samson-ebukam-wr-zachariah-branch-out-for-week-9",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-02T19:18:31Z",
           "role": "news"
         },
         {
@@ -888,21 +553,21 @@
         "home": "Atlanta Falcons",
         "away": "Cincinnati Bengals",
         "kickoff": "2026-11-08T14:30:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": -4.09568558784765,
-          "total": 45.774839657759316,
-          "projected_home_points": 20.839577034955834,
-          "projected_away_points": 24.93526262280348,
-          "fair_home_spread": 4.09568558784765,
+          "margin": -8.11387163795041,
+          "total": 45.525343737922356,
+          "projected_home_points": 18.705736049985973,
+          "projected_away_points": 26.819607687936383,
+          "fair_home_spread": 8.11387163795041,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.34499568206689935,
-          "tie": 0.03249600038432365,
-          "away": 0.622508317548777
+          "home": 0.23614396371767932,
+          "tie": 0.02646619299418662,
+          "away": 0.7373898432881341
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -1146,21 +811,21 @@
         "home": "Carolina Panthers",
         "away": "Denver Broncos",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 3.727120950928889,
-          "total": 39.2186404845945,
-          "projected_home_points": 21.472880717761697,
-          "projected_away_points": 17.745759766832805,
-          "fair_home_spread": -3.727120950928889,
+          "margin": 4.1980772589015665,
+          "total": 39.13763673703556,
+          "projected_home_points": 21.667856997968563,
+          "projected_away_points": 17.469779739066993,
+          "fair_home_spread": -4.1980772589015665,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.6102945850013826,
-          "tie": 0.03285058295084847,
-          "away": 0.356854832047769
+          "home": 0.6211780147635126,
+          "tie": 0.03129969922151099,
+          "away": 0.3475222860149764
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -1411,21 +1076,21 @@
         "home": "New Orleans Saints",
         "away": "Cleveland Browns",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 9.41580049191364,
-          "total": 34.61561698309767,
-          "projected_home_points": 22.015708737505655,
-          "projected_away_points": 12.599908245592014,
-          "fair_home_spread": -9.41580049191364,
+          "margin": 11.338724698718403,
+          "total": 34.78670303058854,
+          "projected_home_points": 23.06271386465347,
+          "projected_away_points": 11.72398916593507,
+          "fair_home_spread": -11.338724698718403,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.7804803009196037,
-          "tie": 0.024792690887443902,
-          "away": 0.1947270081929523
+          "home": 0.817110537949016,
+          "tie": 0.021276562514829067,
+          "away": 0.16161289953615487
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -1732,21 +1397,21 @@
         "home": "Indianapolis Colts",
         "away": "Dallas Cowboys",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 1.0837346175580698,
-          "total": 51.43116955860176,
-          "projected_home_points": 26.257452088079916,
-          "projected_away_points": 25.173717470521844,
-          "fair_home_spread": -1.0837346175580698,
+          "margin": 0.4681728254323853,
+          "total": 53.27749363684465,
+          "projected_home_points": 26.872833231138518,
+          "projected_away_points": 26.404660405706135,
+          "fair_home_spread": -0.4681728254323853,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5202030678430418,
-          "tie": 0.03446128112378133,
-          "away": 0.44533565103317685
+          "home": 0.4989405169609915,
+          "tie": 0.033253645057843284,
+          "away": 0.4678058379811652
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -2004,21 +1669,21 @@
         "home": "Miami Dolphins",
         "away": "Detroit Lions",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 3.119794902323995,
-          "total": 53.04857217472131,
-          "projected_home_points": 28.08418353852265,
-          "projected_away_points": 24.964388636198656,
-          "fair_home_spread": -3.119794902323995,
+          "margin": 0.17225254845352933,
+          "total": 55.80649986961148,
+          "projected_home_points": 27.989376209032503,
+          "projected_away_points": 27.817123660578975,
+          "fair_home_spread": -0.17225254845352933,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5899343573421965,
-          "tie": 0.0333688047718837,
-          "away": 0.3766968378859199
+          "home": 0.48909108335605644,
+          "tie": 0.03327557898719696,
+          "away": 0.4776333376567466
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -2283,21 +1948,21 @@
         "home": "Kansas City Chiefs",
         "away": "New York Jets",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 5.307168802032061,
-          "total": 56.51900150703365,
-          "projected_home_points": 30.913085154532855,
-          "projected_away_points": 25.605916352500795,
-          "fair_home_spread": -5.307168802032061,
+          "margin": 6.071999227280918,
+          "total": 57.81887254716303,
+          "projected_home_points": 31.945435887221976,
+          "projected_away_points": 25.873436659941056,
+          "fair_home_spread": -6.071999227280918,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.6617418897647446,
-          "tie": 0.03113210186655957,
-          "away": 0.30712600836869586
+          "home": 0.6790129806762578,
+          "tie": 0.02927249722815939,
+          "away": 0.2917145220955828
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -2434,13 +2099,6 @@
           "role": "news"
         },
         {
-          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Eagles-Commanders, Sunday Night Football betting",
-          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-for-eagles-commanders-sunday-night-football-betting/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-02T00:32:23Z",
-          "role": "news"
-        },
-        {
           "title": "Kickoff forecast near Northwest Stadium: 61\u00b0F, wind 8 mph W, precipitation 5%",
           "url": "https://api.weather.gov/gridpoints/LWX/102,73/forecast/hourly",
           "publisher": "National Weather Service",
@@ -2541,21 +2199,21 @@
         "home": "Washington Commanders",
         "away": "Los Angeles Rams",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": -6.779980608968347,
-          "total": 46.785569410867986,
-          "projected_home_points": 20.00279440094982,
-          "projected_away_points": 26.782775009918165,
-          "fair_home_spread": 6.779980608968347,
+          "margin": -8.123483612456493,
+          "total": 45.68778740575836,
+          "projected_home_points": 18.78215189665093,
+          "projected_away_points": 26.905635509107427,
+          "fair_home_spread": 8.123483612456493,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.26374539798240204,
-          "tie": 0.029114372850351122,
-          "away": 0.7071402291672468
+          "home": 0.2358969041651393,
+          "tie": 0.026451825129844453,
+          "away": 0.7376512707050162
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -2706,20 +2364,6 @@
           "role": "news"
         },
         {
-          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Eagles-Commanders, Sunday Night Football betting",
-          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-for-eagles-commanders-sunday-night-football-betting/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-02T00:32:23Z",
-          "role": "news"
-        },
-        {
-          "title": "As Giants pursue Jonathan Taylor, could they pivot to Derrick Henry?",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/as-giants-pursue-jonathan-taylor-could-they-pivot-to-derrick-henry",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-02T19:10:52Z",
-          "role": "news"
-        },
-        {
           "title": "Kickoff forecast near Lincoln Financial Field: 60\u00b0F, wind 5 mph W, precipitation 5%",
           "url": "https://api.weather.gov/gridpoints/PHI/50,76/forecast/hourly",
           "publisher": "National Weather Service",
@@ -2820,21 +2464,21 @@
         "home": "Philadelphia Eagles",
         "away": "New York Giants",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": -15.835118897267124,
-          "total": 36.78857392701636,
-          "projected_home_points": 10.476727514874618,
-          "projected_away_points": 26.31184641214174,
-          "fair_home_spread": 15.835118897267124,
+          "margin": -16.275239158902206,
+          "total": 37.1069087915396,
+          "projected_home_points": 10.415834816318698,
+          "projected_away_points": 26.691073975220903,
+          "fair_home_spread": 16.275239158902206,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.07813178422043299,
-          "tie": 0.013469449551776647,
-          "away": 0.9083987662277904
+          "home": 0.08079187151975709,
+          "tie": 0.01324103222602091,
+          "away": 0.905967096254222
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -3078,21 +2722,21 @@
         "home": "Los Angeles Chargers",
         "away": "Houston Texans",
         "kickoff": "2026-11-08T21:05:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": -11.192401196590103,
-          "total": 31.97080246192804,
-          "projected_home_points": 10.38920063266897,
-          "projected_away_points": 21.58160182925907,
-          "fair_home_spread": 11.192401196590103,
+          "margin": -13.72438385510337,
+          "total": 32.33410678528629,
+          "projected_home_points": 9.30486146509146,
+          "projected_away_points": 23.02924532019483,
+          "fair_home_spread": 13.72438385510337,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.15510013339873852,
-          "tie": 0.021600972633757598,
-          "away": 0.8232988939675039
+          "home": 0.11763046060637539,
+          "tie": 0.017280388058362295,
+          "away": 0.8650891513352623
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -3301,21 +2945,21 @@
         "home": "San Francisco 49ers",
         "away": "Las Vegas Raiders",
         "kickoff": "2026-11-08T21:05:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 18.906523466263636,
-          "total": 45.38407056812849,
-          "projected_home_points": 32.145297017196064,
-          "projected_away_points": 13.238773550932429,
-          "fair_home_spread": -18.906523466263636,
+          "margin": 22.944737801905084,
+          "total": 48.146532919965814,
+          "projected_home_points": 35.54563536093545,
+          "projected_away_points": 12.600897559030365,
+          "fair_home_spread": -22.944737801905084,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.9449263191201326,
-          "tie": 0.00901402198579404,
-          "away": 0.046059658894073374
+          "home": 0.9694548263379991,
+          "tie": 0.005329278392383396,
+          "away": 0.02521589526961754
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -3637,19 +3281,6 @@
       "defense": 8.133724340175952,
       "confidence": 6.4,
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
-      "model": {
-        "nflverse_game_id": "2026_09_ARI_SEA",
-        "fair_home_margin": 10.83,
-        "fair_home_spread": -10.8,
-        "fair_total": 44.5,
-        "market_home_spread": -11.5,
-        "market_total": 44.5,
-        "anchor_source": "nflverse consensus",
-        "spread_edge_points": -0.67,
-        "total_edge_points": -0.01,
-        "projected_home_points": 27.7,
-        "projected_away_points": 16.8
-      },
       "paper_forecast": {
         "game_id": "240e23b02b1e3fef655d04a286b5a623",
         "nflverse_game_id": "2026_09_ARI_SEA",
@@ -3657,21 +3288,21 @@
         "home": "Seattle Seahawks",
         "away": "Arizona Cardinals",
         "kickoff": "2026-11-08T21:25:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 0.7406069904191078,
-          "total": 40.75667877123667,
-          "projected_home_points": 20.74864288082789,
-          "projected_away_points": 20.00803589040878,
-          "fair_home_spread": -0.7406069904191078,
+          "margin": 0.9738260869833555,
+          "total": 40.037914289207464,
+          "projected_home_points": 20.50587018809541,
+          "projected_away_points": 19.532044101112053,
+          "fair_home_spread": -0.9738260869833555,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5083303702923703,
-          "tie": 0.034542574939603055,
-          "away": 0.4571270547680267
+          "home": 0.5157689314454528,
+          "tie": 0.03316938980812639,
+          "away": 0.45106167874642084
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -3929,21 +3560,21 @@
         "home": "New England Patriots",
         "away": "Green Bay Packers",
         "kickoff": "2026-11-08T21:25:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": -12.272713596279852,
-          "total": 44.111695364227614,
-          "projected_home_points": 15.919490883973882,
-          "projected_away_points": 28.192204480253732,
-          "fair_home_spread": 12.272713596279852,
+          "margin": -7.958475917051996,
+          "total": 44.113814596979374,
+          "projected_home_points": 18.077669339963688,
+          "projected_away_points": 26.036145257015686,
+          "fair_home_spread": 7.958475917051996,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.1338091759618082,
-          "tie": 0.0196351554114772,
-          "away": 0.8465556686267146
+          "home": 0.24015786305287445,
+          "tie": 0.02669718073270888,
+          "away": 0.7331449562144167
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -4150,6 +3781,13 @@
           "role": "news"
         },
         {
+          "title": "Bears' 17-play drive on their opening possession gives them a 7-0 lead",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-17-play-drive-on-their-opening-possession-gives-them-a-7-0-lead",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-03T01:45:10Z",
+          "role": "news"
+        },
+        {
           "title": "Monday Night Football: Zach Charbonnet, Jadarian Price are active for Seahawks vs. Bears",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/monday-night-football-zach-charbonnet-jadarian-price-are-active-for-seahawks-vs-bears",
           "publisher": "NBC Sports",
@@ -4244,19 +3882,6 @@
       "defense": 6.869208211143695,
       "confidence": 6.4,
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
-      "model": {
-        "nflverse_game_id": "2026_09_TB_CHI",
-        "fair_home_margin": 4.43,
-        "fair_home_spread": -4.4,
-        "fair_total": 48.6,
-        "market_home_spread": -4.5,
-        "market_total": 47.5,
-        "anchor_source": "nflverse consensus",
-        "spread_edge_points": -0.07,
-        "total_edge_points": 1.12,
-        "projected_home_points": 26.5,
-        "projected_away_points": 22.1
-      },
       "paper_forecast": {
         "game_id": "9760d8f19f84bfee300a74ceb656c95d",
         "nflverse_game_id": "2026_09_TB_CHI",
@@ -4264,21 +3889,21 @@
         "home": "Chicago Bears",
         "away": "Tampa Bay Buccaneers",
         "kickoff": "2026-11-09T01:20:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": -1.6210092369239923,
-          "total": 41.55889891943862,
-          "projected_home_points": 19.96894484125731,
-          "projected_away_points": 21.589954078181307,
-          "fair_home_spread": 1.6210092369239923,
+          "margin": 0.7342160591684901,
+          "total": 38.78781691382046,
+          "projected_home_points": 19.761016486494473,
+          "projected_away_points": 19.026800427325984,
+          "fair_home_spread": -0.7342160591684901,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.42697310053827786,
-          "tie": 0.03427329787039535,
-          "away": 0.5387536015913268
+          "home": 0.5077962446065682,
+          "tie": 0.033216654957652914,
+          "away": 0.4589871004357789
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -4436,6 +4061,13 @@
           "role": "news"
         },
         {
+          "title": "U.S. Bank Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
+          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+          "publisher": "nflverse schedule",
+          "published_at": null,
+          "role": "weather"
+        },
+        {
           "title": "Rest: Buffalo Bills 8 days; Minnesota Vikings 8 days. Away-city to venue: about 736 straight-line miles (not team itinerary).",
           "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
           "publisher": "nflverse schedule",
@@ -4529,21 +4161,21 @@
         "home": "Minnesota Vikings",
         "away": "Buffalo Bills",
         "kickoff": "2026-11-10T01:15:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 2.8640299670896283,
-          "total": 45.17793711937814,
-          "projected_home_points": 24.020983543233886,
-          "projected_away_points": 21.156953576144257,
-          "fair_home_spread": -2.8640299670896283,
+          "margin": 0.4355705618753289,
+          "total": 45.32979482786554,
+          "projected_home_points": 22.882682694870436,
+          "projected_away_points": 22.447112132995105,
+          "fair_home_spread": -0.4355705618753289,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5812834251026154,
-          "tie": 0.033561585909322234,
-          "away": 0.38515498898806233
+          "home": 0.49785524008186444,
+          "tie": 0.033257054200246994,
+          "away": 0.46888770571788857
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -4552,138 +4184,6 @@
     }
   ],
   "markets": [
-    {
-      "id": "38369ba6112cdae35c2e",
-      "game_id": "7d664fbcd39350e559d83c0068ba7169",
-      "category": "Moneyline",
-      "selection": "Chicago Bears",
-      "line": null,
-      "odds": 153,
-      "observed_at": "2026-11-02T23:35:00Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "moneyline",
-        "p_win": 0.4046,
-        "p_push": 0.0038,
-        "p_loss": 0.5916,
-        "ev": 0.0273,
-        "conservative_ev": -0.0233,
-        "value_score": 1,
-        "break_even": 0.3953
-      }
-    },
-    {
-      "id": "adec18a95d8de8041ce9",
-      "game_id": "7d664fbcd39350e559d83c0068ba7169",
-      "category": "Moneyline",
-      "selection": "Seattle Seahawks",
-      "line": null,
-      "odds": -178,
-      "observed_at": "2026-11-02T23:35:00Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "moneyline",
-        "p_win": 0.5916,
-        "p_push": 0.0038,
-        "p_loss": 0.4046,
-        "ev": -0.0722,
-        "conservative_ev": -0.1034,
-        "value_score": 1,
-        "break_even": 0.6403
-      }
-    },
-    {
-      "id": "0ddc03ef81170a00ed2e",
-      "game_id": "7d664fbcd39350e559d83c0068ba7169",
-      "category": "Spread",
-      "selection": "Chicago Bears",
-      "line": 3.5,
-      "odds": -120,
-      "observed_at": "2026-11-02T23:35:00Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "spread",
-        "p_win": 0.5462,
-        "p_push": 0,
-        "p_loss": 0.4538,
-        "ev": 0.0014,
-        "conservative_ev": -0.0353,
-        "value_score": 1,
-        "break_even": 0.5455
-      }
-    },
-    {
-      "id": "b653c2db3a0603ba76d2",
-      "game_id": "7d664fbcd39350e559d83c0068ba7169",
-      "category": "Spread",
-      "selection": "Seattle Seahawks",
-      "line": -3.5,
-      "odds": 100,
-      "observed_at": "2026-11-02T23:35:00Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "spread",
-        "p_win": 0.4538,
-        "p_push": 0,
-        "p_loss": 0.5462,
-        "ev": -0.0924,
-        "conservative_ev": -0.1324,
-        "value_score": 1,
-        "break_even": 0.5
-      }
-    },
-    {
-      "id": "0c904330012778172352",
-      "game_id": "7d664fbcd39350e559d83c0068ba7169",
-      "category": "Total",
-      "selection": "Over",
-      "line": 46.5,
-      "odds": -110,
-      "observed_at": "2026-11-02T23:35:00Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "total",
-        "p_win": 0.482,
-        "p_push": 0,
-        "p_loss": 0.518,
-        "ev": -0.0799,
-        "conservative_ev": -0.1181,
-        "value_score": 1,
-        "break_even": 0.5238
-      }
-    },
-    {
-      "id": "3f51bdd2777d59de3342",
-      "game_id": "7d664fbcd39350e559d83c0068ba7169",
-      "category": "Total",
-      "selection": "Under",
-      "line": 46.5,
-      "odds": -110,
-      "observed_at": "2026-11-02T23:35:00Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "total",
-        "p_win": 0.518,
-        "p_push": 0,
-        "p_loss": 0.482,
-        "ev": -0.011,
-        "conservative_ev": -0.0492,
-        "value_score": 1,
-        "break_even": 0.5238
-      }
-    },
     {
       "id": "533d9de4319658948673",
       "game_id": "c75744790b7acf6260c78ba5e739c0e5",
@@ -6077,32 +5577,6 @@
       "rationale": "Research lean only: moneyline model has not passed the backtest gate; quote is stale; value score below 7."
     },
     {
-      "id": "38369ba6112cdae35c2e",
-      "game_id": "7d664fbcd39350e559d83c0068ba7169",
-      "category": "Moneyline",
-      "selection": "Chicago Bears",
-      "line": null,
-      "odds": 153,
-      "observed_at": "2026-11-02T23:35:00Z",
-      "win_probability": 0.4046,
-      "push_probability": 0.0038,
-      "break_even_probability": 0.3953,
-      "ev": 0.0273,
-      "conservative_ev": -0.0233,
-      "win_rating": 5,
-      "value_rating": 1,
-      "model_version": "market-model-1.0",
-      "status": "lean",
-      "suggested_stake": 0.0,
-      "blockers": [
-        "moneyline model has not passed the backtest gate",
-        "quote is stale",
-        "not positive under conservative assumptions",
-        "value score below 7"
-      ],
-      "rationale": "Research lean only: moneyline model has not passed the backtest gate; quote is stale; not positive under conservative assumptions; value score below 7."
-    },
-    {
       "id": "613e29f47e821f50c159",
       "game_id": "17ad7eff2f7875e20a8109abe40470e3",
       "category": "Total",
@@ -6246,6 +5720,32 @@
       "ev": 0.0081,
       "conservative_ev": -0.0297,
       "win_rating": 6,
+      "value_rating": 1,
+      "model_version": "market-model-1.0",
+      "status": "lean",
+      "suggested_stake": 0.0,
+      "blockers": [
+        "spread model has not passed the backtest gate",
+        "quote is stale",
+        "not positive under conservative assumptions",
+        "value score below 7"
+      ],
+      "rationale": "Research lean only: spread model has not passed the backtest gate; quote is stale; not positive under conservative assumptions; value score below 7."
+    },
+    {
+      "id": "bbc9bd8cef9ce2e40c67",
+      "game_id": "415fc42e72888c63e82f7bce24c65391",
+      "category": "Spread",
+      "selection": "Dallas Cowboys",
+      "line": -6.0,
+      "odds": -108,
+      "observed_at": "2026-11-02T23:35:00Z",
+      "win_probability": 0.4993,
+      "push_probability": 0.0445,
+      "break_even_probability": 0.5192,
+      "ev": 0.0062,
+      "conservative_ev": -0.0324,
+      "win_rating": 5,
       "value_rating": 1,
       "model_version": "market-model-1.0",
       "status": "lean",
@@ -10324,22 +9824,22 @@
     },
     "News": {
       "status": "ok",
-      "checked_at": "2026-11-03T01:09:09Z",
+      "checked_at": "2026-11-03T02:07:19Z",
       "detail": "NFL RSS headlines from CBS Sports, NBC Sports matched to teams; player-only stories may be missed."
     },
     "Weather": {
       "status": "ok",
-      "checked_at": "2026-11-03T01:09:07Z",
+      "checked_at": "2026-11-03T02:07:17Z",
       "detail": "NWS hourly forecasts for 13 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
     },
     "Travel": {
       "status": "ok",
-      "checked_at": "2026-11-03T01:09:04Z",
+      "checked_at": "2026-11-03T02:07:14Z",
       "detail": "Rest days and approximate distances from nflverse; no verified team itinerary."
     },
     "Statistics": {
       "status": "ok",
-      "checked_at": "2026-11-03T01:09:04.752331Z",
+      "checked_at": "2026-11-03T02:07:14.032033Z",
       "detail": "Current-season nflverse play data for 120 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties."
     },
     "Historical Bovada": {
@@ -10349,7 +9849,7 @@
     },
     "Matchup": {
       "status": "ok",
-      "checked_at": "2026-11-03T01:09:12Z",
+      "checked_at": "2026-11-03T02:07:22Z",
       "detail": "Deterministic team matchup ratings active. Paid AI narrative agents remain disabled."
     },
     "Player props": {
@@ -10364,17 +9864,17 @@
     },
     "Scoring engine": {
       "status": "ok",
-      "checked_at": "2026-11-03T01:09:12Z",
+      "checked_at": "2026-11-03T02:07:22Z",
       "detail": "Calculated 32 team ratings; missing components are explicitly flagged."
     },
     "Probability & value": {
       "status": "ok",
-      "checked_at": "2026-11-03T01:09:13Z",
-      "detail": "Internal model market-model-1.0: 16 games, 60 markets scored. No market type has passed the backtest gate; showing research leans only."
+      "checked_at": "2026-11-03T02:07:22Z",
+      "detail": "Internal model market-model-1.0: 13 games, 54 markets scored. No market type has passed the backtest gate; showing research leans only."
     },
     "Paper predictions": {
       "status": "ok",
-      "checked_at": "2026-11-03T01:09:13.198152Z",
+      "checked_at": "2026-11-03T02:07:22.892220Z",
       "detail": "Uncalibrated point forecasts; first pregame predictions are frozen for prospective evaluation. No bets recommended."
     }
   },
@@ -10382,36 +9882,9 @@
   "changed_market_count": 0,
   "paper_tracking": {
     "status": "paper_only_uncalibrated",
-    "model_version": "paper-2026-w7-1e60a2b118",
-    "forecast_count": 16,
+    "model_version": "paper-2026-w8-9b54703ccc",
+    "forecast_count": 15,
     "forecasts": [
-      {
-        "game_id": "7d664fbcd39350e559d83c0068ba7169",
-        "nflverse_game_id": "2026_08_CHI_SEA",
-        "week": 8,
-        "home": "Seattle Seahawks",
-        "away": "Chicago Bears",
-        "kickoff": "2026-11-03T01:20:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
-        "projection": {
-          "margin": -9.56005526782947,
-          "total": 38.48599638277714,
-          "projected_home_points": 14.462970557473835,
-          "projected_away_points": 24.023025825303304,
-          "fair_home_spread": 9.56005526782947,
-          "model_status": "provisional_unapproved"
-        },
-        "outcome_probabilities": {
-          "home": 0.1912966486731119,
-          "tie": 0.024538551310474,
-          "away": 0.7841648000164141
-        },
-        "status": "paper_only_uncalibrated",
-        "origin": "prospective",
-        "injury_adjustments_applied": false
-      },
       {
         "game_id": "c75744790b7acf6260c78ba5e739c0e5",
         "nflverse_game_id": "2026_09_JAX_BAL",
@@ -10419,21 +9892,21 @@
         "home": "Baltimore Ravens",
         "away": "Jacksonville Jaguars",
         "kickoff": "2026-11-06T01:15:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 1.4051502319616476,
-          "total": 48.8902835030603,
-          "projected_home_points": 25.147716867510976,
-          "projected_away_points": 23.742566635549327,
-          "fair_home_spread": -1.4051502319616476,
+          "margin": -1.4742330995121313,
+          "total": 48.87010888713768,
+          "projected_home_points": 23.697937893812774,
+          "projected_away_points": 25.172170993324908,
+          "fair_home_spread": 1.4742330995121313,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5313084643634798,
-          "tie": 0.03435767104539639,
-          "away": 0.4343338645911238
+          "home": 0.43457644551259933,
+          "tie": 0.03302831537285089,
+          "away": 0.5323952391145498
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -10446,21 +9919,21 @@
         "home": "Atlanta Falcons",
         "away": "Cincinnati Bengals",
         "kickoff": "2026-11-08T14:30:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": -4.09568558784765,
-          "total": 45.774839657759316,
-          "projected_home_points": 20.839577034955834,
-          "projected_away_points": 24.93526262280348,
-          "fair_home_spread": 4.09568558784765,
+          "margin": -8.11387163795041,
+          "total": 45.525343737922356,
+          "projected_home_points": 18.705736049985973,
+          "projected_away_points": 26.819607687936383,
+          "fair_home_spread": 8.11387163795041,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.34499568206689935,
-          "tie": 0.03249600038432365,
-          "away": 0.622508317548777
+          "home": 0.23614396371767932,
+          "tie": 0.02646619299418662,
+          "away": 0.7373898432881341
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -10473,21 +9946,21 @@
         "home": "Carolina Panthers",
         "away": "Denver Broncos",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 3.727120950928889,
-          "total": 39.2186404845945,
-          "projected_home_points": 21.472880717761697,
-          "projected_away_points": 17.745759766832805,
-          "fair_home_spread": -3.727120950928889,
+          "margin": 4.1980772589015665,
+          "total": 39.13763673703556,
+          "projected_home_points": 21.667856997968563,
+          "projected_away_points": 17.469779739066993,
+          "fair_home_spread": -4.1980772589015665,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.6102945850013826,
-          "tie": 0.03285058295084847,
-          "away": 0.356854832047769
+          "home": 0.6211780147635126,
+          "tie": 0.03129969922151099,
+          "away": 0.3475222860149764
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -10500,21 +9973,21 @@
         "home": "New Orleans Saints",
         "away": "Cleveland Browns",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 9.41580049191364,
-          "total": 34.61561698309767,
-          "projected_home_points": 22.015708737505655,
-          "projected_away_points": 12.599908245592014,
-          "fair_home_spread": -9.41580049191364,
+          "margin": 11.338724698718403,
+          "total": 34.78670303058854,
+          "projected_home_points": 23.06271386465347,
+          "projected_away_points": 11.72398916593507,
+          "fair_home_spread": -11.338724698718403,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.7804803009196037,
-          "tie": 0.024792690887443902,
-          "away": 0.1947270081929523
+          "home": 0.817110537949016,
+          "tie": 0.021276562514829067,
+          "away": 0.16161289953615487
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -10527,21 +10000,21 @@
         "home": "Indianapolis Colts",
         "away": "Dallas Cowboys",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 1.0837346175580698,
-          "total": 51.43116955860176,
-          "projected_home_points": 26.257452088079916,
-          "projected_away_points": 25.173717470521844,
-          "fair_home_spread": -1.0837346175580698,
+          "margin": 0.4681728254323853,
+          "total": 53.27749363684465,
+          "projected_home_points": 26.872833231138518,
+          "projected_away_points": 26.404660405706135,
+          "fair_home_spread": -0.4681728254323853,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5202030678430418,
-          "tie": 0.03446128112378133,
-          "away": 0.44533565103317685
+          "home": 0.4989405169609915,
+          "tie": 0.033253645057843284,
+          "away": 0.4678058379811652
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -10554,21 +10027,21 @@
         "home": "Miami Dolphins",
         "away": "Detroit Lions",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 3.119794902323995,
-          "total": 53.04857217472131,
-          "projected_home_points": 28.08418353852265,
-          "projected_away_points": 24.964388636198656,
-          "fair_home_spread": -3.119794902323995,
+          "margin": 0.17225254845352933,
+          "total": 55.80649986961148,
+          "projected_home_points": 27.989376209032503,
+          "projected_away_points": 27.817123660578975,
+          "fair_home_spread": -0.17225254845352933,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5899343573421965,
-          "tie": 0.0333688047718837,
-          "away": 0.3766968378859199
+          "home": 0.48909108335605644,
+          "tie": 0.03327557898719696,
+          "away": 0.4776333376567466
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -10581,21 +10054,21 @@
         "home": "Kansas City Chiefs",
         "away": "New York Jets",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 5.307168802032061,
-          "total": 56.51900150703365,
-          "projected_home_points": 30.913085154532855,
-          "projected_away_points": 25.605916352500795,
-          "fair_home_spread": -5.307168802032061,
+          "margin": 6.071999227280918,
+          "total": 57.81887254716303,
+          "projected_home_points": 31.945435887221976,
+          "projected_away_points": 25.873436659941056,
+          "fair_home_spread": -6.071999227280918,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.6617418897647446,
-          "tie": 0.03113210186655957,
-          "away": 0.30712600836869586
+          "home": 0.6790129806762578,
+          "tie": 0.02927249722815939,
+          "away": 0.2917145220955828
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -10608,21 +10081,21 @@
         "home": "Washington Commanders",
         "away": "Los Angeles Rams",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": -6.779980608968347,
-          "total": 46.785569410867986,
-          "projected_home_points": 20.00279440094982,
-          "projected_away_points": 26.782775009918165,
-          "fair_home_spread": 6.779980608968347,
+          "margin": -8.123483612456493,
+          "total": 45.68778740575836,
+          "projected_home_points": 18.78215189665093,
+          "projected_away_points": 26.905635509107427,
+          "fair_home_spread": 8.123483612456493,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.26374539798240204,
-          "tie": 0.029114372850351122,
-          "away": 0.7071402291672468
+          "home": 0.2358969041651393,
+          "tie": 0.026451825129844453,
+          "away": 0.7376512707050162
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -10635,21 +10108,21 @@
         "home": "Philadelphia Eagles",
         "away": "New York Giants",
         "kickoff": "2026-11-08T18:00:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": -15.835118897267124,
-          "total": 36.78857392701636,
-          "projected_home_points": 10.476727514874618,
-          "projected_away_points": 26.31184641214174,
-          "fair_home_spread": 15.835118897267124,
+          "margin": -16.275239158902206,
+          "total": 37.1069087915396,
+          "projected_home_points": 10.415834816318698,
+          "projected_away_points": 26.691073975220903,
+          "fair_home_spread": 16.275239158902206,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.07813178422043299,
-          "tie": 0.013469449551776647,
-          "away": 0.9083987662277904
+          "home": 0.08079187151975709,
+          "tie": 0.01324103222602091,
+          "away": 0.905967096254222
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -10662,21 +10135,21 @@
         "home": "Los Angeles Chargers",
         "away": "Houston Texans",
         "kickoff": "2026-11-08T21:05:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": -11.192401196590103,
-          "total": 31.97080246192804,
-          "projected_home_points": 10.38920063266897,
-          "projected_away_points": 21.58160182925907,
-          "fair_home_spread": 11.192401196590103,
+          "margin": -13.72438385510337,
+          "total": 32.33410678528629,
+          "projected_home_points": 9.30486146509146,
+          "projected_away_points": 23.02924532019483,
+          "fair_home_spread": 13.72438385510337,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.15510013339873852,
-          "tie": 0.021600972633757598,
-          "away": 0.8232988939675039
+          "home": 0.11763046060637539,
+          "tie": 0.017280388058362295,
+          "away": 0.8650891513352623
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -10689,21 +10162,21 @@
         "home": "San Francisco 49ers",
         "away": "Las Vegas Raiders",
         "kickoff": "2026-11-08T21:05:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 18.906523466263636,
-          "total": 45.38407056812849,
-          "projected_home_points": 32.145297017196064,
-          "projected_away_points": 13.238773550932429,
-          "fair_home_spread": -18.906523466263636,
+          "margin": 22.944737801905084,
+          "total": 48.146532919965814,
+          "projected_home_points": 35.54563536093545,
+          "projected_away_points": 12.600897559030365,
+          "fair_home_spread": -22.944737801905084,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.9449263191201326,
-          "tie": 0.00901402198579404,
-          "away": 0.046059658894073374
+          "home": 0.9694548263379991,
+          "tie": 0.005329278392383396,
+          "away": 0.02521589526961754
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -10716,21 +10189,21 @@
         "home": "Seattle Seahawks",
         "away": "Arizona Cardinals",
         "kickoff": "2026-11-08T21:25:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 0.7406069904191078,
-          "total": 40.75667877123667,
-          "projected_home_points": 20.74864288082789,
-          "projected_away_points": 20.00803589040878,
-          "fair_home_spread": -0.7406069904191078,
+          "margin": 0.9738260869833555,
+          "total": 40.037914289207464,
+          "projected_home_points": 20.50587018809541,
+          "projected_away_points": 19.532044101112053,
+          "fair_home_spread": -0.9738260869833555,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5083303702923703,
-          "tie": 0.034542574939603055,
-          "away": 0.4571270547680267
+          "home": 0.5157689314454528,
+          "tie": 0.03316938980812639,
+          "away": 0.45106167874642084
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -10743,21 +10216,21 @@
         "home": "New England Patriots",
         "away": "Green Bay Packers",
         "kickoff": "2026-11-08T21:25:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": -12.272713596279852,
-          "total": 44.111695364227614,
-          "projected_home_points": 15.919490883973882,
-          "projected_away_points": 28.192204480253732,
-          "fair_home_spread": 12.272713596279852,
+          "margin": -7.958475917051996,
+          "total": 44.113814596979374,
+          "projected_home_points": 18.077669339963688,
+          "projected_away_points": 26.036145257015686,
+          "fair_home_spread": 7.958475917051996,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.1338091759618082,
-          "tie": 0.0196351554114772,
-          "away": 0.8465556686267146
+          "home": 0.24015786305287445,
+          "tie": 0.02669718073270888,
+          "away": 0.7331449562144167
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -10770,21 +10243,21 @@
         "home": "Chicago Bears",
         "away": "Tampa Bay Buccaneers",
         "kickoff": "2026-11-09T01:20:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": -1.6210092369239923,
-          "total": 41.55889891943862,
-          "projected_home_points": 19.96894484125731,
-          "projected_away_points": 21.589954078181307,
-          "fair_home_spread": 1.6210092369239923,
+          "margin": 0.7342160591684901,
+          "total": 38.78781691382046,
+          "projected_home_points": 19.761016486494473,
+          "projected_away_points": 19.026800427325984,
+          "fair_home_spread": -0.7342160591684901,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.42697310053827786,
-          "tie": 0.03427329787039535,
-          "away": 0.5387536015913268
+          "home": 0.5077962446065682,
+          "tie": 0.033216654957652914,
+          "away": 0.4589871004357789
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -10797,21 +10270,21 @@
         "home": "Minnesota Vikings",
         "away": "Buffalo Bills",
         "kickoff": "2026-11-10T01:15:00Z",
-        "forecast_as_of": "2026-11-03T01:09:13.198152Z",
-        "statistics_as_of": "2026-11-03T01:09:04.752331Z",
-        "model_version": "paper-2026-w7-1e60a2b118",
+        "forecast_as_of": "2026-11-03T02:07:22.892220Z",
+        "statistics_as_of": "2026-11-03T02:07:14.032033Z",
+        "model_version": "paper-2026-w8-9b54703ccc",
         "projection": {
-          "margin": 2.8640299670896283,
-          "total": 45.17793711937814,
-          "projected_home_points": 24.020983543233886,
-          "projected_away_points": 21.156953576144257,
-          "fair_home_spread": -2.8640299670896283,
+          "margin": 0.4355705618753289,
+          "total": 45.32979482786554,
+          "projected_home_points": 22.882682694870436,
+          "projected_away_points": 22.447112132995105,
+          "fair_home_spread": -0.4355705618753289,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5812834251026154,
-          "tie": 0.033561585909322234,
-          "away": 0.38515498898806233
+          "home": 0.49785524008186444,
+          "tie": 0.033257054200246994,
+          "away": 0.46888770571788857
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -10820,11 +10293,11 @@
     ],
     "backtest": {
       "origin": "reconstructed_historical_features",
-      "training_games": 107,
-      "validation_games": 75,
-      "margin_rmse": 11.521855812990406,
-      "total_rmse": 13.499339251356455,
-      "moneyline_three_outcome_brier": 0.44017711140058696
+      "training_games": 120,
+      "validation_games": 88,
+      "margin_rmse": 11.984326513847012,
+      "total_rmse": 13.58456513635988,
+      "moneyline_three_outcome_brier": 0.4499245776511497
     },
     "evaluation": {
       "prospective_predictions": 57,
@@ -10838,7 +10311,7 @@
   },
   "prediction_results": {
     "season": 2026,
-    "updated_at": "2026-11-03T01:09:13.198152Z",
+    "updated_at": "2026-11-03T02:07:22.892220Z",
     "basis": "first_saved_pregame_forecast",
     "records": [
       {
@@ -11232,7 +10705,7 @@
         "predicted_side": "away",
         "predicted_winner": "Chicago Bears",
         "winner_probability": 0.6918903017958483,
-        "status": "upcoming",
+        "status": "awaiting_final",
         "winner_result": "pending",
         "final_home_score": null,
         "final_away_score": null,

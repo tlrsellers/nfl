@@ -1,12 +1,6 @@
 {
-  "checked_at": "2026-11-03T01:09:07Z",
+  "checked_at": "2026-11-03T02:07:17Z",
   "findings": [
-    {
-      "game_id": "7d664fbcd39350e559d83c0068ba7169",
-      "title": "Kickoff forecast near Lumen Field: 51°F, wind 1 mph SSE, precipitation 2%",
-      "publisher": "National Weather Service",
-      "url": "https://api.weather.gov/gridpoints/SEW/124,67/forecast/hourly"
-    },
     {
       "game_id": "c75744790b7acf6260c78ba5e739c0e5",
       "title": "Kickoff forecast near M&T Bank Stadium: 67°F, wind 3 mph S, precipitation 56%",
@@ -78,6 +72,12 @@
       "title": "Kickoff forecast near Soldier Field: 49°F, wind 5 mph NW, precipitation 13%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/LOT/76,72/forecast/hourly"
+    },
+    {
+      "game_id": "17ad7eff2f7875e20a8109abe40470e3",
+      "title": "U.S. Bank Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
   ],
   "coverage_note": "NWS hourly forecasts for 13 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
