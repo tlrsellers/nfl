@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-06T13:11:00Z",
+  "checked_at": "2026-11-06T14:23:08Z",
   "findings": [
     {
       "game_id": "014282b888c741b7d70c857c09f40aa7",
@@ -72,7 +72,13 @@
       "title": "U.S. Bank Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "74d39e19225caf211ad2c8eb4110179f",
+      "title": "Kickoff forecast near MetLife Stadium: 49°F, wind 6 mph N, precipitation 23%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/OKX/30,46/forecast/hourly"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 12 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 13 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
