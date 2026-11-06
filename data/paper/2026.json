@@ -1581,7 +1581,18 @@
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
-      "injury_adjustments_applied": false
+      "injury_adjustments_applied": false,
+      "settlement": {
+        "home_score": 10,
+        "away_score": 33,
+        "actual_margin": -23,
+        "actual_total": 43,
+        "outcome": "away",
+        "margin_error": -25.141260191064347,
+        "total_error": -9.083013364677129,
+        "three_outcome_brier": 0.6598793751008949,
+        "settled_at": "2026-11-06T05:02:51.579302Z"
+      }
     },
     "2026_09_CIN_ATL": {
       "game_id": "dc56d980f527ffeef89940133b211b13",
