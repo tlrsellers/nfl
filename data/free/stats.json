@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-11-07T13:55:31.214594Z",
-  "checked_at": "2026-11-07T13:55:31.214594Z",
+  "as_of": "2026-11-07T14:38:30.243190Z",
+  "checked_at": "2026-11-07T14:38:30.243190Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -3849,6 +3849,10 @@
     "74d39e19225caf211ad2c8eb4110179f": {
       "neutral_site": false,
       "rest_days_difference": 0.0
+    },
+    "b8c10fdf1e0ac4e13deee7f7c0af0b0b": {
+      "neutral_site": true,
+      "rest_days_difference": 0.0
     }
   },
   "findings": [
@@ -3939,6 +3943,12 @@
     {
       "game_id": "74d39e19225caf211ad2c8eb4110179f",
       "title": "Current-season scores: Washington Commanders 7 games, 22.7 points for and 26.0 allowed per game; New York Giants 7 games, 23.3 points for and 23.0 allowed per game",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
+      "title": "Current-season scores: New England Patriots 8 games, 23.0 points for and 20.2 allowed per game; Detroit Lions 7 games, 29.0 points for and 25.7 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
