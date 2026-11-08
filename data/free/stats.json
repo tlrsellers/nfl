@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-11-08T16:45:22.028428Z",
-  "checked_at": "2026-11-08T16:45:22.028428Z",
+  "as_of": "2026-11-08T17:42:30.441839Z",
+  "checked_at": "2026-11-08T17:42:30.441839Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -229,7 +229,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_09_CIN_ATL"
+      ]
     },
     {
       "team": "Baltimore Ravens",
@@ -799,7 +801,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_09_CIN_ATL"
+      ]
     },
     {
       "team": "Cleveland Browns",
@@ -3776,7 +3780,9 @@
     "2026_08_TEN_CIN",
     "2026_09_JAX_BAL"
   ],
-  "missing_game_ids": [],
+  "missing_game_ids": [
+    "2026_09_CIN_ATL"
+  ],
   "metric_method": {
     "version": "nflverse-pbp-1",
     "season_type": "REG",
@@ -3788,7 +3794,7 @@
     "return_coverage": "Team-perspective EPA per punt/kickoff opportunity; provisional combined return/coverage metric",
     "opponent_adjusted": false
   },
-  "coverage_note": "Current-season nflverse play data for 122 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
+  "coverage_note": "Current-season nflverse play data for 122 completed games; 1 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
   "scoring_context": {
     "014282b888c741b7d70c857c09f40aa7": {
       "neutral_site": false,
