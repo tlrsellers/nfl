@@ -1,30 +1,6 @@
 {
-  "checked_at": "2026-11-08T20:44:59Z",
+  "checked_at": "2026-11-08T21:43:09Z",
   "findings": [
-    {
-      "game_id": "39aeac43cea7b12558b91cdab1255a10",
-      "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
-    {
-      "game_id": "240e23b02b1e3fef655d04a286b5a623",
-      "title": "Kickoff forecast near Lumen Field: 55°F, wind 12 mph SSW, precipitation 7%",
-      "publisher": "National Weather Service",
-      "url": "https://api.weather.gov/gridpoints/SEW/124,67/forecast/hourly"
-    },
-    {
-      "game_id": "2922c573ec3df8466c4a34975e446898",
-      "title": "Kickoff forecast near Gillette Stadium: 56°F, wind 13 mph W, precipitation 0%",
-      "publisher": "National Weather Service",
-      "url": "https://api.weather.gov/gridpoints/BOX/67,88/forecast/hourly"
-    },
-    {
-      "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
-      "title": "Kickoff forecast near Levi's Stadium: 70°F, wind 6 mph NNW, precipitation 0%",
-      "publisher": "National Weather Service",
-      "url": "https://api.weather.gov/gridpoints/MTR/97,86/forecast/hourly"
-    },
     {
       "game_id": "9760d8f19f84bfee300a74ceb656c95d",
       "title": "Kickoff forecast near Soldier Field: 51°F, wind 10 mph WNW, precipitation 0%",
@@ -54,7 +30,13 @@
       "title": "Caesars Superdome: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "nflverse-2026_10_SEA_LV",
+      "title": "Allegiant Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 9 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 6 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
