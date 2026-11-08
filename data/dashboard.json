@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "mode": "snapshot",
-  "generated_at": "2026-11-08T08:57:22Z",
+  "generated_at": "2026-11-08T09:53:18Z",
   "season": "2026",
   "coverage": {
     "games": 28,
@@ -239,7 +239,34 @@
       "offense": 3.7561290322580643,
       "defense": 5.566666666666666,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "dc56d980f527ffeef89940133b211b13",
+        "nflverse_game_id": "2026_09_CIN_ATL",
+        "week": 9,
+        "home": "Atlanta Falcons",
+        "away": "Cincinnati Bengals",
+        "kickoff": "2026-11-08T14:30:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -7.689761947349432,
+          "total": 44.969359056050074,
+          "projected_home_points": 18.63979855435032,
+          "projected_away_points": 26.329560501699753,
+          "fair_home_spread": 7.689761947349432,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.24645068738506248,
+          "tie": 0.02714476525644094,
+          "away": 0.7264045473584966
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "014282b888c741b7d70c857c09f40aa7",
@@ -385,13 +412,6 @@
           "role": "news"
         },
         {
-          "title": "Report: Broncos are seeking a tight end trade, Cardinals rebuffed request for Trey McBride",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-broncos-are-seeking-a-tight-end-trade-cardinals-rebuffed-request-for-trey-mcbride",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-07T14:15:03Z",
-          "role": "news"
-        },
-        {
           "title": "Kickoff forecast near Bank of America Stadium: 64\u00b0F, wind 6 mph WSW, precipitation 0%",
           "url": "https://api.weather.gov/gridpoints/GSP/118,65/forecast/hourly",
           "publisher": "National Weather Service",
@@ -471,7 +491,34 @@
       "offense": 4.683401759530792,
       "defense": 4.732258064516128,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "014282b888c741b7d70c857c09f40aa7",
+        "nflverse_game_id": "2026_09_DEN_CAR",
+        "week": 9,
+        "home": "Carolina Panthers",
+        "away": "Denver Broncos",
+        "kickoff": "2026-11-08T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 4.327958522508226,
+          "total": 39.04931162358855,
+          "projected_home_points": 21.68863507304839,
+          "projected_away_points": 17.360676550540163,
+          "fair_home_spread": -4.327958522508226,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.6257061728873885,
+          "tie": 0.03127161758304875,
+          "away": 0.34302220952956275
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "e571bab6736f9338130a78a4f75c3231",
@@ -703,7 +750,34 @@
       "offense": 4.810879765395894,
       "defense": 4.342228739002931,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "e571bab6736f9338130a78a4f75c3231",
+        "nflverse_game_id": "2026_09_CLE_NO",
+        "week": 9,
+        "home": "New Orleans Saints",
+        "away": "Cleveland Browns",
+        "kickoff": "2026-11-08T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 11.659309331160491,
+          "total": 35.122079407637656,
+          "projected_home_points": 23.390694369399075,
+          "projected_away_points": 11.731385038238582,
+          "fair_home_spread": -11.659309331160491,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.8249336132840265,
+          "tie": 0.020741297533075298,
+          "away": 0.15432508918289822
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "415fc42e72888c63e82f7bce24c65391",
@@ -856,6 +930,13 @@
           "role": "news"
         },
         {
+          "title": "Report: Colts have told teams they were offered a fourth-round pick for Josh Downs",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-colts-have-told-teams-they-were-offered-a-fourth-round-pick-for-josh-downs",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-08T09:32:24Z",
+          "role": "news"
+        },
+        {
           "title": "Report: Colts are in trade talks regarding QB Daniel Jones",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-colts-are-in-trade-talks-regarding-qb-daniel-jones",
           "publisher": "NBC Sports",
@@ -942,7 +1023,34 @@
       "offense": 4.3754838709677415,
       "defense": 4.431182795698925,
       "confidence": 6.7,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "415fc42e72888c63e82f7bce24c65391",
+        "nflverse_game_id": "2026_09_DAL_IND",
+        "week": 9,
+        "home": "Indianapolis Colts",
+        "away": "Dallas Cowboys",
+        "kickoff": "2026-11-08T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 0.1852476733232774,
+          "total": 52.02262988332104,
+          "projected_home_points": 26.103938778322156,
+          "projected_away_points": 25.91869110499888,
+          "fair_home_spread": -0.1852476733232774,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.4894878256430174,
+          "tie": 0.033388339984060544,
+          "away": 0.47712383437292205
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "44d8c37868b700e90f816db7c5df5cdd",
@@ -1160,7 +1268,34 @@
       "offense": 4.6630791788856305,
       "defense": 2.8375366568914955,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "44d8c37868b700e90f816db7c5df5cdd",
+        "nflverse_game_id": "2026_09_DET_MIA",
+        "week": 9,
+        "home": "Miami Dolphins",
+        "away": "Detroit Lions",
+        "kickoff": "2026-11-08T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 0.2533908390208408,
+          "total": 54.87016439674616,
+          "projected_home_points": 27.5617776178835,
+          "projected_away_points": 27.308386778862662,
+          "fair_home_spread": -0.2533908390208408,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.49176331948968743,
+          "tie": 0.03338484419632887,
+          "away": 0.4748518363139837
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "e354e6a04b1cb9c96e549b863debb92e",
@@ -1378,7 +1513,34 @@
       "offense": 7.053753665689149,
       "defense": 6.019354838709678,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "e354e6a04b1cb9c96e549b863debb92e",
+        "nflverse_game_id": "2026_09_NYJ_KC",
+        "week": 9,
+        "home": "Kansas City Chiefs",
+        "away": "New York Jets",
+        "kickoff": "2026-11-08T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 6.579008810799196,
+          "total": 57.287806779549626,
+          "projected_home_points": 31.93340779517441,
+          "projected_away_points": 25.354398984375216,
+          "fair_home_spread": -6.579008810799196,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.6946151790686164,
+          "tie": 0.028694458928957056,
+          "away": 0.2766903620024266
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "89de07377e0aa8ffaa2ae6a7dc0855cc",
@@ -1631,7 +1793,34 @@
       "offense": 4.585483870967742,
       "defense": 5.2064516129032254,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "89de07377e0aa8ffaa2ae6a7dc0855cc",
+        "nflverse_game_id": "2026_09_LA_WAS",
+        "week": 9,
+        "home": "Washington Commanders",
+        "away": "Los Angeles Rams",
+        "kickoff": "2026-11-08T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -7.895458169333189,
+          "total": 46.399602985543,
+          "projected_home_points": 19.252072408104905,
+          "projected_away_points": 27.147530577438094,
+          "fair_home_spread": 7.895458169333189,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.24105163876523128,
+          "tie": 0.02684163243931237,
+          "away": 0.7321067287954564
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "fe93e6ab1e553c0169936a0a983c324f",
@@ -1870,7 +2059,34 @@
       "offense": 3.5451612903225804,
       "defense": 4.155913978494623,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "fe93e6ab1e553c0169936a0a983c324f",
+        "nflverse_game_id": "2026_09_NYG_PHI",
+        "week": 9,
+        "home": "Philadelphia Eagles",
+        "away": "New York Giants",
+        "kickoff": "2026-11-08T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -16.97608652037129,
+          "total": 36.8679406498282,
+          "projected_home_points": 9.945927064728455,
+          "projected_away_points": 26.922013585099744,
+          "fair_home_spread": 16.97608652037129,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.07170434855757035,
+          "tie": 0.012167850621109033,
+          "away": 0.9161278008213206
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "39aeac43cea7b12558b91cdab1255a10",
@@ -2109,7 +2325,34 @@
       "offense": 2.8155718475073312,
       "defense": 5.569794721407623,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "39aeac43cea7b12558b91cdab1255a10",
+        "nflverse_game_id": "2026_09_HOU_LAC",
+        "week": 9,
+        "home": "Los Angeles Chargers",
+        "away": "Houston Texans",
+        "kickoff": "2026-11-08T21:05:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -14.37886310708593,
+          "total": 33.01655152131731,
+          "projected_home_points": 9.31884420711569,
+          "projected_away_points": 23.697707314201622,
+          "fair_home_spread": 14.37886310708593,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.10642669485478917,
+          "tie": 0.016184749699711398,
+          "away": 0.8773885554454994
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "ac9d38a18d5c92814233a31aa9a48d78",
@@ -2313,7 +2556,34 @@
       "offense": 7.770586510263929,
       "defense": 6.479178885630498,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
+        "nflverse_game_id": "2026_09_LV_SF",
+        "week": 9,
+        "home": "San Francisco 49ers",
+        "away": "Las Vegas Raiders",
+        "kickoff": "2026-11-08T21:05:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 23.359141065891873,
+          "total": 48.555207725392556,
+          "projected_home_points": 35.95717439564221,
+          "projected_away_points": 12.598033329750342,
+          "fair_home_spread": -23.359141065891873,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.9721847921946888,
+          "tie": 0.004937702052248638,
+          "away": 0.022877505753062577
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "240e23b02b1e3fef655d04a286b5a623",
@@ -2538,7 +2808,34 @@
       "offense": 4.778064516129032,
       "defense": 7.386021505376344,
       "confidence": 6.7,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "240e23b02b1e3fef655d04a286b5a623",
+        "nflverse_game_id": "2026_09_ARI_SEA",
+        "week": 9,
+        "home": "Seattle Seahawks",
+        "away": "Arizona Cardinals",
+        "kickoff": "2026-11-08T21:25:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 0.7490049151065752,
+          "total": 42.204840057288976,
+          "projected_home_points": 21.476922486197775,
+          "projected_away_points": 20.7279175710912,
+          "fair_home_spread": -0.7490049151065752,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.5083166865253079,
+          "tie": 0.033326794727041864,
+          "away": 0.4583565187476502
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "2922c573ec3df8466c4a34975e446898",
@@ -2784,7 +3081,34 @@
       "offense": 6.895483870967741,
       "defense": 5.087096774193548,
       "confidence": 6.7,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "2922c573ec3df8466c4a34975e446898",
+        "nflverse_game_id": "2026_09_GB_NE",
+        "week": 9,
+        "home": "New England Patriots",
+        "away": "Green Bay Packers",
+        "kickoff": "2026-11-08T21:25:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -7.854864314678478,
+          "total": 44.90909916418554,
+          "projected_home_points": 18.52711742475353,
+          "projected_away_points": 26.38198173943201,
+          "fair_home_spread": 7.854864314678478,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.2421120135155983,
+          "tie": 0.02690181754368326,
+          "away": 0.7309861689407184
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "9760d8f19f84bfee300a74ceb656c95d",
@@ -3002,7 +3326,34 @@
       "offense": 7.365806451612903,
       "defense": 7.4913978494623645,
       "confidence": 6.7,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "9760d8f19f84bfee300a74ceb656c95d",
+        "nflverse_game_id": "2026_09_TB_CHI",
+        "week": 9,
+        "home": "Chicago Bears",
+        "away": "Tampa Bay Buccaneers",
+        "kickoff": "2026-11-09T01:20:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 1.5903475657020159,
+          "total": 39.01781200248471,
+          "projected_home_points": 20.304079784093364,
+          "projected_away_points": 18.713732218391346,
+          "fair_home_spread": -1.5903475657020159,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.5363693823527891,
+          "tie": 0.03309780831148157,
+          "away": 0.43053280933572935
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "17ad7eff2f7875e20a8109abe40470e3",
@@ -3248,7 +3599,34 @@
       "offense": 4.324985337243401,
       "defense": 7.69032258064516,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "17ad7eff2f7875e20a8109abe40470e3",
+        "nflverse_game_id": "2026_09_BUF_MIN",
+        "week": 9,
+        "home": "Minnesota Vikings",
+        "away": "Buffalo Bills",
+        "kickoff": "2026-11-10T01:15:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 0.09731894116899886,
+          "total": 45.86636499610526,
+          "projected_home_points": 22.98184196863713,
+          "projected_away_points": 22.88452302746813,
+          "fair_home_spread": -0.09731894116899886,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.48655215164369103,
+          "tie": 0.03339124607555827,
+          "away": 0.4800566022807507
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "74d39e19225caf211ad2c8eb4110179f",
@@ -3494,7 +3872,34 @@
       "offense": 5.655190615835776,
       "defense": 5.668328445747799,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "74d39e19225caf211ad2c8eb4110179f",
+        "nflverse_game_id": "2026_10_WAS_NYG",
+        "week": 10,
+        "home": "New York Giants",
+        "away": "Washington Commanders",
+        "kickoff": "2026-11-13T01:15:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 5.371822371584306,
+          "total": 45.70665013645127,
+          "projected_home_points": 25.53923625401779,
+          "projected_away_points": 20.167413882433483,
+          "fair_home_spread": -5.371822371584306,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.6583269870571481,
+          "tie": 0.030181882865364718,
+          "away": 0.3114911300774872
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
@@ -3740,7 +4145,34 @@
       "offense": 6.614046920821114,
       "defense": 4.865689149560117,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
+        "nflverse_game_id": "2026_10_NE_DET",
+        "week": 10,
+        "home": "Detroit Lions",
+        "away": "New England Patriots",
+        "kickoff": "2026-11-15T14:30:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -7.4287647149330285,
+          "total": 52.928747223122144,
+          "projected_home_points": 22.749991254094557,
+          "projected_away_points": 30.178755969027588,
+          "fair_home_spread": 7.4287647149330285,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.25339346456065226,
+          "tie": 0.027522581273974556,
+          "away": 0.7190839541653732
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "3c71d515b726f1096aabb435badb83fd",
@@ -3972,7 +4404,34 @@
       "offense": 3.7561290322580643,
       "defense": 5.566666666666666,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "3c71d515b726f1096aabb435badb83fd",
+        "nflverse_game_id": "2026_10_KC_ATL",
+        "week": 10,
+        "home": "Atlanta Falcons",
+        "away": "Kansas City Chiefs",
+        "kickoff": "2026-11-15T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -3.388390997620636,
+          "total": 47.21653886553069,
+          "projected_home_points": 21.914073933955024,
+          "projected_away_points": 25.302464931575663,
+          "fair_home_spread": 3.388390997620636,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.37237787530956856,
+          "tie": 0.03207599656430837,
+          "away": 0.5955461281261231
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "1057d50949844ddf483da9c8c20354be",
@@ -4111,13 +4570,6 @@
           "role": "news"
         },
         {
-          "title": "Bills list Dion Dawkins as questionable to play on Monday night",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-list-dion-dawkins-as-questionable-to-play-on-monday-night",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-07T20:08:04Z",
-          "role": "news"
-        },
-        {
           "title": "Rest: Buffalo Bills 6 days; New York Jets 7 days. Away-city to venue: about 278 straight-line miles (not team itinerary).",
           "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
           "publisher": "nflverse schedule",
@@ -4190,7 +4642,34 @@
       "offense": 6.5122580645161285,
       "defense": 3.9172043010752686,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "1057d50949844ddf483da9c8c20354be",
+        "nflverse_game_id": "2026_10_BUF_NYJ",
+        "week": 10,
+        "home": "New York Jets",
+        "away": "Buffalo Bills",
+        "kickoff": "2026-11-15T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 0.21607622550580113,
+          "total": 57.99604244691226,
+          "projected_home_points": 29.106059336209032,
+          "projected_away_points": 28.88998311070323,
+          "fair_home_spread": -0.21607622550580113,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.49051724062429125,
+          "tie": 0.03338689295429176,
+          "away": 0.476095866421417
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "e5aa20e1364dd639f042af1c2281bbe2",
@@ -4415,7 +4894,34 @@
       "offense": 4.810879765395894,
       "defense": 4.342228739002931,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "e5aa20e1364dd639f042af1c2281bbe2",
+        "nflverse_game_id": "2026_10_CAR_NO",
+        "week": 10,
+        "home": "New Orleans Saints",
+        "away": "Carolina Panthers",
+        "kickoff": "2026-11-15T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 0.5957312203816351,
+          "total": 47.05028683656745,
+          "projected_home_points": 23.823009028474544,
+          "projected_away_points": 23.227277808092907,
+          "fair_home_spread": -0.5957312203816351,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.503197590302219,
+          "tie": 0.0333508659934737,
+          "away": 0.46345154370430736
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "be0e03cc42fbc9b6962467b22c7bf9dd",
@@ -4640,7 +5146,34 @@
       "offense": 4.598064516129032,
       "defense": 6.379569892473117,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "be0e03cc42fbc9b6962467b22c7bf9dd",
+        "nflverse_game_id": "2026_10_HOU_CLE",
+        "week": 10,
+        "home": "Cleveland Browns",
+        "away": "Houston Texans",
+        "kickoff": "2026-11-15T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 2.203698122602979,
+          "total": 44.102051166551945,
+          "projected_home_points": 23.152874644577462,
+          "projected_away_points": 20.949176521974483,
+          "fair_home_spread": -2.203698122602979,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.5567147088454353,
+          "tie": 0.032829097271420526,
+          "away": 0.4104561938831442
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "5d8d85473b87f772a979ecf294acab94",
@@ -4886,7 +5419,34 @@
       "offense": 5.312258064516129,
       "defense": 7.373118279569892,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "5d8d85473b87f772a979ecf294acab94",
+        "nflverse_game_id": "2026_10_MIN_GB",
+        "week": 10,
+        "home": "Green Bay Packers",
+        "away": "Minnesota Vikings",
+        "kickoff": "2026-11-15T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 4.966488583295819,
+          "total": 35.26646840969082,
+          "projected_home_points": 20.116478496493322,
+          "projected_away_points": 15.149989913197501,
+          "fair_home_spread": -4.966488583295819,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.6457845265419291,
+          "tie": 0.03062820056165899,
+          "away": 0.32358727289641187
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "b5700b4d938fd94429f60d4622cc9c0a",
@@ -5032,6 +5592,13 @@
           "role": "news"
         },
         {
+          "title": "Report: Colts have told teams they were offered a fourth-round pick for Josh Downs",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-colts-have-told-teams-they-were-offered-a-fourth-round-pick-for-josh-downs",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-08T09:32:24Z",
+          "role": "news"
+        },
+        {
           "title": "Report: Colts are in trade talks regarding QB Daniel Jones",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-colts-are-in-trade-talks-regarding-qb-daniel-jones",
           "publisher": "NBC Sports",
@@ -5111,7 +5678,34 @@
       "offense": 4.3754838709677415,
       "defense": 4.431182795698925,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "b5700b4d938fd94429f60d4622cc9c0a",
+        "nflverse_game_id": "2026_10_MIA_IND",
+        "week": 10,
+        "home": "Indianapolis Colts",
+        "away": "Miami Dolphins",
+        "kickoff": "2026-11-15T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 1.782135402104061,
+          "total": 49.81521714747812,
+          "projected_home_points": 25.79867627479109,
+          "projected_away_points": 24.01654087268703,
+          "fair_home_spread": -1.782135402104061,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.5427439138299825,
+          "tie": 0.033022901372900815,
+          "away": 0.4242331847971167
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "28800df7e768ecec14f116454d560f9b",
@@ -5322,7 +5916,34 @@
       "offense": 4.629032258064516,
       "defense": 3.5881720430107524,
       "confidence": 6.7,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "28800df7e768ecec14f116454d560f9b",
+        "nflverse_game_id": "2026_10_JAX_TEN",
+        "week": 10,
+        "home": "Tennessee Titans",
+        "away": "Jacksonville Jaguars",
+        "kickoff": "2026-11-15T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 1.8460344549289531,
+          "total": 45.620184648461475,
+          "projected_home_points": 23.733109551695215,
+          "projected_away_points": 21.88707509676626,
+          "fair_home_spread": -1.8460344549289531,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.5448653948755268,
+          "tie": 0.032996093348050315,
+          "away": 0.4221385117764229
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "6c932a965110f3f89ec4a5f1a6ac256e",
@@ -5582,7 +6203,34 @@
       "offense": 4.801290322580645,
       "defense": 4.661290322580645,
       "confidence": 6.7,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "6c932a965110f3f89ec4a5f1a6ac256e",
+        "nflverse_game_id": "2026_10_LA_ARI",
+        "week": 10,
+        "home": "Arizona Cardinals",
+        "away": "Los Angeles Rams",
+        "kickoff": "2026-11-15T21:05:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -7.549627389009487,
+          "total": 49.116037071829915,
+          "projected_home_points": 20.783204841410214,
+          "projected_away_points": 28.3328322304197,
+          "fair_home_spread": 7.549627389009487,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.25016567719196137,
+          "tie": 0.02734859534540135,
+          "away": 0.7224857274626373
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "nflverse-2026_10_SEA_LV",
@@ -5765,7 +6413,34 @@
       "offense": 5.8522580645161275,
       "defense": 2.895698924731183,
       "confidence": 6.7,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "nflverse-2026_10_SEA_LV",
+        "nflverse_game_id": "2026_10_SEA_LV",
+        "week": 10,
+        "home": "Las Vegas Raiders",
+        "away": "Seattle Seahawks",
+        "kickoff": "2026-11-15T21:05:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -2.267179922673537,
+          "total": 47.74822735679554,
+          "projected_home_points": 22.740523717061002,
+          "projected_away_points": 25.007703639734537,
+          "fair_home_spread": 2.267179922673537,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.4083906601150116,
+          "tie": 0.03279647388652163,
+          "away": 0.5588128659984668
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "7627192fd89b05120ab6c712aa23fd81",
@@ -6004,7 +6679,34 @@
       "offense": 6.2625806451612895,
       "defense": 3.4913978494623654,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "7627192fd89b05120ab6c712aa23fd81",
+        "nflverse_game_id": "2026_10_SF_DAL",
+        "week": 10,
+        "home": "Dallas Cowboys",
+        "away": "San Francisco 49ers",
+        "kickoff": "2026-11-15T21:25:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -4.519358170086283,
+          "total": 57.07962254235821,
+          "projected_home_points": 26.280132186135962,
+          "projected_away_points": 30.799490356222247,
+          "fair_home_spread": 4.519358170086283,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.3371499061709631,
+          "tie": 0.03108666538878746,
+          "away": 0.6317634284402495
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "48e497c230e6c9afcb3b600091d28e17",
@@ -6152,7 +6854,34 @@
       "offense": 7.308709677419354,
       "defense": 5.122287390029324,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "48e497c230e6c9afcb3b600091d28e17",
+        "nflverse_game_id": "2026_10_PIT_CIN",
+        "week": 10,
+        "home": "Cincinnati Bengals",
+        "away": "Pittsburgh Steelers",
+        "kickoff": "2026-11-16T01:20:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -13.562041398311548,
+          "total": 41.2786914595437,
+          "projected_home_points": 13.858325030616076,
+          "projected_away_points": 27.420366428927625,
+          "fair_home_spread": 13.562041398311548,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.11952435448528653,
+          "tie": 0.017531831491062966,
+          "away": 0.8629438140236505
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     },
     {
       "id": "35e3bdff558b5d1506251e814986f164",
@@ -6221,7 +6950,34 @@
       "offense": 4.905062034739453,
       "defense": 4.423573200992556,
       "confidence": 6.4,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups."
+      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
+      "paper_forecast": {
+        "game_id": "35e3bdff558b5d1506251e814986f164",
+        "nflverse_game_id": "2026_10_LAC_BAL",
+        "week": 10,
+        "home": "Baltimore Ravens",
+        "away": "Los Angeles Chargers",
+        "kickoff": "2026-11-17T01:15:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 1.238853925999008,
+          "total": 41.61847260148018,
+          "projected_home_points": 21.428663263739594,
+          "projected_away_points": 20.189809337740584,
+          "fair_home_spread": -1.238853925999008,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.5246635467230452,
+          "tie": 0.03321330809020889,
+          "away": 0.44212314518674595
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
     }
   ],
   "markets": [
@@ -11254,23 +12010,23 @@
     },
     "News": {
       "status": "ok",
-      "checked_at": "2026-11-08T08:57:11Z",
+      "checked_at": "2026-11-08T09:53:06Z",
       "detail": "NFL RSS headlines from CBS Sports, NBC Sports matched to teams; player-only stories may be missed."
     },
     "Weather": {
       "status": "ok",
-      "checked_at": "2026-11-08T08:56:59Z",
+      "checked_at": "2026-11-08T09:52:53Z",
       "detail": "NWS hourly forecasts for 13 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
     },
     "Travel": {
       "status": "ok",
-      "checked_at": "2026-11-08T08:56:57Z",
+      "checked_at": "2026-11-08T09:52:50Z",
       "detail": "Rest days and approximate distances from nflverse; no verified team itinerary."
     },
     "Statistics": {
       "status": "ok",
-      "checked_at": "2026-11-08T08:56:57Z",
-      "detail": "Team scoring refreshed; play-data ratings retain their own as_of until renewed."
+      "checked_at": "2026-11-08T09:52:50.547248Z",
+      "detail": "Current-season nflverse play data for 122 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties."
     },
     "Historical Bovada": {
       "status": "unavailable",
@@ -11279,7 +12035,7 @@
     },
     "Matchup": {
       "status": "ok",
-      "checked_at": "2026-11-08T08:57:22Z",
+      "checked_at": "2026-11-08T09:53:18Z",
       "detail": "Deterministic team matchup ratings active. Paid AI narrative agents remain disabled."
     },
     "Player props": {
@@ -11294,30 +12050,805 @@
     },
     "Scoring engine": {
       "status": "ok",
-      "checked_at": "2026-11-08T08:57:22Z",
+      "checked_at": "2026-11-08T09:53:18Z",
       "detail": "Calculated 32 team ratings; missing components are explicitly flagged."
     },
     "Probability & value": {
       "status": "error",
-      "checked_at": "2026-11-08T08:57:22Z",
+      "checked_at": "2026-11-08T09:53:18Z",
       "detail": "Model unavailable: HTTPError: HTTP Error 504: Gateway Time-out"
     },
     "Paper predictions": {
-      "status": "unavailable",
-      "checked_at": "2026-11-08T08:57:22.967895Z",
-      "detail": "Paper tracking unavailable: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/nfl/nfl/.cache/performance_plays.json'"
+      "status": "ok",
+      "checked_at": "2026-11-08T09:53:18.426987Z",
+      "detail": "Uncalibrated point forecasts; first pregame predictions are frozen for prospective evaluation. No bets recommended."
     }
   },
   "ai_status": "Disabled pending cost approval",
   "changed_market_count": 0,
   "paper_tracking": {
-    "status": "unavailable",
-    "forecasts": [],
-    "detail": "Paper tracking unavailable: FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/work/nfl/nfl/.cache/performance_plays.json'"
+    "status": "paper_only_uncalibrated",
+    "model_version": "paper-2026-w8-e6fadee9b2",
+    "forecast_count": 28,
+    "forecasts": [
+      {
+        "game_id": "dc56d980f527ffeef89940133b211b13",
+        "nflverse_game_id": "2026_09_CIN_ATL",
+        "week": 9,
+        "home": "Atlanta Falcons",
+        "away": "Cincinnati Bengals",
+        "kickoff": "2026-11-08T14:30:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -7.689761947349432,
+          "total": 44.969359056050074,
+          "projected_home_points": 18.63979855435032,
+          "projected_away_points": 26.329560501699753,
+          "fair_home_spread": 7.689761947349432,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.24645068738506248,
+          "tie": 0.02714476525644094,
+          "away": 0.7264045473584966
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "014282b888c741b7d70c857c09f40aa7",
+        "nflverse_game_id": "2026_09_DEN_CAR",
+        "week": 9,
+        "home": "Carolina Panthers",
+        "away": "Denver Broncos",
+        "kickoff": "2026-11-08T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 4.327958522508226,
+          "total": 39.04931162358855,
+          "projected_home_points": 21.68863507304839,
+          "projected_away_points": 17.360676550540163,
+          "fair_home_spread": -4.327958522508226,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.6257061728873885,
+          "tie": 0.03127161758304875,
+          "away": 0.34302220952956275
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "e571bab6736f9338130a78a4f75c3231",
+        "nflverse_game_id": "2026_09_CLE_NO",
+        "week": 9,
+        "home": "New Orleans Saints",
+        "away": "Cleveland Browns",
+        "kickoff": "2026-11-08T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 11.659309331160491,
+          "total": 35.122079407637656,
+          "projected_home_points": 23.390694369399075,
+          "projected_away_points": 11.731385038238582,
+          "fair_home_spread": -11.659309331160491,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.8249336132840265,
+          "tie": 0.020741297533075298,
+          "away": 0.15432508918289822
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "415fc42e72888c63e82f7bce24c65391",
+        "nflverse_game_id": "2026_09_DAL_IND",
+        "week": 9,
+        "home": "Indianapolis Colts",
+        "away": "Dallas Cowboys",
+        "kickoff": "2026-11-08T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 0.1852476733232774,
+          "total": 52.02262988332104,
+          "projected_home_points": 26.103938778322156,
+          "projected_away_points": 25.91869110499888,
+          "fair_home_spread": -0.1852476733232774,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.4894878256430174,
+          "tie": 0.033388339984060544,
+          "away": 0.47712383437292205
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "44d8c37868b700e90f816db7c5df5cdd",
+        "nflverse_game_id": "2026_09_DET_MIA",
+        "week": 9,
+        "home": "Miami Dolphins",
+        "away": "Detroit Lions",
+        "kickoff": "2026-11-08T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 0.2533908390208408,
+          "total": 54.87016439674616,
+          "projected_home_points": 27.5617776178835,
+          "projected_away_points": 27.308386778862662,
+          "fair_home_spread": -0.2533908390208408,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.49176331948968743,
+          "tie": 0.03338484419632887,
+          "away": 0.4748518363139837
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "e354e6a04b1cb9c96e549b863debb92e",
+        "nflverse_game_id": "2026_09_NYJ_KC",
+        "week": 9,
+        "home": "Kansas City Chiefs",
+        "away": "New York Jets",
+        "kickoff": "2026-11-08T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 6.579008810799196,
+          "total": 57.287806779549626,
+          "projected_home_points": 31.93340779517441,
+          "projected_away_points": 25.354398984375216,
+          "fair_home_spread": -6.579008810799196,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.6946151790686164,
+          "tie": 0.028694458928957056,
+          "away": 0.2766903620024266
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "89de07377e0aa8ffaa2ae6a7dc0855cc",
+        "nflverse_game_id": "2026_09_LA_WAS",
+        "week": 9,
+        "home": "Washington Commanders",
+        "away": "Los Angeles Rams",
+        "kickoff": "2026-11-08T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -7.895458169333189,
+          "total": 46.399602985543,
+          "projected_home_points": 19.252072408104905,
+          "projected_away_points": 27.147530577438094,
+          "fair_home_spread": 7.895458169333189,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.24105163876523128,
+          "tie": 0.02684163243931237,
+          "away": 0.7321067287954564
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "fe93e6ab1e553c0169936a0a983c324f",
+        "nflverse_game_id": "2026_09_NYG_PHI",
+        "week": 9,
+        "home": "Philadelphia Eagles",
+        "away": "New York Giants",
+        "kickoff": "2026-11-08T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -16.97608652037129,
+          "total": 36.8679406498282,
+          "projected_home_points": 9.945927064728455,
+          "projected_away_points": 26.922013585099744,
+          "fair_home_spread": 16.97608652037129,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.07170434855757035,
+          "tie": 0.012167850621109033,
+          "away": 0.9161278008213206
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "39aeac43cea7b12558b91cdab1255a10",
+        "nflverse_game_id": "2026_09_HOU_LAC",
+        "week": 9,
+        "home": "Los Angeles Chargers",
+        "away": "Houston Texans",
+        "kickoff": "2026-11-08T21:05:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -14.37886310708593,
+          "total": 33.01655152131731,
+          "projected_home_points": 9.31884420711569,
+          "projected_away_points": 23.697707314201622,
+          "fair_home_spread": 14.37886310708593,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.10642669485478917,
+          "tie": 0.016184749699711398,
+          "away": 0.8773885554454994
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "ac9d38a18d5c92814233a31aa9a48d78",
+        "nflverse_game_id": "2026_09_LV_SF",
+        "week": 9,
+        "home": "San Francisco 49ers",
+        "away": "Las Vegas Raiders",
+        "kickoff": "2026-11-08T21:05:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 23.359141065891873,
+          "total": 48.555207725392556,
+          "projected_home_points": 35.95717439564221,
+          "projected_away_points": 12.598033329750342,
+          "fair_home_spread": -23.359141065891873,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.9721847921946888,
+          "tie": 0.004937702052248638,
+          "away": 0.022877505753062577
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "240e23b02b1e3fef655d04a286b5a623",
+        "nflverse_game_id": "2026_09_ARI_SEA",
+        "week": 9,
+        "home": "Seattle Seahawks",
+        "away": "Arizona Cardinals",
+        "kickoff": "2026-11-08T21:25:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 0.7490049151065752,
+          "total": 42.204840057288976,
+          "projected_home_points": 21.476922486197775,
+          "projected_away_points": 20.7279175710912,
+          "fair_home_spread": -0.7490049151065752,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.5083166865253079,
+          "tie": 0.033326794727041864,
+          "away": 0.4583565187476502
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "2922c573ec3df8466c4a34975e446898",
+        "nflverse_game_id": "2026_09_GB_NE",
+        "week": 9,
+        "home": "New England Patriots",
+        "away": "Green Bay Packers",
+        "kickoff": "2026-11-08T21:25:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -7.854864314678478,
+          "total": 44.90909916418554,
+          "projected_home_points": 18.52711742475353,
+          "projected_away_points": 26.38198173943201,
+          "fair_home_spread": 7.854864314678478,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.2421120135155983,
+          "tie": 0.02690181754368326,
+          "away": 0.7309861689407184
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "9760d8f19f84bfee300a74ceb656c95d",
+        "nflverse_game_id": "2026_09_TB_CHI",
+        "week": 9,
+        "home": "Chicago Bears",
+        "away": "Tampa Bay Buccaneers",
+        "kickoff": "2026-11-09T01:20:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 1.5903475657020159,
+          "total": 39.01781200248471,
+          "projected_home_points": 20.304079784093364,
+          "projected_away_points": 18.713732218391346,
+          "fair_home_spread": -1.5903475657020159,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.5363693823527891,
+          "tie": 0.03309780831148157,
+          "away": 0.43053280933572935
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "17ad7eff2f7875e20a8109abe40470e3",
+        "nflverse_game_id": "2026_09_BUF_MIN",
+        "week": 9,
+        "home": "Minnesota Vikings",
+        "away": "Buffalo Bills",
+        "kickoff": "2026-11-10T01:15:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 0.09731894116899886,
+          "total": 45.86636499610526,
+          "projected_home_points": 22.98184196863713,
+          "projected_away_points": 22.88452302746813,
+          "fair_home_spread": -0.09731894116899886,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.48655215164369103,
+          "tie": 0.03339124607555827,
+          "away": 0.4800566022807507
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "74d39e19225caf211ad2c8eb4110179f",
+        "nflverse_game_id": "2026_10_WAS_NYG",
+        "week": 10,
+        "home": "New York Giants",
+        "away": "Washington Commanders",
+        "kickoff": "2026-11-13T01:15:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 5.371822371584306,
+          "total": 45.70665013645127,
+          "projected_home_points": 25.53923625401779,
+          "projected_away_points": 20.167413882433483,
+          "fair_home_spread": -5.371822371584306,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.6583269870571481,
+          "tie": 0.030181882865364718,
+          "away": 0.3114911300774872
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
+        "nflverse_game_id": "2026_10_NE_DET",
+        "week": 10,
+        "home": "Detroit Lions",
+        "away": "New England Patriots",
+        "kickoff": "2026-11-15T14:30:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -7.4287647149330285,
+          "total": 52.928747223122144,
+          "projected_home_points": 22.749991254094557,
+          "projected_away_points": 30.178755969027588,
+          "fair_home_spread": 7.4287647149330285,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.25339346456065226,
+          "tie": 0.027522581273974556,
+          "away": 0.7190839541653732
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "3c71d515b726f1096aabb435badb83fd",
+        "nflverse_game_id": "2026_10_KC_ATL",
+        "week": 10,
+        "home": "Atlanta Falcons",
+        "away": "Kansas City Chiefs",
+        "kickoff": "2026-11-15T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -3.388390997620636,
+          "total": 47.21653886553069,
+          "projected_home_points": 21.914073933955024,
+          "projected_away_points": 25.302464931575663,
+          "fair_home_spread": 3.388390997620636,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.37237787530956856,
+          "tie": 0.03207599656430837,
+          "away": 0.5955461281261231
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "1057d50949844ddf483da9c8c20354be",
+        "nflverse_game_id": "2026_10_BUF_NYJ",
+        "week": 10,
+        "home": "New York Jets",
+        "away": "Buffalo Bills",
+        "kickoff": "2026-11-15T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 0.21607622550580113,
+          "total": 57.99604244691226,
+          "projected_home_points": 29.106059336209032,
+          "projected_away_points": 28.88998311070323,
+          "fair_home_spread": -0.21607622550580113,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.49051724062429125,
+          "tie": 0.03338689295429176,
+          "away": 0.476095866421417
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "e5aa20e1364dd639f042af1c2281bbe2",
+        "nflverse_game_id": "2026_10_CAR_NO",
+        "week": 10,
+        "home": "New Orleans Saints",
+        "away": "Carolina Panthers",
+        "kickoff": "2026-11-15T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 0.5957312203816351,
+          "total": 47.05028683656745,
+          "projected_home_points": 23.823009028474544,
+          "projected_away_points": 23.227277808092907,
+          "fair_home_spread": -0.5957312203816351,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.503197590302219,
+          "tie": 0.0333508659934737,
+          "away": 0.46345154370430736
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "be0e03cc42fbc9b6962467b22c7bf9dd",
+        "nflverse_game_id": "2026_10_HOU_CLE",
+        "week": 10,
+        "home": "Cleveland Browns",
+        "away": "Houston Texans",
+        "kickoff": "2026-11-15T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 2.203698122602979,
+          "total": 44.102051166551945,
+          "projected_home_points": 23.152874644577462,
+          "projected_away_points": 20.949176521974483,
+          "fair_home_spread": -2.203698122602979,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.5567147088454353,
+          "tie": 0.032829097271420526,
+          "away": 0.4104561938831442
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "5d8d85473b87f772a979ecf294acab94",
+        "nflverse_game_id": "2026_10_MIN_GB",
+        "week": 10,
+        "home": "Green Bay Packers",
+        "away": "Minnesota Vikings",
+        "kickoff": "2026-11-15T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 4.966488583295819,
+          "total": 35.26646840969082,
+          "projected_home_points": 20.116478496493322,
+          "projected_away_points": 15.149989913197501,
+          "fair_home_spread": -4.966488583295819,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.6457845265419291,
+          "tie": 0.03062820056165899,
+          "away": 0.32358727289641187
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "b5700b4d938fd94429f60d4622cc9c0a",
+        "nflverse_game_id": "2026_10_MIA_IND",
+        "week": 10,
+        "home": "Indianapolis Colts",
+        "away": "Miami Dolphins",
+        "kickoff": "2026-11-15T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 1.782135402104061,
+          "total": 49.81521714747812,
+          "projected_home_points": 25.79867627479109,
+          "projected_away_points": 24.01654087268703,
+          "fair_home_spread": -1.782135402104061,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.5427439138299825,
+          "tie": 0.033022901372900815,
+          "away": 0.4242331847971167
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "28800df7e768ecec14f116454d560f9b",
+        "nflverse_game_id": "2026_10_JAX_TEN",
+        "week": 10,
+        "home": "Tennessee Titans",
+        "away": "Jacksonville Jaguars",
+        "kickoff": "2026-11-15T18:00:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 1.8460344549289531,
+          "total": 45.620184648461475,
+          "projected_home_points": 23.733109551695215,
+          "projected_away_points": 21.88707509676626,
+          "fair_home_spread": -1.8460344549289531,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.5448653948755268,
+          "tie": 0.032996093348050315,
+          "away": 0.4221385117764229
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "6c932a965110f3f89ec4a5f1a6ac256e",
+        "nflverse_game_id": "2026_10_LA_ARI",
+        "week": 10,
+        "home": "Arizona Cardinals",
+        "away": "Los Angeles Rams",
+        "kickoff": "2026-11-15T21:05:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -7.549627389009487,
+          "total": 49.116037071829915,
+          "projected_home_points": 20.783204841410214,
+          "projected_away_points": 28.3328322304197,
+          "fair_home_spread": 7.549627389009487,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.25016567719196137,
+          "tie": 0.02734859534540135,
+          "away": 0.7224857274626373
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "nflverse-2026_10_SEA_LV",
+        "nflverse_game_id": "2026_10_SEA_LV",
+        "week": 10,
+        "home": "Las Vegas Raiders",
+        "away": "Seattle Seahawks",
+        "kickoff": "2026-11-15T21:05:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -2.267179922673537,
+          "total": 47.74822735679554,
+          "projected_home_points": 22.740523717061002,
+          "projected_away_points": 25.007703639734537,
+          "fair_home_spread": 2.267179922673537,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.4083906601150116,
+          "tie": 0.03279647388652163,
+          "away": 0.5588128659984668
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "7627192fd89b05120ab6c712aa23fd81",
+        "nflverse_game_id": "2026_10_SF_DAL",
+        "week": 10,
+        "home": "Dallas Cowboys",
+        "away": "San Francisco 49ers",
+        "kickoff": "2026-11-15T21:25:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -4.519358170086283,
+          "total": 57.07962254235821,
+          "projected_home_points": 26.280132186135962,
+          "projected_away_points": 30.799490356222247,
+          "fair_home_spread": 4.519358170086283,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.3371499061709631,
+          "tie": 0.03108666538878746,
+          "away": 0.6317634284402495
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "48e497c230e6c9afcb3b600091d28e17",
+        "nflverse_game_id": "2026_10_PIT_CIN",
+        "week": 10,
+        "home": "Cincinnati Bengals",
+        "away": "Pittsburgh Steelers",
+        "kickoff": "2026-11-16T01:20:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": -13.562041398311548,
+          "total": 41.2786914595437,
+          "projected_home_points": 13.858325030616076,
+          "projected_away_points": 27.420366428927625,
+          "fair_home_spread": 13.562041398311548,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.11952435448528653,
+          "tie": 0.017531831491062966,
+          "away": 0.8629438140236505
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      },
+      {
+        "game_id": "35e3bdff558b5d1506251e814986f164",
+        "nflverse_game_id": "2026_10_LAC_BAL",
+        "week": 10,
+        "home": "Baltimore Ravens",
+        "away": "Los Angeles Chargers",
+        "kickoff": "2026-11-17T01:15:00Z",
+        "forecast_as_of": "2026-11-08T09:53:18.426987Z",
+        "statistics_as_of": "2026-11-08T09:52:50.547248Z",
+        "model_version": "paper-2026-w8-e6fadee9b2",
+        "projection": {
+          "margin": 1.238853925999008,
+          "total": 41.61847260148018,
+          "projected_home_points": 21.428663263739594,
+          "projected_away_points": 20.189809337740584,
+          "fair_home_spread": -1.238853925999008,
+          "model_status": "provisional_unapproved"
+        },
+        "outcome_probabilities": {
+          "home": 0.5246635467230452,
+          "tie": 0.03321330809020889,
+          "away": 0.44212314518674595
+        },
+        "status": "paper_only_uncalibrated",
+        "origin": "prospective",
+        "injury_adjustments_applied": false
+      }
+    ],
+    "backtest": {
+      "origin": "reconstructed_historical_features",
+      "training_games": 121,
+      "validation_games": 89,
+      "margin_rmse": 11.943625927860156,
+      "total_rmse": 13.56881688991873,
+      "moneyline_three_outcome_brier": 0.4456310825646248
+    },
+    "evaluation": {
+      "prospective_predictions": 71,
+      "settled_predictions": 43,
+      "mean_three_outcome_brier": 0.4534446940613973,
+      "margin_mae": 9.851796032127721,
+      "total_mae": 10.895149652860342,
+      "calibration_status": "pending_separate_market_validation"
+    },
+    "detail": "Uncalibrated point forecasts; first pregame predictions are frozen for prospective evaluation. No bets recommended."
   },
   "prediction_results": {
     "season": 2026,
-    "updated_at": "2026-11-08T08:57:22.967895Z",
+    "updated_at": "2026-11-08T09:53:18.426987Z",
     "basis": "first_saved_pregame_forecast",
     "records": [
       {
