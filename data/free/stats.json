@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-11-09T01:14:15.817947Z",
-  "checked_at": "2026-11-09T01:14:15.817947Z",
+  "as_of": "2026-11-09T02:18:38.514922Z",
+  "checked_at": "2026-11-09T02:18:38.514922Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -3802,10 +3802,6 @@
   },
   "coverage_note": "Current-season nflverse play data for 134 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
   "scoring_context": {
-    "9760d8f19f84bfee300a74ceb656c95d": {
-      "neutral_site": false,
-      "rest_days_difference": -1.0
-    },
     "17ad7eff2f7875e20a8109abe40470e3": {
       "neutral_site": false,
       "rest_days_difference": 0.0
@@ -3861,15 +3857,13 @@
     "48e497c230e6c9afcb3b600091d28e17": {
       "neutral_site": false,
       "rest_days_difference": -7.0
+    },
+    "35e3bdff558b5d1506251e814986f164": {
+      "neutral_site": false,
+      "rest_days_difference": 3.0
     }
   },
   "findings": [
-    {
-      "game_id": "9760d8f19f84bfee300a74ceb656c95d",
-      "title": "Current-season scores: Tampa Bay Buccaneers 8 games, 22.2 points for and 18.9 allowed per game; Chicago Bears 8 games, 26.8 points for and 20.0 allowed per game",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
     {
       "game_id": "17ad7eff2f7875e20a8109abe40470e3",
       "title": "Current-season scores: Buffalo Bills 7 games, 33.3 points for and 25.9 allowed per game; Minnesota Vikings 7 games, 20.0 points for and 13.3 allowed per game",
@@ -3951,6 +3945,12 @@
     {
       "game_id": "48e497c230e6c9afcb3b600091d28e17",
       "title": "Current-season scores: Pittsburgh Steelers 8 games, 22.5 points for and 18.0 allowed per game; Cincinnati Bengals 8 games, 30.0 points for and 21.9 allowed per game",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "35e3bdff558b5d1506251e814986f164",
+      "title": "Current-season scores: Los Angeles Chargers 8 games, 15.1 points for and 27.4 allowed per game; Baltimore Ravens 9 games, 21.0 points for and 26.2 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
