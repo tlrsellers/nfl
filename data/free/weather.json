@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-09T06:15:21Z",
+  "checked_at": "2026-11-09T07:39:49Z",
   "findings": [
     {
       "game_id": "17ad7eff2f7875e20a8109abe40470e3",
@@ -9,7 +9,7 @@
     },
     {
       "game_id": "74d39e19225caf211ad2c8eb4110179f",
-      "title": "Kickoff forecast near MetLife Stadium: 51°F, wind 10 mph E, precipitation 73%",
+      "title": "Kickoff forecast near MetLife Stadium: 55°F, wind 10 mph NE, precipitation 78%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/OKX/30,46/forecast/hourly"
     },
@@ -20,10 +20,28 @@
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     },
     {
+      "game_id": "1057d50949844ddf483da9c8c20354be",
+      "title": "Kickoff forecast near MetLife Stadium: 52°F, wind 14 mph NW, precipitation 0%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/OKX/30,46/forecast/hourly"
+    },
+    {
       "game_id": "e5aa20e1364dd639f042af1c2281bbe2",
       "title": "Caesars Superdome: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "be0e03cc42fbc9b6962467b22c7bf9dd",
+      "title": "Kickoff forecast near Huntington Bank Field: 48°F, wind 13 mph NW, precipitation 8%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/CLE/83,65/forecast/hourly"
+    },
+    {
+      "game_id": "5d8d85473b87f772a979ecf294acab94",
+      "title": "Kickoff forecast near Lambeau Field: 48°F, wind 3 mph W, precipitation 0%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/GRB/78,31/forecast/hourly"
     },
     {
       "game_id": "6079a5cbabf99b265a17edfc92a1da60",
@@ -32,5 +50,5 @@
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 5 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 8 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
