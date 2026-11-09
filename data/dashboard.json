@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "mode": "snapshot",
-  "generated_at": "2026-11-09T09:19:28Z",
+  "generated_at": "2026-11-09T11:03:51Z",
   "season": "2026",
   "coverage": {
     "games": 15,
@@ -177,12 +177,12 @@
       "scoring": {
         "home": {
           "team": "Minnesota Vikings",
-          "team_strength": 5.929545454545455,
+          "team_strength": 5.9461730205278585,
           "expected_lineup_units": {
             "pass_offense": 4.650146627565983,
             "rush_offense": 3.4492668621700875,
             "pass_defense": 8.252785923753665,
-            "rush_defense": 5.795601173020528,
+            "rush_defense": 5.961876832844575,
             "special_teams": 6.331378299120235
           },
           "unit_adjustments": [],
@@ -192,12 +192,12 @@
             "pass_offense": 5.241348973607039,
             "rush_offense": 4.567008797653958,
             "pass_defense": 5.943401759530792,
-            "rush_defense": 4.557771260997068,
+            "rush_defense": 4.640909090909091,
             "special_teams": 4.733284457478006
           },
-          "matchup_base": 5.292155425219941,
+          "matchup_base": 5.300469208211144,
           "situational_adjustment": 0.2,
-          "weekly_matchup": 5.492155425219941
+          "weekly_matchup": 5.500469208211144
         },
         "away": {
           "team": "Buffalo Bills",
@@ -214,23 +214,23 @@
           "status": "complete",
           "category_matchups": {
             "pass_offense": 5.056598240469208,
-            "rush_offense": 6.442228739002932,
+            "rush_offense": 6.359090909090909,
             "pass_defense": 5.758651026392961,
             "rush_defense": 6.432991202346042,
             "special_teams": 6.266715542521994
           },
-          "matchup_base": 5.708306451612903,
+          "matchup_base": 5.695835777126099,
           "situational_adjustment": 0.0,
-          "weekly_matchup": 5.708306451612903
+          "weekly_matchup": 5.695835777126099
         },
-        "matchup_difference_home_minus_away": -0.21615102639296158,
+        "matchup_difference_home_minus_away": -0.19536656891495507,
         "scoring_version": "nfl-scoring-1.0"
       },
       "rating_side": "Minnesota Vikings",
       "pass": 5.241348973607039,
       "rush": 4.567008797653958,
       "offense": 4.289882697947213,
-      "defense": 7.70674486803519,
+      "defense": 7.743695014662756,
       "confidence": 6.4,
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
       "model": {
@@ -253,21 +253,21 @@
         "home": "Minnesota Vikings",
         "away": "Buffalo Bills",
         "kickoff": "2026-11-10T01:15:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -0.206946966517897,
-          "total": 45.07316266297074,
-          "projected_home_points": 22.43310784822642,
-          "projected_away_points": 22.640054814744317,
-          "fair_home_spread": 0.206946966517897,
+          "margin": -0.2708464350711589,
+          "total": 45.053767617768955,
+          "projected_home_points": 22.3914605913489,
+          "projected_away_points": 22.662307026420056,
+          "fair_home_spread": 0.2708464350711589,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.47640026229454757,
-          "tie": 0.03338734462564408,
-          "away": 0.49021239307980835
+          "home": 0.47426996845934755,
+          "tie": 0.033383774035943226,
+          "away": 0.49234625750470923
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -449,27 +449,27 @@
       "scoring": {
         "home": {
           "team": "New York Giants",
-          "team_strength": 6.084516129032258,
+          "team_strength": 6.08258064516129,
           "expected_lineup_units": {
             "pass_offense": 5.635483870967742,
-            "rush_offense": 4.687096774193548,
+            "rush_offense": 4.7064516129032254,
             "pass_defense": 7.358064516129032,
             "rush_defense": 5.558064516129032,
-            "special_teams": 5.558064516129032
+            "special_teams": 5.461290322580646
           },
           "unit_adjustments": [],
           "data_confidence": 6.7,
           "status": "complete",
           "category_matchups": {
             "pass_offense": 5.200000000000001,
-            "rush_offense": 5.974193548387096,
+            "rush_offense": 5.983870967741935,
             "pass_defense": 6.883870967741935,
             "rush_defense": 6.748387096774193,
-            "special_teams": 5.229032258064516
+            "special_teams": 5.180645161290323
           },
-          "matchup_base": 6.061774193548387,
+          "matchup_base": 6.060806451612903,
           "situational_adjustment": 0.2,
-          "weekly_matchup": 6.261774193548387
+          "weekly_matchup": 6.260806451612903
         },
         "away": {
           "team": "Washington Commanders",
@@ -488,20 +488,20 @@
             "pass_offense": 4.116129032258065,
             "rush_offense": 4.251612903225807,
             "pass_defense": 5.799999999999999,
-            "rush_defense": 5.025806451612904,
-            "special_teams": 5.770967741935484
+            "rush_defense": 5.016129032258065,
+            "special_teams": 5.819354838709677
           },
-          "matchup_base": 4.899516129032258,
+          "matchup_base": 4.900967741935483,
           "situational_adjustment": 0.0,
-          "weekly_matchup": 4.899516129032258
+          "weekly_matchup": 4.900967741935483
         },
-        "matchup_difference_home_minus_away": 1.362258064516129,
+        "matchup_difference_home_minus_away": 1.3598387096774198,
         "scoring_version": "nfl-scoring-1.0"
       },
       "rating_side": "New York Giants",
       "pass": 5.200000000000001,
-      "rush": 5.974193548387096,
-      "offense": 5.3509677419354835,
+      "rush": 5.983870967741935,
+      "offense": 5.356774193548387,
       "defense": 6.95806451612903,
       "confidence": 6.7,
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
@@ -525,21 +525,21 @@
         "home": "New York Giants",
         "away": "Washington Commanders",
         "kickoff": "2026-11-13T01:15:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": 4.449717524964176,
-          "total": 40.07736830072511,
-          "projected_home_points": 22.263542912844645,
-          "projected_away_points": 17.813825387880467,
-          "fair_home_spread": -4.449717524964176,
+          "margin": 4.543500516087847,
+          "total": 40.10672827625838,
+          "projected_home_points": 22.325114396173113,
+          "projected_away_points": 17.781613880085267,
+          "fair_home_spread": -4.543500516087847,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.6295631974802444,
-          "tie": 0.03115475858624417,
-          "away": 0.33928204393351147
+          "home": 0.6325251798346456,
+          "tie": 0.03106284788214947,
+          "away": 0.33641197228320496
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -739,13 +739,6 @@
           "role": "news"
         },
         {
-          "title": "Matthew Golden sets career high for receiving yards in a game in first half against Patriots",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-golden-sets-career-high-for-receiving-yards-in-a-game-in-first-half-against-patriots",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-08T22:48:21Z",
-          "role": "news"
-        },
-        {
           "title": "FC Bayern Munich Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
           "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
           "publisher": "nflverse schedule",
@@ -770,12 +763,12 @@
       "scoring": {
         "home": {
           "team": "Detroit Lions",
-          "team_strength": 5.93741935483871,
+          "team_strength": 5.943225806451613,
           "expected_lineup_units": {
             "pass_offense": 6.390322580645161,
             "rush_offense": 6.293548387096774,
             "pass_defense": 4.822580645161291,
-            "rush_defense": 6.990322580645161,
+            "rush_defense": 7.048387096774193,
             "special_teams": 7.396774193548387
           },
           "unit_adjustments": [],
@@ -783,47 +776,47 @@
           "status": "complete",
           "category_matchups": {
             "pass_offense": 6.980272952853598,
-            "rush_offense": 4.942059553349876,
-            "pass_defense": 4.216625310173697,
-            "rush_defense": 6.586848635235732,
+            "rush_offense": 4.972208436724565,
+            "pass_defense": 4.126178660049629,
+            "rush_defense": 6.615880893300249,
             "special_teams": 7.11166253101737
           },
-          "matchup_base": 5.674491315136476,
+          "matchup_base": 5.650260545905707,
           "situational_adjustment": 0.0,
-          "weekly_matchup": 5.674491315136476
+          "weekly_matchup": 5.650260545905707
         },
         "away": {
           "team": "New England Patriots",
-          "team_strength": 5.4587965260545905,
+          "team_strength": 5.516079404466501,
           "expected_lineup_units": {
-            "pass_offense": 7.389330024813897,
+            "pass_offense": 7.570223325062033,
             "rush_offense": 4.816625310173697,
             "pass_defense": 3.4297766749379655,
-            "rush_defense": 7.409429280397022,
+            "rush_defense": 7.349131513647643,
             "special_teams": 4.173449131513648
           },
           "unit_adjustments": [],
           "data_confidence": 6.9,
           "status": "complete",
           "category_matchups": {
-            "pass_offense": 6.783374689826303,
-            "rush_offense": 4.413151364764268,
+            "pass_offense": 6.873821339950371,
+            "rush_offense": 4.384119106699751,
             "pass_defense": 4.019727047146402,
-            "rush_defense": 6.057940446650124,
+            "rush_defense": 6.027791563275435,
             "special_teams": 3.8883374689826304
           },
-          "matchup_base": 5.243269230769231,
+          "matchup_base": 5.267555831265508,
           "situational_adjustment": 0.0,
-          "weekly_matchup": 5.243269230769231
+          "weekly_matchup": 5.267555831265508
         },
-        "matchup_difference_home_minus_away": 0.43122208436724474,
+        "matchup_difference_home_minus_away": 0.38270471464019895,
         "scoring_version": "nfl-scoring-1.0"
       },
       "rating_side": "Detroit Lions",
       "pass": 6.980272952853598,
-      "rush": 4.942059553349876,
+      "rush": 4.972208436724565,
       "offense": 6.361290322580644,
-      "defense": 5.3043010752688176,
+      "defense": 5.317204301075268,
       "confidence": 6.7,
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
       "model": {
@@ -846,21 +839,21 @@
         "home": "Detroit Lions",
         "away": "New England Patriots",
         "kickoff": "2026-11-15T14:30:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -6.523762461383552,
-          "total": 52.65761565458271,
-          "projected_home_points": 23.06692659659958,
-          "projected_away_points": 29.590689057983134,
-          "fair_home_spread": 6.523762461383552,
+          "margin": -6.698385481843273,
+          "total": 52.951940514007106,
+          "projected_home_points": 23.126777516081916,
+          "projected_away_points": 29.82516299792519,
+          "fair_home_spread": 6.698385481843273,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.27824056487902327,
-          "tie": 0.028767313942820283,
-          "away": 0.6929921211781565
+          "home": 0.2733551954920398,
+          "tie": 0.028535578960343755,
+          "away": 0.6981092255476165
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -1035,10 +1028,10 @@
       "scoring": {
         "home": {
           "team": "Atlanta Falcons",
-          "team_strength": 4.671910669975186,
+          "team_strength": 4.680955334987592,
           "expected_lineup_units": {
             "pass_offense": 3.912158808933002,
-            "rush_offense": 6.283870967741936,
+            "rush_offense": 6.344168734491315,
             "pass_defense": 4.97741935483871,
             "rush_defense": 4.555334987593052,
             "special_teams": 3.2488833746898265
@@ -1048,46 +1041,46 @@
           "status": "complete",
           "category_matchups": {
             "pass_offense": 4.522208436724566,
-            "rush_offense": 5.050000000000001,
-            "pass_defense": 4.590322580645162,
+            "rush_offense": 5.118858560794045,
+            "pass_defense": 4.53225806451613,
             "rush_defense": 3.817990074441688,
             "special_teams": 5.613151364764268
           },
-          "matchup_base": 4.609342431761787,
+          "matchup_base": 4.5993486352357325,
           "situational_adjustment": 0.2,
-          "weekly_matchup": 4.809342431761787
+          "weekly_matchup": 4.799348635235733
         },
         "away": {
           "team": "Kansas City Chiefs",
-          "team_strength": 6.489999999999999,
+          "team_strength": 6.52290322580645,
           "expected_lineup_units": {
-            "pass_offense": 6.796774193548386,
+            "pass_offense": 6.912903225806451,
             "rush_offense": 7.919354838709676,
             "pass_defense": 5.8677419354838705,
-            "rush_defense": 7.183870967741935,
+            "rush_defense": 7.106451612903225,
             "special_teams": 3.02258064516129
           },
           "unit_adjustments": [],
           "data_confidence": 6.7,
           "status": "complete",
           "category_matchups": {
-            "pass_offense": 6.409677419354838,
+            "pass_offense": 6.46774193548387,
             "rush_offense": 7.182009925558312,
             "pass_defense": 6.477791563275434,
-            "rush_defense": 5.949999999999999,
+            "rush_defense": 5.881141439205955,
             "special_teams": 5.386848635235732
           },
-          "matchup_base": 6.452258064516129,
+          "matchup_base": 6.465694789081885,
           "situational_adjustment": 0.0,
-          "weekly_matchup": 6.452258064516129
+          "weekly_matchup": 6.465694789081885
         },
-        "matchup_difference_home_minus_away": -1.6429156327543417,
+        "matchup_difference_home_minus_away": -1.6663461538461526,
         "scoring_version": "nfl-scoring-1.0"
       },
       "rating_side": "Atlanta Falcons",
       "pass": 4.522208436724566,
-      "rush": 5.050000000000001,
-      "offense": 4.623672456575682,
+      "rush": 5.118858560794045,
+      "offense": 4.641761786600496,
       "defense": 4.883622828784119,
       "confidence": 6.7,
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
@@ -1111,21 +1104,21 @@
         "home": "Atlanta Falcons",
         "away": "Kansas City Chiefs",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -3.0641418768543423,
-          "total": 50.500438506096664,
-          "projected_home_points": 23.71814831462116,
-          "projected_away_points": 26.782290191475504,
-          "fair_home_spread": 3.0641418768543423,
+          "margin": -3.1172022103376387,
+          "total": 50.74147457331011,
+          "projected_home_points": 23.812136181486235,
+          "projected_away_points": 26.929338391823872,
+          "fair_home_spread": 3.1172022103376387,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.3826937083279003,
-          "tie": 0.032311949597953915,
-          "away": 0.5849943420741458
+          "home": 0.38099969255304855,
+          "tie": 0.032274846472726715,
+          "away": 0.5867254609742247
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -1300,12 +1293,12 @@
       "scoring": {
         "home": {
           "team": "New York Jets",
-          "team_strength": 4.986464019851117,
+          "team_strength": 4.984454094292804,
           "expected_lineup_units": {
             "pass_offense": 5.942183622828784,
             "rush_offense": 6.283870967741936,
             "pass_defense": 3.1483870967741936,
-            "rush_defense": 5.721091811414391,
+            "rush_defense": 5.700992555831266,
             "special_teams": 5.801488833746898
           },
           "unit_adjustments": [],
@@ -1315,12 +1308,12 @@
             "pass_offense": 5.88736747123844,
             "rush_offense": 5.984310850439883,
             "pass_defense": 3.391202346041056,
-            "rush_defense": 4.520516580193999,
+            "rush_defense": 4.510466952402437,
             "special_teams": 4.4683397247913375
           },
-          "matchup_base": 4.820614707872773,
+          "matchup_base": 4.819609745093617,
           "situational_adjustment": 0.25,
-          "weekly_matchup": 5.070614707872773
+          "weekly_matchup": 5.069609745093617
         },
         "away": {
           "team": "Buffalo Bills",
@@ -1337,23 +1330,23 @@
           "status": "complete",
           "category_matchups": {
             "pass_offense": 7.608797653958944,
-            "rush_offense": 6.479483419806001,
+            "rush_offense": 6.489533047597563,
             "pass_defense": 5.11263252876156,
             "rush_defense": 5.015689149560117,
             "special_teams": 6.5316602752086625
           },
-          "matchup_base": 6.252575005639521,
+          "matchup_base": 6.254082449808255,
           "situational_adjustment": -0.05,
-          "weekly_matchup": 6.202575005639521
+          "weekly_matchup": 6.204082449808255
         },
-        "matchup_difference_home_minus_away": -1.1319602977667484,
+        "matchup_difference_home_minus_away": -1.1344727047146383,
         "scoring_version": "nfl-scoring-1.0"
       },
       "rating_side": "New York Jets",
       "pass": 5.88736747123844,
       "rush": 5.984310850439883,
       "offense": 6.044689826302729,
-      "defense": 3.720099255583126,
+      "defense": 3.7156327543424315,
       "confidence": 6.4,
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
       "model": {
@@ -1376,21 +1369,21 @@
         "home": "New York Jets",
         "away": "Buffalo Bills",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -0.744914011163385,
-          "total": 56.3245172040969,
-          "projected_home_points": 27.789801596466756,
-          "projected_away_points": 28.534715607630144,
-          "fair_home_spread": 0.744914011163385,
+          "margin": -0.7371898995800241,
+          "total": 56.326861660110296,
+          "projected_home_points": 27.794835880265136,
+          "projected_away_points": 28.53202577984516,
+          "fair_home_spread": 0.7371898995800241,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.45849242086293507,
-          "tie": 0.033327508217886326,
-          "away": 0.5081800709191786
+          "home": 0.458749033383022,
+          "tie": 0.03332884475998399,
+          "away": 0.507922121856994
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -1565,60 +1558,60 @@
       "scoring": {
         "home": {
           "team": "New Orleans Saints",
-          "team_strength": 5.003548387096774,
+          "team_strength": 5.0045161290322575,
           "expected_lineup_units": {
             "pass_offense": 5.558064516129032,
-            "rush_offense": 3.990322580645161,
+            "rush_offense": 4.009677419354839,
             "pass_defense": 4.958064516129032,
-            "rush_defense": 5.170967741935484,
+            "rush_defense": 5.151612903225806,
             "special_teams": 4.145161290322581
           },
           "unit_adjustments": [],
           "data_confidence": 6.7,
           "status": "complete",
           "category_matchups": {
-            "pass_offense": 6.1967741935483875,
-            "rush_offense": 5.34516129032258,
+            "pass_offense": 6.187096774193549,
+            "rush_offense": 5.354838709677419,
             "pass_defense": 5.906451612903226,
-            "rush_defense": 5.074193548387097,
-            "special_teams": 4.648387096774194
+            "rush_defense": 5.006451612903225,
+            "special_teams": 4.619354838709677
           },
-          "matchup_base": 5.777741935483871,
+          "matchup_base": 5.76758064516129,
           "situational_adjustment": 0.2,
-          "weekly_matchup": 5.977741935483871
+          "weekly_matchup": 5.9675806451612905
         },
         "away": {
           "team": "Carolina Panthers",
-          "team_strength": 4.534193548387097,
+          "team_strength": 4.561290322580645,
           "expected_lineup_units": {
             "pass_offense": 4.145161290322581,
-            "rush_offense": 6.02258064516129,
-            "pass_defense": 4.164516129032258,
+            "rush_offense": 6.138709677419355,
+            "pass_defense": 4.183870967741935,
             "rush_defense": 4.300000000000001,
-            "special_teams": 5.848387096774194
+            "special_teams": 5.906451612903226
           },
           "unit_adjustments": [],
           "data_confidence": 6.7,
           "status": "complete",
           "category_matchups": {
             "pass_offense": 5.093548387096774,
-            "rush_offense": 5.925806451612903,
-            "pass_defense": 4.8032258064516125,
-            "rush_defense": 5.65483870967742,
-            "special_teams": 6.351612903225806
+            "rush_offense": 5.993548387096775,
+            "pass_defense": 4.812903225806451,
+            "rush_defense": 5.645161290322581,
+            "special_teams": 6.380645161290323
           },
-          "matchup_base": 5.235806451612903,
+          "matchup_base": 5.2498387096774195,
           "situational_adjustment": 0.0,
-          "weekly_matchup": 5.235806451612903
+          "weekly_matchup": 5.2498387096774195
         },
-        "matchup_difference_home_minus_away": 0.741935483870968,
+        "matchup_difference_home_minus_away": 0.717741935483871,
         "scoring_version": "nfl-scoring-1.0"
       },
       "rating_side": "New Orleans Saints",
-      "pass": 6.1967741935483875,
-      "rush": 5.34516129032258,
-      "offense": 5.08774193548387,
-      "defense": 5.00537634408602,
+      "pass": 6.187096774193549,
+      "rush": 5.354838709677419,
+      "offense": 5.0935483870967735,
+      "defense": 5.001075268817203,
       "confidence": 6.7,
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
       "model": {
@@ -1641,21 +1634,21 @@
         "home": "New Orleans Saints",
         "away": "Carolina Panthers",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": 1.9318555557301011,
-          "total": 48.30952836579833,
-          "projected_home_points": 25.120691960764216,
-          "projected_away_points": 23.188836405034113,
-          "fair_home_spread": -1.9318555557301011,
+          "margin": 1.8634225459933453,
+          "total": 48.36839168421647,
+          "projected_home_points": 25.115907115104907,
+          "projected_away_points": 23.252484569111562,
+          "fair_home_spread": -1.8634225459933453,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5477126762232974,
-          "tie": 0.032958638916651184,
-          "away": 0.41932868486005137
+          "home": 0.5454424695270301,
+          "tie": 0.032988638829386074,
+          "away": 0.4215688916435838
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -1851,60 +1844,60 @@
       "scoring": {
         "home": {
           "team": "Cleveland Browns",
-          "team_strength": 5.25076923076923,
+          "team_strength": 5.2839330024813895,
           "expected_lineup_units": {
             "pass_offense": 4.615632754342432,
-            "rush_offense": 3.711166253101737,
-            "pass_defense": 6.9873449131513645,
+            "rush_offense": 3.7312655086848636,
+            "pass_defense": 7.067741935483871,
             "rush_defense": 3.088089330024814,
-            "special_teams": 6.484863523573201
+            "special_teams": 6.525062034739454
           },
           "unit_adjustments": [],
           "data_confidence": 6.9,
           "status": "complete",
           "category_matchups": {
-            "pass_offense": 4.680397022332507,
-            "rush_offense": 5.476550868486353,
-            "pass_defense": 5.266253101736973,
-            "rush_defense": 5.184367245657568,
-            "special_teams": 5.6730769230769225
+            "pass_offense": 4.65136476426799,
+            "rush_offense": 5.486600496277916,
+            "pass_defense": 5.306451612903226,
+            "rush_defense": 5.174689826302729,
+            "special_teams": 5.644789081885856
           },
-          "matchup_base": 5.104900744416874,
+          "matchup_base": 5.107934243176179,
           "situational_adjustment": 0.2,
-          "weekly_matchup": 5.304900744416874
+          "weekly_matchup": 5.307934243176179
         },
         "away": {
           "team": "Houston Texans",
-          "team_strength": 6.039032258064516,
+          "team_strength": 6.067096774193548,
           "expected_lineup_units": {
             "pass_offense": 7.454838709677419,
-            "rush_offense": 3.7193548387096778,
-            "pass_defense": 6.254838709677419,
+            "rush_offense": 3.7387096774193553,
+            "pass_defense": 6.312903225806451,
             "rush_defense": 3.7580645161290325,
-            "special_teams": 6.138709677419356
+            "special_teams": 6.235483870967742
           },
           "unit_adjustments": [],
           "data_confidence": 6.7,
           "status": "complete",
           "category_matchups": {
-            "pass_offense": 5.733746898263027,
-            "rush_offense": 5.815632754342432,
-            "pass_defense": 6.319602977667493,
-            "rush_defense": 5.523449131513647,
-            "special_teams": 5.3269230769230775
+            "pass_offense": 5.693548387096774,
+            "rush_offense": 5.825310173697271,
+            "pass_defense": 6.34863523573201,
+            "rush_defense": 5.513399503722084,
+            "special_teams": 5.355210918114144
           },
-          "matchup_base": 5.909708436724565,
+          "matchup_base": 5.90766129032258,
           "situational_adjustment": 0.0,
-          "weekly_matchup": 5.909708436724565
+          "weekly_matchup": 5.90766129032258
         },
-        "matchup_difference_home_minus_away": -0.6048076923076913,
+        "matchup_difference_home_minus_away": -0.5997270471464011,
         "scoring_version": "nfl-scoring-1.0"
       },
       "rating_side": "Cleveland Browns",
-      "pass": 4.680397022332507,
-      "rush": 5.476550868486353,
-      "offense": 4.344292803970223,
-      "defense": 6.120843672456575,
+      "pass": 4.65136476426799,
+      "rush": 5.486600496277916,
+      "offense": 4.3503225806451615,
+      "defense": 6.1833746898263025,
       "confidence": 6.7,
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
       "model": {
@@ -1927,21 +1920,21 @@
         "home": "Cleveland Browns",
         "away": "Houston Texans",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -0.17085869612258264,
-          "total": 43.546396685147585,
-          "projected_home_points": 21.687768994512503,
-          "projected_away_points": 21.858627690635082,
-          "fair_home_spread": 0.17085869612258264,
+          "margin": -0.09761190631188355,
+          "total": 43.329400625226796,
+          "projected_home_points": 21.615894359457457,
+          "projected_away_points": 21.71350626576934,
+          "fair_home_spread": 0.09761190631188355,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.47760368262146913,
-          "tie": 0.03338893929511538,
-          "away": 0.4890073780834155
+          "home": 0.4800468288635281,
+          "tie": 0.033391239395611505,
+          "away": 0.4865619317408604
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -2148,13 +2141,6 @@
           "role": "news"
         },
         {
-          "title": "Packers up 24-14 after intercepting Drake Maye three times in first half",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-up-24-14-after-intercepting-drake-maye-three-times-in-first-half",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-08T23:10:51Z",
-          "role": "news"
-        },
-        {
           "title": "Kickoff forecast near Lambeau Field: 48\u00b0F, wind 3 mph W, precipitation 0%",
           "url": "https://api.weather.gov/gridpoints/GRB/78,31/forecast/hourly",
           "publisher": "National Weather Service",
@@ -2179,12 +2165,12 @@
       "scoring": {
         "home": {
           "team": "Green Bay Packers",
-          "team_strength": 6.570285359801488,
+          "team_strength": 6.599429280397022,
           "expected_lineup_units": {
             "pass_offense": 7.0677419354838715,
-            "rush_offense": 3.3694789081885856,
-            "pass_defense": 7.952109181141438,
-            "rush_defense": 6.2637717121588095,
+            "rush_offense": 3.3895781637717124,
+            "pass_defense": 8.032506203473943,
+            "rush_defense": 6.243672456575682,
             "special_teams": 3.6307692307692307
           },
           "unit_adjustments": [],
@@ -2192,47 +2178,47 @@
           "status": "complete",
           "category_matchups": {
             "pass_offense": 4.907478005865103,
-            "rush_offense": 4.286938867584029,
-            "pass_defense": 7.150981276787728,
-            "rush_defense": 6.907252424994361,
+            "rush_offense": 4.213850665463569,
+            "pass_defense": 7.19117978795398,
+            "rush_defense": 6.897202797202797,
             "special_teams": 4.1496954658244976
           },
-          "matchup_base": 5.761711594856756,
+          "matchup_base": 5.763812880667719,
           "situational_adjustment": 0.25,
-          "weekly_matchup": 6.011711594856756
+          "weekly_matchup": 6.013812880667719
         },
         "away": {
           "team": "Minnesota Vikings",
-          "team_strength": 5.929545454545455,
+          "team_strength": 5.9461730205278585,
           "expected_lineup_units": {
             "pass_offense": 4.650146627565983,
             "rush_offense": 3.4492668621700875,
             "pass_defense": 8.252785923753665,
-            "rush_defense": 5.795601173020528,
+            "rush_defense": 5.961876832844575,
             "special_teams": 6.331378299120235
           },
           "unit_adjustments": [],
           "data_confidence": 6.4,
           "status": "complete",
           "category_matchups": {
-            "pass_offense": 3.8490187232122723,
-            "rush_offense": 4.092747575005639,
+            "pass_offense": 3.8088202120460197,
+            "rush_offense": 4.102797202797203,
             "pass_defense": 6.092521994134897,
-            "rush_defense": 6.713061132415971,
+            "rush_defense": 6.786149334536431,
             "special_teams": 6.8503045341755024
           },
-          "matchup_base": 5.107272727272727,
+          "matchup_base": 5.102019512745319,
           "situational_adjustment": -0.05,
-          "weekly_matchup": 5.057272727272728
+          "weekly_matchup": 5.05201951274532
         },
-        "matchup_difference_home_minus_away": 0.9544388675840283,
+        "matchup_difference_home_minus_away": 0.9617933679223993,
         "scoring_version": "nfl-scoring-1.0"
       },
       "rating_side": "Green Bay Packers",
       "pass": 4.907478005865103,
-      "rush": 4.286938867584029,
-      "offense": 5.958263027295285,
-      "defense": 7.576923076923077,
+      "rush": 4.213850665463569,
+      "offense": 5.964292803970223,
+      "defense": 7.634987593052108,
       "confidence": 6.4,
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
       "model": {
@@ -2255,21 +2241,21 @@
         "home": "Green Bay Packers",
         "away": "Minnesota Vikings",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": 5.987299938098123,
-          "total": 36.3645497297366,
-          "projected_home_points": 21.175924833917364,
-          "projected_away_points": 15.18862489581924,
-          "fair_home_spread": -5.987299938098123,
+          "margin": 6.182710226603383,
+          "total": 36.23221419059376,
+          "projected_home_points": 21.20746220859857,
+          "projected_away_points": 15.024751981995188,
+          "fair_home_spread": -6.182710226603383,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.6770384940702503,
-          "tie": 0.02945168592848485,
-          "away": 0.29350982000126485
+          "home": 0.6828895669324018,
+          "tie": 0.029207351482877453,
+          "away": 0.2879030815847208
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -2437,13 +2423,13 @@
       "scoring": {
         "home": {
           "team": "Indianapolis Colts",
-          "team_strength": 4.260880893300248,
+          "team_strength": 4.26289081885856,
           "expected_lineup_units": {
             "pass_offense": 2.8870967741935485,
             "rush_offense": 6.9873449131513645,
             "pass_defense": 4.434739454094292,
             "rush_defense": 2.967493796526054,
-            "special_teams": 7.0677419354838715
+            "special_teams": 7.107940446650124
           },
           "unit_adjustments": [],
           "data_confidence": 6.9,
@@ -2451,19 +2437,19 @@
           "category_matchups": {
             "pass_offense": 5.490322580645161,
             "rush_offense": 7.3952853598014885,
-            "pass_defense": 5.422208436724565,
+            "pass_defense": 5.431885856079404,
             "rush_defense": 4.891811414392059,
-            "special_teams": 7.580645161290323
+            "special_teams": 7.600744416873449
           },
-          "matchup_base": 5.7968920595533495,
+          "matchup_base": 5.8012841191066995,
           "situational_adjustment": 0.2,
-          "weekly_matchup": 5.99689205955335
+          "weekly_matchup": 6.0012841191067
         },
         "away": {
           "team": "Miami Dolphins",
-          "team_strength": 3.716451612903226,
+          "team_strength": 3.709677419354839,
           "expected_lineup_units": {
-            "pass_offense": 4.590322580645162,
+            "pass_offense": 4.570967741935484,
             "rush_offense": 4.183870967741935,
             "pass_defense": 2.9064516129032265,
             "rush_defense": 3.196774193548387,
@@ -2473,17 +2459,17 @@
           "data_confidence": 6.7,
           "status": "complete",
           "category_matchups": {
-            "pass_offense": 5.577791563275435,
+            "pass_offense": 5.568114143920596,
             "rush_offense": 6.108188585607941,
             "pass_defense": 5.509677419354839,
             "rush_defense": 3.6047146401985115,
-            "special_teams": 3.419354838709677
+            "special_teams": 3.3992555831265507
           },
-          "matchup_base": 5.328281637717121,
+          "matchup_base": 5.323889578163771,
           "situational_adjustment": 0.0,
-          "weekly_matchup": 5.328281637717121
+          "weekly_matchup": 5.323889578163771
         },
-        "matchup_difference_home_minus_away": 0.6686104218362283,
+        "matchup_difference_home_minus_away": 0.6773945409429283,
         "scoring_version": "nfl-scoring-1.0"
       },
       "rating_side": "Indianapolis Colts",
@@ -2513,21 +2499,21 @@
         "home": "Indianapolis Colts",
         "away": "Miami Dolphins",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": 1.33514571262049,
-          "total": 48.783983285377175,
-          "projected_home_points": 25.05956449899883,
-          "projected_away_points": 23.724418786378344,
-          "fair_home_spread": -1.33514571262049,
+          "margin": 1.3179526907414236,
+          "total": 48.74608706091757,
+          "projected_home_points": 25.032019875829494,
+          "projected_away_points": 23.714067185088073,
+          "fair_home_spread": -1.3179526907414236,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5278729117918874,
-          "tie": 0.03318448336103952,
-          "away": 0.438942604847073
+          "home": 0.5273000022112317,
+          "tie": 0.03318978633178443,
+          "away": 0.4395102114569839
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -2714,46 +2700,46 @@
           "data_confidence": 6.7,
           "status": "complete",
           "category_matchups": {
-            "pass_offense": 3.7,
-            "rush_offense": 4.45483870967742,
-            "pass_defense": 3.2064516129032268,
-            "rush_defense": 4.619354838709677,
-            "special_teams": 4.464516129032258
+            "pass_offense": 3.748387096774194,
+            "rush_offense": 4.425806451612903,
+            "pass_defense": 3.1774193548387104,
+            "rush_defense": 4.609677419354838,
+            "special_teams": 4.445161290322581
           },
-          "matchup_base": 3.770645161290323,
+          "matchup_base": 3.771129032258065,
           "situational_adjustment": 0.4,
-          "weekly_matchup": 4.170645161290323
+          "weekly_matchup": 4.171129032258065
         },
         "away": {
           "team": "Jacksonville Jaguars",
-          "team_strength": 7.643548387096773,
+          "team_strength": 7.640645161290322,
           "expected_lineup_units": {
-            "pass_offense": 8.093548387096773,
-            "rush_offense": 6.583870967741935,
-            "pass_defense": 7.570967741935484,
-            "rush_defense": 7.938709677419354,
-            "special_teams": 7.590322580645161
+            "pass_offense": 8.151612903225805,
+            "rush_offense": 6.603225806451612,
+            "pass_defense": 7.474193548387096,
+            "rush_defense": 7.9967741935483865,
+            "special_teams": 7.629032258064516
           },
           "unit_adjustments": [],
           "data_confidence": 6.7,
           "status": "complete",
           "category_matchups": {
-            "pass_offense": 7.793548387096774,
-            "rush_offense": 6.380645161290323,
-            "pass_defense": 7.3,
-            "rush_defense": 6.54516129032258,
-            "special_teams": 6.535483870967742
+            "pass_offense": 7.82258064516129,
+            "rush_offense": 6.390322580645162,
+            "pass_defense": 7.251612903225806,
+            "rush_defense": 6.574193548387097,
+            "special_teams": 6.554838709677419
           },
-          "matchup_base": 7.221129032258064,
+          "matchup_base": 7.219677419354838,
           "situational_adjustment": -0.2,
-          "weekly_matchup": 7.021129032258064
+          "weekly_matchup": 7.019677419354838
         },
-        "matchup_difference_home_minus_away": -2.850483870967741,
+        "matchup_difference_home_minus_away": -2.8485483870967725,
         "scoring_version": "nfl-scoring-1.0"
       },
       "rating_side": "Tennessee Titans",
-      "pass": 3.7,
-      "rush": 4.45483870967742,
+      "pass": 3.748387096774194,
+      "rush": 4.425806451612903,
       "offense": 4.534193548387097,
       "defense": 3.7989247311827956,
       "confidence": 6.7,
@@ -2778,21 +2764,21 @@
         "home": "Tennessee Titans",
         "away": "Jacksonville Jaguars",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": 2.3930607892918374,
-          "total": 45.0120074960346,
-          "projected_home_points": 23.702534142663218,
-          "projected_away_points": 21.30947335337138,
-          "fair_home_spread": -2.3930607892918374,
+          "margin": 2.5097474144102563,
+          "total": 45.26341724842978,
+          "projected_home_points": 23.88658233142002,
+          "projected_away_points": 21.376834917009763,
+          "fair_home_spread": -2.5097474144102563,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5629684603578102,
-          "tie": 0.03272914631277468,
-          "away": 0.40430239332941514
+          "home": 0.5668143483400271,
+          "tie": 0.03266362094650882,
+          "away": 0.4005220307134641
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -2981,60 +2967,60 @@
       "scoring": {
         "home": {
           "team": "Arizona Cardinals",
-          "team_strength": 4.592518610421836,
+          "team_strength": 4.59151364764268,
           "expected_lineup_units": {
-            "pass_offense": 4.0126550868486355,
-            "rush_offense": 6.123076923076923,
+            "pass_offense": 3.9925558312655083,
+            "rush_offense": 6.263771712158809,
             "pass_defense": 3.6307692307692307,
-            "rush_defense": 7.449627791563276,
-            "special_teams": 5.077915632754342
+            "rush_defense": 7.329032258064515,
+            "special_teams": 5.017617866004962
           },
           "unit_adjustments": [],
           "data_confidence": 6.9,
           "status": "complete",
           "category_matchups": {
-            "pass_offense": 3.84181141439206,
-            "rush_offense": 4.314143920595534,
-            "pass_defense": 4.39454094292804,
-            "rush_defense": 5.09801488833747,
-            "special_teams": 6.263771712158809
+            "pass_offense": 3.892059553349876,
+            "rush_offense": 4.39454094292804,
+            "pass_defense": 4.404590570719603,
+            "rush_defense": 5.03771712158809,
+            "special_teams": 6.233622828784119
           },
-          "matchup_base": 4.352834987593052,
+          "matchup_base": 4.378461538461538,
           "situational_adjustment": 0.2,
-          "weekly_matchup": 4.5528349875930525
+          "weekly_matchup": 4.578461538461538
         },
         "away": {
           "team": "Los Angeles Rams",
-          "team_strength": 6.874789081885854,
+          "team_strength": 6.823535980148883,
           "expected_lineup_units": {
-            "pass_offense": 5.841687344913151,
+            "pass_offense": 5.821588089330025,
             "rush_offense": 8.253598014888336,
-            "pass_defense": 7.329032258064515,
-            "rush_defense": 8.494789081885855,
+            "pass_defense": 7.208436724565757,
+            "rush_defense": 8.474689826302729,
             "special_teams": 3.550372208436724
           },
           "unit_adjustments": [],
           "data_confidence": 6.9,
           "status": "complete",
           "category_matchups": {
-            "pass_offense": 6.60545905707196,
-            "rush_offense": 5.90198511166253,
-            "pass_defense": 7.15818858560794,
-            "rush_defense": 6.685856079404466,
-            "special_teams": 4.736228287841191
+            "pass_offense": 6.595409429280397,
+            "rush_offense": 5.96228287841191,
+            "pass_defense": 7.107940446650124,
+            "rush_defense": 6.60545905707196,
+            "special_teams": 4.766377171215881
           },
-          "matchup_base": 6.60797146401985,
+          "matchup_base": 6.589379652605459,
           "situational_adjustment": 0.0,
-          "weekly_matchup": 6.60797146401985
+          "weekly_matchup": 6.589379652605459
         },
-        "matchup_difference_home_minus_away": -2.0551364764267976,
+        "matchup_difference_home_minus_away": -2.0109181141439203,
         "scoring_version": "nfl-scoring-1.0"
       },
       "rating_side": "Arizona Cardinals",
-      "pass": 3.84181141439206,
-      "rush": 4.314143920595534,
-      "offense": 4.645781637717121,
-      "defense": 4.47940446650124,
+      "pass": 3.892059553349876,
+      "rush": 4.39454094292804,
+      "offense": 4.673920595533498,
+      "defense": 4.452605459057071,
       "confidence": 6.9,
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
       "model": {
@@ -3057,21 +3043,21 @@
         "home": "Arizona Cardinals",
         "away": "Los Angeles Rams",
         "kickoff": "2026-11-15T21:05:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -8.041708233647045,
-          "total": 48.182947962725684,
-          "projected_home_points": 20.07061986453932,
-          "projected_away_points": 28.112328098186364,
-          "fair_home_spread": 8.041708233647045,
+          "margin": -7.661636239931864,
+          "total": 48.43905437332167,
+          "projected_home_points": 20.3887090666949,
+          "projected_away_points": 28.050345306626767,
+          "fair_home_spread": 7.661636239931864,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.23725238279110827,
-          "tie": 0.02662336536414478,
-          "away": 0.736124251844747
+          "home": 0.2471939253825195,
+          "tie": 0.02718585277072627,
+          "away": 0.7256202218467542
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -3208,6 +3194,13 @@
           "role": "news"
         },
         {
+          "title": "Ashton Jeanty had 5 catches for -5 yards on another awful day for Raiders' running backs",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ashton-jeanty-had-5-catches-for-5-yards-on-another-awful-day-for-raiders-running-backs",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-09T10:04:42Z",
+          "role": "news"
+        },
+        {
           "title": "Video emerges of parking lot brawl at Raiders-49ers game",
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/video-emerges-of-parking-lot-brawl-at-raiders-49ers-game",
           "publisher": "NBC Sports",
@@ -3274,37 +3267,37 @@
       "scoring": {
         "home": {
           "team": "Las Vegas Raiders",
-          "team_strength": 4.227717121588089,
+          "team_strength": 4.230732009925558,
           "expected_lineup_units": {
             "pass_offense": 6.082878411910669,
             "rush_offense": 3.7915632754342434,
             "pass_defense": 2.5052109181141438,
             "rush_defense": 3.1885856079404467,
-            "special_teams": 6.685856079404466
+            "special_teams": 6.746153846153846
           },
           "unit_adjustments": [],
           "data_confidence": 6.9,
           "status": "complete",
           "category_matchups": {
-            "pass_offense": 4.8869727047146405,
-            "rush_offense": 3.9121588089330026,
+            "pass_offense": 4.876923076923077,
+            "rush_offense": 3.8217121588089333,
             "pass_defense": 3.6810173697270474,
             "rush_defense": 5.7512406947890815,
-            "special_teams": 5.851736972704714
+            "special_teams": 5.851736972704715
           },
-          "matchup_base": 4.453331265508685,
+          "matchup_base": 4.436246898263027,
           "situational_adjustment": 0.2,
-          "weekly_matchup": 4.653331265508685
+          "weekly_matchup": 4.636246898263027
         },
         "away": {
           "team": "Seattle Seahawks",
-          "team_strength": 6.106997518610421,
+          "team_strength": 6.135136476426798,
           "expected_lineup_units": {
             "pass_offense": 6.143176178660049,
             "rush_offense": 2.686104218362283,
-            "pass_defense": 7.308933002481389,
-            "rush_defense": 6.967245657568238,
-            "special_teams": 5.982382133995038
+            "pass_defense": 7.329032258064515,
+            "rush_defense": 7.148138957816377,
+            "special_teams": 6.0426799007444165
           },
           "unit_adjustments": [],
           "data_confidence": 6.9,
@@ -3312,20 +3305,20 @@
           "category_matchups": {
             "pass_offense": 7.318982630272952,
             "rush_offense": 5.2487593052109185,
-            "pass_defense": 6.1130272952853595,
-            "rush_defense": 7.087841191066998,
-            "special_teams": 5.148263027295286
+            "pass_defense": 6.123076923076923,
+            "rush_defense": 7.178287841191066,
+            "special_teams": 5.148263027295285
           },
-          "matchup_base": 6.45471464019851,
+          "matchup_base": 6.467276674937965,
           "situational_adjustment": 0.0,
-          "weekly_matchup": 6.45471464019851
+          "weekly_matchup": 6.467276674937965
         },
-        "matchup_difference_home_minus_away": -1.8013833746898253,
+        "matchup_difference_home_minus_away": -1.8310297766749377,
         "scoring_version": "nfl-scoring-1.0"
       },
       "rating_side": "Las Vegas Raiders",
-      "pass": 4.8869727047146405,
-      "rush": 3.9121588089330026,
+      "pass": 4.876923076923077,
+      "rush": 3.8217121588089333,
       "offense": 5.395483870967741,
       "defense": 2.657071960297767,
       "confidence": 6.9,
@@ -3350,21 +3343,21 @@
         "home": "Las Vegas Raiders",
         "away": "Seattle Seahawks",
         "kickoff": "2026-11-15T21:05:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -3.323552366350917,
-          "total": 48.25303334668001,
-          "projected_home_points": 22.464740490164548,
-          "projected_away_points": 25.788292856515465,
-          "fair_home_spread": 3.323552366350917,
+          "margin": -3.2800158475755223,
+          "total": 48.18021240313371,
+          "projected_home_points": 22.450098277779095,
+          "projected_away_points": 25.730114125354614,
+          "fair_home_spread": 3.2800158475755223,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.3744336420898512,
-          "tie": 0.032124933555270574,
-          "away": 0.5934414243548782
+          "home": 0.375816016310627,
+          "tie": 0.03215730314650478,
+          "away": 0.5920266805428682
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -3567,27 +3560,27 @@
       "scoring": {
         "home": {
           "team": "Dallas Cowboys",
-          "team_strength": 5.8095285359801485,
+          "team_strength": 5.846712158808932,
           "expected_lineup_units": {
-            "pass_offense": 6.7662531017369725,
+            "pass_offense": 6.886848635235732,
             "rush_offense": 7.329032258064515,
             "pass_defense": 4.997518610421836,
             "rush_defense": 3.1282878411910673,
-            "special_teams": 5.600496277915633
+            "special_teams": 5.5
           },
           "unit_adjustments": [],
           "data_confidence": 6.9,
           "status": "complete",
           "category_matchups": {
-            "pass_offense": 5.862158808933002,
+            "pass_offense": 5.922456575682382,
             "rush_offense": 6.017741935483871,
             "pass_defense": 3.942307692307692,
             "rush_defense": 3.046401985111663,
-            "special_teams": 5.879280397022333
+            "special_teams": 5.829032258064516
           },
-          "matchup_base": 4.932828784119106,
+          "matchup_base": 4.951420595533499,
           "situational_adjustment": 0.2,
-          "weekly_matchup": 5.1328287841191065
+          "weekly_matchup": 5.151420595533499
         },
         "away": {
           "team": "San Francisco 49ers",
@@ -3605,21 +3598,21 @@
           "category_matchups": {
             "pass_offense": 7.057692307692308,
             "rush_offense": 7.953598014888337,
-            "pass_defense": 5.137841191066998,
+            "pass_defense": 5.077543424317618,
             "rush_defense": 4.982258064516129,
-            "special_teams": 5.120719602977667
+            "special_teams": 5.170967741935484
           },
-          "matchup_base": 6.215738213399503,
+          "matchup_base": 6.197146401985112,
           "situational_adjustment": 0.0,
-          "weekly_matchup": 6.215738213399503
+          "weekly_matchup": 6.197146401985112
         },
-        "matchup_difference_home_minus_away": -1.082909429280397,
+        "matchup_difference_home_minus_away": -1.045725806451613,
         "scoring_version": "nfl-scoring-1.0"
       },
       "rating_side": "Dallas Cowboys",
-      "pass": 5.862158808933002,
+      "pass": 5.922456575682382,
       "rush": 6.017741935483871,
-      "offense": 6.935086848635235,
+      "offense": 7.019503722084367,
       "defense": 4.582133995037221,
       "confidence": 6.7,
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
@@ -3643,21 +3636,21 @@
         "home": "Dallas Cowboys",
         "away": "San Francisco 49ers",
         "kickoff": "2026-11-15T21:25:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -1.4515396331335209,
-          "total": 57.40154997393079,
-          "projected_home_points": 27.975005170398635,
-          "projected_away_points": 29.426544803532156,
-          "fair_home_spread": 1.4515396331335209,
+          "margin": -1.2879233133056311,
+          "total": 57.61367425252115,
+          "projected_home_points": 28.16287546960776,
+          "projected_away_points": 29.45079878291339,
+          "fair_home_spread": 1.2879233133056311,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.4351033612822772,
-          "tie": 0.03314679992584457,
-          "away": 0.5317498387918782
+          "home": 0.4405018923192774,
+          "tie": 0.03319888563120543,
+          "away": 0.5262992220495172
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -3811,12 +3804,12 @@
       "scoring": {
         "home": {
           "team": "Cincinnati Bengals",
-          "team_strength": 6.142580645161289,
+          "team_strength": 6.148387096774193,
           "expected_lineup_units": {
             "pass_offense": 8.34516129032258,
             "rush_offense": 6.332258064516129,
             "pass_defense": 4.009677419354839,
-            "rush_defense": 5.209677419354838,
+            "rush_defense": 5.267741935483871,
             "special_teams": 6.951612903225806
           },
           "unit_adjustments": [],
@@ -3824,47 +3817,47 @@
           "status": "complete",
           "category_matchups": {
             "pass_offense": 6.46774193548387,
-            "rush_offense": 4.629032258064516,
+            "rush_offense": 4.638709677419355,
             "pass_defense": 5.741935483870968,
-            "rush_defense": 3.9806451612903233,
-            "special_teams": 6.77741935483871
+            "rush_defense": 4.00967741935484,
+            "special_teams": 6.825806451612904
           },
-          "matchup_base": 5.704677419354838,
+          "matchup_base": 5.711451612903225,
           "situational_adjustment": 0.0,
-          "weekly_matchup": 5.704677419354838
+          "weekly_matchup": 5.711451612903225
         },
         "away": {
           "team": "Pittsburgh Steelers",
-          "team_strength": 5.741935483870967,
+          "team_strength": 5.73516129032258,
           "expected_lineup_units": {
             "pass_offense": 3.5258064516129033,
             "rush_offense": 8.248387096774191,
             "pass_defense": 6.409677419354838,
-            "rush_defense": 8.074193548387097,
-            "special_teams": 4.396774193548387
+            "rush_defense": 8.05483870967742,
+            "special_teams": 4.3
           },
           "unit_adjustments": [],
           "data_confidence": 6.7,
           "status": "complete",
           "category_matchups": {
             "pass_offense": 5.258064516129032,
-            "rush_offense": 7.019354838709677,
+            "rush_offense": 6.99032258064516,
             "pass_defense": 4.53225806451613,
-            "rush_defense": 6.370967741935484,
-            "special_teams": 4.22258064516129
+            "rush_defense": 6.361290322580645,
+            "special_teams": 4.174193548387096
           },
-          "matchup_base": 5.32774193548387,
+          "matchup_base": 5.319999999999999,
           "situational_adjustment": 0.2,
-          "weekly_matchup": 5.527741935483871
+          "weekly_matchup": 5.52
         },
-        "matchup_difference_home_minus_away": 0.17693548387096758,
+        "matchup_difference_home_minus_away": 0.19145161290322577,
         "scoring_version": "nfl-scoring-1.0"
       },
       "rating_side": "Cincinnati Bengals",
       "pass": 6.46774193548387,
-      "rush": 4.629032258064516,
+      "rush": 4.638709677419355,
       "offense": 7.741290322580643,
-      "defense": 4.276344086021505,
+      "defense": 4.289247311827957,
       "confidence": 6.7,
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
       "model": {
@@ -3887,21 +3880,21 @@
         "home": "Cincinnati Bengals",
         "away": "Pittsburgh Steelers",
         "kickoff": "2026-11-16T01:20:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -14.789892140515867,
-          "total": 43.89399864490855,
-          "projected_home_points": 14.552053252196341,
-          "projected_away_points": 29.34194539271221,
-          "fair_home_spread": 14.789892140515867,
+          "margin": -14.894298230768062,
+          "total": 43.90496915907822,
+          "projected_home_points": 14.50533546415508,
+          "projected_away_points": 29.39963369492314,
+          "fair_home_spread": 14.894298230768062,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.1002423748492346,
-          "tie": 0.015519089833690214,
-          "away": 0.8842385353170752
+          "home": 0.09871411600107949,
+          "tie": 0.015351516126537734,
+          "away": 0.8859343678723828
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -3992,13 +3985,13 @@
       "scoring": {
         "home": {
           "team": "Baltimore Ravens",
-          "team_strength": 4.697034739454094,
+          "team_strength": 4.704069478908188,
           "expected_lineup_units": {
             "pass_offense": 4.897022332506203,
             "rush_offense": 4.85682382133995,
             "pass_defense": 4.173449131513648,
-            "rush_defense": 5.861786600496277,
-            "special_teams": 4.153349875930521
+            "rush_defense": 5.982382133995038,
+            "special_teams": 4.052853598014888
           },
           "unit_adjustments": [],
           "data_confidence": 6.9,
@@ -4006,46 +3999,46 @@
           "category_matchups": {
             "pass_offense": 5.701736972704714,
             "rush_offense": 6.320347394540943,
-            "pass_defense": 6.288337468982631,
-            "rush_defense": 7.132506203473945,
-            "special_teams": 4.526674937965261
+            "pass_defense": 6.298014888337469,
+            "rush_defense": 7.192803970223325,
+            "special_teams": 4.447394540942929
           },
-          "matchup_base": 6.084162531017369,
+          "matchup_base": 6.089615384615384,
           "situational_adjustment": 0.35000000000000003,
-          "weekly_matchup": 6.4341625310173685
+          "weekly_matchup": 6.439615384615384
         },
         "away": {
           "team": "Los Angeles Chargers",
-          "team_strength": 3.497741935483871,
+          "team_strength": 3.4938709677419353,
           "expected_lineup_units": {
-            "pass_offense": 2.596774193548387,
+            "pass_offense": 2.57741935483871,
             "rush_offense": 2.596774193548387,
             "pass_defense": 4.493548387096775,
             "rush_defense": 3.2161290322580642,
-            "special_teams": 6.1
+            "special_teams": 6.1580645161290315
           },
           "unit_adjustments": [],
           "data_confidence": 6.7,
           "status": "complete",
           "category_matchups": {
-            "pass_offense": 4.711662531017369,
-            "rush_offense": 3.867493796526055,
+            "pass_offense": 4.701985111662531,
+            "rush_offense": 3.8071960297766747,
             "pass_defense": 5.298263027295286,
             "rush_defense": 4.679652605459057,
-            "special_teams": 6.473325062034739
+            "special_teams": 6.552605459057071
           },
-          "matchup_base": 4.87522952853598,
+          "matchup_base": 4.866761786600496,
           "situational_adjustment": -0.15000000000000002,
-          "weekly_matchup": 4.72522952853598
+          "weekly_matchup": 4.716761786600496
         },
-        "matchup_difference_home_minus_away": 1.7089330024813885,
+        "matchup_difference_home_minus_away": 1.722853598014888,
         "scoring_version": "nfl-scoring-1.0"
       },
       "rating_side": "Baltimore Ravens",
       "pass": 5.701736972704714,
       "rush": 6.320347394540943,
       "offense": 4.884962779156327,
-      "defense": 4.54863523573201,
+      "defense": 4.575434243176178,
       "confidence": 6.7,
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
       "model": {
@@ -4068,21 +4061,21 @@
         "home": "Baltimore Ravens",
         "away": "Los Angeles Chargers",
         "kickoff": "2026-11-17T01:15:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": 10.569987584239353,
-          "total": 39.99657623163334,
-          "projected_home_points": 25.28328190793635,
-          "projected_away_points": 14.713294323696994,
-          "fair_home_spread": -10.569987584239353,
+          "margin": 10.65977763479211,
+          "total": 39.957835730089286,
+          "projected_home_points": 25.308806682440697,
+          "projected_away_points": 14.649029047648588,
+          "fair_home_spread": -10.65977763479211,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.8004211516606743,
-          "tie": 0.022577461833985568,
-          "away": 0.17700138650534014
+          "home": 0.8025165208875379,
+          "tie": 0.022427201883967463,
+          "away": 0.17505627722849465
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -4333,13 +4326,13 @@
       "season": "2026",
       "games_played": 9,
       "units": {
-        "pass_offense": 4.0126550868486355,
-        "rush_offense": 6.123076923076923,
+        "pass_offense": 3.9925558312655083,
+        "rush_offense": 6.263771712158809,
         "pass_defense": 3.6307692307692307,
-        "rush_defense": 7.449627791563276,
-        "special_teams": 5.077915632754342
+        "rush_defense": 7.329032258064515,
+        "special_teams": 5.017617866004962
       },
-      "team_strength": 4.592518610421836,
+      "team_strength": 4.59151364764268,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.9,
@@ -4362,7 +4355,7 @@
           "explosive_rate": {
             "blended_value": 0.0520991641337386,
             "peer_count": 32,
-            "rank_score": 1.870967741935484,
+            "rank_score": 1.580645161290322,
             "missing": false
           }
         },
@@ -4370,7 +4363,7 @@
           "epa": {
             "blended_value": -0.0331532410680863,
             "peer_count": 32,
-            "rank_score": 7.096774193548387,
+            "rank_score": 7.387096774193548,
             "missing": false
           },
           "success_rate": {
@@ -4382,7 +4375,7 @@
           "explosive_rate": {
             "blended_value": 0.07793094883258818,
             "peer_count": 32,
-            "rank_score": 4.483870967741935,
+            "rank_score": 4.774193548387097,
             "missing": false
           }
         },
@@ -4410,7 +4403,7 @@
           "epa": {
             "blended_value": -0.17281832637058941,
             "peer_count": 32,
-            "rank_score": 9.129032258064516,
+            "rank_score": 8.838709677419354,
             "missing": false
           },
           "success_rate": {
@@ -4428,7 +4421,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.05553137217979855,
+            "blended_value": 0.05515997382922079,
             "peer_count": 32,
             "rank_score": 7.67741935483871,
             "missing": false
@@ -4436,7 +4429,7 @@
           "net_punting": {
             "blended_value": 38.53062015503876,
             "peer_count": 32,
-            "rank_score": 1.290322580645162,
+            "rank_score": 1.0,
             "missing": false
           },
           "return_coverage_efficiency": {
@@ -4459,12 +4452,12 @@
       "games_played": 9,
       "units": {
         "pass_offense": 3.912158808933002,
-        "rush_offense": 6.283870967741936,
+        "rush_offense": 6.344168734491315,
         "pass_defense": 4.97741935483871,
         "rush_defense": 4.555334987593052,
         "special_teams": 3.2488833746898265
       },
-      "team_strength": 4.671910669975186,
+      "team_strength": 4.680955334987592,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.9,
@@ -4495,13 +4488,13 @@
           "epa": {
             "blended_value": -0.03755010841977463,
             "peer_count": 32,
-            "rank_score": 6.806451612903226,
+            "rank_score": 7.096774193548387,
             "missing": false
           },
           "success_rate": {
             "blended_value": 0.41859983429991715,
             "peer_count": 32,
-            "rank_score": 6.516129032258064,
+            "rank_score": 6.225806451612903,
             "missing": false
           },
           "explosive_rate": {
@@ -4553,7 +4546,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": -0.17045559802987073,
+            "blended_value": -0.17076332251437082,
             "peer_count": 32,
             "rank_score": 1.290322580645162,
             "missing": false
@@ -4586,10 +4579,10 @@
         "pass_offense": 4.897022332506203,
         "rush_offense": 4.85682382133995,
         "pass_defense": 4.173449131513648,
-        "rush_defense": 5.861786600496277,
-        "special_teams": 4.153349875930521
+        "rush_defense": 5.982382133995038,
+        "special_teams": 4.052853598014888
       },
-      "team_strength": 4.697034739454094,
+      "team_strength": 4.704069478908188,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.9,
@@ -4660,7 +4653,7 @@
           "epa": {
             "blended_value": -0.08333794036808255,
             "peer_count": 32,
-            "rank_score": 5.935483870967742,
+            "rank_score": 6.225806451612903,
             "missing": false
           },
           "success_rate": {
@@ -4678,9 +4671,9 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": -0.05688951527890826,
+            "blended_value": -0.05717350453469261,
             "peer_count": 32,
-            "rank_score": 3.903225806451613,
+            "rank_score": 3.612903225806452,
             "missing": false
           },
           "net_punting": {
@@ -4803,7 +4796,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.12598418101667525,
+            "blended_value": 0.12565156113745368,
             "peer_count": 32,
             "rank_score": 9.129032258064516,
             "missing": false
@@ -4834,12 +4827,12 @@
       "games_played": 8,
       "units": {
         "pass_offense": 4.145161290322581,
-        "rush_offense": 6.02258064516129,
-        "pass_defense": 4.164516129032258,
+        "rush_offense": 6.138709677419355,
+        "pass_defense": 4.183870967741935,
         "rush_defense": 4.300000000000001,
-        "special_teams": 5.848387096774194
+        "special_teams": 5.906451612903226
       },
-      "team_strength": 4.534193548387097,
+      "team_strength": 4.561290322580645,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.7,
@@ -4870,7 +4863,7 @@
           "epa": {
             "blended_value": -0.04570486348841308,
             "peer_count": 32,
-            "rank_score": 6.516129032258064,
+            "rank_score": 6.806451612903226,
             "missing": false
           },
           "success_rate": {
@@ -4902,7 +4895,7 @@
           "explosive_rate": {
             "blended_value": 0.05983841739655693,
             "peer_count": 32,
-            "rank_score": 8.548387096774194,
+            "rank_score": 8.838709677419354,
             "missing": false
           }
         },
@@ -4928,7 +4921,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.022937604530631206,
+            "blended_value": 0.022695456717195854,
             "peer_count": 32,
             "rank_score": 6.225806451612903,
             "missing": false
@@ -4936,7 +4929,7 @@
           "net_punting": {
             "blended_value": 43.02777777777777,
             "peer_count": 32,
-            "rank_score": 5.935483870967742,
+            "rank_score": 6.225806451612903,
             "missing": false
           },
           "return_coverage_efficiency": {
@@ -4956,36 +4949,36 @@
     "Chicago Bears": {
       "team": "Chicago Bears",
       "season": "2026",
-      "games_played": 8,
+      "games_played": 9,
       "units": {
-        "pass_offense": 7.667741935483869,
-        "rush_offense": 6.525806451612903,
-        "pass_defense": 7.474193548387096,
-        "rush_defense": 6.796774193548387,
-        "special_teams": 5.693548387096774
+        "pass_offense": 7.268734491315136,
+        "rush_offense": 5.942183622828783,
+        "pass_defense": 7.83151364764268,
+        "rush_defense": 5.96228287841191,
+        "special_teams": 5.861786600496278
       },
-      "team_strength": 7.242903225806451,
+      "team_strength": 7.065732009925558,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
-      "data_confidence": 6.7,
+      "data_confidence": 6.9,
       "status": "complete",
       "missing_metrics": [],
       "metric_details": {
         "pass_offense": {
           "epa": {
-            "blended_value": 0.21662284560802417,
+            "blended_value": 0.12922938889700544,
             "peer_count": 32,
-            "rank_score": 8.258064516129032,
+            "rank_score": 7.387096774193548,
             "missing": false
           },
           "success_rate": {
-            "blended_value": 0.5225502370738315,
+            "blended_value": 0.5062709030100334,
             "peer_count": 32,
-            "rank_score": 9.419354838709678,
+            "rank_score": 8.838709677419354,
             "missing": false
           },
           "explosive_rate": {
-            "blended_value": 0.1182829081056672,
+            "blended_value": 0.11786363903068708,
             "peer_count": 32,
             "rank_score": 9.709677419354838,
             "missing": false
@@ -4993,79 +4986,79 @@
         },
         "rush_offense": {
           "epa": {
-            "blended_value": -0.030223999047188574,
+            "blended_value": -0.05085982543501397,
             "peer_count": 32,
-            "rank_score": 7.387096774193548,
+            "rank_score": 6.516129032258064,
             "missing": false
           },
           "success_rate": {
-            "blended_value": 0.4318339500462534,
+            "blended_value": 0.4227702948671278,
             "peer_count": 32,
-            "rank_score": 7.096774193548387,
+            "rank_score": 6.516129032258064,
             "missing": false
           },
           "explosive_rate": {
-            "blended_value": 0.08194572926302805,
+            "blended_value": 0.06973061521659993,
             "peer_count": 32,
-            "rank_score": 4.774193548387097,
+            "rank_score": 2.741935483870968,
             "missing": false
           }
         },
         "pass_defense": {
           "epa": {
-            "blended_value": -0.10395089251474046,
+            "blended_value": -0.12019912811403294,
             "peer_count": 32,
-            "rank_score": 8.548387096774194,
+            "rank_score": 9.129032258064516,
             "missing": false
           },
           "success_rate": {
-            "blended_value": 0.3972728947853326,
+            "blended_value": 0.3953059071729958,
             "peer_count": 32,
-            "rank_score": 8.838709677419354,
+            "rank_score": 9.129032258064516,
             "missing": false
           },
           "explosive_rate": {
-            "blended_value": 0.07140224801916344,
+            "blended_value": 0.07519119198312237,
             "peer_count": 32,
-            "rank_score": 6.806451612903226,
+            "rank_score": 6.516129032258064,
             "missing": false
           }
         },
         "rush_defense": {
           "epa": {
-            "blended_value": -0.11298968105326092,
+            "blended_value": -0.08020843125803422,
+            "peer_count": 32,
+            "rank_score": 5.935483870967742,
+            "missing": false
+          },
+          "success_rate": {
+            "blended_value": 0.37849462365591396,
             "peer_count": 32,
             "rank_score": 6.806451612903226,
             "missing": false
           },
-          "success_rate": {
-            "blended_value": 0.3392857142857143,
-            "peer_count": 32,
-            "rank_score": 9.419354838709678,
-            "missing": false
-          },
           "explosive_rate": {
-            "blended_value": 0.09523809523809523,
+            "blended_value": 0.09341397849462364,
             "peer_count": 32,
-            "rank_score": 5.354838709677419,
+            "rank_score": 5.645161290322581,
             "missing": false
           }
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": -0.06756799752561382,
+            "blended_value": -0.04590278524870063,
             "peer_count": 32,
-            "rank_score": 3.32258064516129,
+            "rank_score": 4.483870967741935,
             "missing": false
           },
           "net_punting": {
-            "blended_value": 43.393181818181816,
+            "blended_value": 42.97435897435897,
             "peer_count": 32,
-            "rank_score": 7.096774193548387,
+            "rank_score": 5.935483870967742,
             "missing": false
           },
           "return_coverage_efficiency": {
-            "blended_value": 0.17327440555826107,
+            "blended_value": 0.12886509211330122,
             "peer_count": 32,
             "rank_score": 10.0,
             "missing": false
@@ -5086,10 +5079,10 @@
         "pass_offense": 8.34516129032258,
         "rush_offense": 6.332258064516129,
         "pass_defense": 4.009677419354839,
-        "rush_defense": 5.209677419354838,
+        "rush_defense": 5.267741935483871,
         "special_teams": 6.951612903225806
       },
-      "team_strength": 6.142580645161289,
+      "team_strength": 6.148387096774193,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.7,
@@ -5166,7 +5159,7 @@
           "success_rate": {
             "blended_value": 0.34583333333333327,
             "peer_count": 32,
-            "rank_score": 8.838709677419354,
+            "rank_score": 9.129032258064516,
             "missing": false
           },
           "explosive_rate": {
@@ -5178,7 +5171,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.2076216232972306,
+            "blended_value": 0.2074294384564594,
             "peer_count": 32,
             "rank_score": 10.0,
             "missing": false
@@ -5209,12 +5202,12 @@
       "games_played": 9,
       "units": {
         "pass_offense": 4.615632754342432,
-        "rush_offense": 3.711166253101737,
-        "pass_defense": 6.9873449131513645,
+        "rush_offense": 3.7312655086848636,
+        "pass_defense": 7.067741935483871,
         "rush_defense": 3.088089330024814,
-        "special_teams": 6.484863523573201
+        "special_teams": 6.525062034739454
       },
-      "team_strength": 5.25076923076923,
+      "team_strength": 5.2839330024813895,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.9,
@@ -5257,7 +5250,7 @@
           "explosive_rate": {
             "blended_value": 0.07140261627906977,
             "peer_count": 32,
-            "rank_score": 2.741935483870968,
+            "rank_score": 3.032258064516129,
             "missing": false
           }
         },
@@ -5271,13 +5264,13 @@
           "success_rate": {
             "blended_value": 0.4119163129169193,
             "peer_count": 32,
-            "rank_score": 8.548387096774194,
+            "rank_score": 8.838709677419354,
             "missing": false
           },
           "explosive_rate": {
             "blended_value": 0.07376879129296862,
             "peer_count": 32,
-            "rank_score": 6.516129032258064,
+            "rank_score": 6.806451612903226,
             "missing": false
           }
         },
@@ -5303,7 +5296,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.034924218543252526,
+            "blended_value": 0.03464909168111302,
             "peer_count": 32,
             "rank_score": 6.516129032258064,
             "missing": false
@@ -5317,7 +5310,7 @@
           "return_coverage_efficiency": {
             "blended_value": 0.03520804188746429,
             "peer_count": 32,
-            "rank_score": 6.806451612903226,
+            "rank_score": 7.096774193548387,
             "missing": false
           }
         }
@@ -5333,13 +5326,13 @@
       "season": "2026",
       "games_played": 9,
       "units": {
-        "pass_offense": 6.7662531017369725,
+        "pass_offense": 6.886848635235732,
         "rush_offense": 7.329032258064515,
         "pass_defense": 4.997518610421836,
         "rush_defense": 3.1282878411910673,
-        "special_teams": 5.600496277915633
+        "special_teams": 5.5
       },
-      "team_strength": 5.8095285359801485,
+      "team_strength": 5.846712158808932,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.9,
@@ -5350,7 +5343,7 @@
           "epa": {
             "blended_value": 0.17596309826397982,
             "peer_count": 32,
-            "rank_score": 7.967741935483871,
+            "rank_score": 8.258064516129032,
             "missing": false
           },
           "success_rate": {
@@ -5428,9 +5421,9 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": -0.04889859812972242,
+            "blended_value": -0.04919987409562116,
             "peer_count": 32,
-            "rank_score": 4.483870967741935,
+            "rank_score": 4.193548387096774,
             "missing": false
           },
           "net_punting": {
@@ -5460,11 +5453,11 @@
       "units": {
         "pass_offense": 5.198511166253102,
         "rush_offense": 5.118114143920595,
-        "pass_defense": 6.54516129032258,
-        "rush_defense": 5.03771712158809,
+        "pass_defense": 6.565260545905708,
+        "rush_defense": 5.0980148883374685,
         "special_teams": 6.123076923076923
       },
-      "team_strength": 5.687928039702233,
+      "team_strength": 5.700992555831265,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.9,
@@ -5527,7 +5520,7 @@
           "explosive_rate": {
             "blended_value": 0.05907207953603977,
             "peer_count": 32,
-            "rank_score": 8.838709677419354,
+            "rank_score": 9.129032258064516,
             "missing": false
           }
         },
@@ -5541,7 +5534,7 @@
           "success_rate": {
             "blended_value": 0.375314465408805,
             "peer_count": 32,
-            "rank_score": 7.387096774193548,
+            "rank_score": 7.67741935483871,
             "missing": false
           },
           "explosive_rate": {
@@ -5553,7 +5546,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.016517617513994342,
+            "blended_value": 0.016275961022337873,
             "peer_count": 32,
             "rank_score": 5.645161290322581,
             "missing": false
@@ -5586,10 +5579,10 @@
         "pass_offense": 6.390322580645161,
         "rush_offense": 6.293548387096774,
         "pass_defense": 4.822580645161291,
-        "rush_defense": 6.990322580645161,
+        "rush_defense": 7.048387096774193,
         "special_teams": 7.396774193548387
       },
-      "team_strength": 5.93741935483871,
+      "team_strength": 5.943225806451613,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.7,
@@ -5666,7 +5659,7 @@
           "success_rate": {
             "blended_value": 0.35235235235235235,
             "peer_count": 32,
-            "rank_score": 8.548387096774194,
+            "rank_score": 8.838709677419354,
             "missing": false
           },
           "explosive_rate": {
@@ -5678,7 +5671,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.03817486094642357,
+            "blended_value": 0.03783444700306845,
             "peer_count": 32,
             "rank_score": 7.387096774193548,
             "missing": false
@@ -5709,12 +5702,12 @@
       "games_played": 9,
       "units": {
         "pass_offense": 7.0677419354838715,
-        "rush_offense": 3.3694789081885856,
-        "pass_defense": 7.952109181141438,
-        "rush_defense": 6.2637717121588095,
+        "rush_offense": 3.3895781637717124,
+        "pass_defense": 8.032506203473943,
+        "rush_defense": 6.243672456575682,
         "special_teams": 3.6307692307692307
       },
-      "team_strength": 6.570285359801488,
+      "team_strength": 6.599429280397022,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.9,
@@ -5757,7 +5750,7 @@
           "explosive_rate": {
             "blended_value": 0.07730948296986033,
             "peer_count": 32,
-            "rank_score": 3.903225806451613,
+            "rank_score": 4.193548387096774,
             "missing": false
           }
         },
@@ -5771,13 +5764,13 @@
           "success_rate": {
             "blended_value": 0.41325557511737093,
             "peer_count": 32,
-            "rank_score": 8.258064516129032,
+            "rank_score": 8.548387096774194,
             "missing": false
           },
           "explosive_rate": {
             "blended_value": 0.055164319248826296,
             "peer_count": 32,
-            "rank_score": 9.129032258064516,
+            "rank_score": 9.419354838709678,
             "missing": false
           }
         },
@@ -5797,13 +5790,13 @@
           "explosive_rate": {
             "blended_value": 0.09382093316519546,
             "peer_count": 32,
-            "rank_score": 5.645161290322581,
+            "rank_score": 5.354838709677419,
             "missing": false
           }
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": -0.15460842351613505,
+            "blended_value": -0.15480671592021683,
             "peer_count": 32,
             "rank_score": 1.580645161290322,
             "missing": false
@@ -5834,12 +5827,12 @@
       "games_played": 8,
       "units": {
         "pass_offense": 7.454838709677419,
-        "rush_offense": 3.7193548387096778,
-        "pass_defense": 6.254838709677419,
+        "rush_offense": 3.7387096774193553,
+        "pass_defense": 6.312903225806451,
         "rush_defense": 3.7580645161290325,
-        "special_teams": 6.138709677419356
+        "special_teams": 6.235483870967742
       },
-      "team_strength": 6.039032258064516,
+      "team_strength": 6.067096774193548,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.7,
@@ -5882,7 +5875,7 @@
           "explosive_rate": {
             "blended_value": 0.07698622881355932,
             "peer_count": 32,
-            "rank_score": 3.612903225806452,
+            "rank_score": 3.903225806451613,
             "missing": false
           }
         },
@@ -5896,7 +5889,7 @@
           "success_rate": {
             "blended_value": 0.3951102338745718,
             "peer_count": 32,
-            "rank_score": 9.129032258064516,
+            "rank_score": 9.419354838709678,
             "missing": false
           },
           "explosive_rate": {
@@ -5928,9 +5921,9 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.15289635649801184,
+            "blended_value": 0.1526834008380339,
             "peer_count": 32,
-            "rank_score": 9.419354838709678,
+            "rank_score": 9.709677419354838,
             "missing": false
           },
           "net_punting": {
@@ -5962,9 +5955,9 @@
         "rush_offense": 6.9873449131513645,
         "pass_defense": 4.434739454094292,
         "rush_defense": 2.967493796526054,
-        "special_teams": 7.0677419354838715
+        "special_teams": 7.107940446650124
       },
-      "team_strength": 4.260880893300248,
+      "team_strength": 4.26289081885856,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.9,
@@ -6053,7 +6046,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.0706349821517156,
+            "blended_value": 0.07052030715857288,
             "peer_count": 32,
             "rank_score": 8.258064516129032,
             "missing": false
@@ -6067,7 +6060,7 @@
           "return_coverage_efficiency": {
             "blended_value": 0.030686681431172307,
             "peer_count": 32,
-            "rank_score": 6.225806451612903,
+            "rank_score": 6.516129032258064,
             "missing": false
           }
         }
@@ -6083,13 +6076,13 @@
       "season": "2026",
       "games_played": 8,
       "units": {
-        "pass_offense": 8.093548387096773,
-        "rush_offense": 6.583870967741935,
-        "pass_defense": 7.570967741935484,
-        "rush_defense": 7.938709677419354,
-        "special_teams": 7.590322580645161
+        "pass_offense": 8.151612903225805,
+        "rush_offense": 6.603225806451612,
+        "pass_defense": 7.474193548387096,
+        "rush_defense": 7.9967741935483865,
+        "special_teams": 7.629032258064516
       },
-      "team_strength": 7.643548387096773,
+      "team_strength": 7.640645161290322,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.7,
@@ -6106,7 +6099,7 @@
           "success_rate": {
             "blended_value": 0.5067567567567568,
             "peer_count": 32,
-            "rank_score": 8.838709677419354,
+            "rank_score": 9.129032258064516,
             "missing": false
           },
           "explosive_rate": {
@@ -6132,7 +6125,7 @@
           "explosive_rate": {
             "blended_value": 0.07471361185983827,
             "peer_count": 32,
-            "rank_score": 3.032258064516129,
+            "rank_score": 3.32258064516129,
             "missing": false
           }
         },
@@ -6140,7 +6133,7 @@
           "epa": {
             "blended_value": -0.11757836620179629,
             "peer_count": 32,
-            "rank_score": 9.129032258064516,
+            "rank_score": 8.838709677419354,
             "missing": false
           },
           "success_rate": {
@@ -6152,7 +6145,7 @@
           "explosive_rate": {
             "blended_value": 0.06341235184029945,
             "peer_count": 32,
-            "rank_score": 8.258064516129032,
+            "rank_score": 8.548387096774194,
             "missing": false
           }
         },
@@ -6166,7 +6159,7 @@
           "success_rate": {
             "blended_value": 0.36284677210267047,
             "peer_count": 32,
-            "rank_score": 7.967741935483871,
+            "rank_score": 8.258064516129032,
             "missing": false
           },
           "explosive_rate": {
@@ -6178,7 +6171,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.1241409858009995,
+            "blended_value": 0.12394254290050916,
             "peer_count": 32,
             "rank_score": 8.838709677419354,
             "missing": false
@@ -6192,7 +6185,7 @@
           "return_coverage_efficiency": {
             "blended_value": 0.03289876505068426,
             "peer_count": 32,
-            "rank_score": 6.516129032258064,
+            "rank_score": 6.806451612903226,
             "missing": false
           }
         }
@@ -6208,13 +6201,13 @@
       "season": "2026",
       "games_played": 8,
       "units": {
-        "pass_offense": 6.796774193548386,
+        "pass_offense": 6.912903225806451,
         "rush_offense": 7.919354838709676,
         "pass_defense": 5.8677419354838705,
-        "rush_defense": 7.183870967741935,
+        "rush_defense": 7.106451612903225,
         "special_teams": 3.02258064516129
       },
-      "team_strength": 6.489999999999999,
+      "team_strength": 6.52290322580645,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.7,
@@ -6225,7 +6218,7 @@
           "epa": {
             "blended_value": 0.1699539657577595,
             "peer_count": 32,
-            "rank_score": 7.387096774193548,
+            "rank_score": 7.67741935483871,
             "missing": false
           },
           "success_rate": {
@@ -6285,25 +6278,25 @@
           "epa": {
             "blended_value": -0.17129069091779334,
             "peer_count": 32,
-            "rank_score": 8.548387096774194,
+            "rank_score": 8.258064516129032,
             "missing": false
           },
           "success_rate": {
             "blended_value": 0.37628056840713814,
             "peer_count": 32,
-            "rank_score": 7.096774193548387,
+            "rank_score": 7.387096774193548,
             "missing": false
           },
           "explosive_rate": {
             "blended_value": 0.07737111698612029,
             "peer_count": 32,
-            "rank_score": 7.67741935483871,
+            "rank_score": 7.387096774193548,
             "missing": false
           }
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": -0.2449381489547695,
+            "blended_value": -0.2450830015776866,
             "peer_count": 32,
             "rank_score": 1.0,
             "missing": false
@@ -6333,13 +6326,13 @@
       "season": "2026",
       "games_played": 9,
       "units": {
-        "pass_offense": 5.841687344913151,
+        "pass_offense": 5.821588089330025,
         "rush_offense": 8.253598014888336,
-        "pass_defense": 7.329032258064515,
-        "rush_defense": 8.494789081885855,
+        "pass_defense": 7.208436724565757,
+        "rush_defense": 8.474689826302729,
         "special_teams": 3.550372208436724
       },
-      "team_strength": 6.874789081885854,
+      "team_strength": 6.823535980148883,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.9,
@@ -6362,7 +6355,7 @@
           "explosive_rate": {
             "blended_value": 0.059609609609609614,
             "peer_count": 32,
-            "rank_score": 2.161290322580645,
+            "rank_score": 1.870967741935484,
             "missing": false
           }
         },
@@ -6390,7 +6383,7 @@
           "epa": {
             "blended_value": -0.11240041215774044,
             "peer_count": 32,
-            "rank_score": 8.838709677419354,
+            "rank_score": 8.548387096774194,
             "missing": false
           },
           "success_rate": {
@@ -6422,13 +6415,13 @@
           "explosive_rate": {
             "blended_value": 0.06768774703557312,
             "peer_count": 32,
-            "rank_score": 8.258064516129032,
+            "rank_score": 7.967741935483871,
             "missing": false
           }
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": -0.12149871007293098,
+            "blended_value": -0.1218191794572163,
             "peer_count": 32,
             "rank_score": 2.451612903225806,
             "missing": false
@@ -6458,13 +6451,13 @@
       "season": "2026",
       "games_played": 8,
       "units": {
-        "pass_offense": 2.596774193548387,
+        "pass_offense": 2.57741935483871,
         "rush_offense": 2.596774193548387,
         "pass_defense": 4.493548387096775,
         "rush_defense": 3.2161290322580642,
-        "special_teams": 6.1
+        "special_teams": 6.1580645161290315
       },
-      "team_strength": 3.497741935483871,
+      "team_strength": 3.4938709677419353,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.7,
@@ -6487,7 +6480,7 @@
           "explosive_rate": {
             "blended_value": 0.05994533006335581,
             "peer_count": 32,
-            "rank_score": 2.451612903225806,
+            "rank_score": 2.161290322580645,
             "missing": false
           }
         },
@@ -6553,7 +6546,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.03635123868265498,
+            "blended_value": 0.03602931988221917,
             "peer_count": 32,
             "rank_score": 7.096774193548387,
             "missing": false
@@ -6561,7 +6554,7 @@
           "net_punting": {
             "blended_value": 43.19230769230769,
             "peer_count": 32,
-            "rank_score": 6.516129032258064,
+            "rank_score": 6.806451612903226,
             "missing": false
           },
           "return_coverage_efficiency": {
@@ -6587,9 +6580,9 @@
         "rush_offense": 3.7915632754342434,
         "pass_defense": 2.5052109181141438,
         "rush_defense": 3.1885856079404467,
-        "special_teams": 6.685856079404466
+        "special_teams": 6.746153846153846
       },
-      "team_strength": 4.227717121588089,
+      "team_strength": 4.230732009925558,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.9,
@@ -6678,7 +6671,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.03520386466388581,
+            "blended_value": 0.03490279146821761,
             "peer_count": 32,
             "rank_score": 6.806451612903226,
             "missing": false
@@ -6686,7 +6679,7 @@
           "net_punting": {
             "blended_value": 43.35,
             "peer_count": 32,
-            "rank_score": 6.806451612903226,
+            "rank_score": 7.096774193548387,
             "missing": false
           },
           "return_coverage_efficiency": {
@@ -6708,13 +6701,13 @@
       "season": "2026",
       "games_played": 8,
       "units": {
-        "pass_offense": 4.590322580645162,
+        "pass_offense": 4.570967741935484,
         "rush_offense": 4.183870967741935,
         "pass_defense": 2.9064516129032265,
         "rush_defense": 3.196774193548387,
         "special_teams": 2.9064516129032256
       },
-      "team_strength": 3.716451612903226,
+      "team_strength": 3.709677419354839,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.7,
@@ -6737,7 +6730,7 @@
           "explosive_rate": {
             "blended_value": 0.06146926536731634,
             "peer_count": 32,
-            "rank_score": 2.741935483870968,
+            "rank_score": 2.451612903225806,
             "missing": false
           }
         },
@@ -6803,7 +6796,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": -0.14204014649531949,
+            "blended_value": -0.14237686238886965,
             "peer_count": 32,
             "rank_score": 1.870967741935484,
             "missing": false
@@ -6836,10 +6829,10 @@
         "pass_offense": 4.650146627565983,
         "rush_offense": 3.4492668621700875,
         "pass_defense": 8.252785923753665,
-        "rush_defense": 5.795601173020528,
+        "rush_defense": 5.961876832844575,
         "special_teams": 6.331378299120235
       },
-      "team_strength": 5.929545454545455,
+      "team_strength": 5.9461730205278585,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.4,
@@ -6910,13 +6903,13 @@
           "epa": {
             "blended_value": -0.09038786661200893,
             "peer_count": 32,
-            "rank_score": 6.225806451612903,
+            "rank_score": 6.516129032258064,
             "missing": false
           },
           "success_rate": {
             "blended_value": 0.37825166364186324,
             "peer_count": 32,
-            "rank_score": 6.806451612903226,
+            "rank_score": 7.096774193548387,
             "missing": false
           },
           "explosive_rate": {
@@ -6928,7 +6921,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.07122807817971155,
+            "blended_value": 0.07107297299049542,
             "peer_count": 32,
             "rank_score": 8.548387096774194,
             "missing": false
@@ -6958,13 +6951,13 @@
       "season": "2026",
       "games_played": 9,
       "units": {
-        "pass_offense": 7.389330024813897,
+        "pass_offense": 7.570223325062033,
         "rush_offense": 4.816625310173697,
         "pass_defense": 3.4297766749379655,
-        "rush_defense": 7.409429280397022,
+        "rush_defense": 7.349131513647643,
         "special_teams": 4.173449131513648
       },
-      "team_strength": 5.4587965260545905,
+      "team_strength": 5.516079404466501,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.9,
@@ -6975,13 +6968,13 @@
           "epa": {
             "blended_value": 0.17109212365031953,
             "peer_count": 32,
-            "rank_score": 7.67741935483871,
+            "rank_score": 7.967741935483871,
             "missing": false
           },
           "success_rate": {
             "blended_value": 0.5184069611780455,
             "peer_count": 32,
-            "rank_score": 9.129032258064516,
+            "rank_score": 9.419354838709678,
             "missing": false
           },
           "explosive_rate": {
@@ -7035,13 +7028,13 @@
           "epa": {
             "blended_value": -0.17171361900079457,
             "peer_count": 32,
-            "rank_score": 8.838709677419354,
+            "rank_score": 8.548387096774194,
             "missing": false
           },
           "success_rate": {
             "blended_value": 0.3629943502824859,
             "peer_count": 32,
-            "rank_score": 7.67741935483871,
+            "rank_score": 7.967741935483871,
             "missing": false
           },
           "explosive_rate": {
@@ -7053,7 +7046,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": -0.13993974406208448,
+            "blended_value": -0.14019698250467483,
             "peer_count": 32,
             "rank_score": 2.161290322580645,
             "missing": false
@@ -7084,12 +7077,12 @@
       "games_played": 8,
       "units": {
         "pass_offense": 5.558064516129032,
-        "rush_offense": 3.990322580645161,
+        "rush_offense": 4.009677419354839,
         "pass_defense": 4.958064516129032,
-        "rush_defense": 5.170967741935484,
+        "rush_defense": 5.151612903225806,
         "special_teams": 4.145161290322581
       },
-      "team_strength": 5.003548387096774,
+      "team_strength": 5.0045161290322575,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.7,
@@ -7132,7 +7125,7 @@
           "explosive_rate": {
             "blended_value": 0.07674494760479042,
             "peer_count": 32,
-            "rank_score": 3.32258064516129,
+            "rank_score": 3.612903225806452,
             "missing": false
           }
         },
@@ -7172,13 +7165,13 @@
           "explosive_rate": {
             "blended_value": 0.08619791666666667,
             "peer_count": 32,
-            "rank_score": 7.096774193548387,
+            "rank_score": 6.806451612903226,
             "missing": false
           }
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": -0.12091411110817074,
+            "blended_value": -0.12114099235713507,
             "peer_count": 32,
             "rank_score": 2.741935483870968,
             "missing": false
@@ -7209,12 +7202,12 @@
       "games_played": 8,
       "units": {
         "pass_offense": 5.635483870967742,
-        "rush_offense": 4.687096774193548,
+        "rush_offense": 4.7064516129032254,
         "pass_defense": 7.358064516129032,
         "rush_defense": 5.558064516129032,
-        "special_teams": 5.558064516129032
+        "special_teams": 5.461290322580646
       },
-      "team_strength": 6.084516129032258,
+      "team_strength": 6.08258064516129,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.7,
@@ -7257,7 +7250,7 @@
           "explosive_rate": {
             "blended_value": 0.07741170641942105,
             "peer_count": 32,
-            "rank_score": 4.193548387096774,
+            "rank_score": 4.483870967741935,
             "missing": false
           }
         },
@@ -7303,9 +7296,9 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": -0.051657811885084656,
+            "blended_value": -0.05186205040158307,
             "peer_count": 32,
-            "rank_score": 4.193548387096774,
+            "rank_score": 3.903225806451613,
             "missing": false
           },
           "net_punting": {
@@ -7336,10 +7329,10 @@
         "pass_offense": 5.942183622828784,
         "rush_offense": 6.283870967741936,
         "pass_defense": 3.1483870967741936,
-        "rush_defense": 5.721091811414391,
+        "rush_defense": 5.700992555831266,
         "special_teams": 5.801488833746898
       },
-      "team_strength": 4.986464019851117,
+      "team_strength": 4.984454094292804,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.9,
@@ -7422,13 +7415,13 @@
           "explosive_rate": {
             "blended_value": 0.08092090266697059,
             "peer_count": 32,
-            "rank_score": 7.387096774193548,
+            "rank_score": 7.096774193548387,
             "missing": false
           }
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.0016468147218236615,
+            "blended_value": 0.0013207273983447485,
             "peer_count": 32,
             "rank_score": 5.064516129032258,
             "missing": false
@@ -7553,7 +7546,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.00479835215770693,
+            "blended_value": 0.004687582734402597,
             "peer_count": 32,
             "rank_score": 5.354838709677419,
             "missing": false
@@ -7586,10 +7579,10 @@
         "pass_offense": 3.5258064516129033,
         "rush_offense": 8.248387096774191,
         "pass_defense": 6.409677419354838,
-        "rush_defense": 8.074193548387097,
-        "special_teams": 4.396774193548387
+        "rush_defense": 8.05483870967742,
+        "special_teams": 4.3
       },
-      "team_strength": 5.741935483870967,
+      "team_strength": 5.73516129032258,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.7,
@@ -7672,15 +7665,15 @@
           "explosive_rate": {
             "blended_value": 0.07377279102384293,
             "peer_count": 32,
-            "rank_score": 7.967741935483871,
+            "rank_score": 7.67741935483871,
             "missing": false
           }
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": -0.058157466398101966,
+            "blended_value": -0.058447419806981094,
             "peer_count": 32,
-            "rank_score": 3.612903225806452,
+            "rank_score": 3.32258064516129,
             "missing": false
           },
           "net_punting": {
@@ -7710,11 +7703,11 @@
       "units": {
         "pass_offense": 6.143176178660049,
         "rush_offense": 2.686104218362283,
-        "pass_defense": 7.308933002481389,
-        "rush_defense": 6.967245657568238,
-        "special_teams": 5.982382133995038
+        "pass_defense": 7.329032258064515,
+        "rush_defense": 7.148138957816377,
+        "special_teams": 6.0426799007444165
       },
-      "team_strength": 6.106997518610421,
+      "team_strength": 6.135136476426798,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
       "data_confidence": 6.9,
@@ -7777,7 +7770,7 @@
           "explosive_rate": {
             "blended_value": 0.05133928571428571,
             "peer_count": 32,
-            "rank_score": 9.419354838709678,
+            "rank_score": 9.709677419354838,
             "missing": false
           }
         },
@@ -7785,13 +7778,13 @@
           "epa": {
             "blended_value": -0.11269056544728669,
             "peer_count": 32,
-            "rank_score": 6.516129032258064,
+            "rank_score": 6.806451612903226,
             "missing": false
           },
           "success_rate": {
             "blended_value": 0.3448275862068966,
             "peer_count": 32,
-            "rank_score": 9.129032258064516,
+            "rank_score": 9.419354838709678,
             "missing": false
           },
           "explosive_rate": {
@@ -7803,7 +7796,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": -0.019534101691131366,
+            "blended_value": -0.019855163399728804,
             "peer_count": 32,
             "rank_score": 4.774193548387097,
             "missing": false
@@ -7811,7 +7804,7 @@
           "net_punting": {
             "blended_value": 43.086148648648646,
             "peer_count": 32,
-            "rank_score": 6.225806451612903,
+            "rank_score": 6.516129032258064,
             "missing": false
           },
           "return_coverage_efficiency": {
@@ -7928,7 +7921,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": -0.07795567931314537,
+            "blended_value": -0.07827868678512542,
             "peer_count": 32,
             "rank_score": 3.032258064516129,
             "missing": false
@@ -7956,56 +7949,56 @@
     "Tampa Bay Buccaneers": {
       "team": "Tampa Bay Buccaneers",
       "season": "2026",
-      "games_played": 8,
+      "games_played": 9,
       "units": {
-        "pass_offense": 2.7129032258064525,
-        "rush_offense": 7.183870967741935,
-        "pass_defense": 8.364516129032257,
-        "rush_defense": 7.241935483870968,
-        "special_teams": 6.216129032258064
+        "pass_offense": 2.686104218362283,
+        "rush_offense": 7.429528535980149,
+        "pass_defense": 8.133002481389578,
+        "rush_defense": 7.83151364764268,
+        "special_teams": 6.08287841191067
       },
-      "team_strength": 5.989677419354838,
+      "team_strength": 5.988411910669975,
       "metric_coverage": 0.9999999999999999,
       "league_coverage": 1.0,
-      "data_confidence": 6.7,
+      "data_confidence": 6.9,
       "status": "complete",
       "missing_metrics": [],
       "metric_details": {
         "pass_offense": {
           "epa": {
-            "blended_value": -0.26037509363543826,
+            "blended_value": -0.27270041491588987,
             "peer_count": 32,
             "rank_score": 1.290322580645162,
             "missing": false
           },
           "success_rate": {
-            "blended_value": 0.34975511869940823,
+            "blended_value": 0.35064137030493897,
             "peer_count": 32,
             "rank_score": 1.290322580645162,
             "missing": false
           },
           "explosive_rate": {
-            "blended_value": 0.051765186041765866,
+            "blended_value": 0.06198632767493663,
             "peer_count": 32,
-            "rank_score": 1.580645161290322,
+            "rank_score": 2.741935483870968,
             "missing": false
           }
         },
         "rush_offense": {
           "epa": {
-            "blended_value": 0.017658852440584863,
+            "blended_value": 0.023155884330177318,
             "peer_count": 32,
             "rank_score": 8.838709677419354,
             "missing": false
           },
           "success_rate": {
-            "blended_value": 0.41780730005367683,
+            "blended_value": 0.4363458528951487,
             "peer_count": 32,
-            "rank_score": 6.225806451612903,
+            "rank_score": 7.096774193548387,
             "missing": false
           },
           "explosive_rate": {
-            "blended_value": 0.12979736983360174,
+            "blended_value": 0.1269170579029734,
             "peer_count": 32,
             "rank_score": 8.548387096774194,
             "missing": false
@@ -8013,61 +8006,61 @@
         },
         "pass_defense": {
           "epa": {
-            "blended_value": -0.2770238175644059,
+            "blended_value": -0.28373294331694154,
             "peer_count": 32,
             "rank_score": 10.0,
             "missing": false
           },
           "success_rate": {
-            "blended_value": 0.39472014834333674,
+            "blended_value": 0.41377551020408165,
             "peer_count": 32,
-            "rank_score": 9.419354838709678,
+            "rank_score": 8.258064516129032,
             "missing": false
           },
           "explosive_rate": {
-            "blended_value": 0.044588396037671396,
+            "blended_value": 0.06377551020408162,
             "peer_count": 32,
-            "rank_score": 9.709677419354838,
+            "rank_score": 8.258064516129032,
             "missing": false
           }
         },
         "rush_defense": {
           "epa": {
-            "blended_value": -0.15498022312590115,
+            "blended_value": -0.1773403444396908,
             "peer_count": 32,
-            "rank_score": 8.258064516129032,
+            "rank_score": 9.129032258064516,
             "missing": false
           },
           "success_rate": {
-            "blended_value": 0.3550925925925925,
+            "blended_value": 0.3527388535031847,
             "peer_count": 32,
-            "rank_score": 8.258064516129032,
+            "rank_score": 8.548387096774194,
             "missing": false
           },
           "explosive_rate": {
-            "blended_value": 0.08743386243386242,
+            "blended_value": 0.0673248407643312,
             "peer_count": 32,
-            "rank_score": 6.806451612903226,
+            "rank_score": 8.258064516129032,
             "missing": false
           }
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.1558993922509342,
+            "blended_value": 0.1266083094834962,
             "peer_count": 32,
-            "rank_score": 9.709677419354838,
+            "rank_score": 9.419354838709678,
             "missing": false
           },
           "net_punting": {
-            "blended_value": 38.43928571428572,
+            "blended_value": 38.74085365853658,
             "peer_count": 32,
-            "rank_score": 1.0,
+            "rank_score": 1.290322580645162,
             "missing": false
           },
           "return_coverage_efficiency": {
-            "blended_value": 0.03879748158265056,
+            "blended_value": 0.02545935556792172,
             "peer_count": 32,
-            "rank_score": 7.096774193548387,
+            "rank_score": 6.225806451612903,
             "missing": false
           }
         }
@@ -8178,7 +8171,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.06984037378682176,
+            "blended_value": 0.06952435306528523,
             "peer_count": 32,
             "rank_score": 7.967741935483871,
             "missing": false
@@ -8303,7 +8296,7 @@
         },
         "special_teams": {
           "field_goals_above_expected": {
-            "blended_value": 0.019380574383089783,
+            "blended_value": 0.01912677012704976,
             "peer_count": 32,
             "rank_score": 5.935483870967742,
             "missing": false
@@ -8344,23 +8337,23 @@
     },
     "News": {
       "status": "ok",
-      "checked_at": "2026-11-09T09:19:25Z",
+      "checked_at": "2026-11-09T11:03:48Z",
       "detail": "NFL RSS headlines from CBS Sports, NBC Sports matched to teams; player-only stories may be missed."
     },
     "Weather": {
       "status": "ok",
-      "checked_at": "2026-11-09T09:19:23Z",
+      "checked_at": "2026-11-09T11:03:46Z",
       "detail": "NWS hourly forecasts for 9 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
     },
     "Travel": {
       "status": "ok",
-      "checked_at": "2026-11-09T09:19:22Z",
+      "checked_at": "2026-11-09T11:03:44Z",
       "detail": "Rest days and approximate distances from nflverse; no verified team itinerary."
     },
     "Statistics": {
       "status": "ok",
-      "checked_at": "2026-11-09T09:19:22.128483Z",
-      "detail": "Current-season nflverse play data for 134 completed games; 1 missing. Special-teams baseline is provisional; no automatic injury or weather penalties."
+      "checked_at": "2026-11-09T11:03:43.970174Z",
+      "detail": "Current-season nflverse play data for 135 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties."
     },
     "Historical Bovada": {
       "status": "unavailable",
@@ -8369,7 +8362,7 @@
     },
     "Matchup": {
       "status": "ok",
-      "checked_at": "2026-11-09T09:19:28Z",
+      "checked_at": "2026-11-09T11:03:50Z",
       "detail": "Deterministic team matchup ratings active. Paid AI narrative agents remain disabled."
     },
     "Player props": {
@@ -8384,17 +8377,17 @@
     },
     "Scoring engine": {
       "status": "ok",
-      "checked_at": "2026-11-09T09:19:28Z",
+      "checked_at": "2026-11-09T11:03:50Z",
       "detail": "Calculated 32 team ratings; missing components are explicitly flagged."
     },
     "Probability & value": {
       "status": "ok",
-      "checked_at": "2026-11-09T09:19:28Z",
+      "checked_at": "2026-11-09T11:03:51Z",
       "detail": "Internal model market-model-1.0: 15 games, 6 markets scored. No market type has passed the backtest gate; showing research leans only."
     },
     "Paper predictions": {
       "status": "ok",
-      "checked_at": "2026-11-09T09:19:28.548341Z",
+      "checked_at": "2026-11-09T11:03:51.208648Z",
       "detail": "Uncalibrated point forecasts; first pregame predictions are frozen for prospective evaluation. No bets recommended."
     }
   },
@@ -8412,21 +8405,21 @@
         "home": "Minnesota Vikings",
         "away": "Buffalo Bills",
         "kickoff": "2026-11-10T01:15:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -0.206946966517897,
-          "total": 45.07316266297074,
-          "projected_home_points": 22.43310784822642,
-          "projected_away_points": 22.640054814744317,
-          "fair_home_spread": 0.206946966517897,
+          "margin": -0.2708464350711589,
+          "total": 45.053767617768955,
+          "projected_home_points": 22.3914605913489,
+          "projected_away_points": 22.662307026420056,
+          "fair_home_spread": 0.2708464350711589,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.47640026229454757,
-          "tie": 0.03338734462564408,
-          "away": 0.49021239307980835
+          "home": 0.47426996845934755,
+          "tie": 0.033383774035943226,
+          "away": 0.49234625750470923
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8439,21 +8432,21 @@
         "home": "New York Giants",
         "away": "Washington Commanders",
         "kickoff": "2026-11-13T01:15:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": 4.449717524964176,
-          "total": 40.07736830072511,
-          "projected_home_points": 22.263542912844645,
-          "projected_away_points": 17.813825387880467,
-          "fair_home_spread": -4.449717524964176,
+          "margin": 4.543500516087847,
+          "total": 40.10672827625838,
+          "projected_home_points": 22.325114396173113,
+          "projected_away_points": 17.781613880085267,
+          "fair_home_spread": -4.543500516087847,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.6295631974802444,
-          "tie": 0.03115475858624417,
-          "away": 0.33928204393351147
+          "home": 0.6325251798346456,
+          "tie": 0.03106284788214947,
+          "away": 0.33641197228320496
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8466,21 +8459,21 @@
         "home": "Detroit Lions",
         "away": "New England Patriots",
         "kickoff": "2026-11-15T14:30:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -6.523762461383552,
-          "total": 52.65761565458271,
-          "projected_home_points": 23.06692659659958,
-          "projected_away_points": 29.590689057983134,
-          "fair_home_spread": 6.523762461383552,
+          "margin": -6.698385481843273,
+          "total": 52.951940514007106,
+          "projected_home_points": 23.126777516081916,
+          "projected_away_points": 29.82516299792519,
+          "fair_home_spread": 6.698385481843273,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.27824056487902327,
-          "tie": 0.028767313942820283,
-          "away": 0.6929921211781565
+          "home": 0.2733551954920398,
+          "tie": 0.028535578960343755,
+          "away": 0.6981092255476165
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8493,21 +8486,21 @@
         "home": "Atlanta Falcons",
         "away": "Kansas City Chiefs",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -3.0641418768543423,
-          "total": 50.500438506096664,
-          "projected_home_points": 23.71814831462116,
-          "projected_away_points": 26.782290191475504,
-          "fair_home_spread": 3.0641418768543423,
+          "margin": -3.1172022103376387,
+          "total": 50.74147457331011,
+          "projected_home_points": 23.812136181486235,
+          "projected_away_points": 26.929338391823872,
+          "fair_home_spread": 3.1172022103376387,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.3826937083279003,
-          "tie": 0.032311949597953915,
-          "away": 0.5849943420741458
+          "home": 0.38099969255304855,
+          "tie": 0.032274846472726715,
+          "away": 0.5867254609742247
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8520,21 +8513,21 @@
         "home": "New York Jets",
         "away": "Buffalo Bills",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -0.744914011163385,
-          "total": 56.3245172040969,
-          "projected_home_points": 27.789801596466756,
-          "projected_away_points": 28.534715607630144,
-          "fair_home_spread": 0.744914011163385,
+          "margin": -0.7371898995800241,
+          "total": 56.326861660110296,
+          "projected_home_points": 27.794835880265136,
+          "projected_away_points": 28.53202577984516,
+          "fair_home_spread": 0.7371898995800241,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.45849242086293507,
-          "tie": 0.033327508217886326,
-          "away": 0.5081800709191786
+          "home": 0.458749033383022,
+          "tie": 0.03332884475998399,
+          "away": 0.507922121856994
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8547,21 +8540,21 @@
         "home": "New Orleans Saints",
         "away": "Carolina Panthers",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": 1.9318555557301011,
-          "total": 48.30952836579833,
-          "projected_home_points": 25.120691960764216,
-          "projected_away_points": 23.188836405034113,
-          "fair_home_spread": -1.9318555557301011,
+          "margin": 1.8634225459933453,
+          "total": 48.36839168421647,
+          "projected_home_points": 25.115907115104907,
+          "projected_away_points": 23.252484569111562,
+          "fair_home_spread": -1.8634225459933453,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5477126762232974,
-          "tie": 0.032958638916651184,
-          "away": 0.41932868486005137
+          "home": 0.5454424695270301,
+          "tie": 0.032988638829386074,
+          "away": 0.4215688916435838
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8574,21 +8567,21 @@
         "home": "Cleveland Browns",
         "away": "Houston Texans",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -0.17085869612258264,
-          "total": 43.546396685147585,
-          "projected_home_points": 21.687768994512503,
-          "projected_away_points": 21.858627690635082,
-          "fair_home_spread": 0.17085869612258264,
+          "margin": -0.09761190631188355,
+          "total": 43.329400625226796,
+          "projected_home_points": 21.615894359457457,
+          "projected_away_points": 21.71350626576934,
+          "fair_home_spread": 0.09761190631188355,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.47760368262146913,
-          "tie": 0.03338893929511538,
-          "away": 0.4890073780834155
+          "home": 0.4800468288635281,
+          "tie": 0.033391239395611505,
+          "away": 0.4865619317408604
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8601,21 +8594,21 @@
         "home": "Green Bay Packers",
         "away": "Minnesota Vikings",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": 5.987299938098123,
-          "total": 36.3645497297366,
-          "projected_home_points": 21.175924833917364,
-          "projected_away_points": 15.18862489581924,
-          "fair_home_spread": -5.987299938098123,
+          "margin": 6.182710226603383,
+          "total": 36.23221419059376,
+          "projected_home_points": 21.20746220859857,
+          "projected_away_points": 15.024751981995188,
+          "fair_home_spread": -6.182710226603383,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.6770384940702503,
-          "tie": 0.02945168592848485,
-          "away": 0.29350982000126485
+          "home": 0.6828895669324018,
+          "tie": 0.029207351482877453,
+          "away": 0.2879030815847208
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8628,21 +8621,21 @@
         "home": "Indianapolis Colts",
         "away": "Miami Dolphins",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": 1.33514571262049,
-          "total": 48.783983285377175,
-          "projected_home_points": 25.05956449899883,
-          "projected_away_points": 23.724418786378344,
-          "fair_home_spread": -1.33514571262049,
+          "margin": 1.3179526907414236,
+          "total": 48.74608706091757,
+          "projected_home_points": 25.032019875829494,
+          "projected_away_points": 23.714067185088073,
+          "fair_home_spread": -1.3179526907414236,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5278729117918874,
-          "tie": 0.03318448336103952,
-          "away": 0.438942604847073
+          "home": 0.5273000022112317,
+          "tie": 0.03318978633178443,
+          "away": 0.4395102114569839
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8655,21 +8648,21 @@
         "home": "Tennessee Titans",
         "away": "Jacksonville Jaguars",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": 2.3930607892918374,
-          "total": 45.0120074960346,
-          "projected_home_points": 23.702534142663218,
-          "projected_away_points": 21.30947335337138,
-          "fair_home_spread": -2.3930607892918374,
+          "margin": 2.5097474144102563,
+          "total": 45.26341724842978,
+          "projected_home_points": 23.88658233142002,
+          "projected_away_points": 21.376834917009763,
+          "fair_home_spread": -2.5097474144102563,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.5629684603578102,
-          "tie": 0.03272914631277468,
-          "away": 0.40430239332941514
+          "home": 0.5668143483400271,
+          "tie": 0.03266362094650882,
+          "away": 0.4005220307134641
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8682,21 +8675,21 @@
         "home": "Arizona Cardinals",
         "away": "Los Angeles Rams",
         "kickoff": "2026-11-15T21:05:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -8.041708233647045,
-          "total": 48.182947962725684,
-          "projected_home_points": 20.07061986453932,
-          "projected_away_points": 28.112328098186364,
-          "fair_home_spread": 8.041708233647045,
+          "margin": -7.661636239931864,
+          "total": 48.43905437332167,
+          "projected_home_points": 20.3887090666949,
+          "projected_away_points": 28.050345306626767,
+          "fair_home_spread": 7.661636239931864,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.23725238279110827,
-          "tie": 0.02662336536414478,
-          "away": 0.736124251844747
+          "home": 0.2471939253825195,
+          "tie": 0.02718585277072627,
+          "away": 0.7256202218467542
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8709,21 +8702,21 @@
         "home": "Las Vegas Raiders",
         "away": "Seattle Seahawks",
         "kickoff": "2026-11-15T21:05:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -3.323552366350917,
-          "total": 48.25303334668001,
-          "projected_home_points": 22.464740490164548,
-          "projected_away_points": 25.788292856515465,
-          "fair_home_spread": 3.323552366350917,
+          "margin": -3.2800158475755223,
+          "total": 48.18021240313371,
+          "projected_home_points": 22.450098277779095,
+          "projected_away_points": 25.730114125354614,
+          "fair_home_spread": 3.2800158475755223,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.3744336420898512,
-          "tie": 0.032124933555270574,
-          "away": 0.5934414243548782
+          "home": 0.375816016310627,
+          "tie": 0.03215730314650478,
+          "away": 0.5920266805428682
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8736,21 +8729,21 @@
         "home": "Dallas Cowboys",
         "away": "San Francisco 49ers",
         "kickoff": "2026-11-15T21:25:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -1.4515396331335209,
-          "total": 57.40154997393079,
-          "projected_home_points": 27.975005170398635,
-          "projected_away_points": 29.426544803532156,
-          "fair_home_spread": 1.4515396331335209,
+          "margin": -1.2879233133056311,
+          "total": 57.61367425252115,
+          "projected_home_points": 28.16287546960776,
+          "projected_away_points": 29.45079878291339,
+          "fair_home_spread": 1.2879233133056311,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.4351033612822772,
-          "tie": 0.03314679992584457,
-          "away": 0.5317498387918782
+          "home": 0.4405018923192774,
+          "tie": 0.03319888563120543,
+          "away": 0.5262992220495172
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8763,21 +8756,21 @@
         "home": "Cincinnati Bengals",
         "away": "Pittsburgh Steelers",
         "kickoff": "2026-11-16T01:20:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": -14.789892140515867,
-          "total": 43.89399864490855,
-          "projected_home_points": 14.552053252196341,
-          "projected_away_points": 29.34194539271221,
-          "fair_home_spread": 14.789892140515867,
+          "margin": -14.894298230768062,
+          "total": 43.90496915907822,
+          "projected_home_points": 14.50533546415508,
+          "projected_away_points": 29.39963369492314,
+          "fair_home_spread": 14.894298230768062,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.1002423748492346,
-          "tie": 0.015519089833690214,
-          "away": 0.8842385353170752
+          "home": 0.09871411600107949,
+          "tie": 0.015351516126537734,
+          "away": 0.8859343678723828
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8790,21 +8783,21 @@
         "home": "Baltimore Ravens",
         "away": "Los Angeles Chargers",
         "kickoff": "2026-11-17T01:15:00Z",
-        "forecast_as_of": "2026-11-09T09:19:28.548341Z",
-        "statistics_as_of": "2026-11-09T09:19:22.128483Z",
+        "forecast_as_of": "2026-11-09T11:03:51.208648Z",
+        "statistics_as_of": "2026-11-09T11:03:43.970174Z",
         "model_version": "paper-2026-w8-e6fadee9b2",
         "projection": {
-          "margin": 10.569987584239353,
-          "total": 39.99657623163334,
-          "projected_home_points": 25.28328190793635,
-          "projected_away_points": 14.713294323696994,
-          "fair_home_spread": -10.569987584239353,
+          "margin": 10.65977763479211,
+          "total": 39.957835730089286,
+          "projected_home_points": 25.308806682440697,
+          "projected_away_points": 14.649029047648588,
+          "fair_home_spread": -10.65977763479211,
           "model_status": "provisional_unapproved"
         },
         "outcome_probabilities": {
-          "home": 0.8004211516606743,
-          "tie": 0.022577461833985568,
-          "away": 0.17700138650534014
+          "home": 0.8025165208875379,
+          "tie": 0.022427201883967463,
+          "away": 0.17505627722849465
         },
         "status": "paper_only_uncalibrated",
         "origin": "prospective",
@@ -8831,7 +8824,7 @@
   },
   "prediction_results": {
     "season": 2026,
-    "updated_at": "2026-11-09T09:19:28.548341Z",
+    "updated_at": "2026-11-09T11:03:51.208648Z",
     "basis": "first_saved_pregame_forecast",
     "records": [
       {
