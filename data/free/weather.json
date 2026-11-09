@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-09T13:19:19Z",
+  "checked_at": "2026-11-09T14:53:04Z",
   "findings": [
     {
       "game_id": "17ad7eff2f7875e20a8109abe40470e3",
@@ -54,7 +54,13 @@
       "title": "Allegiant Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "48e497c230e6c9afcb3b600091d28e17",
+      "title": "Kickoff forecast near Paycor Stadium: 44°F, wind 1 mph W, precipitation 1%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/ILN/35,38/forecast/hourly"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 9 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 10 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
