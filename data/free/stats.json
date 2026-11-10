@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-11-10T03:57:12.662394Z",
-  "checked_at": "2026-11-10T03:57:12.662394Z",
+  "as_of": "2026-11-10T04:58:54.658756Z",
+  "checked_at": "2026-11-10T04:58:54.658756Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -457,7 +457,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_09_BUF_MIN"
+      ]
     },
     {
       "team": "Carolina Panthers",
@@ -2395,7 +2397,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_09_BUF_MIN"
+      ]
     },
     {
       "team": "New England Patriots",
@@ -3789,7 +3793,9 @@
     "2026_09_NYJ_KC",
     "2026_09_TB_CHI"
   ],
-  "missing_game_ids": [],
+  "missing_game_ids": [
+    "2026_09_BUF_MIN"
+  ],
   "metric_method": {
     "version": "nflverse-pbp-1",
     "season_type": "REG",
@@ -3801,7 +3807,7 @@
     "return_coverage": "Team-perspective EPA per punt/kickoff opportunity; provisional combined return/coverage metric",
     "opponent_adjusted": false
   },
-  "coverage_note": "Current-season nflverse play data for 135 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
+  "coverage_note": "Current-season nflverse play data for 135 completed games; 1 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
   "scoring_context": {
     "74d39e19225caf211ad2c8eb4110179f": {
       "neutral_site": false,
@@ -3881,7 +3887,7 @@
     },
     {
       "game_id": "1057d50949844ddf483da9c8c20354be",
-      "title": "Current-season scores: Buffalo Bills 7 games, 33.3 points for and 25.9 allowed per game; New York Jets 9 games, 20.2 points for and 24.8 allowed per game",
+      "title": "Current-season scores: Buffalo Bills 8 games, 32.0 points for and 23.4 allowed per game; New York Jets 9 games, 20.2 points for and 24.8 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     },
@@ -3899,7 +3905,7 @@
     },
     {
       "game_id": "5d8d85473b87f772a979ecf294acab94",
-      "title": "Current-season scores: Minnesota Vikings 7 games, 20.0 points for and 13.3 allowed per game; Green Bay Packers 9 games, 24.0 points for and 21.2 allowed per game",
+      "title": "Current-season scores: Minnesota Vikings 8 games, 18.2 points for and 14.5 allowed per game; Green Bay Packers 9 games, 24.0 points for and 21.2 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     },
