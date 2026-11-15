@@ -1,314 +1,14 @@
 {
   "schema_version": 1,
   "mode": "snapshot",
-  "generated_at": "2026-11-15T09:20:45Z",
+  "generated_at": "2026-11-15T17:06:39Z",
   "season": "2026",
   "coverage": {
-    "games": 26,
-    "markets": 78,
-    "analyzed": 26
+    "games": 25,
+    "markets": 72,
+    "analyzed": 25
   },
   "games": [
-    {
-      "id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
-      "away": "New England Patriots",
-      "home": "Detroit Lions",
-      "kickoff": "2026-11-15T14:30:00Z",
-      "status": "scheduled",
-      "score": null,
-      "head_to_head": [
-        {
-          "date": "2022-10-09",
-          "score": "Detroit Lions 0\u2013New England Patriots 29",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2018-09-23",
-          "score": "New England Patriots 10\u2013Detroit Lions 26",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2014-11-23",
-          "score": "Detroit Lions 9\u2013New England Patriots 34",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2010-11-25",
-          "score": "New England Patriots 45\u2013Detroit Lions 24",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        },
-        {
-          "date": "2006-12-03",
-          "score": "Detroit Lions 21\u2013New England Patriots 28",
-          "performance": "Score source: nflverse. Historical Bovada lines and individual performances unavailable.",
-          "source_url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "bovada_lines": []
-        }
-      ],
-      "evidence": [
-        {
-          "title": "Sleeper lists A.J. Brown (WR) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Amon-Ra St. Brown (WR) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Ben Brown (OG) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Brenden Schooler (DB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Cade Mays (OL) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Cameron Latu (TE) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Carlton Davis III (CB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Charles Woods (CB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists D.J. Reed (CB) as Out; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Greg Van Roten (OG) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Kevin Byard III (DB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Sleeper lists Reggie Gilliam (RB) as Questionable; verify the official team report",
-          "url": "https://api.sleeper.app/v1/players/nfl",
-          "publisher": "Sleeper",
-          "published_at": null,
-          "role": "injuries"
-        },
-        {
-          "title": "Lions vs. Patriots prediction: Detroit seeks fifth straight victory, while New England looks to bounce back",
-          "url": "https://www.cbssports.com/nfl/news/lions-vs-patriots-prediction-odds-where-to-watch-munich/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-14T19:51:21Z",
-          "role": "news"
-        },
-        {
-          "title": "NFL Week 10 injury report: Chiefs' Kenneth Walker III ruled out, Patriots' A.J. Brown questionable",
-          "url": "https://www.cbssports.com/nfl/news/nfl-week-10-injury-report-chiefs-kenneth-walker-aj-brown/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-14T16:33:07Z",
-          "role": "news"
-        },
-        {
-          "title": "Prisco's Week 10 NFL picks: Lions top Patriots in Munich, Cowboys upset 49ers",
-          "url": "https://www.cbssports.com/nfl/news/pete-priscos-week-10-expert-nfl-picks/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T18:03:06Z",
-          "role": "news"
-        },
-        {
-          "title": "NFL Week 10 picks, odds, best bets: Lions cover in Munich, Bills crush Jets",
-          "url": "https://www.cbssports.com/nfl/news/2026-nfl-week-10-picks-odds-best-bets-lions-munich-bills-jets/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T12:50:13Z",
-          "role": "news"
-        },
-        {
-          "title": "Lions, Jets renegotiated Andre Cisco trade after concerns arose about his physical",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-jets-renegotiated-andre-cisco-trade-after-concerns-arose-about-his-physical",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-15T08:40:30Z",
-          "role": "news"
-        },
-        {
-          "title": "Patriots place TreVeyon Henderson on injured reserve",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-place-treveyon-henderson-on-injured-reserve",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T21:53:30Z",
-          "role": "news"
-        },
-        {
-          "title": "Jared Goff takes 1-3 career record vs. Patriots into Germany game",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-goff-takes-1-3-career-record-vs-patriots-into-germany-game",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T14:24:41Z",
-          "role": "news"
-        },
-        {
-          "title": "FC Bayern Munich Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "weather"
-        },
-        {
-          "title": "Rest: New England Patriots 7 days; Detroit Lions 7 days",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "travel"
-        },
-        {
-          "title": "Current-season scores: New England Patriots 9 games, 23.4 points for and 23.0 allowed per game; Detroit Lions 8 games, 27.8 points for and 23.6 allowed per game",
-          "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
-          "publisher": "nflverse schedule",
-          "published_at": null,
-          "role": "stats"
-        }
-      ],
-      "scoring": {
-        "home": {
-          "team": "Detroit Lions",
-          "team_strength": 5.9151612903225805,
-          "expected_lineup_units": {
-            "pass_offense": 6.390322580645161,
-            "rush_offense": 6.235483870967742,
-            "pass_defense": 4.764516129032258,
-            "rush_defense": 7.0290322580645155,
-            "special_teams": 7.454838709677419
-          },
-          "unit_adjustments": [],
-          "data_confidence": 6.7,
-          "status": "complete",
-          "category_matchups": {
-            "pass_offense": 6.980272952853598,
-            "rush_offense": 4.953225806451613,
-            "pass_defense": 4.097146401985112,
-            "rush_defense": 6.616253101736973,
-            "special_teams": 7.12059553349876
-          },
-          "matchup_base": 5.637735732009926,
-          "situational_adjustment": 0.0,
-          "weekly_matchup": 5.637735732009926
-        },
-        "away": {
-          "team": "New England Patriots",
-          "team_strength": 5.513064516129031,
-          "expected_lineup_units": {
-            "pass_offense": 7.570223325062033,
-            "rush_offense": 4.79652605459057,
-            "pass_defense": 3.4297766749379655,
-            "rush_defense": 7.329032258064516,
-            "special_teams": 4.2136476426799
-          },
-          "unit_adjustments": [],
-          "data_confidence": 6.9,
-          "status": "complete",
-          "category_matchups": {
-            "pass_offense": 6.902853598014888,
-            "rush_offense": 4.383746898263027,
-            "pass_defense": 4.019727047146402,
-            "rush_defense": 6.046774193548387,
-            "special_teams": 3.879404466501241
-          },
-          "matchup_base": 5.279112903225806,
-          "situational_adjustment": 0.0,
-          "weekly_matchup": 5.279112903225806
-        },
-        "matchup_difference_home_minus_away": 0.35862282878412,
-        "scoring_version": "nfl-scoring-1.0"
-      },
-      "rating_side": "Detroit Lions",
-      "pass": 6.980272952853598,
-      "rush": 4.953225806451613,
-      "offense": 6.343870967741935,
-      "defense": 5.26774193548387,
-      "confidence": 6.7,
-      "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
-      "model": {
-        "nflverse_game_id": "2026_10_NE_DET",
-        "fair_home_margin": 2.59,
-        "fair_home_spread": -2.6,
-        "fair_total": 49.9,
-        "market_home_spread": -2.5,
-        "market_total": 49.5,
-        "anchor_source": "Bovada",
-        "spread_edge_points": 0.09,
-        "total_edge_points": 0.39,
-        "projected_home_points": 26.2,
-        "projected_away_points": 23.6
-      },
-      "paper_forecast": {
-        "game_id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
-        "nflverse_game_id": "2026_10_NE_DET",
-        "week": 10,
-        "home": "Detroit Lions",
-        "away": "New England Patriots",
-        "kickoff": "2026-11-15T14:30:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
-        "model_version": "paper-2026-w9-a1572181da",
-        "projection": {
-          "margin": -5.5878464045390315,
-          "total": 50.910579656207254,
-          "projected_home_points": 22.661366625834113,
-          "projected_away_points": 28.24921303037314,
-          "fair_home_spread": 5.5878464045390315,
-          "model_status": "provisional_unapproved"
-        },
-        "outcome_probabilities": {
-          "home": 0.3034828069882952,
-          "tie": 0.030147076941920425,
-          "away": 0.6663701160697844
-        },
-        "status": "paper_only_uncalibrated",
-        "origin": "prospective",
-        "injury_adjustments_applied": false
-      }
-    },
     {
       "id": "3c71d515b726f1096aabb435badb83fd",
       "away": "Kansas City Chiefs",
@@ -439,6 +139,20 @@
           "role": "injuries"
         },
         {
+          "title": "Chiefs vs. Falcons odds, predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus for Sunday NFL Week 10",
+          "url": "https://www.cbssports.com/prediction/news/chiefs-vs-falcons-odds-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus-for-sunday-nfl-week-10/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:41:00Z",
+          "role": "news"
+        },
+        {
+          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Chiefs-Falcons, 49ers-Cowboys, NFL betting picks",
+          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-chiefs-falcons-49ers-cowboys-nfl-betting-picks/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:43:43Z",
+          "role": "news"
+        },
+        {
           "title": "NFL Week 10 last-minute picks, best bets: Chiefs, Steelers take advantage of schedule quirk",
           "url": "https://www.cbssports.com/nfl/news/nfl-week-10-picks-best-bets-chiefs-steelers/",
           "publisher": "CBS Sports",
@@ -450,20 +164,6 @@
           "url": "https://www.cbssports.com/nfl/news/nfl-week-10-injury-report-chiefs-kenneth-walker-aj-brown/",
           "publisher": "CBS Sports",
           "published_at": "2026-11-14T16:33:07Z",
-          "role": "news"
-        },
-        {
-          "title": "Chris Jones rejoins Chiefs after traveling on his own to Atlanta",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-jones-rejoins-chiefs-after-traveling-on-his-own-to-atlanta",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-15T03:04:42Z",
-          "role": "news"
-        },
-        {
-          "title": "Kenneth Walker won't play vs. Falcons due to groin injury",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-wont-play-vs-falcons-due-to-groin-injury",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T16:43:09Z",
           "role": "news"
         },
         {
@@ -560,8 +260,8 @@
         "home": "Atlanta Falcons",
         "away": "Kansas City Chiefs",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -5.254899666211083,
@@ -711,10 +411,24 @@
           "role": "injuries"
         },
         {
-          "title": "NFL Week 10 picks, odds, best bets: Lions cover in Munich, Bills crush Jets",
-          "url": "https://www.cbssports.com/nfl/news/2026-nfl-week-10-picks-odds-best-bets-lions-munich-bills-jets/",
+          "title": "Bills vs. Jets odds, predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus for Sunday in NFL Week 10",
+          "url": "https://www.cbssports.com/prediction/news/bills-vs-jets-odds-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus-for-sunday-in-nfl-week-10/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T12:50:13Z",
+          "published_at": "2026-11-15T16:27:35Z",
+          "role": "news"
+        },
+        {
+          "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Bills-Jets, Cowboys-49ers, Steelers-Bengals",
+          "url": "https://www.cbssports.com/betting/news/week-10-nfl-betting-lines-spreads-totals-odds/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:02:44Z",
+          "role": "news"
+        },
+        {
+          "title": "Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans",
+          "url": "https://www.cbssports.com/betting/news/nfl-odds-spreads-betting-advice-lines-picks-predictions-for-week-10-2026/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:55:08Z",
           "role": "news"
         },
         {
@@ -825,8 +539,8 @@
         "home": "New York Jets",
         "away": "Buffalo Bills",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -6.081546819076489,
@@ -976,24 +690,10 @@
           "role": "injuries"
         },
         {
-          "title": "Panthers-Saints game won't have a replay assistant, due to ground stop",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-saints-game-wont-have-a-replay-assistant-due-to-ground-stop",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-15T00:35:29Z",
-          "role": "news"
-        },
-        {
-          "title": "Panthers activate WR Xavier Legette from IR",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-activate-wr-xavier-legette-from-ir",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T19:12:55Z",
-          "role": "news"
-        },
-        {
-          "title": "Report: Saints to activate RB Travis Etienne for Sunday's game",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-to-activate-rb-travis-etienne-for-sundays-game",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T16:18:04Z",
+          "title": "Panthers vs. Saints odds, picks, prediction, spread: Start time, NFL Week 10 betting preview, best bets",
+          "url": "https://www.cbssports.com/betting/news/panthers-vs-saints-odds-picks-prediction-spread-start-time-nfl-week-10-betting-preview-best-bets/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:22:19Z",
           "role": "news"
         },
         {
@@ -1097,8 +797,8 @@
         "home": "New Orleans Saints",
         "away": "Carolina Panthers",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 0.5976188878040307,
@@ -1248,10 +948,31 @@
           "role": "injuries"
         },
         {
-          "title": "Texans rule David Montgomery out for Sunday",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-rule-david-montgomery-out-for-sunday",
+          "title": "NFL Week 10 Texans vs. Browns odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus",
+          "url": "https://www.cbssports.com/prediction/news/nfl-week-10-texans-vs-browns-odds-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:50:39Z",
+          "role": "news"
+        },
+        {
+          "title": "Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans",
+          "url": "https://www.cbssports.com/betting/news/nfl-odds-spreads-betting-advice-lines-picks-predictions-for-week-10-2026/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:55:08Z",
+          "role": "news"
+        },
+        {
+          "title": "Prisco's Week 10 NFL picks: Cowboys upset 49ers, Texans edge Browns",
+          "url": "https://www.cbssports.com/nfl/news/pete-priscos-week-10-expert-nfl-picks/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:33:07Z",
+          "role": "news"
+        },
+        {
+          "title": "Will Anderson to play against Browns",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-anderson-to-play-against-browns",
           "publisher": "NBC Sports",
-          "published_at": "2026-11-14T18:45:07Z",
+          "published_at": "2026-11-15T16:34:21Z",
           "role": "news"
         },
         {
@@ -1355,8 +1076,8 @@
         "home": "Cleveland Browns",
         "away": "Houston Texans",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -1.5318698994410789,
@@ -1506,6 +1227,27 @@
           "role": "injuries"
         },
         {
+          "title": "Vikings vs. Packers odds, picks, prediction, spread: Start time, NFL Week 10 betting preview, best bets",
+          "url": "https://www.cbssports.com/betting/news/vikings-vs-packers-odds-picks-prediction-spread-start-time-nfl-week-10-betting-preview-best-bets/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:45:45Z",
+          "role": "news"
+        },
+        {
+          "title": "Best Kalshi promo code CBSSPORTS55: Score $55 bonus for Packers-Vikings, 49ers-Cowboys, Bengals-Steelers, NFL",
+          "url": "https://www.cbssports.com/prediction/news/best-kalshi-promo-code-cbssports55-score-55-bonus-packers-vikings-49ers-cowboys-bengals-steelers-nfl/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:40:42Z",
+          "role": "news"
+        },
+        {
+          "title": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Vikings-Packers, 49ers-Cowboys, NFL",
+          "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-vikings-packers-49ers-cowboys-nfl/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:46:39Z",
+          "role": "news"
+        },
+        {
           "title": "Vikings officially announce Kirk Cousins will start vs. Packers following trade deadline",
           "url": "https://www.cbssports.com/nfl/news/vikings-officially-announce-kirk-cousins-start-vs-packers-lambeau-field-sunday/",
           "publisher": "CBS Sports",
@@ -1513,45 +1255,10 @@
           "role": "news"
         },
         {
-          "title": "NFL Week 10 picks: Our experts face off on Vikings at Packers, Steelers at Bengals and more",
-          "url": "https://www.cbssports.com/nfl/news/nfl-week-10-picks-experts-face-off-commanders-giants-vikings-packers/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T18:08:43Z",
-          "role": "news"
-        },
-        {
-          "title": "Top Week 10 battle to watch: Packers' surging offensive trio vs. No. 1 Vikings defense",
-          "url": "https://www.cbssports.com/nfl/news/top-week-10-battle-to-watch-packers-jordan-love-vikings-defense/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T16:30:44Z",
-          "role": "news"
-        },
-        {
-          "title": "One fatal flaw of every Super Bowl contender from 49ers depth to Packers run game",
-          "url": "https://www.cbssports.com/nfl/news/fatal-flaw-super-bowl-contenders-49ers-bears-packers/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T13:58:41Z",
-          "role": "news"
-        },
-        {
-          "title": "5 bold NFL predictions for second half of season: Packers take NFC North; Seahawks, Rams miss playoffs",
-          "url": "https://www.cbssports.com/nfl/news/5-bold-predictions-second-half-nfl-season-packers-rams/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T14:56:29Z",
-          "role": "news"
-        },
-        {
-          "title": "Packers activate RB Chris Brooks, WR Skyy Moore",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-activate-rb-chris-brooks-wr-skyy-moore",
+          "title": "Jordan Addison is out for Vikings in Green Bay",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-addison-is-out-for-vikings-in-green-bay",
           "publisher": "NBC Sports",
-          "published_at": "2026-11-14T21:42:34Z",
-          "role": "news"
-        },
-        {
-          "title": "Packers, Broncos explored possible Tony Pollard trade",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-broncos-explored-possible-tony-pollard-trade",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T16:54:18Z",
+          "published_at": "2026-11-15T16:49:53Z",
           "role": "news"
         },
         {
@@ -1655,8 +1362,8 @@
         "home": "Green Bay Packers",
         "away": "Minnesota Vikings",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 6.911341929725994,
@@ -1806,17 +1513,17 @@
           "role": "injuries"
         },
         {
-          "title": "Colts activate Arden Key, place Mo Alie-Cox and Akeem Davis-Gaither on IR",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-activate-arden-key-place-mo-alie-cox-and-akeem-davis-gaither-on-ir",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T19:04:42Z",
+          "title": "Dolphins vs. Colts odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus Sunday",
+          "url": "https://www.cbssports.com/prediction/news/dolphins-vs-colts-odds-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus-sunday/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:35:34Z",
           "role": "news"
         },
         {
-          "title": "Dolphins sign K Zane Gonzalez to 53-man roster; elevate QB Brady Cook, WR Jalen Reagor",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-k-zane-gonzalez-to-53-man-roster-elevate-qb-brady-cook-wr-jalen-reagor",
+          "title": "Dolphins, Colts will stage a \"someone has to win\" game",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-colts-will-stage-a-someone-has-to-win-game",
           "publisher": "NBC Sports",
-          "published_at": "2026-11-14T18:33:02Z",
+          "published_at": "2026-11-15T16:18:43Z",
           "role": "news"
         },
         {
@@ -1913,8 +1620,8 @@
         "home": "Indianapolis Colts",
         "away": "Miami Dolphins",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 3.54161896700005,
@@ -2064,28 +1771,21 @@
           "role": "injuries"
         },
         {
-          "title": "Revisiting the 2026 NFL Draft: Did the Titans take the right receiver at No. 4 overall?",
-          "url": "https://www.cbssports.com/nfl/news/revisiting-2026-nfl-draft-did-titans-take-right-receiver-4-overall/",
+          "title": "Jaguars vs. Titans odds, predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus for NFL Week 10",
+          "url": "https://www.cbssports.com/prediction/news/jaguars-vs-titans-odds-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus-for-nfl-week-10/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T20:23:40Z",
+          "published_at": "2026-11-15T16:40:55Z",
           "role": "news"
         },
         {
-          "title": "Jaguars' trade deadline acquisitions Jessie Bates III and Jordan Davis won't play in Week 10 vs. Titans",
-          "url": "https://www.cbssports.com/nfl/news/jaguars-liam-coen-acquisitions-jessie-bates-iii-jordan-davis-wont-play-week-10-trade-deadline-titans/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T16:44:25Z",
-          "role": "news"
-        },
-        {
-          "title": "Titans put Peter Skoronski, Tommy Townsend on IR",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-put-peter-skoronski-tommy-townsend-on-ir",
+          "title": "With trade offers rejected, Titans' plans for Tony Pollard come into question",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/with-trade-offers-rejected-titans-plans-for-tony-pollard-come-into-question",
           "publisher": "NBC Sports",
-          "published_at": "2026-11-14T22:05:53Z",
+          "published_at": "2026-11-15T11:57:34Z",
           "role": "news"
         },
         {
-          "title": "Kickoff forecast near Nissan Stadium: 55\u00b0F, wind 5 mph NE, precipitation 0%",
+          "title": "Kickoff forecast near Nissan Stadium: 51\u00b0F, wind 5 mph NNE, precipitation 0%",
           "url": "https://api.weather.gov/gridpoints/OHX/51,57/forecast/hourly",
           "publisher": "National Weather Service",
           "published_at": null,
@@ -2185,8 +1885,8 @@
         "home": "Tennessee Titans",
         "away": "Jacksonville Jaguars",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -2.8917507860018,
@@ -2336,31 +2036,10 @@
           "role": "injuries"
         },
         {
-          "title": "Cardinals reportedly extend No. 2 TE Elijah Higgins, going all-in on tight ends amid WR injuries",
-          "url": "https://www.cbssports.com/nfl/news/cardinals-sign-2-tight-end-elijah-higgins-three-year-extension-per-report/",
+          "title": "Rams vs. Cardinals odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus for NFL Week 10",
+          "url": "https://www.cbssports.com/prediction/news/rams-vs-cardinals-odds-predictions-use-polymarket-promo-code-cbssports-25-bonus-nfl-week-10/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T19:38:19Z",
-          "role": "news"
-        },
-        {
-          "title": "NFL odds, picks, predictions: Rams, Steelers part of Week 10 parlays involving favorites, underdogs",
-          "url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-rams-steelers-part-of-week-10-parlays-involving-favorites-underdogs/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T17:02:27Z",
-          "role": "news"
-        },
-        {
-          "title": "5 bold NFL predictions for second half of season: Packers take NFC North; Seahawks, Rams miss playoffs",
-          "url": "https://www.cbssports.com/nfl/news/5-bold-predictions-second-half-nfl-season-packers-rams/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T14:56:29Z",
-          "role": "news"
-        },
-        {
-          "title": "Cardinals name Carson Beck starting QB: Rookie faces Aaron Donald, Myles Garrett in NFL debut",
-          "url": "https://www.cbssports.com/nfl/news/cardinals-starting-qb-carson-beck-2026/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T02:09:28Z",
+          "published_at": "2026-11-15T15:18:48Z",
           "role": "news"
         },
         {
@@ -2457,8 +2136,8 @@
         "home": "Arizona Cardinals",
         "away": "Los Angeles Rams",
         "kickoff": "2026-11-15T21:05:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -9.339341148133306,
@@ -2580,24 +2259,17 @@
           "role": "injuries"
         },
         {
+          "title": "Seahawks vs. Raiders odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus for NFL Week 10",
+          "url": "https://www.cbssports.com/prediction/news/seahawks-vs-raiders-odds-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus-for-nfl-week-10/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T15:15:19Z",
+          "role": "news"
+        },
+        {
           "title": "Fernando Mendoza picks, predictions, best bets: Props for first NFL start versus Seahawks revealed",
           "url": "https://www.cbssports.com/betting/news/fernando-mendoza-picks-predictions-best-bets-props-for-first-nfl-start-versus-seahawks-revealed/",
           "publisher": "CBS Sports",
           "published_at": "2026-11-14T15:12:37Z",
-          "role": "news"
-        },
-        {
-          "title": "Seahawks vs. Raiders picks: Fernando Mendoza era begins, most historical trends against No. 1 overall pick",
-          "url": "https://www.cbssports.com/nfl/news/seahawks-vs-raiders-picks-fernando-mendoza-era-begins-most-historical-trends-against-no-1-overall-pick/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T15:00:50Z",
-          "role": "news"
-        },
-        {
-          "title": "5 bold NFL predictions for second half of season: Packers take NFC North; Seahawks, Rams miss playoffs",
-          "url": "https://www.cbssports.com/nfl/news/5-bold-predictions-second-half-nfl-season-packers-rams/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T14:56:29Z",
           "role": "news"
         },
         {
@@ -2701,8 +2373,8 @@
         "home": "Las Vegas Raiders",
         "away": "Seattle Seahawks",
         "kickoff": "2026-11-15T21:05:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -5.24191609685961,
@@ -2852,38 +2524,66 @@
           "role": "injuries"
         },
         {
-          "title": "Cowboys' Joey Porter Jr. breaks silence on chatter that absence is contract related",
-          "url": "https://www.cbssports.com/nfl/news/cowboys-joey-porter-jr-breaks-silence-on-chatter-that-absence-is-contract-related/",
+          "title": "Best Kalshi promo code CBSSPORTS55: Score $55 bonus for Packers-Vikings, 49ers-Cowboys, Bengals-Steelers, NFL",
+          "url": "https://www.cbssports.com/prediction/news/best-kalshi-promo-code-cbssports55-score-55-bonus-packers-vikings-49ers-cowboys-bengals-steelers-nfl/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T19:26:03Z",
+          "published_at": "2026-11-15T16:40:42Z",
           "role": "news"
         },
         {
-          "title": "Star on the rise: Cowboys' Dak Prescott feels Jason Witten could 'absolutely' be an NFL head coach",
-          "url": "https://www.cbssports.com/nfl/news/cowboys-dak-prescott-feels-jason-witten-could-absolutely-be-nfl-head-coach/",
+          "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Bills-Jets, Cowboys-49ers, Steelers-Bengals",
+          "url": "https://www.cbssports.com/betting/news/week-10-nfl-betting-lines-spreads-totals-odds/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T19:09:53Z",
+          "published_at": "2026-11-15T16:02:44Z",
           "role": "news"
         },
         {
-          "title": "Prisco's Week 10 NFL picks: Lions top Patriots in Munich, Cowboys upset 49ers",
+          "title": "49ers vs. Cowboys odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus for NFL Week 10",
+          "url": "https://www.cbssports.com/prediction/news/49ers-vs-cowboys-odds-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus-for-nfl-week-10/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T15:22:59Z",
+          "role": "news"
+        },
+        {
+          "title": "49ers vs. Cowboys odds, NFL Week 10 predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus",
+          "url": "https://www.cbssports.com/prediction/news/49ers-vs-cowboys-odds-nfl-week-10-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T15:20:35Z",
+          "role": "news"
+        },
+        {
+          "title": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Vikings-Packers, 49ers-Cowboys, NFL",
+          "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-vikings-packers-49ers-cowboys-nfl/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:46:39Z",
+          "role": "news"
+        },
+        {
+          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Chiefs-Falcons, 49ers-Cowboys, NFL betting picks",
+          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-chiefs-falcons-49ers-cowboys-nfl-betting-picks/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:43:43Z",
+          "role": "news"
+        },
+        {
+          "title": "Prisco's Week 10 NFL picks: Cowboys upset 49ers, Texans edge Browns",
           "url": "https://www.cbssports.com/nfl/news/pete-priscos-week-10-expert-nfl-picks/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T18:03:06Z",
+          "published_at": "2026-11-15T14:33:07Z",
           "role": "news"
         },
         {
-          "title": "One fatal flaw of every Super Bowl contender from 49ers depth to Packers run game",
-          "url": "https://www.cbssports.com/nfl/news/fatal-flaw-super-bowl-contenders-49ers-bears-packers/",
+          "title": "Use FanDuel promo code to get $200 in bonus bets by targeting 49ers-Cowboys, Bengals-Steelers, NFL Week 10",
+          "url": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-49ers-cowboys-bengals-steelers-nfl-week-10/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T13:58:41Z",
+          "published_at": "2026-11-15T14:33:00Z",
           "role": "news"
         },
         {
-          "title": "Cowboys place RB Tyler Goodson on injured reserve",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-place-rb-tyler-goodson-on-injured-reserve",
+          "title": "49ers will fly to Colorado tonight to begin acclimating to altitude for Mexico City game",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-will-fly-to-colorado-tonight-to-begin-acclimating-to-altitude-for-mexico-city-game",
           "publisher": "NBC Sports",
-          "published_at": "2026-11-14T20:01:50Z",
+          "published_at": "2026-11-15T11:03:11Z",
           "role": "news"
         },
         {
@@ -2980,8 +2680,8 @@
         "home": "Dallas Cowboys",
         "away": "San Francisco 49ers",
         "kickoff": "2026-11-15T21:25:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -2.2976690073121433,
@@ -3131,6 +2831,41 @@
           "role": "injuries"
         },
         {
+          "title": "Best Kalshi promo code CBSSPORTS55: Score $55 bonus for Packers-Vikings, 49ers-Cowboys, Bengals-Steelers, NFL",
+          "url": "https://www.cbssports.com/prediction/news/best-kalshi-promo-code-cbssports55-score-55-bonus-packers-vikings-49ers-cowboys-bengals-steelers-nfl/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:40:42Z",
+          "role": "news"
+        },
+        {
+          "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Bills-Jets, Cowboys-49ers, Steelers-Bengals",
+          "url": "https://www.cbssports.com/betting/news/week-10-nfl-betting-lines-spreads-totals-odds/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:02:44Z",
+          "role": "news"
+        },
+        {
+          "title": "Use FanDuel promo code to get $200 in bonus bets by targeting 49ers-Cowboys, Bengals-Steelers, NFL Week 10",
+          "url": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-49ers-cowboys-bengals-steelers-nfl-week-10/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:33:00Z",
+          "role": "news"
+        },
+        {
+          "title": "Bengals vs. Steelers odds: NFL Week 10 Sunday Night Football first touchdown scorer picks, predictions",
+          "url": "https://www.cbssports.com/prediction/news/bengals-vs-steelers-odds-nfl-week-10-sunday-night-football-first-touchdown-scorer-picks-predictions/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T13:30:50Z",
+          "role": "news"
+        },
+        {
+          "title": "Bengals vs. Steelers odds, NFL Week 10 predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus",
+          "url": "https://www.cbssports.com/prediction/news/bengals-vs-steelers-odds-nfl-week-10-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T13:30:44Z",
+          "role": "news"
+        },
+        {
           "title": "Bengals vs. Steelers prediction: AFC North rivals to battle for first place in the division on 'SNF'",
           "url": "https://www.cbssports.com/nfl/news/bengals-vs-steelers-prediction-odds-how-to-watch/",
           "publisher": "CBS Sports",
@@ -3142,48 +2877,6 @@
           "url": "https://www.cbssports.com/nfl/news/nfl-week-10-picks-best-bets-chiefs-steelers/",
           "publisher": "CBS Sports",
           "published_at": "2026-11-14T18:34:35Z",
-          "role": "news"
-        },
-        {
-          "title": "NFL Week 10 picks: Our experts face off on Vikings at Packers, Steelers at Bengals and more",
-          "url": "https://www.cbssports.com/nfl/news/nfl-week-10-picks-experts-face-off-commanders-giants-vikings-packers/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T18:08:43Z",
-          "role": "news"
-        },
-        {
-          "title": "Bengals facing massive NFL scheduling disadvantage vs. Steelers in Week 10: No team has ever overcome this",
-          "url": "https://www.cbssports.com/nfl/news/bengals-facing-massive-nfl-scheduling-disadvantage-vs-steelers-week-10-no-team-ever/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T17:38:46Z",
-          "role": "news"
-        },
-        {
-          "title": "NFL odds, picks, predictions: Rams, Steelers part of Week 10 parlays involving favorites, underdogs",
-          "url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-rams-steelers-part-of-week-10-parlays-involving-favorites-underdogs/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T17:02:27Z",
-          "role": "news"
-        },
-        {
-          "title": "NFL Week 10 bold predictions: Joe Burrow lights up first-place Steelers, Tony Pollard bulldozes new-look Jags",
-          "url": "https://www.cbssports.com/nfl/news/nfl-week-10-bold-predictions-joe-burrow-lights-up-steelers-tony-pollard-bulldozes-jags/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T16:00:24Z",
-          "role": "news"
-        },
-        {
-          "title": "Steelers activate DT Derrick Harmon",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-activate-dt-derrick-harmon",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-15T01:14:05Z",
-          "role": "news"
-        },
-        {
-          "title": "Steelers say Pat Freiermuth is questionable for Sunday night vs. Bengals with an illness",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-say-pat-freiermuth-is-questionable-for-sunday-night-vs-bengals-with-an-illness",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T18:18:26Z",
           "role": "news"
         },
         {
@@ -3287,8 +2980,8 @@
         "home": "Cincinnati Bengals",
         "away": "Pittsburgh Steelers",
         "kickoff": "2026-11-16T01:20:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -12.29087381399374,
@@ -3438,28 +3131,7 @@
           "role": "injuries"
         },
         {
-          "title": "Ravens announce Lamar Jackson had surgery on broken and dislocated thumb, will be out 6-10 weeks",
-          "url": "https://www.cbssports.com/nfl/news/ravens-announce-lamar-jackson-surgery-broken-dislocated-thumb-out-6-10-weeks/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T15:07:06Z",
-          "role": "news"
-        },
-        {
-          "title": "Grading every NFL team at the midway point: Chargers get an 'F,' three teams get solid 'A' grade",
-          "url": "https://www.cbssports.com/nfl/news/grading-every-nfl-team-at-midway-point-bills-49ers-chargers/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T17:36:16Z",
-          "role": "news"
-        },
-        {
-          "title": "Chargers list Ladd McConkey as questionable for Monday night",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-list-ladd-mcconkey-as-questionable-for-monday-night",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T21:34:26Z",
-          "role": "news"
-        },
-        {
-          "title": "Kickoff forecast near M&T Bank Stadium: 44\u00b0F, wind 2 mph NW, precipitation 0%",
+          "title": "Kickoff forecast near M&T Bank Stadium: 46\u00b0F, wind 5 mph NW, precipitation 0%",
           "url": "https://api.weather.gov/gridpoints/LWX/109,90/forecast/hourly",
           "publisher": "National Weather Service",
           "published_at": null,
@@ -3559,8 +3231,8 @@
         "home": "Baltimore Ravens",
         "away": "Los Angeles Chargers",
         "kickoff": "2026-11-17T01:15:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 9.803760597050918,
@@ -3710,17 +3382,38 @@
           "role": "injuries"
         },
         {
-          "title": "Colts activate Arden Key, place Mo Alie-Cox and Akeem Davis-Gaither on IR",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-activate-arden-key-place-mo-alie-cox-and-akeem-davis-gaither-on-ir",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T19:04:42Z",
+          "title": "NFL Week 10 Texans vs. Browns odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus",
+          "url": "https://www.cbssports.com/prediction/news/nfl-week-10-texans-vs-browns-odds-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:50:39Z",
           "role": "news"
         },
         {
-          "title": "Texans rule David Montgomery out for Sunday",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-rule-david-montgomery-out-for-sunday",
+          "title": "Dolphins vs. Colts odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus Sunday",
+          "url": "https://www.cbssports.com/prediction/news/dolphins-vs-colts-odds-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus-sunday/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:35:34Z",
+          "role": "news"
+        },
+        {
+          "title": "Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans",
+          "url": "https://www.cbssports.com/betting/news/nfl-odds-spreads-betting-advice-lines-picks-predictions-for-week-10-2026/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:55:08Z",
+          "role": "news"
+        },
+        {
+          "title": "Prisco's Week 10 NFL picks: Cowboys upset 49ers, Texans edge Browns",
+          "url": "https://www.cbssports.com/nfl/news/pete-priscos-week-10-expert-nfl-picks/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:33:07Z",
+          "role": "news"
+        },
+        {
+          "title": "Dolphins, Colts will stage a \"someone has to win\" game",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-colts-will-stage-a-someone-has-to-win-game",
           "publisher": "NBC Sports",
-          "published_at": "2026-11-14T18:45:07Z",
+          "published_at": "2026-11-15T16:18:43Z",
           "role": "news"
         },
         {
@@ -3817,8 +3510,8 @@
         "home": "Houston Texans",
         "away": "Indianapolis Colts",
         "kickoff": "2026-11-20T01:15:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 4.366925503569337,
@@ -3968,6 +3661,27 @@
           "role": "injuries"
         },
         {
+          "title": "Chiefs vs. Falcons odds, predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus for Sunday NFL Week 10",
+          "url": "https://www.cbssports.com/prediction/news/chiefs-vs-falcons-odds-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus-for-sunday-nfl-week-10/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:41:00Z",
+          "role": "news"
+        },
+        {
+          "title": "Rams vs. Cardinals odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus for NFL Week 10",
+          "url": "https://www.cbssports.com/prediction/news/rams-vs-cardinals-odds-predictions-use-polymarket-promo-code-cbssports-25-bonus-nfl-week-10/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T15:18:48Z",
+          "role": "news"
+        },
+        {
+          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Chiefs-Falcons, 49ers-Cowboys, NFL betting picks",
+          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-chiefs-falcons-49ers-cowboys-nfl-betting-picks/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:43:43Z",
+          "role": "news"
+        },
+        {
           "title": "NFL Week 10 last-minute picks, best bets: Chiefs, Steelers take advantage of schedule quirk",
           "url": "https://www.cbssports.com/nfl/news/nfl-week-10-picks-best-bets-chiefs-steelers/",
           "publisher": "CBS Sports",
@@ -3979,27 +3693,6 @@
           "url": "https://www.cbssports.com/nfl/news/nfl-week-10-injury-report-chiefs-kenneth-walker-aj-brown/",
           "publisher": "CBS Sports",
           "published_at": "2026-11-14T16:33:07Z",
-          "role": "news"
-        },
-        {
-          "title": "Cardinals reportedly extend No. 2 TE Elijah Higgins, going all-in on tight ends amid WR injuries",
-          "url": "https://www.cbssports.com/nfl/news/cardinals-sign-2-tight-end-elijah-higgins-three-year-extension-per-report/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T19:38:19Z",
-          "role": "news"
-        },
-        {
-          "title": "Cardinals name Carson Beck starting QB: Rookie faces Aaron Donald, Myles Garrett in NFL debut",
-          "url": "https://www.cbssports.com/nfl/news/cardinals-starting-qb-carson-beck-2026/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T02:09:28Z",
-          "role": "news"
-        },
-        {
-          "title": "Chris Jones rejoins Chiefs after traveling on his own to Atlanta",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-jones-rejoins-chiefs-after-traveling-on-his-own-to-atlanta",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-15T03:04:42Z",
           "role": "news"
         },
         {
@@ -4096,8 +3789,8 @@
         "home": "Kansas City Chiefs",
         "away": "Arizona Cardinals",
         "kickoff": "2026-11-22T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 9.226168423697278,
@@ -4247,24 +3940,10 @@
           "role": "injuries"
         },
         {
-          "title": "Ravens announce Lamar Jackson had surgery on broken and dislocated thumb, will be out 6-10 weeks",
-          "url": "https://www.cbssports.com/nfl/news/ravens-announce-lamar-jackson-surgery-broken-dislocated-thumb-out-6-10-weeks/",
+          "title": "Panthers vs. Saints odds, picks, prediction, spread: Start time, NFL Week 10 betting preview, best bets",
+          "url": "https://www.cbssports.com/betting/news/panthers-vs-saints-odds-picks-prediction-spread-start-time-nfl-week-10-betting-preview-best-bets/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T15:07:06Z",
-          "role": "news"
-        },
-        {
-          "title": "Panthers-Saints game won't have a replay assistant, due to ground stop",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-saints-game-wont-have-a-replay-assistant-due-to-ground-stop",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-15T00:35:29Z",
-          "role": "news"
-        },
-        {
-          "title": "Panthers activate WR Xavier Legette from IR",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-activate-wr-xavier-legette-from-ir",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T19:12:55Z",
+          "published_at": "2026-11-15T16:22:19Z",
           "role": "news"
         },
         {
@@ -4361,8 +4040,8 @@
         "home": "Carolina Panthers",
         "away": "Baltimore Ravens",
         "kickoff": "2026-11-22T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 3.2578837145952577,
@@ -4512,17 +4191,38 @@
           "role": "injuries"
         },
         {
-          "title": "NFL Week 10 picks, odds, best bets: Lions cover in Munich, Bills crush Jets",
-          "url": "https://www.cbssports.com/nfl/news/2026-nfl-week-10-picks-odds-best-bets-lions-munich-bills-jets/",
+          "title": "Dolphins vs. Colts odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus Sunday",
+          "url": "https://www.cbssports.com/prediction/news/dolphins-vs-colts-odds-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus-sunday/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T12:50:13Z",
+          "published_at": "2026-11-15T16:35:34Z",
           "role": "news"
         },
         {
-          "title": "Dolphins sign K Zane Gonzalez to 53-man roster; elevate QB Brady Cook, WR Jalen Reagor",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-k-zane-gonzalez-to-53-man-roster-elevate-qb-brady-cook-wr-jalen-reagor",
+          "title": "Bills vs. Jets odds, predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus for Sunday in NFL Week 10",
+          "url": "https://www.cbssports.com/prediction/news/bills-vs-jets-odds-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus-for-sunday-in-nfl-week-10/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:27:35Z",
+          "role": "news"
+        },
+        {
+          "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Bills-Jets, Cowboys-49ers, Steelers-Bengals",
+          "url": "https://www.cbssports.com/betting/news/week-10-nfl-betting-lines-spreads-totals-odds/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:02:44Z",
+          "role": "news"
+        },
+        {
+          "title": "Week 10 NFL odds, picks, predictions: Computer model backs Bills and Texans",
+          "url": "https://www.cbssports.com/betting/news/nfl-odds-spreads-betting-advice-lines-picks-predictions-for-week-10-2026/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:55:08Z",
+          "role": "news"
+        },
+        {
+          "title": "Dolphins, Colts will stage a \"someone has to win\" game",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-colts-will-stage-a-someone-has-to-win-game",
           "publisher": "NBC Sports",
-          "published_at": "2026-11-14T18:33:02Z",
+          "published_at": "2026-11-15T16:18:43Z",
           "role": "news"
         },
         {
@@ -4619,8 +4319,8 @@
         "home": "Buffalo Bills",
         "away": "Miami Dolphins",
         "kickoff": "2026-11-22T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 11.686143170888805,
@@ -4770,17 +4470,10 @@
           "role": "injuries"
         },
         {
-          "title": "Panthers-Saints game won't have a replay assistant, due to ground stop",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-saints-game-wont-have-a-replay-assistant-due-to-ground-stop",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-15T00:35:29Z",
-          "role": "news"
-        },
-        {
-          "title": "Report: Saints to activate RB Travis Etienne for Sunday's game",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-to-activate-rb-travis-etienne-for-sundays-game",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T16:18:04Z",
+          "title": "Panthers vs. Saints odds, picks, prediction, spread: Start time, NFL Week 10 betting preview, best bets",
+          "url": "https://www.cbssports.com/betting/news/panthers-vs-saints-odds-picks-prediction-spread-start-time-nfl-week-10-betting-preview-best-bets/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:22:19Z",
           "role": "news"
         },
         {
@@ -4877,8 +4570,8 @@
         "home": "Chicago Bears",
         "away": "New Orleans Saints",
         "kickoff": "2026-11-22T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 20.537334106521268,
@@ -5028,52 +4721,73 @@
           "role": "injuries"
         },
         {
-          "title": "Revisiting the 2026 NFL Draft: Did the Titans take the right receiver at No. 4 overall?",
-          "url": "https://www.cbssports.com/nfl/news/revisiting-2026-nfl-draft-did-titans-take-right-receiver-4-overall/",
+          "title": "Jaguars vs. Titans odds, predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus for NFL Week 10",
+          "url": "https://www.cbssports.com/prediction/news/jaguars-vs-titans-odds-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus-for-nfl-week-10/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T20:23:40Z",
+          "published_at": "2026-11-15T16:40:55Z",
           "role": "news"
         },
         {
-          "title": "Cowboys' Joey Porter Jr. breaks silence on chatter that absence is contract related",
-          "url": "https://www.cbssports.com/nfl/news/cowboys-joey-porter-jr-breaks-silence-on-chatter-that-absence-is-contract-related/",
+          "title": "Best Kalshi promo code CBSSPORTS55: Score $55 bonus for Packers-Vikings, 49ers-Cowboys, Bengals-Steelers, NFL",
+          "url": "https://www.cbssports.com/prediction/news/best-kalshi-promo-code-cbssports55-score-55-bonus-packers-vikings-49ers-cowboys-bengals-steelers-nfl/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T19:26:03Z",
+          "published_at": "2026-11-15T16:40:42Z",
           "role": "news"
         },
         {
-          "title": "Star on the rise: Cowboys' Dak Prescott feels Jason Witten could 'absolutely' be an NFL head coach",
-          "url": "https://www.cbssports.com/nfl/news/cowboys-dak-prescott-feels-jason-witten-could-absolutely-be-nfl-head-coach/",
+          "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Bills-Jets, Cowboys-49ers, Steelers-Bengals",
+          "url": "https://www.cbssports.com/betting/news/week-10-nfl-betting-lines-spreads-totals-odds/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T19:09:53Z",
+          "published_at": "2026-11-15T16:02:44Z",
           "role": "news"
         },
         {
-          "title": "Prisco's Week 10 NFL picks: Lions top Patriots in Munich, Cowboys upset 49ers",
+          "title": "49ers vs. Cowboys odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus for NFL Week 10",
+          "url": "https://www.cbssports.com/prediction/news/49ers-vs-cowboys-odds-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus-for-nfl-week-10/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T15:22:59Z",
+          "role": "news"
+        },
+        {
+          "title": "49ers vs. Cowboys odds, NFL Week 10 predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus",
+          "url": "https://www.cbssports.com/prediction/news/49ers-vs-cowboys-odds-nfl-week-10-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T15:20:35Z",
+          "role": "news"
+        },
+        {
+          "title": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Vikings-Packers, 49ers-Cowboys, NFL",
+          "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-vikings-packers-49ers-cowboys-nfl/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:46:39Z",
+          "role": "news"
+        },
+        {
+          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Chiefs-Falcons, 49ers-Cowboys, NFL betting picks",
+          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-chiefs-falcons-49ers-cowboys-nfl-betting-picks/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:43:43Z",
+          "role": "news"
+        },
+        {
+          "title": "Prisco's Week 10 NFL picks: Cowboys upset 49ers, Texans edge Browns",
           "url": "https://www.cbssports.com/nfl/news/pete-priscos-week-10-expert-nfl-picks/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T18:03:06Z",
+          "published_at": "2026-11-15T14:33:07Z",
           "role": "news"
         },
         {
-          "title": "Jaguars' trade deadline acquisitions Jessie Bates III and Jordan Davis won't play in Week 10 vs. Titans",
-          "url": "https://www.cbssports.com/nfl/news/jaguars-liam-coen-acquisitions-jessie-bates-iii-jordan-davis-wont-play-week-10-trade-deadline-titans/",
+          "title": "Use FanDuel promo code to get $200 in bonus bets by targeting 49ers-Cowboys, Bengals-Steelers, NFL Week 10",
+          "url": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-49ers-cowboys-bengals-steelers-nfl-week-10/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T16:44:25Z",
+          "published_at": "2026-11-15T14:33:00Z",
           "role": "news"
         },
         {
-          "title": "Titans put Peter Skoronski, Tommy Townsend on IR",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-put-peter-skoronski-tommy-townsend-on-ir",
+          "title": "With trade offers rejected, Titans' plans for Tony Pollard come into question",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/with-trade-offers-rejected-titans-plans-for-tony-pollard-come-into-question",
           "publisher": "NBC Sports",
-          "published_at": "2026-11-14T22:05:53Z",
-          "role": "news"
-        },
-        {
-          "title": "Cowboys place RB Tyler Goodson on injured reserve",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-place-rb-tyler-goodson-on-injured-reserve",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T20:01:50Z",
+          "published_at": "2026-11-15T11:57:34Z",
           "role": "news"
         },
         {
@@ -5170,8 +4884,8 @@
         "home": "Dallas Cowboys",
         "away": "Tennessee Titans",
         "kickoff": "2026-11-22T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 8.015616303107771,
@@ -5321,24 +5035,52 @@
           "role": "injuries"
         },
         {
+          "title": "Lions running back Jahmyr Gibbs ties NFL record during Germany game vs. Patriots",
+          "url": "https://www.cbssports.com/nfl/news/lions-jahmyr-gibbs-ties-nfl-record-germany-patriots/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:38:51Z",
+          "role": "news"
+        },
+        {
+          "title": "Drake Maye, Aidan Hutchinson injured on same play: Patriots QB out, Lions DE questionable to return",
+          "url": "https://www.cbssports.com/nfl/news/drake-maye-aidan-hutchinson-injured-patriots-lions-stars-questionable/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T15:45:44Z",
+          "role": "news"
+        },
+        {
+          "title": "Lions vs. Patriots odds, picks, prediction, spread: Start time, betting preview, best bets for Munich game",
+          "url": "https://www.cbssports.com/betting/news/lions-vs-patriots-odds-picks-prediction-spread-start-time-betting-preview-best-bets-munich-game/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T13:03:32Z",
+          "role": "news"
+        },
+        {
           "title": "Lions vs. Patriots prediction: Detroit seeks fifth straight victory, while New England looks to bounce back",
           "url": "https://www.cbssports.com/nfl/news/lions-vs-patriots-prediction-odds-where-to-watch-munich/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-14T19:51:21Z",
+          "published_at": "2026-11-15T12:36:28Z",
           "role": "news"
         },
         {
-          "title": "Prisco's Week 10 NFL picks: Lions top Patriots in Munich, Cowboys upset 49ers",
-          "url": "https://www.cbssports.com/nfl/news/pete-priscos-week-10-expert-nfl-picks/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T18:03:06Z",
+          "title": "Jahmyr Gibbs totals 171 yards in first half as Lions roll over Patriots",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-totals-171-yards-in-first-half-as-lions-roll-over-patriots",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-15T16:06:22Z",
           "role": "news"
         },
         {
-          "title": "NFL Week 10 picks, odds, best bets: Lions cover in Munich, Bills crush Jets",
-          "url": "https://www.cbssports.com/nfl/news/2026-nfl-week-10-picks-odds-best-bets-lions-munich-bills-jets/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T12:50:13Z",
+          "title": "A.J. Brown, Amon-Ra St. Brown active for Patriots-Lions in Munich",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-j-brown-amon-ra-st-brown-active-for-patriots-lions-in-munich",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-15T13:39:22Z",
+          "role": "news"
+        },
+        {
+          "title": "Starting with Patriots-Lions, Fox has three windows on Sunday",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/starting-with-patriots-lions-fox-has-three-windows-on-sunday",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-15T12:28:32Z",
           "role": "news"
         },
         {
@@ -5422,19 +5164,6 @@
       "defense": 5.26774193548387,
       "confidence": 6.7,
       "summary": "Current-season play-data comparison. Passing/rushing advantages are from the home team's perspective. Special-teams baseline is provisional; verify injuries and expected lineups.",
-      "model": {
-        "nflverse_game_id": "2026_11_TB_DET",
-        "fair_home_margin": 3.4,
-        "fair_home_spread": -3.4,
-        "fair_total": 49.3,
-        "market_home_spread": -3.5,
-        "market_total": 47.5,
-        "anchor_source": "nflverse consensus",
-        "spread_edge_points": -0.1,
-        "total_edge_points": 1.75,
-        "projected_home_points": 26.3,
-        "projected_away_points": 22.9
-      },
       "paper_forecast": {
         "game_id": "41e2dd69bddd65d7e823d9ed61cc2afc",
         "nflverse_game_id": "2026_11_TB_DET",
@@ -5442,8 +5171,8 @@
         "home": "Detroit Lions",
         "away": "Tampa Bay Buccaneers",
         "kickoff": "2026-11-22T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -14.520168755979064,
@@ -5593,6 +5322,41 @@
           "role": "injuries"
         },
         {
+          "title": "Best Kalshi promo code CBSSPORTS55: Score $55 bonus for Packers-Vikings, 49ers-Cowboys, Bengals-Steelers, NFL",
+          "url": "https://www.cbssports.com/prediction/news/best-kalshi-promo-code-cbssports55-score-55-bonus-packers-vikings-49ers-cowboys-bengals-steelers-nfl/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:40:42Z",
+          "role": "news"
+        },
+        {
+          "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Bills-Jets, Cowboys-49ers, Steelers-Bengals",
+          "url": "https://www.cbssports.com/betting/news/week-10-nfl-betting-lines-spreads-totals-odds/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:02:44Z",
+          "role": "news"
+        },
+        {
+          "title": "Use FanDuel promo code to get $200 in bonus bets by targeting 49ers-Cowboys, Bengals-Steelers, NFL Week 10",
+          "url": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-49ers-cowboys-bengals-steelers-nfl-week-10/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:33:00Z",
+          "role": "news"
+        },
+        {
+          "title": "Bengals vs. Steelers odds: NFL Week 10 Sunday Night Football first touchdown scorer picks, predictions",
+          "url": "https://www.cbssports.com/prediction/news/bengals-vs-steelers-odds-nfl-week-10-sunday-night-football-first-touchdown-scorer-picks-predictions/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T13:30:50Z",
+          "role": "news"
+        },
+        {
+          "title": "Bengals vs. Steelers odds, NFL Week 10 predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus",
+          "url": "https://www.cbssports.com/prediction/news/bengals-vs-steelers-odds-nfl-week-10-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T13:30:44Z",
+          "role": "news"
+        },
+        {
           "title": "Bengals vs. Steelers prediction: AFC North rivals to battle for first place in the division on 'SNF'",
           "url": "https://www.cbssports.com/nfl/news/bengals-vs-steelers-prediction-odds-how-to-watch/",
           "publisher": "CBS Sports",
@@ -5604,55 +5368,6 @@
           "url": "https://www.cbssports.com/nfl/news/nfl-week-10-picks-best-bets-chiefs-steelers/",
           "publisher": "CBS Sports",
           "published_at": "2026-11-14T18:34:35Z",
-          "role": "news"
-        },
-        {
-          "title": "Eagles release wide receiver Hollywood Brown upon his request, according to report",
-          "url": "https://www.cbssports.com/nfl/news/eagles-release-wide-receiver-hollywood-brown-upon-his-request-according-to-report/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T20:19:13Z",
-          "role": "news"
-        },
-        {
-          "title": "NFL Week 10 picks: Our experts face off on Vikings at Packers, Steelers at Bengals and more",
-          "url": "https://www.cbssports.com/nfl/news/nfl-week-10-picks-experts-face-off-commanders-giants-vikings-packers/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T18:08:43Z",
-          "role": "news"
-        },
-        {
-          "title": "Bengals facing massive NFL scheduling disadvantage vs. Steelers in Week 10: No team has ever overcome this",
-          "url": "https://www.cbssports.com/nfl/news/bengals-facing-massive-nfl-scheduling-disadvantage-vs-steelers-week-10-no-team-ever/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T17:38:46Z",
-          "role": "news"
-        },
-        {
-          "title": "NFL odds, picks, predictions: Rams, Steelers part of Week 10 parlays involving favorites, underdogs",
-          "url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-rams-steelers-part-of-week-10-parlays-involving-favorites-underdogs/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T17:02:27Z",
-          "role": "news"
-        },
-        {
-          "title": "NFL Week 10 bold predictions: Joe Burrow lights up first-place Steelers, Tony Pollard bulldozes new-look Jags",
-          "url": "https://www.cbssports.com/nfl/news/nfl-week-10-bold-predictions-joe-burrow-lights-up-steelers-tony-pollard-bulldozes-jags/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T16:00:24Z",
-          "role": "news"
-        },
-        {
-          "title": "Steelers activate DT Derrick Harmon",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-activate-dt-derrick-harmon",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-15T01:14:05Z",
-          "role": "news"
-        },
-        {
-          "title": "Steelers say Pat Freiermuth is questionable for Sunday night vs. Bengals with an illness",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-say-pat-freiermuth-is-questionable-for-sunday-night-vs-bengals-with-an-illness",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T18:18:26Z",
           "role": "news"
         },
         {
@@ -5749,8 +5464,8 @@
         "home": "Philadelphia Eagles",
         "away": "Pittsburgh Steelers",
         "kickoff": "2026-11-22T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 3.8540992122034625,
@@ -5886,17 +5601,17 @@
           "role": "injuries"
         },
         {
-          "title": "NFL Week 10 picks, odds, best bets: Lions cover in Munich, Bills crush Jets",
-          "url": "https://www.cbssports.com/nfl/news/2026-nfl-week-10-picks-odds-best-bets-lions-munich-bills-jets/",
+          "title": "Bills vs. Jets odds, predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus for Sunday in NFL Week 10",
+          "url": "https://www.cbssports.com/prediction/news/bills-vs-jets-odds-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus-for-sunday-in-nfl-week-10/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T12:50:13Z",
+          "published_at": "2026-11-15T16:27:35Z",
           "role": "news"
         },
         {
-          "title": "Grading every NFL team at the midway point: Chargers get an 'F,' three teams get solid 'A' grade",
-          "url": "https://www.cbssports.com/nfl/news/grading-every-nfl-team-at-midway-point-bills-49ers-chargers/",
+          "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Bills-Jets, Cowboys-49ers, Steelers-Bengals",
+          "url": "https://www.cbssports.com/betting/news/week-10-nfl-betting-lines-spreads-totals-odds/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T17:36:16Z",
+          "published_at": "2026-11-15T16:02:44Z",
           "role": "news"
         },
         {
@@ -5904,13 +5619,6 @@
           "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-jets-renegotiated-andre-cisco-trade-after-concerns-arose-about-his-physical",
           "publisher": "NBC Sports",
           "published_at": "2026-11-15T08:40:30Z",
-          "role": "news"
-        },
-        {
-          "title": "Chargers list Ladd McConkey as questionable for Monday night",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-list-ladd-mcconkey-as-questionable-for-monday-night",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T21:34:26Z",
           "role": "news"
         },
         {
@@ -6007,8 +5715,8 @@
         "home": "Los Angeles Chargers",
         "away": "New York Jets",
         "kickoff": "2026-11-22T21:05:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -6.3601543884991125,
@@ -6158,17 +5866,10 @@
           "role": "injuries"
         },
         {
-          "title": "Seahawks vs. Raiders picks: Fernando Mendoza era begins, most historical trends against No. 1 overall pick",
-          "url": "https://www.cbssports.com/nfl/news/seahawks-vs-raiders-picks-fernando-mendoza-era-begins-most-historical-trends-against-no-1-overall-pick/",
+          "title": "Seahawks vs. Raiders odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus for NFL Week 10",
+          "url": "https://www.cbssports.com/prediction/news/seahawks-vs-raiders-odds-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus-for-nfl-week-10/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T15:00:50Z",
-          "role": "news"
-        },
-        {
-          "title": "Packers, Broncos explored possible Tony Pollard trade",
-          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-broncos-explored-possible-tony-pollard-trade",
-          "publisher": "NBC Sports",
-          "published_at": "2026-11-14T16:54:18Z",
+          "published_at": "2026-11-15T15:15:19Z",
           "role": "news"
         },
         {
@@ -6265,8 +5966,8 @@
         "home": "Denver Broncos",
         "away": "Las Vegas Raiders",
         "kickoff": "2026-11-22T21:25:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 18.8888241706383,
@@ -6416,24 +6117,10 @@
           "role": "injuries"
         },
         {
-          "title": "Giants players blast controversial DPI penalty in loss to Commanders: 'This league is funny, bro'",
-          "url": "https://www.cbssports.com/nfl/news/giants-players-blast-controversial-dpi-penalty-loss-to-commanders/",
+          "title": "Jaguars vs. Titans odds, predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus for NFL Week 10",
+          "url": "https://www.cbssports.com/prediction/news/jaguars-vs-titans-odds-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus-for-nfl-week-10/",
           "publisher": "CBS Sports",
-          "published_at": "2026-11-13T17:25:30Z",
-          "role": "news"
-        },
-        {
-          "title": "Jaguars' trade deadline acquisitions Jessie Bates III and Jordan Davis won't play in Week 10 vs. Titans",
-          "url": "https://www.cbssports.com/nfl/news/jaguars-liam-coen-acquisitions-jessie-bates-iii-jordan-davis-wont-play-week-10-trade-deadline-titans/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T16:44:25Z",
-          "role": "news"
-        },
-        {
-          "title": "Best Kalshi promo code CBSSPORTS55: Secure $55 bonus for Commanders vs. Giants, Thursday Night Football picks",
-          "url": "https://www.cbssports.com/prediction/news/best-kalshi-promo-code-cbssports55-secure-55-bonus-commanders-vs-giants-thursday-night-football-picks/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T00:25:45Z",
+          "published_at": "2026-11-15T16:40:55Z",
           "role": "news"
         },
         {
@@ -6530,8 +6217,8 @@
         "home": "New York Giants",
         "away": "Jacksonville Jaguars",
         "kickoff": "2026-11-22T21:25:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 1.5681270710860635,
@@ -6681,6 +6368,69 @@
           "role": "injuries"
         },
         {
+          "title": "Vikings vs. Packers odds, picks, prediction, spread: Start time, NFL Week 10 betting preview, best bets",
+          "url": "https://www.cbssports.com/betting/news/vikings-vs-packers-odds-picks-prediction-spread-start-time-nfl-week-10-betting-preview-best-bets/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:45:45Z",
+          "role": "news"
+        },
+        {
+          "title": "Best Kalshi promo code CBSSPORTS55: Score $55 bonus for Packers-Vikings, 49ers-Cowboys, Bengals-Steelers, NFL",
+          "url": "https://www.cbssports.com/prediction/news/best-kalshi-promo-code-cbssports55-score-55-bonus-packers-vikings-49ers-cowboys-bengals-steelers-nfl/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:40:42Z",
+          "role": "news"
+        },
+        {
+          "title": "Week 10 NFL odds, lines, totals, spreads for every game, including Bills-Jets, Cowboys-49ers, Steelers-Bengals",
+          "url": "https://www.cbssports.com/betting/news/week-10-nfl-betting-lines-spreads-totals-odds/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T16:02:44Z",
+          "role": "news"
+        },
+        {
+          "title": "49ers vs. Cowboys odds, predictions: Use Polymarket promo code CBSSPORTS to get a $25 bonus for NFL Week 10",
+          "url": "https://www.cbssports.com/prediction/news/49ers-vs-cowboys-odds-predictions-use-polymarket-promo-code-cbssports-to-get-a-25-bonus-for-nfl-week-10/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T15:22:59Z",
+          "role": "news"
+        },
+        {
+          "title": "49ers vs. Cowboys odds, NFL Week 10 predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus",
+          "url": "https://www.cbssports.com/prediction/news/49ers-vs-cowboys-odds-nfl-week-10-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T15:20:35Z",
+          "role": "news"
+        },
+        {
+          "title": "Use DraftKings promo code to get $200 bonus, free NBA League Pass for Vikings-Packers, 49ers-Cowboys, NFL",
+          "url": "https://www.cbssports.com/betting/news/use-draftkings-promo-code-to-get-200-bonus-free-nba-league-pass-for-vikings-packers-49ers-cowboys-nfl/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:46:39Z",
+          "role": "news"
+        },
+        {
+          "title": "Use BetMGM bonus code CBSSPORTS to get $1,500 bonus bets for Chiefs-Falcons, 49ers-Cowboys, NFL betting picks",
+          "url": "https://www.cbssports.com/betting/news/use-betmgm-bonus-code-cbssports-to-get-1500-bonus-bets-chiefs-falcons-49ers-cowboys-nfl-betting-picks/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:43:43Z",
+          "role": "news"
+        },
+        {
+          "title": "Prisco's Week 10 NFL picks: Cowboys upset 49ers, Texans edge Browns",
+          "url": "https://www.cbssports.com/nfl/news/pete-priscos-week-10-expert-nfl-picks/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:33:07Z",
+          "role": "news"
+        },
+        {
+          "title": "Use FanDuel promo code to get $200 in bonus bets by targeting 49ers-Cowboys, Bengals-Steelers, NFL Week 10",
+          "url": "https://www.cbssports.com/betting/news/use-fanduel-promo-code-to-get-200-bonus-bets-49ers-cowboys-bengals-steelers-nfl-week-10/",
+          "publisher": "CBS Sports",
+          "published_at": "2026-11-15T14:33:00Z",
+          "role": "news"
+        },
+        {
           "title": "Vikings officially announce Kirk Cousins will start vs. Packers following trade deadline",
           "url": "https://www.cbssports.com/nfl/news/vikings-officially-announce-kirk-cousins-start-vs-packers-lambeau-field-sunday/",
           "publisher": "CBS Sports",
@@ -6688,31 +6438,17 @@
           "role": "news"
         },
         {
-          "title": "NFL Week 10 picks: Our experts face off on Vikings at Packers, Steelers at Bengals and more",
-          "url": "https://www.cbssports.com/nfl/news/nfl-week-10-picks-experts-face-off-commanders-giants-vikings-packers/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T18:08:43Z",
+          "title": "Jordan Addison is out for Vikings in Green Bay",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-addison-is-out-for-vikings-in-green-bay",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-15T16:49:53Z",
           "role": "news"
         },
         {
-          "title": "Prisco's Week 10 NFL picks: Lions top Patriots in Munich, Cowboys upset 49ers",
-          "url": "https://www.cbssports.com/nfl/news/pete-priscos-week-10-expert-nfl-picks/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T18:03:06Z",
-          "role": "news"
-        },
-        {
-          "title": "Top Week 10 battle to watch: Packers' surging offensive trio vs. No. 1 Vikings defense",
-          "url": "https://www.cbssports.com/nfl/news/top-week-10-battle-to-watch-packers-jordan-love-vikings-defense/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T16:30:44Z",
-          "role": "news"
-        },
-        {
-          "title": "One fatal flaw of every Super Bowl contender from 49ers depth to Packers run game",
-          "url": "https://www.cbssports.com/nfl/news/fatal-flaw-super-bowl-contenders-49ers-bears-packers/",
-          "publisher": "CBS Sports",
-          "published_at": "2026-11-13T13:58:41Z",
+          "title": "49ers will fly to Colorado tonight to begin acclimating to altitude for Mexico City game",
+          "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-will-fly-to-colorado-tonight-to-begin-acclimating-to-altitude-for-mexico-city-game",
+          "publisher": "NBC Sports",
+          "published_at": "2026-11-15T11:03:11Z",
           "role": "news"
         },
         {
@@ -6809,8 +6545,8 @@
         "home": "San Francisco 49ers",
         "away": "Minnesota Vikings",
         "kickoff": "2026-11-23T01:20:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -0.15700954620926466,
@@ -6918,8 +6654,8 @@
         "home": "Washington Commanders",
         "away": "Cincinnati Bengals",
         "kickoff": "2026-11-24T01:15:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -2.6449021576451077,
@@ -6941,138 +6677,6 @@
     }
   ],
   "markets": [
-    {
-      "id": "274ea65c8a9a6506a5df",
-      "game_id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
-      "category": "Moneyline",
-      "selection": "Detroit Lions",
-      "line": null,
-      "odds": -145,
-      "observed_at": "2026-11-15T02:29:44Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "moneyline",
-        "p_win": 0.5781,
-        "p_push": 0.004,
-        "p_loss": 0.4179,
-        "ev": -0.0192,
-        "conservative_ev": -0.053,
-        "value_score": 1,
-        "break_even": 0.5918
-      }
-    },
-    {
-      "id": "44d100cbdfb375a92e3f",
-      "game_id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
-      "category": "Moneyline",
-      "selection": "New England Patriots",
-      "line": null,
-      "odds": 125,
-      "observed_at": "2026-11-15T02:29:44Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "moneyline",
-        "p_win": 0.4179,
-        "p_push": 0.004,
-        "p_loss": 0.5781,
-        "ev": -0.0558,
-        "conservative_ev": -0.1008,
-        "value_score": 1,
-        "break_even": 0.4444
-      }
-    },
-    {
-      "id": "db00fc7e07ca3f66014d",
-      "game_id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
-      "category": "Spread",
-      "selection": "Detroit Lions",
-      "line": -2.5,
-      "odds": -117,
-      "observed_at": "2026-11-15T02:29:44Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "spread",
-        "p_win": 0.5277,
-        "p_push": 0,
-        "p_loss": 0.4723,
-        "ev": -0.0213,
-        "conservative_ev": -0.0584,
-        "value_score": 1,
-        "break_even": 0.5392
-      }
-    },
-    {
-      "id": "abd796532c832f3d318d",
-      "game_id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
-      "category": "Spread",
-      "selection": "New England Patriots",
-      "line": 2.5,
-      "odds": -103,
-      "observed_at": "2026-11-15T02:29:44Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "spread",
-        "p_win": 0.4723,
-        "p_push": 0,
-        "p_loss": 0.5277,
-        "ev": -0.0692,
-        "conservative_ev": -0.1086,
-        "value_score": 1,
-        "break_even": 0.5074
-      }
-    },
-    {
-      "id": "822992feb70196ef9dea",
-      "game_id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
-      "category": "Total",
-      "selection": "Over",
-      "line": 49.5,
-      "odds": -110,
-      "observed_at": "2026-11-15T02:29:44Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "total",
-        "p_win": 0.4821,
-        "p_push": 0,
-        "p_loss": 0.5179,
-        "ev": -0.0797,
-        "conservative_ev": -0.1179,
-        "value_score": 1,
-        "break_even": 0.5238
-      }
-    },
-    {
-      "id": "bce56464bb654b31dfc7",
-      "game_id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
-      "category": "Total",
-      "selection": "Under",
-      "line": 49.5,
-      "odds": -110,
-      "observed_at": "2026-11-15T02:29:44Z",
-      "status": "stale",
-      "source_url": "https://the-odds-api.com/sports-odds-data/nfl-odds.html",
-      "sportsbook": "Bovada",
-      "model": {
-        "market": "total",
-        "p_win": 0.5179,
-        "p_push": 0,
-        "p_loss": 0.4821,
-        "ev": -0.0112,
-        "conservative_ev": -0.0494,
-        "value_score": 1,
-        "break_even": 0.5238
-      }
-    },
     {
       "id": "6abb906bf08a75f48309",
       "game_id": "3c71d515b726f1096aabb435badb83fd",
@@ -13106,22 +12710,22 @@
     },
     "News": {
       "status": "ok",
-      "checked_at": "2026-11-15T09:20:41Z",
+      "checked_at": "2026-11-15T17:06:36Z",
       "detail": "NFL RSS headlines from CBS Sports, NBC Sports matched to teams; player-only stories may be missed."
     },
     "Weather": {
       "status": "ok",
-      "checked_at": "2026-11-15T09:20:39Z",
-      "detail": "NWS hourly forecasts for 9 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+      "checked_at": "2026-11-15T17:06:34Z",
+      "detail": "NWS hourly forecasts for 8 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
     },
     "Travel": {
       "status": "ok",
-      "checked_at": "2026-11-15T09:20:38Z",
+      "checked_at": "2026-11-15T17:06:32Z",
       "detail": "Rest days and approximate distances from nflverse; no verified team itinerary."
     },
     "Statistics": {
       "status": "ok",
-      "checked_at": "2026-11-15T09:20:38.772435Z",
+      "checked_at": "2026-11-15T17:06:32.717082Z",
       "detail": "Current-season nflverse play data for 137 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties."
     },
     "Historical Bovada": {
@@ -13131,7 +12735,7 @@
     },
     "Matchup": {
       "status": "ok",
-      "checked_at": "2026-11-15T09:20:44Z",
+      "checked_at": "2026-11-15T17:06:39Z",
       "detail": "Deterministic team matchup ratings active. Paid AI narrative agents remain disabled."
     },
     "Player props": {
@@ -13146,17 +12750,17 @@
     },
     "Scoring engine": {
       "status": "ok",
-      "checked_at": "2026-11-15T09:20:44Z",
+      "checked_at": "2026-11-15T17:06:39Z",
       "detail": "Calculated 32 team ratings; missing components are explicitly flagged."
     },
     "Probability & value": {
       "status": "ok",
-      "checked_at": "2026-11-15T09:20:45Z",
-      "detail": "Internal model market-model-1.0: 26 games, 78 markets scored. No market type has passed the backtest gate; showing research leans only."
+      "checked_at": "2026-11-15T17:06:39Z",
+      "detail": "Internal model market-model-1.0: 24 games, 72 markets scored. No market type has passed the backtest gate; showing research leans only."
     },
     "Paper predictions": {
       "status": "ok",
-      "checked_at": "2026-11-15T09:20:45.224360Z",
+      "checked_at": "2026-11-15T17:06:40.105252Z",
       "detail": "Uncalibrated point forecasts; first pregame predictions are frozen for prospective evaluation. No bets recommended."
     }
   },
@@ -13165,35 +12769,8 @@
   "paper_tracking": {
     "status": "paper_only_uncalibrated",
     "model_version": "paper-2026-w9-a1572181da",
-    "forecast_count": 26,
+    "forecast_count": 25,
     "forecasts": [
-      {
-        "game_id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
-        "nflverse_game_id": "2026_10_NE_DET",
-        "week": 10,
-        "home": "Detroit Lions",
-        "away": "New England Patriots",
-        "kickoff": "2026-11-15T14:30:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
-        "model_version": "paper-2026-w9-a1572181da",
-        "projection": {
-          "margin": -5.5878464045390315,
-          "total": 50.910579656207254,
-          "projected_home_points": 22.661366625834113,
-          "projected_away_points": 28.24921303037314,
-          "fair_home_spread": 5.5878464045390315,
-          "model_status": "provisional_unapproved"
-        },
-        "outcome_probabilities": {
-          "home": 0.3034828069882952,
-          "tie": 0.030147076941920425,
-          "away": 0.6663701160697844
-        },
-        "status": "paper_only_uncalibrated",
-        "origin": "prospective",
-        "injury_adjustments_applied": false
-      },
       {
         "game_id": "3c71d515b726f1096aabb435badb83fd",
         "nflverse_game_id": "2026_10_KC_ATL",
@@ -13201,8 +12778,8 @@
         "home": "Atlanta Falcons",
         "away": "Kansas City Chiefs",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -5.254899666211083,
@@ -13228,8 +12805,8 @@
         "home": "New York Jets",
         "away": "Buffalo Bills",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -6.081546819076489,
@@ -13255,8 +12832,8 @@
         "home": "New Orleans Saints",
         "away": "Carolina Panthers",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 0.5976188878040307,
@@ -13282,8 +12859,8 @@
         "home": "Cleveland Browns",
         "away": "Houston Texans",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -1.5318698994410789,
@@ -13309,8 +12886,8 @@
         "home": "Green Bay Packers",
         "away": "Minnesota Vikings",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 6.911341929725994,
@@ -13336,8 +12913,8 @@
         "home": "Indianapolis Colts",
         "away": "Miami Dolphins",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 3.54161896700005,
@@ -13363,8 +12940,8 @@
         "home": "Tennessee Titans",
         "away": "Jacksonville Jaguars",
         "kickoff": "2026-11-15T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -2.8917507860018,
@@ -13390,8 +12967,8 @@
         "home": "Arizona Cardinals",
         "away": "Los Angeles Rams",
         "kickoff": "2026-11-15T21:05:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -9.339341148133306,
@@ -13417,8 +12994,8 @@
         "home": "Las Vegas Raiders",
         "away": "Seattle Seahawks",
         "kickoff": "2026-11-15T21:05:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -5.24191609685961,
@@ -13444,8 +13021,8 @@
         "home": "Dallas Cowboys",
         "away": "San Francisco 49ers",
         "kickoff": "2026-11-15T21:25:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -2.2976690073121433,
@@ -13471,8 +13048,8 @@
         "home": "Cincinnati Bengals",
         "away": "Pittsburgh Steelers",
         "kickoff": "2026-11-16T01:20:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -12.29087381399374,
@@ -13498,8 +13075,8 @@
         "home": "Baltimore Ravens",
         "away": "Los Angeles Chargers",
         "kickoff": "2026-11-17T01:15:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 9.803760597050918,
@@ -13525,8 +13102,8 @@
         "home": "Houston Texans",
         "away": "Indianapolis Colts",
         "kickoff": "2026-11-20T01:15:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 4.366925503569337,
@@ -13552,8 +13129,8 @@
         "home": "Kansas City Chiefs",
         "away": "Arizona Cardinals",
         "kickoff": "2026-11-22T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 9.226168423697278,
@@ -13579,8 +13156,8 @@
         "home": "Carolina Panthers",
         "away": "Baltimore Ravens",
         "kickoff": "2026-11-22T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 3.2578837145952577,
@@ -13606,8 +13183,8 @@
         "home": "Buffalo Bills",
         "away": "Miami Dolphins",
         "kickoff": "2026-11-22T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 11.686143170888805,
@@ -13633,8 +13210,8 @@
         "home": "Chicago Bears",
         "away": "New Orleans Saints",
         "kickoff": "2026-11-22T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 20.537334106521268,
@@ -13660,8 +13237,8 @@
         "home": "Dallas Cowboys",
         "away": "Tennessee Titans",
         "kickoff": "2026-11-22T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 8.015616303107771,
@@ -13687,8 +13264,8 @@
         "home": "Detroit Lions",
         "away": "Tampa Bay Buccaneers",
         "kickoff": "2026-11-22T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -14.520168755979064,
@@ -13714,8 +13291,8 @@
         "home": "Philadelphia Eagles",
         "away": "Pittsburgh Steelers",
         "kickoff": "2026-11-22T18:00:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 3.8540992122034625,
@@ -13741,8 +13318,8 @@
         "home": "Los Angeles Chargers",
         "away": "New York Jets",
         "kickoff": "2026-11-22T21:05:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -6.3601543884991125,
@@ -13768,8 +13345,8 @@
         "home": "Denver Broncos",
         "away": "Las Vegas Raiders",
         "kickoff": "2026-11-22T21:25:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 18.8888241706383,
@@ -13795,8 +13372,8 @@
         "home": "New York Giants",
         "away": "Jacksonville Jaguars",
         "kickoff": "2026-11-22T21:25:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": 1.5681270710860635,
@@ -13822,8 +13399,8 @@
         "home": "San Francisco 49ers",
         "away": "Minnesota Vikings",
         "kickoff": "2026-11-23T01:20:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -0.15700954620926466,
@@ -13849,8 +13426,8 @@
         "home": "Washington Commanders",
         "away": "Cincinnati Bengals",
         "kickoff": "2026-11-24T01:15:00Z",
-        "forecast_as_of": "2026-11-15T09:20:45.224360Z",
-        "statistics_as_of": "2026-11-15T09:20:38.772435Z",
+        "forecast_as_of": "2026-11-15T17:06:40.105252Z",
+        "statistics_as_of": "2026-11-15T17:06:32.717082Z",
         "model_version": "paper-2026-w9-a1572181da",
         "projection": {
           "margin": -2.6449021576451077,
@@ -13890,7 +13467,7 @@
   },
   "prediction_results": {
     "season": 2026,
-    "updated_at": "2026-11-15T09:20:45.224360Z",
+    "updated_at": "2026-11-15T17:06:40.105252Z",
     "basis": "first_saved_pregame_forecast",
     "records": [
       {
@@ -14534,7 +14111,7 @@
         "predicted_side": "away",
         "predicted_winner": "New England Patriots",
         "winner_probability": 0.7195562822509753,
-        "status": "upcoming",
+        "status": "awaiting_final",
         "winner_result": "pending",
         "final_home_score": null,
         "final_away_score": null,
