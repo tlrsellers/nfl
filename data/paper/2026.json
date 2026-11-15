@@ -2189,7 +2189,18 @@
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
-      "injury_adjustments_applied": false
+      "injury_adjustments_applied": false,
+      "settlement": {
+        "home_score": 35,
+        "away_score": 10,
+        "actual_margin": 25,
+        "actual_total": 45,
+        "outcome": "home",
+        "margin_error": 32.4457891867214,
+        "total_error": -8.340383786409397,
+        "three_outcome_brier": 1.0766066881397063,
+        "settled_at": "2026-11-15T19:40:38.172522Z"
+      }
     },
     "2026_10_KC_ATL": {
       "game_id": "3c71d515b726f1096aabb435badb83fd",
