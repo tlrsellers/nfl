@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-11-14T21:27:59.120576Z",
-  "checked_at": "2026-11-14T21:27:59.120576Z",
+  "as_of": "2026-11-15T01:52:48.317793Z",
+  "checked_at": "2026-11-15T01:52:48.317793Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -3900,6 +3900,10 @@
     "8ba112fabf4e87639338a5f437c5abfe": {
       "neutral_site": false,
       "rest_days_difference": 3.0
+    },
+    "60e1d27b083a335b722c2c852ea85612": {
+      "neutral_site": true,
+      "rest_days_difference": 0.0
     }
   },
   "findings": [
@@ -4044,6 +4048,12 @@
     {
       "game_id": "8ba112fabf4e87639338a5f437c5abfe",
       "title": "Current-season scores: Jacksonville Jaguars 8 games, 28.6 points for and 15.1 allowed per game; New York Giants 9 games, 22.6 points for and 21.8 allowed per game",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "60e1d27b083a335b722c2c852ea85612",
+      "title": "Current-season scores: Minnesota Vikings 8 games, 18.2 points for and 14.5 allowed per game; San Francisco 49ers 8 games, 29.4 points for and 19.5 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
