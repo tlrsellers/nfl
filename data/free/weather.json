@@ -1,27 +1,27 @@
 {
-  "checked_at": "2026-11-20T11:32:15Z",
+  "checked_at": "2026-11-20T20:12:06Z",
   "findings": [
     {
       "game_id": "403a88701352da05b0710a9e883b803e",
-      "title": "Kickoff forecast near GEHA Field at Arrowhead Stadium: 48°F, wind 15 mph NNW, precipitation 1%",
+      "title": "Kickoff forecast near GEHA Field at Arrowhead Stadium: 48°F, wind 15 mph N, precipitation 2%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/EAX/47,48/forecast/hourly"
     },
     {
       "game_id": "4527f57f5bc32742d8194af1ccf7da7e",
-      "title": "Kickoff forecast near Bank of America Stadium: 64°F, wind 12 mph N, precipitation 14%",
+      "title": "Kickoff forecast near Bank of America Stadium: 64°F, wind 8 mph N, precipitation 24%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/GSP/118,65/forecast/hourly"
     },
     {
       "game_id": "4c5b1c0843a260278e95eb93e7787576",
-      "title": "Kickoff forecast near Highmark Stadium: 64°F, wind 7 mph S, precipitation 4%",
+      "title": "Kickoff forecast near Highmark Stadium: 64°F, wind 6 mph S, precipitation 5%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/BUF/39,42/forecast/hourly"
     },
     {
       "game_id": "3ea90704fb576633bd1e2fa5aafd9ea3",
-      "title": "Kickoff forecast near Soldier Field: 57°F, wind 15 mph W, precipitation 62%",
+      "title": "Kickoff forecast near Soldier Field: 59°F, wind 15 mph WSW, precipitation 84%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/LOT/76,72/forecast/hourly"
     },
@@ -33,7 +33,7 @@
     },
     {
       "game_id": "cbe45bafcc2615fc1d96cbc12840377a",
-      "title": "Kickoff forecast near Lincoln Financial Field: 62°F, wind 5 mph NE, precipitation 76%",
+      "title": "Kickoff forecast near Lincoln Financial Field: 62°F, wind 10 mph NE, precipitation 84%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/PHI/50,76/forecast/hourly"
     },
@@ -45,13 +45,13 @@
     },
     {
       "game_id": "1940706a79cbcbafacdcbf231069716b",
-      "title": "Kickoff forecast near Empower Field at Mile High: 45°F, wind 5 mph NE, precipitation 0%",
+      "title": "Kickoff forecast near Empower Field at Mile High: 46°F, wind 5 mph NNE, precipitation 0%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/BOU/62,62/forecast/hourly"
     },
     {
       "game_id": "8ba112fabf4e87639338a5f437c5abfe",
-      "title": "Kickoff forecast near MetLife Stadium: 60°F, wind 7 mph NE, precipitation 70%",
+      "title": "Kickoff forecast near MetLife Stadium: 61°F, wind 9 mph NE, precipitation 68%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/OKX/30,46/forecast/hourly"
     },
@@ -72,7 +72,13 @@
       "title": "Ford Field: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "f36f518585aec40e8cb40e071c0844aa",
+      "title": "Kickoff forecast near Highmark Stadium: 40°F, wind 5 mph NE, precipitation 46%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/BUF/39,42/forecast/hourly"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 12 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 13 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
