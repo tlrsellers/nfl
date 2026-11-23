@@ -16,20 +16,20 @@
  ],
  "note": "Walk-forward: each season predicted by a model trained only on earlier seasons, settled at nflverse closing lines and prices (consensus market, not Bovada).",
  "accuracy": {
-  "model_margin_mae": 9.814,
-  "line_margin_mae": 9.796,
-  "model_total_mae": 10.459,
-  "line_total_mae": 10.427
+  "model_margin_mae": 9.813,
+  "line_margin_mae": 9.794,
+  "model_total_mae": 10.461,
+  "line_total_mae": 10.429
  },
  "markets": {
   "spread": {
-   "bets": 854,
+   "bets": 855,
    "wins": 419,
-   "losses": 407,
+   "losses": 408,
    "pushes": 28,
-   "win_rate": 0.5073,
-   "roi": -0.001,
-   "units": -0.84,
+   "win_rate": 0.5067,
+   "roi": -0.0022,
+   "units": -1.84,
    "seasons_profitable": 0.583,
    "by_value_score": {
     "3": {
@@ -78,13 +78,13 @@
      "units": 5.95
     },
     "8": {
-     "bets": 134,
+     "bets": 135,
      "wins": 62,
-     "losses": 68,
+     "losses": 69,
      "pushes": 4,
-     "win_rate": 0.4769,
-     "roi": -0.0578,
-     "units": -7.75
+     "win_rate": 0.4733,
+     "roi": -0.0648,
+     "units": -8.75
     },
     "9": {
      "bets": 84,
@@ -106,7 +106,7 @@
     }
    },
    "roi_standard_error": 0.0332,
-   "roi_lower_bound": -0.0554,
+   "roi_lower_bound": -0.0566,
    "enabled": false
   },
   "total": {
@@ -628,15 +628,15 @@
   },
   {
    "season": 2026,
-   "games": 159,
+   "games": 161,
    "spread": {
-    "bets": 30,
+    "bets": 31,
     "wins": 16,
-    "losses": 14,
+    "losses": 15,
     "pushes": 0,
-    "win_rate": 0.5333,
-    "roi": 0.0393,
-    "units": 1.18
+    "win_rate": 0.5161,
+    "roi": 0.0058,
+    "units": 0.18
    },
    "total": {
     "bets": 23,
