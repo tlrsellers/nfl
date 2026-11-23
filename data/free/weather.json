@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-11-23T03:39:30Z",
+  "checked_at": "2026-11-23T08:59:06Z",
   "findings": [
     {
       "game_id": "3a60ed1d20004aa4d4772b2c1a2272e7",
-      "title": "Kickoff forecast near Northwest Stadium: 54°F, wind 10 mph NW, precipitation 8%",
+      "title": "Kickoff forecast near Northwest Stadium: 56°F, wind 9 mph NW, precipitation 15%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/LWX/102,73/forecast/hourly"
     },
@@ -21,28 +21,46 @@
     },
     {
       "game_id": "f36f518585aec40e8cb40e071c0844aa",
-      "title": "Kickoff forecast near Highmark Stadium: 40°F, wind 6 mph NE, precipitation 78%",
+      "title": "Kickoff forecast near Highmark Stadium: 40°F, wind 9 mph NE, precipitation 96%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/BUF/39,42/forecast/hourly"
     },
     {
       "game_id": "44a3bcf5bd002583ddef2207a92dd977",
-      "title": "Kickoff forecast near Acrisure Stadium: 44°F, wind 16 mph W, precipitation 37%",
+      "title": "Kickoff forecast near Acrisure Stadium: 42°F, wind 21 mph W, precipitation 55%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/PBZ/77,66/forecast/hourly"
     },
     {
-      "game_id": "c64ceba13ede564e8658693e3171e7f9",
-      "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+      "game_id": "f7d3ae7a8fe2438cef7d7d7bc67e31db",
+      "title": "Kickoff forecast near Paycor Stadium: 52°F, wind 8 mph SW, precipitation 16%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/ILN/35,38/forecast/hourly"
+    },
+    {
+      "game_id": "81a8fee5b649a3ad5ad59e9528f2f376",
+      "title": "Kickoff forecast near EverBank Stadium: 65°F, wind 5 mph N, precipitation 11%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/JAX/66,64/forecast/hourly"
+    },
+    {
+      "game_id": "5ea0e3ea5944b0ad5169f21c0787b331",
+      "title": "Kickoff forecast near Hard Rock Stadium: 75°F, wind 7 mph NE, precipitation 33%",
+      "publisher": "National Weather Service",
+      "url": "https://api.weather.gov/gridpoints/MFL/107,58/forecast/hourly"
     },
     {
       "game_id": "nflverse-2026_12_ATL_MIN",
       "title": "U.S. Bank Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "c64ceba13ede564e8658693e3171e7f9",
+      "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 7 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 10 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }
