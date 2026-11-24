@@ -3139,7 +3139,18 @@
       },
       "status": "paper_only_uncalibrated",
       "origin": "prospective",
-      "injury_adjustments_applied": false
+      "injury_adjustments_applied": false,
+      "settlement": {
+        "home_score": 22,
+        "away_score": 20,
+        "actual_margin": 2,
+        "actual_total": 42,
+        "outcome": "home",
+        "margin_error": 5.422738690530734,
+        "total_error": -9.750832597102928,
+        "three_outcome_brier": 0.7548037111505382,
+        "settled_at": "2026-11-24T05:59:24.271919Z"
+      }
     },
     "2026_12_GB_LA": {
       "game_id": "5b612899d6dcdf998107f2c6c6e49a58",
