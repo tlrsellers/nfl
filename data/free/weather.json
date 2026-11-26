@@ -1,12 +1,6 @@
 {
-  "checked_at": "2026-11-25T23:01:37Z",
+  "checked_at": "2026-11-26T04:59:52Z",
   "findings": [
-    {
-      "game_id": "5b612899d6dcdf998107f2c6c6e49a58",
-      "title": "SoFi Stadium: enclosed roof listed in schedule; outdoor forecast not applied",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
     {
       "game_id": "9b825e6518156008da499be041975fdd",
       "title": "Ford Field: enclosed roof listed in schedule; outdoor forecast not applied",
@@ -21,7 +15,7 @@
     },
     {
       "game_id": "44a3bcf5bd002583ddef2207a92dd977",
-      "title": "Kickoff forecast near Acrisure Stadium: 43°F, wind 18 mph SW, precipitation 97%",
+      "title": "Kickoff forecast near Acrisure Stadium: 43°F, wind 18 mph SW, precipitation 65%",
       "publisher": "National Weather Service",
       "url": "https://api.weather.gov/gridpoints/PBZ/77,66/forecast/hourly"
     },
@@ -74,5 +68,5 @@
       "url": "https://api.weather.gov/gridpoints/TBW/69,99/forecast/hourly"
     }
   ],
-  "coverage_note": "NWS hourly forecasts for 12 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
+  "coverage_note": "NWS hourly forecasts for 11 matched venues; 0 forecast requests failed. Neutral and unknown roofs excluded."
 }

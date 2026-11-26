@@ -1,7 +1,7 @@
 {
   "season": "2026",
-  "as_of": "2026-11-25T23:01:32.575084Z",
-  "checked_at": "2026-11-25T23:01:32.575084Z",
+  "as_of": "2026-11-26T04:59:50.659410Z",
+  "checked_at": "2026-11-26T04:59:50.659410Z",
   "teams": [
     {
       "team": "Arizona Cardinals",
@@ -1369,7 +1369,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_12_GB_LA"
+      ]
     },
     {
       "team": "Houston Texans",
@@ -1939,7 +1941,9 @@
         "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
       ],
       "field_goal_unrated_attempts": 0,
-      "missing_game_ids": []
+      "missing_game_ids": [
+        "2026_12_GB_LA"
+      ]
     },
     {
       "team": "Los Angeles Chargers",
@@ -3817,7 +3821,9 @@
     "2026_11_TB_DET",
     "2026_11_TEN_DAL"
   ],
-  "missing_game_ids": [],
+  "missing_game_ids": [
+    "2026_12_GB_LA"
+  ],
   "metric_method": {
     "version": "nflverse-pbp-1",
     "season_type": "REG",
@@ -3829,12 +3835,8 @@
     "return_coverage": "Team-perspective EPA per punt/kickoff opportunity; provisional combined return/coverage metric",
     "opponent_adjusted": false
   },
-  "coverage_note": "Current-season nflverse play data for 163 completed games; 0 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
+  "coverage_note": "Current-season nflverse play data for 163 completed games; 1 missing. Special-teams baseline is provisional; no automatic injury or weather penalties.",
   "scoring_context": {
-    "5b612899d6dcdf998107f2c6c6e49a58": {
-      "neutral_site": false,
-      "rest_days_difference": 0.0
-    },
     "9b825e6518156008da499be041975fdd": {
       "neutral_site": false,
       "rest_days_difference": 0.0
@@ -3894,15 +3896,13 @@
     "2cdaecba7c0bff9b58a48a82e6ee17a7": {
       "neutral_site": false,
       "rest_days_difference": 0.0
+    },
+    "06e52a676b516186989e3b181a37c8a7": {
+      "neutral_site": false,
+      "rest_days_difference": 1.0
     }
   },
   "findings": [
-    {
-      "game_id": "5b612899d6dcdf998107f2c6c6e49a58",
-      "title": "Current-season scores: Green Bay Packers 10 games, 22.6 points for and 22.1 allowed per game; Los Angeles Rams 10 games, 24.8 points for and 18.7 allowed per game",
-      "publisher": "nflverse schedule",
-      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
-    },
     {
       "game_id": "9b825e6518156008da499be041975fdd",
       "title": "Current-season scores: Chicago Bears 10 games, 26.2 points for and 19.7 allowed per game; Detroit Lions 10 games, 28.8 points for and 22.0 allowed per game",
@@ -3990,6 +3990,12 @@
     {
       "game_id": "2cdaecba7c0bff9b58a48a82e6ee17a7",
       "title": "Current-season scores: Carolina Panthers 10 games, 25.4 points for and 26.9 allowed per game; Tampa Bay Buccaneers 10 games, 22.3 points for and 20.9 allowed per game",
+      "publisher": "nflverse schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "game_id": "06e52a676b516186989e3b181a37c8a7",
+      "title": "Current-season scores: Kansas City Chiefs 10 games, 27.1 points for and 16.3 allowed per game; Los Angeles Rams 11 games, 24.9 points for and 18.2 allowed per game",
       "publisher": "nflverse schedule",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     }
